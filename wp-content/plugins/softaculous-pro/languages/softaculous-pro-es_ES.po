@@ -1,0 +1,1440 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SoftWP\n"
+"POT-Creation-Date: 2023-11-03 12:26+0530\n"
+"PO-Revision-Date: 2025-02-10 17:21+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.5\n"
+
+#: assets/js/ai/build/index.js:1 assets/js/ai/src/index.js:19
+msgid "Ask AI"
+msgstr "Pregúntale a la IA"
+
+#: main/admin.php:12
+msgid "Sorry, but you do not have permissions to save settings."
+msgstr "Lo sentimos, pero no tienes permisos para guardar la configuración."
+
+#: main/admin.php:49 main/admin.php:341 main/admin.php:347 main/intros.php:22
+msgid "Tours"
+msgstr "Visitas guiadas"
+
+#: main/onboarding.php:1058
+msgid "Assistant"
+msgstr "Asistente"
+
+#: main/admin.php:58
+msgid "WordPress Sidebar"
+msgstr "Barra lateral de WordPress"
+
+#: main/admin.php:61
+msgid "WordPress admin Dashboard"
+msgstr "Panel de administración de WordPress"
+
+#: main/admin.php:64
+msgid "Plugins Management"
+msgstr "Gestión de complementos"
+
+#: main/admin.php:67
+msgid "Themes Management"
+msgstr "Gestión de Temas"
+
+#: main/admin.php:70
+msgid "Pages Management"
+msgstr "Gestión de páginas"
+
+#: main/admin.php:73
+msgid "Posts Management"
+msgstr "Gestión de publicaciones"
+
+#: main/admin.php:76
+msgid "Users Management"
+msgstr "Gestión de usuarios"
+
+#: main/admin.php:83 main/intros.php:30
+msgid "Recommended Features"
+msgstr "Funciones recomendadas"
+
+#: main/admin.php:85
+msgid "Show More"
+msgstr "Mostrar más"
+
+#: main/admin.php:118
+msgid "Install"
+msgstr "Instalar"
+
+#: main/admin.php:120 main/manage-plugins.php:116
+msgid "Activate"
+msgstr "Activar"
+
+#: main/manage-plugins.php:118
+msgid "Active"
+msgstr "Activo"
+
+#: main/admin.php:135 main/admin.php:343 main/admin.php:349 main/intros.php:36
+msgid "Quick Links"
+msgstr "Enlaces rápidos"
+
+#: main/admin.php:143
+msgid "Manage Pro License"
+msgstr "Administrar licencia profesional"
+
+#: main/admin.php:143
+msgid "Manage SoftWP License"
+msgstr "Administrar licencia de SoftWP"
+
+#: main/admin.php:147
+msgid "View Site"
+msgstr "Ver sitio"
+
+#: main/admin.php:150
+msgid "Check Updates"
+msgstr "Consultar actualizaciones"
+
+#: main/admin.php:153
+msgid "Permalinks"
+msgstr "Enlaces permanentes"
+
+#: main/admin.php:157
+msgid "Manage Pages"
+msgstr "Administrar páginas"
+
+#: main/admin.php:183 main/admin.php:189
+msgid "Add New"
+msgstr "Agregar nuevo"
+
+#: main/admin.php:163
+msgid "Manage Posts"
+msgstr "Administrar publicaciones"
+
+#: main/admin.php:169
+msgid "Manage Media"
+msgstr "Administrar medios"
+
+#: main/admin.php:175 main/manage-plugins.php:51
+msgid "Manage Plugins"
+msgstr "Administrar complementos"
+
+#: main/admin.php:181
+msgid "Manage Themes"
+msgstr "Administrar temas"
+
+#: main/admin.php:187
+msgid "Manage Users"
+msgstr "Administrar usuarios"
+
+#: main/admin.php:193
+msgid "Launch Onboarding"
+msgstr "Iniciar incorporación"
+
+#: main/admin.php:201 main/intros.php:42 main/intros.php:152
+msgid "Settings"
+msgstr "Ajustes"
+
+#: main/admin.php:210
+msgid "Completely Disable Comments across the site"
+msgstr "Deshabilitar completamente los comentarios en todo el sitio"
+
+#: main/functions.php:845 main/intros.php:48
+msgid "AI"
+msgstr "AI"
+
+#: main/admin.php:218
+msgid "Buy AI Tokens"
+msgstr "Comprar fichas de IA"
+
+#: main/admin.php:227
+msgid "Disable Softaculous AI"
+msgstr "Deshabilitar la IA Softaculous"
+
+#: main/admin.php:232 main/admin.php:233 main/admin.php:234
+msgid "Days"
+msgstr "Días"
+
+#: main/admin.php:235
+msgid "Never"
+msgstr "Nunca"
+
+#: main/admin.php:238
+msgid "AI history retention"
+msgstr "Retención del historial de IA"
+
+#: main/admin.php:332
+msgid "WordPress Assistant"
+msgstr "Asistente de WordPress"
+
+#: main/admin.php:336 main/intros.php:82 main/intros.php:278
+msgid "Dashboard"
+msgstr "Panel"
+
+#: main/admin.php:342 main/admin.php:348
+msgid "Extend"
+msgstr "Extender"
+
+#: main/admin.php:558
+msgid "Are you sure you want to skip the Tour?"
+msgstr "¿Estás seguro de que quieres saltarte el Tour?"
+
+#: main/ai.php:65 main/ai.php:175
+msgid "You do not have required privilege"
+msgstr "No tienes el privilegio requerido"
+
+#: main/ai.php:76
+msgid "Please link a license to keep using the AI feature"
+msgstr "Vincula una licencia para seguir usando la función de IA"
+
+#: main/ai.php:81
+msgid "Please write a Prompt, for the AI to generate content"
+msgstr "Escriba un mensaje para que la IA genere contenido"
+
+#: main/ai.php:88
+msgid "AI shortcut can not be applied without any content."
+msgstr "El atajo de IA no se puede aplicar sin ningún contenido."
+
+#: main/ai.php:103
+msgid "Unable to complete this request"
+msgstr "No se puede completar esta solicitud"
+
+#: main/ai.php:115
+msgid "The AI API responsed with empty response, Response Code:"
+msgstr "La API de AI respondió con una respuesta vacía, Código de respuesta:"
+
+#: main/ai.php:121
+msgid "Unexpected response code returned from AI API: "
+msgstr "Código de respuesta inesperado devuelto por la API de AI: "
+
+#: main/functions.php:255
+msgid "Sorry, but you do not have permissions to change settings."
+msgstr "Lo sentimos, pero no tienes permisos para cambiar la configuración."
+
+#: main/functions.php:378
+#, php-format
+msgid "Your SoftWP plugin is %1$sUnlicensed%2$s. Please enter the license key %3$s here%4$s."
+msgstr "Su complemento SoftWP es %1$sSin licencia%2$s. Ingrese la clave de licencia %3$s aquí%4$s."
+
+#: main/functions.php:387
+#, php-format
+msgid "Your SoftWP plugin license is %1$snot authorized%2$s to be used on  %3$s. You can generate a new license for your domain from the %4$s panel."
+msgstr "Su licencia del complemento SoftWP está %1$sno autorizada%2$s para usarse en %3$s. Puedes generar una nueva licencia para tu dominio desde el panel de %4$s."
+
+#: main/functions.php:394
+#, php-format
+msgid "Your SoftWP plugin license has %1$sExpired%2$s. Please renew your license for uninterrupted updates and support."
+msgstr "Su licencia del complemento SoftWP tiene %1$sExpired%2$s. Renueve su licencia para obtener actualizaciones y soporte ininterrumpidos."
+
+#: main/functions.php:416
+#, php-format
+msgid "Your Onboarding process is not completed yet! %1$sClick here%2$s to complete the simple setup process and build your site in a few steps."
+msgstr "¡Tu proceso de incorporación aún no ha finalizado! %1$sHaga clic aquí%2$s para completar el sencillo proceso de configuración y crear su sitio en unos pocos pasos."
+
+#: main/functions.php:447
+msgid "Enhance Content Writing with AI Assistant"
+msgstr "Mejore la redacción de contenido con AI Assistant"
+
+#: main/functions.php:449
+msgid "Use cutting-edge AI to write blog posts or content for your pages. Create a table, write a paragraph, change tone, translate, fix spelling & grammar and so much more."
+msgstr "Utilice IA de vanguardia para escribir publicaciones de blog o contenido para sus páginas. Crea una tabla, escribe un párrafo, cambia el tono, traduce, corrige la ortografía y escribe. gramática y mucho más."
+
+#: main/functions.php:450
+msgid "Start Exploring"
+msgstr "Comience a explorar"
+
+#: main/functions.php:451
+msgid "New Page"
+msgstr "Nueva página"
+
+#: main/functions.php:452
+msgid "New Post"
+msgstr "Nueva publicación"
+
+#: main/functions.php:453
+msgid "Existing Page"
+msgstr "Página existente"
+
+#: main/functions.php:454
+msgid "Existing Post"
+msgstr "Publicación existente"
+
+#: main/functions.php:807
+msgid "Enter Pro License Key"
+msgstr "Ingrese la clave de licencia profesional"
+
+#: main/functions.php:843
+msgid "Explore Pro Plugins"
+msgstr "Explorar complementos profesionales"
+
+#: main/functions.php:844
+msgid "Tour"
+msgstr "Recorrido"
+
+#: main/functions.php:877 main/functions.php:878
+msgid "AI History"
+msgstr "Historia de la IA"
+
+#: main/intros.php:15
+msgid "Assistant adds AI to your site building process and lets you create content with just a few clicks (look for the AI option while editing your posts/pages)."
+msgstr "El Asistente agrega IA al proceso de creación de su sitio y le permite crear contenido con solo unos pocos clics (busque la opción IA mientras edita sus publicaciones/páginas)."
+
+#: main/intros.php:17
+msgid "Assistant also helps you with several aspects of building and maintaning your WordPress website."
+msgstr "El Asistente también le ayuda con varios aspectos de la creación y el mantenimiento de su sitio web de WordPress."
+
+#: main/intros.php:23
+msgid "Tours highlights and explains important options in WordPress that you will need while managing your site."
+msgstr "Tours destaca y explica opciones importantes en WordPress que necesitará mientras administra su sitio."
+
+#: main/intros.php:25
+msgid "You can replay the tours when needed."
+msgstr "Puede reproducir los recorridos cuando sea necesario."
+
+#: main/intros.php:31
+msgid "A recommended list of plugins to improve performace and extend functionalties for your site."
+msgstr "Una lista recomendada de complementos para mejorar el rendimiento y ampliar las funciones de su sitio."
+
+#: main/intros.php:37
+msgid "Here you will find important links compiled in a single section which can sometimes be difficult to find in WordPress."
+msgstr "Aquí encontrarás enlaces importantes recopilados en una única sección que a veces pueden resultar difíciles de encontrar en WordPress."
+
+#: main/intros.php:43
+msgid "We have simplified complex WordPress settings that you can now manage with just a click via the Assistant."
+msgstr "Hemos simplificado configuraciones complejas de WordPress que ahora puedes administrar con solo un clic a través del Asistente."
+
+#: main/intros.php:49
+msgid "Experience hassle-free site building with inbuilt AI in Assistant."
+msgstr "Experimente la creación de sitios sin complicaciones con la IA incorporada en el Asistente."
+
+#: main/intros.php:54 main/intros.php:66
+msgid "Your Assistant"
+msgstr "Tu asistente"
+
+#: main/intros.php:55 main/intros.php:67
+msgid "Assistant resides here, when you are unable to find something or having a hard time understanding a feature in WordPress we should be able to help you."
+msgstr "El asistente reside aquí; cuando no pueda encontrar algo o tenga dificultades para comprender una función de WordPress, deberíamos poder ayudarlo."
+
+#: main/intros.php:57 main/intros.php:69
+msgid "Visit this page anytime."
+msgstr "Visite esta página en cualquier momento."
+
+#: main/intros.php:74
+msgid "Preview Site"
+msgstr "Vista previa del sitio"
+
+#: main/intros.php:75
+msgid "You can use this link to preview your site as a visitor."
+msgstr "Puede utilizar este enlace para obtener una vista previa de su sitio como visitante."
+
+#: main/intros.php:83 main/intros.php:279
+msgid "The Dashboard is your website's command center, providing a concise summary of its activity, such as site health, recent updates, comments, and statistics."
+msgstr "El Panel es el centro de comando de su sitio web y proporciona un resumen conciso de su actividad, como el estado del sitio, actualizaciones recientes, comentarios y estadísticas."
+
+#: main/intros.php:85 main/intros.php:281
+msgid "Several plugins also display quick summary like orders, products, etc within the dashboard."
+msgstr "Varios complementos también muestran resúmenes rápidos como pedidos, productos, etc. dentro del panel."
+
+#: main/intros.php:87
+msgid "You can also check for Updates from the sub-menu."
+msgstr "También puede buscar actualizaciones desde el submenú."
+
+#: main/intros.php:92 main/intros.php:394
+msgid "Posts"
+msgstr "Publicaciones"
+
+#: main/intros.php:93
+msgid "Manage your blog posts here."
+msgstr "Administre las publicaciones de su blog aquí."
+
+#: main/intros.php:95
+msgid "Posts are typically utilized for blog posts, news updates, or articles, organized in a chronological order."
+msgstr "Las publicaciones generalmente se utilizan para publicaciones de blogs, actualizaciones de noticias o artículos, organizados en orden cronológico."
+
+#: main/intros.php:100
+msgid "Media Library"
+msgstr "Biblioteca multimedia"
+
+#: main/intros.php:101
+msgid "Manage media files like images, audio, videos, etc. here."
+msgstr "Administre archivos multimedia como imágenes, audio, videos, etc. aquí."
+
+#: main/intros.php:103
+msgid "Media uploaded from anywhere on your site can be managed here."
+msgstr "Los medios cargados desde cualquier lugar de su sitio se pueden administrar aquí."
+
+#: main/intros.php:108 main/intros.php:455
+msgid "Pages"
+msgstr "paginas"
+
+#: main/intros.php:109
+msgid "Pages are static content sections such as Home, About Us, Contact, Services, etc."
+msgstr "Las páginas son secciones de contenido estático como Inicio, Acerca de nosotros, Contacto, Servicios, etc."
+
+#: main/intros.php:111
+msgid "Use this menu to add, edit, delete your pages."
+msgstr "Utilice este menú para agregar, editar y eliminar sus páginas."
+
+#: main/intros.php:116
+msgid "Comments"
+msgstr "Comentarios"
+
+#: main/intros.php:117
+msgid "Here you can moderate comments posted by visitors on your posts."
+msgstr "Aquí puede moderar los comentarios publicados por los visitantes en sus publicaciones."
+
+#: main/intros.php:119
+msgid "You can one click disable comments for your entire site from the Assistant dashboard."
+msgstr "Puede con un clic desactivar los comentarios para todo su sitio desde el panel del Asistente."
+
+#: main/intros.php:124
+msgid "Appearance"
+msgstr "Apariencia"
+
+#: main/intros.php:125
+msgid "Personalize your site's appearance effortlessly."
+msgstr "Personalice la apariencia de su sitio sin esfuerzo."
+
+#: main/intros.php:127
+msgid "Explore themes, customize headers, background, colors, manage widgets and menus to customize your site's look and feel."
+msgstr "Explore temas, personalice encabezados, fondos, colores, administre widgets y menús para personalizar la apariencia de su sitio."
+
+#: main/intros.php:132 main/intros.php:188
+msgid "Plugins"
+msgstr "Complementos"
+
+#: main/intros.php:133
+msgid "Unlock endless possibilities for your website with plugins."
+msgstr "Desbloquee infinitas posibilidades para su sitio web con complementos."
+
+#: main/intros.php:135
+msgid "Easily search, add or delete plugins to enhance your site's functionality."
+msgstr "Busque, agregue o elimine complementos fácilmente para mejorar la funcionalidad de su sitio."
+
+#: main/intros.php:140 main/intros.php:339
+msgid "Users"
+msgstr "Usuarios"
+
+#: main/intros.php:141
+msgid "Add or manage users to ensure smooth operation and collaboration."
+msgstr "Agregue o administre usuarios para garantizar un funcionamiento y colaboración fluidos."
+
+#: main/intros.php:146
+msgid "Tools"
+msgstr "Herramientas"
+
+#: main/intros.php:147
+msgid "Import/Export site data, check site health or edit plugin/theme files from the Tools menu."
+msgstr "Importe/exporte datos del sitio, verifique el estado del sitio o edite archivos de complementos/temas desde el menú Herramientas."
+
+#: main/intros.php:153
+msgid "Advanced settings for your site can be managed here."
+msgstr "La configuración avanzada de su sitio se puede administrar aquí."
+
+#: main/intros.php:155
+msgid "These settings include site title, tagline, site url, writing, reading, discussion, media, permalinks and more."
+msgstr "Estas configuraciones incluyen título del sitio, eslogan, URL del sitio, escritura, lectura, discusión, medios, enlaces permanentes y más."
+
+#: main/intros.php:157
+msgid "Some plugins also add their settings page in this menu."
+msgstr "Algunos complementos también agregan su página de configuración en este menú."
+
+#: main/intros.php:162
+msgid "Toggle Menu"
+msgstr "Alternar menú"
+
+#: main/intros.php:163
+msgid "Expand or Collapse the sidebar menu using this option."
+msgstr "Expanda o contraiga el menú de la barra lateral usando esta opción."
+
+#: main/intros.php:168
+msgid "Edit Profile"
+msgstr "Editar perfil"
+
+#: main/intros.php:169
+msgid "Here you can edit your profile information like name, email, password, bio, profile picture and more."
+msgstr "Aquí puede editar la información de su perfil como nombre, correo electrónico, contraseña, biografía, foto de perfil y más."
+
+#: main/intros.php:176
+msgid "Log Out"
+msgstr "Finalizar la sesión"
+
+#: main/intros.php:177
+msgid "Use this link to securely log out from your site."
+msgstr "Utilice este enlace para cerrar sesión de forma segura en su sitio."
+
+#: main/intros.php:189
+msgid "Click here to add or manage plugins on your site."
+msgstr "Haga clic aquí para agregar o administrar complementos en su sitio."
+
+#: main/intros.php:194
+msgid "Add New Plugin"
+msgstr "Agregar nuevo complemento"
+
+#: main/intros.php:195
+msgid "Here you can search wordpress.org plugins library or upload a custom plugin file to install a new plugin on your site."
+msgstr "Aquí puede buscar en la biblioteca de complementos de wordpress.org o cargar un archivo de complemento personalizado para instalar un nuevo complemento en su sitio."
+
+#: main/intros.php:200
+msgid "Installed Plugins List"
+msgstr "Lista de complementos instalados"
+
+#: main/intros.php:201
+msgid "All your installed plugins active as well as inactive will be listed here."
+msgstr "Todos los complementos instalados, activos e inactivos, se enumerarán aquí."
+
+#: main/intros.php:206
+msgid "Plugin Actions"
+msgstr "Acciones de complemento"
+
+#: main/intros.php:207
+msgid "You can perform actions for your plugins like Activate, Deactivate, Update, Delete, Plugin Settings and more.."
+msgstr "Puede realizar acciones para sus complementos como Activar, Desactivar, Actualizar, Eliminar, Configuración de complementos y más."
+
+#: main/intros.php:209
+msgid "It is recommended to delete plugins that you do not plan to use and keep all your plugins up to date."
+msgstr "Se recomienda eliminar los complementos que no planea utilizar y mantener todos sus complementos actualizados."
+
+#: main/intros.php:482
+msgid "Bulk Actions"
+msgstr "Acciones masivas"
+
+#: main/intros.php:215
+msgid "Choose bulk action for selected plugins: Activate, Deactivate, Update, Delete, toggle auto updates and more"
+msgstr "Elija acciones masivas para complementos seleccionados: activar, desactivar, actualizar, eliminar, alternar actualizaciones automáticas y más"
+
+#: main/intros.php:220
+msgid "Filter Installed Plugins"
+msgstr "Filtrar complementos instalados"
+
+#: main/intros.php:221
+msgid "Filter your installed plugins list with Active, Inactive, Auto Updates Enabled or Disabled options"
+msgstr "Filtre su lista de complementos instalados con opciones Activas, Inactivas, Actualizaciones automáticas habilitadas o deshabilitadas"
+
+#: main/intros.php:226
+msgid "Search Installed Plugins"
+msgstr "Buscar complementos instalados"
+
+#: main/intros.php:227
+msgid "Search a plugin from the installed plugins list."
+msgstr "Busque un complemento en la lista de complementos instalados."
+
+#: main/intros.php:236
+msgid "Themes"
+msgstr "Temas"
+
+#: main/intros.php:237
+msgid "Click here to add or manage themes on your site."
+msgstr "Haga clic aquí para agregar o administrar temas en su sitio."
+
+#: main/intros.php:242
+msgid "Add New Theme"
+msgstr "Agregar nuevo tema"
+
+#: main/intros.php:243
+msgid "Here you can search wordpress.org themes library or upload a custom theme file to install a new theme on your site."
+msgstr "Aquí puede buscar en la biblioteca de temas de wordpress.org o cargar un archivo de tema personalizado para instalar un nuevo tema en su sitio."
+
+#: main/intros.php:248
+msgid "Installed Themes List"
+msgstr "Lista de temas instalados"
+
+#: main/intros.php:249
+msgid "All your installed themes active as well as inactive will be listed here."
+msgstr "Todos los temas instalados, activos e inactivos, se enumerarán aquí."
+
+#: main/intros.php:254
+msgid "Active Theme"
+msgstr "Tema activo"
+
+#: main/intros.php:255
+msgid "Your active theme will be listed here."
+msgstr "Su tema activo aparecerá aquí."
+
+#: main/intros.php:260
+msgid "Theme Actions"
+msgstr "Acciones temáticas"
+
+#: main/intros.php:261
+msgid "You can perform actions for your theme like Activate, Live Preview, Customize and more"
+msgstr "Puede realizar acciones para su tema como Activar, Vista previa en vivo, Personalizar y más"
+
+#: main/intros.php:263
+msgid "It is recommended to delete themes that you do not plan to use and keep all your themes up to date."
+msgstr "Se recomienda eliminar los temas que no planea utilizar y mantener todos sus temas actualizados."
+
+#: main/intros.php:268
+msgid "Search Installed Themes"
+msgstr "Buscar temas instalados"
+
+#: main/intros.php:269
+msgid "Search a theme from the installed themes list."
+msgstr "Busque un tema en la lista de temas instalados."
+
+#: main/intros.php:286
+msgid "Site Health"
+msgstr "Estado del sitio"
+
+#: main/intros.php:287
+msgid "Here you can get insights on the overall performance and security of your website."
+msgstr "Aquí puede obtener información sobre el rendimiento general y la seguridad de su sitio web."
+
+#: main/intros.php:289
+msgid "It offers recommendations and troubleshooting tools to help you maintain an efficient and secure site."
+msgstr "Ofrece recomendaciones y herramientas de solución de problemas para ayudarle a mantener un sitio eficiente y seguro."
+
+#: main/intros.php:294
+msgid "Info at a Glance"
+msgstr "Información de un vistazo"
+
+#: main/intros.php:295
+msgid "Here you will get the number of posts, pages, comments, current version of WordPress and theme that you are running."
+msgstr "Aquí obtendrá la cantidad de publicaciones, páginas, comentarios, la versión actual de WordPress y el tema que está ejecutando."
+
+#: main/intros.php:300
+msgid "Activity"
+msgstr "Actividad"
+
+#: main/intros.php:301
+msgid "Here you will get a quick summary of recent activity like published posts and comments received on your site."
+msgstr "Aquí obtendrá un resumen rápido de la actividad reciente, como publicaciones publicadas y comentarios recibidos en su sitio."
+
+#: main/intros.php:307
+msgid "Quick Draft"
+msgstr "Borrador rápido"
+
+#: main/intros.php:308
+msgid "Use this section for capturing ideas as they come to you, quickly jot down the ideas for new posts."
+msgstr "Utilice esta sección para capturar ideas a medida que se le ocurran y anotar rápidamente las ideas para nuevas publicaciones."
+
+#: main/intros.php:310
+msgid "You can later access these drafts from the Posts section and continue editing them in the full post editor."
+msgstr "Posteriormente podrás acceder a estos borradores desde la sección Publicaciones y continuar editándolos en el editor de publicaciones completo."
+
+#: main/intros.php:316
+msgid "Events and News"
+msgstr "Eventos y Noticias"
+
+#: main/intros.php:317
+msgid "This widget is a valuable resource for staying informed about the latest happenings in the WordPress community and connecting with other WordPress enthusiasts."
+msgstr "Este widget es un recurso valioso para mantenerse informado sobre los últimos acontecimientos en la comunidad de WordPress y conectarse con otros entusiastas de WordPress."
+
+#: main/intros.php:319
+msgid "Here you will find updates on new releases, upcoming features, security updates, and general news about the WordPress community."
+msgstr "Aquí encontrará actualizaciones sobre nuevos lanzamientos, próximas funciones, actualizaciones de seguridad y noticias generales sobre la comunidad de WordPress."
+
+#: main/intros.php:321
+msgid "This section also shows upcoming WordPress events such as WordCamps, local meetups, and other community gatherings."
+msgstr "Esta sección también muestra los próximos eventos de WordPress, como WordCamps, reuniones locales y otras reuniones comunitarias."
+
+#: main/intros.php:327
+msgid "Screen Options"
+msgstr "Opciones de pantalla"
+
+#: main/intros.php:328
+msgid "This useful feature allows you to select the screen elements that you would like to show or hide by using the checkboxes."
+msgstr "Esta útil característica le permite seleccionar los elementos de la pantalla que desea mostrar u ocultar usando las casillas de verificación."
+
+#: main/intros.php:330
+msgid "You will find this option on several pages across your site."
+msgstr "Encontrará esta opción en varias páginas de su sitio."
+
+#: main/intros.php:340
+msgid "Click here to add or manage users on your site."
+msgstr "Haga clic aquí para agregar o administrar usuarios en su sitio."
+
+#: main/intros.php:345
+msgid "Add New User"
+msgstr "Agregar nuevo usuario"
+
+#: main/intros.php:346
+msgid "Add a new user for your site. You can enter user details, password, role, etc."
+msgstr "Agregue un nuevo usuario para su sitio. Puede ingresar detalles de usuario, contraseña, rol, etc."
+
+#: main/intros.php:351
+msgid "Users List"
+msgstr "Lista de usuarios"
+
+#: main/intros.php:352
+msgid "All your users with admin role as well as other roles will be listed here."
+msgstr "Todos sus usuarios con rol de administrador, así como otros roles, aparecerán aquí."
+
+#: main/intros.php:357
+msgid "Edit User"
+msgstr "Editar usuario"
+
+#: main/intros.php:358
+msgid "You can edit the user information, change password, change role and much more with the Edit link here."
+msgstr "Puede editar la información del usuario, cambiar la contraseña, cambiar la función y mucho más con el enlace Editar aquí."
+
+#: main/intros.php:367
+msgid "Choose bulk action for selected users: Delete or send password reset link"
+msgstr "Elija una acción masiva para usuarios seleccionados: eliminar o enviar un enlace para restablecer la contraseña"
+
+#: main/intros.php:372
+msgid "Change Role"
+msgstr "Cambiar rol"
+
+#: main/intros.php:373
+msgid "Here you can bulk change role for the selected users"
+msgstr "Aquí puede cambiar el rol de forma masiva para los usuarios seleccionados."
+
+#: main/intros.php:378
+msgid "Filter Users"
+msgstr "Filtrar usuarios"
+
+#: main/intros.php:379
+msgid "Filter your users list with their roles"
+msgstr "Filtra tu lista de usuarios con sus roles"
+
+#: main/intros.php:384
+msgid "Search Users"
+msgstr "Buscar usuarios"
+
+#: main/intros.php:385
+msgid "Search a user from the users list."
+msgstr "Busque un usuario en la lista de usuarios."
+
+#: main/intros.php:395
+msgid "Click here to add or manage blog posts on your site."
+msgstr "Haga clic aquí para agregar o administrar publicaciones de blog en su sitio."
+
+#: main/intros.php:400
+msgid "Add New Post"
+msgstr "Agregar nueva publicación"
+
+#: main/intros.php:401
+msgid "Start writing a new blog post for your site."
+msgstr "Comience a escribir una nueva publicación de blog para su sitio."
+
+#: main/intros.php:406
+msgid "Posts List"
+msgstr "Lista de publicaciones"
+
+#: main/intros.php:407
+msgid "All the posts owned by all the users on your site will be listed here."
+msgstr "Todas las publicaciones propiedad de todos los usuarios de su sitio se enumerarán aquí."
+
+#: main/intros.php:412
+msgid "Manage Post"
+msgstr "Administrar publicación"
+
+#: main/intros.php:413
+msgid "You can view, edit or delete the posts with the links here."
+msgstr "Puede ver, editar o eliminar las publicaciones con los enlaces aquí."
+
+#: main/intros.php:422
+msgid "Choose bulk action for selected posts: Quick Edit or Move to Trash."
+msgstr "Elija una acción masiva para las publicaciones seleccionadas: Edición rápida o Mover a la Papelera."
+
+#: main/intros.php:427
+msgid "Filter Posts by Date"
+msgstr "Filtrar publicaciones por fecha"
+
+#: main/intros.php:428
+msgid "Here you can filter the posts by date."
+msgstr "Aquí puedes filtrar las publicaciones por fecha."
+
+#: main/intros.php:433
+msgid "Filter Posts by Category"
+msgstr "Filtrar publicaciones por categoría"
+
+#: main/intros.php:434
+msgid "Here you can filter the posts by category."
+msgstr "Aquí puedes filtrar las publicaciones por categoría."
+
+#: main/intros.php:439
+msgid "Filter Posts"
+msgstr "Filtrar publicaciones"
+
+#: main/intros.php:440
+msgid "Filter your posts list by their status like published, drafts, trash, etc."
+msgstr "Filtre su lista de publicaciones por su estado, como publicadas, borradores, papelera, etc."
+
+#: main/intros.php:445
+msgid "Search Posts"
+msgstr "Buscar publicaciones"
+
+#: main/intros.php:446
+msgid "Search a post from the posts list."
+msgstr "Busque una publicación en la lista de publicaciones."
+
+#: main/intros.php:456
+msgid "Click here to add or manage pages on your site."
+msgstr "Haga clic aquí para agregar o administrar páginas en su sitio."
+
+#: main/intros.php:461
+msgid "Add New Page"
+msgstr "Agregar nueva página"
+
+#: main/intros.php:462
+msgid "Start creating a new page for your site."
+msgstr "Comience a crear una nueva página para su sitio."
+
+#: main/intros.php:467
+msgid "Pages List"
+msgstr "Lista de páginas"
+
+#: main/intros.php:468
+msgid "All the pages on your site will be listed here."
+msgstr "Todas las páginas de su sitio se enumerarán aquí."
+
+#: main/intros.php:473
+msgid "Manage Page"
+msgstr "Administrar página"
+
+#: main/intros.php:474
+msgid "You can view, edit or delete the pages with the links here."
+msgstr "Puede ver, editar o eliminar las páginas con los enlaces aquí."
+
+#: main/intros.php:483
+msgid "Choose bulk action for selected pages: Quick Edit or Move to Trash."
+msgstr "Elija una acción masiva para las páginas seleccionadas: Edición rápida o Mover a la Papelera."
+
+#: main/intros.php:488
+msgid "Filter Pages by Date"
+msgstr "Filtrar páginas por fecha"
+
+#: main/intros.php:489
+msgid "Here you can filter the pages by date."
+msgstr "Aquí puedes filtrar las páginas por fecha."
+
+#: main/intros.php:494
+msgid "Filter Pages"
+msgstr "Filtrar páginas"
+
+#: main/intros.php:495
+msgid "Filter your pages list by their status like published, drafts, trash, etc."
+msgstr "Filtre su lista de páginas por su estado, como publicadas, borradores, papelera, etc."
+
+#: main/intros.php:500
+msgid "Search Pages"
+msgstr "Buscar páginas"
+
+#: main/intros.php:501
+msgid "Search a page from the pages list."
+msgstr "Busque una página en la lista de páginas."
+
+#: main/license.php:43
+msgid "The license key was not submitted"
+msgstr "La clave de licencia no fue enviada"
+
+#: main/license.php:53
+msgid "The response was malformed"
+msgstr "La respuesta estaba mal formada."
+
+#: main/license.php:60 main/onboarding.php:517
+msgid "The license key is invalid"
+msgstr "La clave de licencia no es válida"
+
+#: main/license.php:88
+msgid "The license has been saved successfully"
+msgstr "La licencia se ha guardado correctamente."
+
+#: main/license.php:103
+msgid "System Information"
+msgstr "Información del sistema"
+
+#: main/license.php:115
+msgid "SoftWP version"
+msgstr "Versión SoftWP"
+
+#: main/license.php:121
+msgid "SoftWP License"
+msgstr "Licencia SoftWP"
+
+#: main/license.php:125
+msgid "Update License"
+msgstr "Actualizar licencia"
+
+#: main/license.php:132
+msgid "License Status : "
+msgstr "Estado de la licencia: "
+
+#: main/license.php:133
+msgid "License Expires : "
+msgstr "La licencia expira: "
+
+#: main/license.php:143
+msgid "URL"
+msgstr "URL"
+
+#: main/license.php:147
+msgid "Path"
+msgstr "Camino"
+
+#: main/license.php:151
+msgid "Server's IP Address"
+msgstr "Dirección IP del servidor"
+
+#: main/manage-plugins.php:65 main/setup.php:172
+#, php-format
+msgid "Requires PHP version %1$s or higher"
+msgstr "Requiere la versión PHP %1$s o superior"
+
+#: main/manage-plugins.php:84 main/manage-plugins.php:100
+msgid "Not Installed"
+msgstr "No instalado"
+
+#: main/manage-plugins.php:87 main/manage-plugins.php:103
+msgid "Installed"
+msgstr "Instalado"
+
+#: main/manage-plugins.php:93
+msgid "Free"
+msgstr "Gratis"
+
+#: main/manage-plugins.php:109
+msgid "Pro"
+msgstr "Pro"
+
+#: main/manage-plugins.php:114
+msgid "Install for Free"
+msgstr "Instalar gratis"
+
+#: main/manage-plugins.php:125
+msgid "Pro included with your subscription"
+msgstr "Pro incluido con tu suscripción"
+
+#: main/media.php:95
+msgid "Action Buttons"
+msgstr "Botones de acción"
+
+#: main/media.php:111
+msgid "Edit with Photopea"
+msgstr "Editar con Photopea"
+
+#: main/media.php:120
+msgid "Compress Image"
+msgstr "Comprimir imagen"
+
+#: main/media.php:125
+msgid "Replace Media"
+msgstr "Reemplazar medios"
+
+#: main/media.php:240
+msgid "Quality"
+msgstr "Calidad"
+
+#: main/media.php:243
+msgid "Save"
+msgstr "Ahorrar"
+
+#: main/media.php:244
+msgid "Save & Close"
+msgstr "Guardar y guardar Cerca"
+
+#: main/media.php:245
+msgid "Save As"
+msgstr "Guardar como"
+
+#: main/media.php:246
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: main/media.php:260 main/media.php:421 main/media.php:481
+msgid "Security Check Failed!"
+msgstr "¡Error en la comprobación de seguridad!"
+
+#: main/media.php:274
+msgid "Original image attachment not found"
+msgstr "No se encontró el archivo adjunto de la imagen original"
+
+#: main/media.php:280
+msgid "Original image path not found"
+msgstr "Ruta de la imagen original no encontrada"
+
+#: main/media.php:297
+msgid "File already exists. Please choose another file name"
+msgstr "El archivo ya existe. Por favor elija otro nombre de archivo"
+
+#: main/media.php:306
+msgid "Failed to decode base64 image data"
+msgstr "No se pudieron decodificar los datos de la imagen base64"
+
+#: main/media.php:317
+msgid "Failed to create image from data"
+msgstr "No se pudo crear la imagen a partir de datos"
+
+#: main/media.php:355
+msgid "Unsupported image format"
+msgstr "Formato de imagen no compatible"
+
+#: main/media.php:363
+msgid "Failed to save the image"
+msgstr "No se pudo guardar la imagen"
+
+#: main/media.php:381
+msgid "Failed to insert the new image as attachment"
+msgstr "No se pudo insertar la nueva imagen como archivo adjunto"
+
+#: main/media.php:387
+msgid "Failed to regenerate image sub-sizes"
+msgstr "No se pudieron regenerar los subtamaños de la imagen"
+
+#: main/media.php:395
+msgid "Image saved successfully"
+msgstr "Imagen guardada exitosamente"
+
+#: main/media.php:434 main/media.php:502
+msgid "Invalid image path."
+msgstr "Ruta de imagen no válida."
+
+#: main/media.php:437 main/media.php:505
+msgid "No image ID provided."
+msgstr "No se proporcionó ninguna identificación con imagen."
+
+#: main/media.php:472
+msgid "Unsupported image type."
+msgstr "Tipo de imagen no admitido."
+
+#: main/media.php:497
+msgid "Image has been successfully compressed and replaced."
+msgstr "La imagen ha sido comprimida y reemplazada exitosamente."
+
+#: main/media.php:499
+msgid "Compression and replacement failed."
+msgstr "La compresión y el reemplazo fallaron."
+
+#: main/media.php:570
+msgid "No file was uploaded ! Please try again."
+msgstr "¡No se subió ningún archivo! Por favor inténtalo de nuevo."
+
+#: main/media.php:576
+msgid "There was some error uploading the file ! Please try again."
+msgstr "¡Hubo algún error al cargar el archivo! Por favor inténtalo de nuevo."
+
+#: main/media.php:584
+msgid "The File type could not be determined. Please upload a permitted file type."
+msgstr "No se pudo determinar el tipo de archivo. Cargue un tipo de archivo permitido."
+
+#: main/media.php:619
+msgid "Please fix the below errors"
+msgstr "Por favor corrija los siguientes errores"
+
+#: main/media.php:683
+msgid "Failed to determine the media file path !"
+msgstr "¡No se pudo determinar la ruta del archivo multimedia!"
+
+#: main/media.php:688
+msgid "No folder for the target found !"
+msgstr "¡No se encontró ninguna carpeta para el objetivo!"
+
+#: main/onboarding.php:81
+msgid "Please confirm that you accept data loss since you have already run the onboarding process previously"
+msgstr "Confirme que acepta la pérdida de datos ya que ya ejecutó el proceso de incorporación anteriormente."
+
+#: main/onboarding.php:82
+msgid "Please select atleast one page to import"
+msgstr "Seleccione al menos una página para importar"
+
+#: main/onboarding.php:83
+msgid "Downloading and installing required plugins"
+msgstr "Descargar e instalar los complementos necesarios"
+
+#: main/onboarding.php:84
+msgid "WordPress requires FTP details, without them you won't be able to install a plugin/theme"
+msgstr "WordPress requiere detalles de FTP, sin ellos no podrás instalar un complemento/tema"
+
+#: main/onboarding.php:85
+msgid "Downloading the template"
+msgstr "Descargando la plantilla"
+
+#: main/onboarding.php:86
+msgid "Building your website..."
+msgstr "Construyendo su sitio web..."
+
+#: main/onboarding.php:87
+msgid "Checking the requirements ..."
+msgstr "Comprobando los requisitos..."
+
+#: main/onboarding.php:88
+msgid "Importing the template"
+msgstr "Importando la plantilla"
+
+#: main/onboarding.php:89
+msgid "Your website setup is completed"
+msgstr "La configuración de su sitio web está completa"
+
+#: main/onboarding.php:90
+msgid "Congratulations"
+msgstr "Felicidades"
+
+#: main/onboarding.php:109
+msgid "Increase Website Traffic (SEO)"
+msgstr "Aumentar el tráfico del sitio web (SEO)"
+
+#: main/onboarding.php:110
+msgid "Improve your site's ranking on search engines"
+msgstr "Mejore la clasificación de su sitio en los motores de búsqueda"
+
+#: main/onboarding.php:114
+msgid "SiteSEO ? One Click SEO for WordPress"
+msgstr "SiteSEO – SEO con un clic para WordPress"
+
+#: main/onboarding.php:120
+msgid "Boost your website's search rankings today with the most powerful WordPress SEO plugin. Its lightweight, optimized, and delivers exceptional performance."
+msgstr "Mejore la clasificación de búsqueda de su sitio web hoy con el complemento SEO de WordPress más potente. Es liviano, optimizado y ofrece un rendimiento excepcional."
+
+#: main/onboarding.php:129
+msgid "Improve Page Speed"
+msgstr "Mejorar la velocidad de la página"
+
+#: main/onboarding.php:130
+msgid "Improve speed by cache, minify, compress"
+msgstr "Mejorar la velocidad mediante caché, minimizar, comprimir"
+
+#: main/onboarding.php:134
+msgid "SpeedyCache ? Cache, Optimization, Performance"
+msgstr "SpeedyCache: caché, optimización, rendimiento"
+
+#: main/onboarding.php:139
+msgid "SpeedyCache is an easy to use and powerful WordPress Cache Plugin, it helps you reduce page load time improving User Experience and boosting your Google PageSpeed."
+msgstr "SpeedyCache es un complemento de caché de WordPress potente y fácil de usar que le ayuda a reducir el tiempo de carga de la página, mejorando la experiencia del usuario y aumentando su PageSpeed ​​de Google."
+
+#: main/onboarding.php:148
+msgid "Schedule Backups"
+msgstr "Programar copias de seguridad"
+
+#: main/onboarding.php:149
+msgid "Backup your site on local or remote servers"
+msgstr "Haga una copia de seguridad de su sitio en servidores locales o remotos"
+
+#: main/onboarding.php:153
+msgid "Backuply ? Backup, Restore, Migrate and Clone"
+msgstr "Backuply: realizar copias de seguridad, restaurar, migrar y clonar"
+
+#: main/onboarding.php:158
+msgid "Backuply is a WordPress backup plugin that helps you backup your WordPress website, saving you from loss of data because of server crashes, hacks, dodgy updates, or bad plugins."
+msgstr "Backuply es un complemento de copia de seguridad de WordPress que le ayuda a realizar una copia de seguridad de su sitio web de WordPress, evitando la pérdida de datos debido a fallas del servidor, hackeos, actualizaciones poco fiables o complementos incorrectos."
+
+#: main/onboarding.php:167
+msgid "Sell Products"
+msgstr "Vender productos"
+
+#: main/onboarding.php:168
+msgid "Sell physical or digital products"
+msgstr "Vender productos físicos o digitales."
+
+#: main/onboarding.php:172
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: main/onboarding.php:180
+msgid "Limit Login Attempts"
+msgstr "Limitar intentos de inicio de sesión"
+
+#: main/onboarding.php:181
+msgid "Brute force protection, 2FA, login captcha"
+msgstr "Protección de fuerza bruta, 2FA, captcha de inicio de sesión"
+
+#: main/onboarding.php:185
+msgid "Loginizer"
+msgstr "Iniciador de sesión"
+
+#: main/onboarding.php:190
+msgid "Loginizer is a simple and effortless solution that takes care of all your security problems. It comes with default optimal configuration to protect your site from Brute Force attacks."
+msgstr "Loginizer es una solución sencilla y sin esfuerzo que se ocupa de todos sus problemas de seguridad. Viene con una configuración óptima predeterminada para proteger su sitio de ataques de Fuerza Bruta."
+
+#: main/onboarding.php:199
+msgid "Page Builder"
+msgstr "Creador de páginas"
+
+#: main/onboarding.php:200
+msgid "Page Builder, Drag and Drop website builder"
+msgstr "Creador de páginas, creador de sitios web de arrastrar y soltar"
+
+#: main/onboarding.php:204
+msgid "Pagelayer"
+msgstr "Capa de página"
+
+#: main/onboarding.php:209
+msgid "Pagelayer is an awesome page builder that allows you to create and design your website instantly in the simplest way possible. Take control over your page content with the most advanced page builder plugin available."
+msgstr "Pagelayer es un increíble creador de páginas que te permite crear y diseñar tu sitio web al instante de la forma más sencilla posible. Tome el control sobre el contenido de su página con el complemento de creación de páginas más avanzado disponible."
+
+#: main/onboarding.php:218
+msgid "Send Email with SMTP"
+msgstr "Enviar correo electrónico con SMTP"
+
+#: main/onboarding.php:219
+msgid "Providers: Gmail, Outlook, AWS SES & more"
+msgstr "Proveedores: Gmail, Outlook, AWS SES & más"
+
+#: main/onboarding.php:223
+msgid "GoSMTP ? SMTP for WordPress"
+msgstr "GoSMTP – SMTP para WordPress"
+
+#: main/onboarding.php:228
+msgid "GoSMTP allows you to send emails from your WordPress over SMTP or many popular outgoing email service providers. Using these improves your email deliverability."
+msgstr "GoSMTP le permite enviar correos electrónicos desde su WordPress a través de SMTP o de muchos proveedores de servicios de correo electrónico salientes populares. Su uso mejora la capacidad de entrega de su correo electrónico."
+
+#: main/onboarding.php:237
+msgid "File Manager"
+msgstr "Gestor de archivos"
+
+#: main/onboarding.php:238
+msgid "Manage files with drag & drop editor"
+msgstr "Administre archivos con arrastrar y usar. editor de caída"
+
+#: main/onboarding.php:242
+msgid "FileOrganizer ? Manage WordPress and Website Files"
+msgstr "FileOrganizer – Administrar archivos de WordPress y sitios web"
+
+#: main/onboarding.php:247
+msgid "FileOrganizer is a lightweight and easy-to-use file management plugin for WordPress. Organize and manage your WordPress files with FileOrganizer without any control panel or FTP access. "
+msgstr "FileOrganizer es un complemento de administración de archivos liviano y fácil de usar para WordPress. Organice y administre sus archivos de WordPress con FileOrganizer sin ningún panel de control ni acceso FTP. "
+
+#: main/onboarding.php:292
+msgid "Could not import the template !"
+msgstr "¡No se pudo importar la plantilla!"
+
+#: main/onboarding.php:340
+msgid "Theme template can only be uploaded using FTP !"
+msgstr "¡La plantilla de tema sólo se puede cargar mediante FTP!"
+
+#: main/onboarding.php:363
+msgid "Could not download the theme !"
+msgstr "¡No se pudo descargar el tema!"
+
+#: main/onboarding.php:381
+msgid "Could not extract the template !"
+msgstr "¡No se pudo extraer la plantilla!"
+
+#: main/onboarding.php:509
+msgid "The response from the server was malformed. Please try again in sometime !"
+msgstr "La respuesta del servidor tenía un formato incorrecto. ¡Inténtalo de nuevo en algún momento!"
+
+#: main/onboarding.php:541
+msgid "Pagelayer is required to use the templates !"
+msgstr "¡Se requiere Pagelayer para usar las plantillas!"
+
+#: main/onboarding.php:551
+msgid "PopularFX plugin is required to use the templates !"
+msgstr "¡Se requiere el complemento PopularFX para usar las plantillas!"
+
+#: main/onboarding.php:561
+msgid "PopularFX theme is required to use the templates !"
+msgstr "¡Se requiere el tema PopularFX para usar las plantillas!"
+
+#: main/onboarding.php:568
+msgid "The template you submitted is invalid !"
+msgstr "¡La plantilla que enviaste no es válida!"
+
+#: main/onboarding.php:576
+#, php-format
+msgid "Your Pagelayer version is %1$s while the template requires Pagelayer version higher than or equal to %2$s "
+msgstr "Su versión de Pagelayer es %1$s mientras que la plantilla requiere una versión de Pagelayer superior o igual a %2$s "
+
+#: main/onboarding.php:582
+#, php-format
+msgid "Your Pagelayer version is %1$s while the onboarding requires Pagelayer version higher than or equal to 1.8.9"
+msgstr "Su versión de Pagelayer es %1$s mientras que la incorporación requiere una versión de Pagelayer superior o igual a 1.8.9"
+
+#: main/onboarding.php:588
+#, php-format
+msgid "Your PopularFX Plugin version is %1$s while the template requires PopularFX version higher than or equal to %2$s"
+msgstr "Su versión del complemento PopularFX es %1$s, mientras que la plantilla requiere una versión de PopularFX superior o igual a %2$s"
+
+#: main/onboarding.php:594
+#, php-format
+msgid "The selected template is a Pro template and you have a free or expired license. Please enter your license key %1$shere%2$s."
+msgstr "La plantilla seleccionada es una plantilla Pro y tienes una licencia gratuita o caducada. Ingrese su clave de licencia %1$shere%2$s."
+
+#: main/onboarding.php:615
+#, php-format
+msgid "There was an error in installing Pagelayer which is required by this template. Please install Pagelayer manually by clicking %1$shere%2$s and then install the template !"
+msgstr "Se produjo un error al instalar Pagelayer que requiere esta plantilla. Instale Pagelayer manualmente haciendo clic en %1$shere%2$s y luego instale la plantilla."
+
+#: main/onboarding.php:760
+msgid "Plugin activated successfully."
+msgstr "Complemento activado exitosamente."
+
+#: main/onboarding.php:765
+#, php-format
+msgid "Plugin installation failed. %1$s requires PHP version %2$s or higher. Your PHP version is %3$s."
+msgstr "La instalación del complemento falló. %1$s requiere la versión PHP %2$s o superior. Tu versión de PHP es %3$s."
+
+#: main/onboarding.php:801
+msgid "Plugin installed and activated successfully."
+msgstr "Complemento instalado y activado correctamente."
+
+#: main/onboarding.php:804
+msgid "Plugin already installed."
+msgstr "Complemento ya instalado."
+
+#: main/onboarding.php:831
+msgid "You do not have enough permissions to install theme"
+msgstr "No tienes suficientes permisos para instalar el tema"
+
+#: main/onboarding.php:857
+msgid "Theme activated successfully."
+msgstr "Tema activado exitosamente."
+
+#: main/onboarding.php:873
+msgid "The filesystem could not write files to the server!"
+msgstr "¡El sistema de archivos no pudo escribir archivos en el servidor!"
+
+#: main/onboarding.php:887
+#, php-format
+msgid "Error downloading theme: %1$s"
+msgstr "Error al descargar el tema: %1$s"
+
+#: main/onboarding.php:895
+msgid "Error unzipping theme: "
+msgstr "Error al descomprimir el tema: "
+
+#: main/onboarding.php:904
+msgid "Theme installation failed "
+msgstr "La instalación del tema falló "
+
+#: main/onboarding.php:908
+msgid "Theme installed and activated successfully."
+msgstr "Tema instalado y activado exitosamente."
+
+#: main/onboarding.php:969
+msgid "Choose a design"
+msgstr "Elige un diseño"
+
+#: main/onboarding.php:973
+msgid "Search for theme"
+msgstr "Buscar tema"
+
+#: main/onboarding.php:977
+msgid "All"
+msgstr "Todo"
+
+#: main/onboarding.php:988
+msgid "Demo"
+msgstr "Manifestación"
+
+#: main/onboarding.php:1001
+msgid "Select pages to import"
+msgstr "Seleccionar páginas para importar"
+
+#: main/onboarding.php:1007
+msgid "Import stock images ?"
+msgstr "¿Importar imágenes de archivo?"
+
+#: main/onboarding.php:1009
+msgid "We try our best to use images that are free to use from legal perspectives. However, we are not liable for any copyright infringement for your site."
+msgstr "Hacemos todo lo posible para utilizar imágenes que sean de uso gratuito desde perspectivas legales. Sin embargo, no somos responsables de ninguna infracción de derechos de autor de su sitio."
+
+#: main/onboarding.php:1018
+msgid "Go Back"
+msgstr "Volver"
+
+#: main/onboarding.php:1019
+msgid "Import Theme Content"
+msgstr "Importar contenido del tema"
+
+#: main/onboarding.php:1033
+msgid "Import Theme Contents"
+msgstr "Importar contenidos del tema"
+
+#: main/onboarding.php:1045
+msgid "Congratulations, the template was imported successfully !"
+msgstr "¡Felicitaciones, la plantilla se importó exitosamente!"
+
+#: main/onboarding.php:1046
+msgid "You can now customize the website as per your requirements with the help of Pagelayer or the Customizer."
+msgstr "Ahora puede personalizar el sitio web según sus requisitos con la ayuda de Pagelayer o el Personalizador."
+
+#: main/onboarding.php:1049
+msgid "We strongly recommend you change all images and media. We try our best to use images which are copyright free or are allowed under their licensing. However, we take no responsibilities for the same and recommend you change all media and images !"
+msgstr "Le recomendamos encarecidamente que cambie todas las imágenes y medios. Hacemos todo lo posible para utilizar imágenes que estén libres de derechos de autor o que estén permitidas según su licencia. Sin embargo, no asumimos ninguna responsabilidad por lo mismo y le recomendamos que cambie todos los medios e imágenes."
+
+#: main/onboarding.php:1056
+msgid "Visit Website"
+msgstr "Visitar sitio web"
+
+#: main/onboarding.php:1057
+msgid "WordPress Dashboard"
+msgstr "Panel de control de WordPress"
+
+#: main/setup.php:8
+msgid "Welcome"
+msgstr "Bienvenido"
+
+#: main/setup.php:9
+msgid "Business Type"
+msgstr "Tipo de negocio"
+
+#: main/setup.php:10
+msgid "Site Title"
+msgstr "Título del sitio"
+
+#: main/setup.php:11
+msgid "Goals"
+msgstr "Objetivos"
+
+#: main/setup.php:12
+msgid "Choose Template"
+msgstr "Elegir plantilla"
+
+#: main/setup.php:75
+msgid "Exit"
+msgstr "Salida"
+
+#: main/setup.php:82
+msgid "Welcome to the Onboarding process!"
+msgstr "¡Bienvenido al proceso de incorporación!"
+
+#: main/setup.php:83
+msgid "This process will help you choose a professional template for your website and install plugins that you might need to achieve your goal for creating this website"
+msgstr "Este proceso lo ayudará a elegir una plantilla profesional para su sitio web e instalar los complementos que pueda necesitar para lograr su objetivo de crear este sitio web."
+
+#: main/setup.php:88
+msgid "It looks like you have already completed the onboarding process. You might lose data if you run the onboarding process again. Select this checkbox to confirm that you agree."
+msgstr "Parece que ya has completado el proceso de incorporación. Es posible que pierda datos si vuelve a ejecutar el proceso de incorporación. Seleccione esta casilla de verificación para confirmar que está de acuerdo."
+
+#: main/setup.php:93
+msgid "Get Started"
+msgstr "Empezar"
+
+#: main/setup.php:97
+msgid "No, I don't want to try an easy setup process"
+msgstr "No, no quiero probar un proceso de configuración sencillo."
+
+#: main/setup.php:105
+msgid "How would you categorize your website ?"
+msgstr "¿Cómo categorizaría su sitio web?"
+
+#: main/setup.php:106
+msgid "This helps us recommend design and functionalities for your website"
+msgstr "Esto nos ayuda a recomendar diseño y funcionalidades para su sitio web."
+
+#: main/setup.php:109
+msgid "Search for a category"
+msgstr "Buscar una categoría"
+
+#: main/setup.php:119
+msgid "No results match your search criteria"
+msgstr "Ningún resultado coincide con su criterio de búsqueda"
+
+#: main/setup.php:126 main/setup.php:143 main/setup.php:184
+msgid "Previous Step"
+msgstr "Paso anterior"
+
+#: main/setup.php:128 main/setup.php:145 main/setup.php:186
+msgid "Continue"
+msgstr "Continuar"
+
+#: main/setup.php:135
+msgid "Enter the title of your new site"
+msgstr "Ingrese el título de su nuevo sitio"
+
+#: main/setup.php:136
+msgid "Can be changed later"
+msgstr "Se puede cambiar más tarde"
+
+#: main/setup.php:139
+msgid "Enter a title for your website"
+msgstr "Introduzca un título para su sitio web"
+
+#: main/setup.php:152
+msgid "What are you looking to achieve with your new site ?"
+msgstr "¿Qué busca lograr con su nuevo sitio?"
+
+#: main/setup.php:153
+msgid "We will install the appropriate plugins that will add the required functionality to your website"
+msgstr "Instalaremos los complementos adecuados que agregarán la funcionalidad requerida a su sitio web."

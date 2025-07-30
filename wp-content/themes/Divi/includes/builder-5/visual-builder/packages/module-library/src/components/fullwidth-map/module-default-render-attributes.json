@@ -1,0 +1,49 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "map": {
+    "innerContent": {
+      "desktop": {
+        "value": {
+          "address": "",
+          "zoom": 18,
+          "lat": 0,
+          "lng": 0
+        }
+      }
+    },
+    "advanced": {
+      "mouseWheel": {
+        "desktop": {
+          "value": "on"
+        }
+      },
+      "mobileDragging": {
+        "desktop": {
+          "value": "on"
+        }
+      }
+    }
+  },
+  "module": {
+    "meta": {
+      "adminLabel": {
+        "desktop": {
+          "value": "Fullwidth Map"
+        }
+      }
+    },
+    "decoration": {
+      "sizing": {
+        "desktop": {
+          "value": {
+            "width": "auto",
+            "maxWidth": "none",
+            "minHeight": "auto",
+            "maxHeight": "none",
+            "height": "440px"
+          }
+        }
+      }
+    }
+  }
+}

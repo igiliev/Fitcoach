@@ -1,0 +1,54 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "advanced": {
+    "admin_label": "module.meta.adminLabel",
+    "animation": "module.decoration.animation",
+    "background": "module.decoration.background",
+    "disabled_on": "module.decoration.disabledOn",
+    "height": "module.decoration.sizing",
+    "link_options": "module.advanced.link",
+    "margin_padding": "module.decoration.spacing",
+    "max_width": "module.decoration.sizing",
+    "module": "module.advanced.htmlAttributes",
+    "overflow": "module.decoration.overflow",
+    "position_fields": "module.decoration.position",
+    "scroll": "module.decoration.scroll",
+    "sticky": "module.decoration.sticky",
+    "text": "module.advanced.text",
+    "transform": "module.decoration.transform",
+    "transition": "module.decoration.transition",
+    "z_index": "module.decoration.zIndex",
+    "borders": {
+      "default": "module.decoration.border"
+    },
+    "box_shadow": {
+      "default": "module.decoration.boxShadow"
+    },
+    "filters": {
+      "default": "module.decoration.filters"
+    },
+    "fonts": {
+      "body": "sidebar.decoration.font",
+      "header": "title.decoration.font"
+    },
+    "text_shadow": {
+      "default": "module.advanced.text.textShadow"
+    },
+    "display_conditions": "module.decoration.conditions"
+  },
+  "css": {
+    "after": "css.*.after",
+    "free_form": "css.*.freeForm",
+    "before": "css.*.before",
+    "main_element": "css.*.mainElement",
+    "title": "css.*.title",
+    "widget": "css.*.widget"
+  },
+  "module": {
+    "area": "sidebar.innerContent.*.area",
+    "background_color": "module.decoration.background.*.color",
+    "header_level": "title.decoration.font.*.headingLevel",
+    "orientation": "sidebar.advanced.layout.*.alignment",
+    "show_border": "sidebar.advanced.layout.*.showBorder"
+  }
+}

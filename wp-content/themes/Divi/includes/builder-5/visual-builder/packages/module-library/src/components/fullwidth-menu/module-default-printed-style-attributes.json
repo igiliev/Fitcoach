@@ -1,0 +1,40 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "menu": {
+    "decoration": {
+      "font": {
+        "font": {
+          "desktop": {
+            "value": {
+              "lineHeight": "1em"
+            }
+          }
+        }
+      }
+    }
+  },
+  "logo": {
+    "decoration": {
+      "sizing": {
+        "desktop": {
+          "value": {
+            "maxWidth": "100%"
+          }
+        }
+      }
+    }
+  },
+  "cartQuantity": {
+    "decoration": {
+      "font": {
+        "font": {
+          "desktop": {
+            "value": {
+              "lineHeight": "1em"
+            }
+          }
+        }
+      }
+    }
+  }
+}

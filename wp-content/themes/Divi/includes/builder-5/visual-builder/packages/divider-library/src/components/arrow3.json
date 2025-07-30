@@ -1,0 +1,8 @@
+{
+	"name": "arrow3",
+	"label": "Arrow 3",
+	"svgContent": {
+		"top": "<path d=\"M1280 0L640 70 0 0v140l640-70 640 70V0z\" fill-opacity=\".5\"/><path d=\"M1280 0H0l640 70 640-70z\"/>",
+		"bottom": "<path d=\"M0 140l640-70 640 70V0L640 70 0 0v140z\" fill-opacity=\".5\"/><path d=\"M0 140h1280L640 70 0 140z\"/>"
+	}
+}

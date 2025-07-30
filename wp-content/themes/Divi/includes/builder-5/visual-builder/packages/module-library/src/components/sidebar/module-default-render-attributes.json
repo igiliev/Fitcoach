@@ -1,0 +1,42 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "module": {
+    "meta": {
+      "adminLabel": {
+        "desktop": {
+          "value": "Sidebar"
+        }
+      }
+    },
+    "advanced": {
+      "text": {
+        "text": {
+          "desktop": {
+            "value": {
+              "color": "light"
+            }
+          }
+        }
+      }
+    }
+  },
+  "sidebar": {
+    "innerContent": {
+      "desktop": {
+        "value": {
+          "area": "sidebar-1"
+        }
+      }
+    },
+    "advanced": {
+      "layout": {
+        "desktop": {
+          "value": {
+            "alignment": "left",
+            "showBorder": "on"
+          }
+        }
+      }
+    }
+  }
+}

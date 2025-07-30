@@ -1,0 +1,30 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "title": {
+    "decoration": {
+      "font": {
+        "font": {
+          "desktop": {
+            "value": {
+              "size": "26px",
+              "lineHeight": "1em"
+            }
+          }
+        }
+      }
+    }
+  },
+  "meta": {
+    "decoration": {
+      "font": {
+        "font": {
+          "desktop": {
+            "value": {
+              "lineHeight": "1em"
+            }
+          }
+        }
+      }
+    }
+  }
+}

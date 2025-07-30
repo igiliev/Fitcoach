@@ -1,0 +1,8 @@
+{
+	"name": "ramp2",
+	"label": "Ramp 2",
+	"svgContent": {
+		"top": "<path d=\"M0 0v60s573.09 80 1280 80V0z\" fill-opacity=\".3\" /><path d=\"M0 0v30s573.09 110 1280 110V0z\" fill-opacity=\".5\" /><path d=\"M0 0s573.09 140 1280 140V0z\" />",
+		"bottom": "<path d=\"M0 140h1280C573.08 140 0 0 0 0z\" fill-opacity=\".3\" /><path d=\"M0 140h1280C573.08 140 0 30 0 30z\" fill-opacity=\".5\" /><path d=\"M0 140h1280C573.08 140 0 60 0 60z\" />"
+	}
+}

@@ -1,0 +1,71 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "module": {
+    "advanced": {
+      "text": {
+        "text": {
+          "desktop": {
+            "value": {
+              "color": "dark"
+            }
+          }
+        }
+      }
+    },
+    "decoration": {
+      "background": {
+        "desktop": {
+          "value": {
+            "color": "var(--gcid-primary-color)"
+          }
+        }
+      }
+    },
+    "meta": {
+      "adminLabel": {
+        "desktop": {
+          "value": ""
+        }
+      }
+    }
+  },
+  "image": {
+    "advanced": {
+      "alignment": {
+        "desktop": {
+          "value": "center"
+        }
+      }
+    }
+  },
+  "contentOverlay": {
+    "decoration": {
+      "border": {
+        "desktop": {
+          "value": {
+            "radius": {
+              "sync": "on",
+              "bottomLeft": "3px",
+              "bottomRight": "3px",
+              "topLeft": "3px",
+              "topRight": "3px"
+            }
+          }
+        }
+      }
+    }
+  },
+  "button": {
+    "decoration": {
+      "button": {
+        "desktop": {
+          "value": {
+            "icon": {
+              "enable": "on"
+            }
+          }
+        }
+      }
+    }
+  }
+}

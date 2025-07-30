@@ -1,0 +1,424 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "name": "divi/post-nav",
+  "d4Shortcode": "et_pb_post_nav",
+  "title": "Post Navigation",
+  "titles": "Post Navigations",
+  "moduleIcon": "divi/module-post-nav",
+  "category": "module",
+  "moduleClassName": "et_pb_posts_nav",
+  "moduleOrderClassName": "et_pb_post_nav",
+  "videos": [
+    {
+      "id": "-XJVW9inohs",
+      "name": "An introduction to the Post Navigation module"
+    },
+    {
+      "id": "1iqjhnHVA9Y",
+      "name": "Design Settings and Advanced Module Settings"
+    },
+    {
+      "id": "boNZZ0MYU0E",
+      "name": "Saving and loading from the library"
+    }
+  ],
+  "attributes": {
+    "module": {
+      "type": "object",
+      "selector": "{{selector}}",
+      "styleProps": {
+        "sizing": {
+          "important": {
+            "desktop": {
+              "value": {
+                "margin-left": true,
+                "margin-right": true
+              }
+            }
+          }
+        }
+      },
+      "settings": {
+        "meta": {
+          "adminLabel": {}
+        },
+        "advanced": {
+          "htmlAttributes": {},
+          "inSameTerm": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "contentCategories",
+              "attrName": "module.advanced.inSameTerm",
+              "label": "Navigate Within Current Category",
+              "description": "Here you can define whether previous and next posts must be within the same taxonomy term as the current post.",
+              "priority": 10,
+              "render": true,
+              "features": {
+                "responsive": false,
+                "hover": false,
+                "sticky": false,
+                "preset": "content"
+              },
+              "component": {
+                "type": "field",
+                "name": "divi/toggle"
+              }
+            }
+          },
+          "taxonomyName": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "contentCategories",
+              "attrName": "module.advanced.taxonomyName",
+              "label": "Custom Taxonomy Name",
+              "description": "Leave blank if you're using this module on a Project or Post. Otherwise type the taxonomy name to make the 'In the Same Category' option work correctly.",
+              "priority": 10,
+              "render": true,
+              "features": {
+                "responsive": false,
+                "hover": false,
+                "sticky": false,
+                "preset": "content"
+              },
+              "component": {
+                "type": "field",
+                "name": "divi/text"
+              }
+            }
+          }
+        },
+        "decoration": {
+          "animation": {},
+          "conditions": {},
+          "disabledOn": {},
+          "filters": {},
+          "overflow": {},
+          "order": {},
+          "position": {},
+          "scroll": {},
+          "sizing": {},
+          "sticky": {},
+          "transform": {},
+          "transition": {},
+          "zIndex": {}
+        }
+      }
+    },
+    "links": {
+      "type": "object",
+      "selector": "{{selectorPrefix}}.et_pb_posts_nav{{baseSelector}} span a, {{selectorPrefix}}.et_pb_posts_nav{{baseSelector}} span a span",
+      "styleProps": {
+        "font": {
+          "important": {
+            "font": {
+              "desktop": {
+                "value": {
+                  "color": true
+                }
+              }
+            }
+          }
+        },
+        "background": {
+          "selector": "{{selectorPrefix}}.et_pb_posts_nav{{baseSelector}} a"
+        },
+        "spacing": {
+          "selector": "{{selectorPrefix}}.et_pb_posts_nav{{baseSelector}} span.nav-previous a, {{selectorPrefix}}.et_pb_posts_nav{{baseSelector}} span.nav-next a"
+        },
+        "border": {
+          "selector": "{{selectorPrefix}}.et_pb_posts_nav{{baseSelector}} span.nav-previous a, {{selectorPrefix}}.et_pb_posts_nav{{baseSelector}} span.nav-next a"
+        },
+        "boxShadow": {
+          "selector": "{{selector}} .nav-previous a, {{selector}} .nav-next a",
+          "important": true
+        }
+      },
+      "settings": {
+        "advanced": {
+          "prevText": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "contentText",
+              "attrName": "links.advanced.prevText",
+              "label": "Previous Link",
+              "description": "Define custom text for the previous link. You can use the <strong>%title</strong> variable to include the post title. Leave blank for default.",
+              "priority": 10,
+              "render": true,
+              "features": {
+                "sticky": false,
+                "preset": "content",
+                "dynamicContent": {
+                  "type": "text"
+                }
+              },
+              "component": {
+                "type": "field",
+                "name": "divi/text"
+              }
+            }
+          },
+          "nextText": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "contentText",
+              "attrName": "links.advanced.nextText",
+              "label": "Next Link",
+              "description": "Define custom text for the next link. You can use the <strong>%title</strong> variable to include the post title. Leave blank for default.",
+              "priority": 10,
+              "render": true,
+              "features": {
+                "sticky": false,
+                "preset": "content",
+                "dynamicContent": {
+                  "type": "text"
+                }
+              },
+              "component": {
+                "type": "field",
+                "name": "divi/text"
+              }
+            }
+          },
+          "showPrev": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "contentNavigation",
+              "attrName": "links.advanced.showPrev",
+              "label": "Show Previous Post Link",
+              "description": "Turn this on to show the previous post link.",
+              "priority": 10,
+              "render": true,
+              "features": {
+                "sticky": false,
+                "preset": [
+                  "html"
+                ]
+              },
+              "component": {
+                "type": "field",
+                "name": "divi/toggle"
+              }
+            }
+          },
+          "showNext": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "contentNavigation",
+              "attrName": "links.advanced.showNext",
+              "label": "Show Next Post Link",
+              "description": "Turn this on to show the next post link.",
+              "priority": 10,
+              "render": true,
+              "features": {
+                "sticky": false,
+                "preset": [
+                  "html"
+                ]
+              },
+              "component": {
+                "type": "field",
+                "name": "divi/toggle"
+              }
+            }
+          }
+        },
+        "decoration": {
+          "font": {
+            "priority": 10,
+            "component": {
+              "props": {
+                "fieldLabel": "Links",
+                "groupLabel": "Links Text",
+                "fields": {
+                  "textAlign": {
+                    "render": false
+                  }
+                }
+              }
+            }
+          },
+          "spacing": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "designSpacing",
+              "attrName": "links.decoration.spacing",
+              "priority": 10,
+              "render": true,
+              "component": {
+                "type": "group",
+                "name": "divi/spacing",
+                "props": {
+                  "grouped": false
+                }
+              }
+            }
+          },
+          "border": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "designLinksBorder",
+              "attrName": "links.decoration.border",
+              "priority": 10,
+              "render": true,
+              "component": {
+                "type": "group",
+                "name": "divi/border",
+                "props": {
+                  "grouped": false
+                }
+              }
+            }
+          },
+          "boxShadow": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "designLinkBoxShadow",
+              "attrName": "links.decoration.boxShadow",
+              "priority": 10,
+              "render": true,
+              "component": {
+                "type": "group",
+                "name": "divi/box-shadow",
+                "props": {
+                  "grouped": false
+                }
+              }
+            }
+          },
+          "background": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "contentLinksBackground",
+              "attrName": "links.decoration.background",
+              "priority": 10,
+              "render": true,
+              "component": {
+                "type": "group",
+                "name": "divi/background",
+                "props": {
+                  "grouped": false
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "customCssFields": {
+    "links": {
+      "label": "Links",
+      "subName": "links",
+      "selectorSuffix": " span a"
+    },
+    "prevLink": {
+      "label": "Previous Link",
+      "subName": "prevLink",
+      "selectorSuffix": " span.nav-previous a"
+    },
+    "prevLinkArrow": {
+      "label": "Previous Link Arrow",
+      "subName": "prevLinkArrow",
+      "selectorSuffix": " span.nav-previous .meta-nav"
+    },
+    "nextLink": {
+      "label": "Next Link",
+      "subName": "nextLink",
+      "selectorSuffix": " span.nav-next a"
+    },
+    "nextLinkArrow": {
+      "label": "Next Link Arrow",
+      "subName": "nextLinkArrow",
+      "selectorSuffix": " span.nav-next .meta-nav"
+    }
+  },
+  "settings": {
+    "design": "auto",
+    "advanced": "auto",
+    "groups": {
+      "contentText": {
+        "panel": "content",
+        "priority": 10,
+        "groupName": "contentText",
+        "component": {
+          "name": "divi/composite",
+          "props": {
+            "preset": "content",
+            "groupLabel": "Text"
+          }
+        }
+      },
+      "contentCategories": {
+        "panel": "content",
+        "priority": 10,
+        "groupName": "contentCategories",
+        "component": {
+          "name": "divi/composite",
+          "props": {
+            "preset": "content",
+            "groupLabel": "Categories"
+          }
+        }
+      },
+      "contentNavigation": {
+        "panel": "content",
+        "priority": 10,
+        "groupName": "contentNavigation",
+        "component": {
+          "name": "divi/composite",
+          "props": {
+            "groupLabel": "Navigation"
+          }
+        }
+      },
+      "contentLinksBackground": {
+        "panel": "content",
+        "priority": 10,
+        "groupName": "contentLinksBackground",
+        "component": {
+          "name": "divi/composite",
+          "props": {
+            "groupLabel": "Background",
+            "presetGroup": "divi/background"
+          }
+        }
+      },
+      "designSpacing": {
+        "panel": "design",
+        "priority": 70,
+        "groupName": "designSpacing",
+        "component": {
+          "name": "divi/composite",
+          "props": {
+            "groupLabel": "Spacing",
+            "presetGroup": "divi/spacing"
+          }
+        }
+      },
+      "designLinksBorder": {
+        "panel": "design",
+        "priority": 80,
+        "groupName": "designLinksBorder",
+        "component": {
+          "name": "divi/composite",
+          "props": {
+            "groupLabel": "Border",
+            "presetGroup": "divi/border"
+          }
+        }
+      },
+      "designLinkBoxShadow": {
+        "panel": "design",
+        "priority": 90,
+        "groupName": "designLinkBoxShadow",
+        "component": {
+          "name": "divi/composite",
+          "props": {
+            "groupLabel": "Box Shadow",
+            "presetGroup": "divi/box-shadow"
+          }
+        }
+      }
+    }
+  }
+}

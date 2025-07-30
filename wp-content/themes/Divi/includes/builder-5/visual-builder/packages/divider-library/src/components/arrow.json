@@ -1,0 +1,8 @@
+{
+	"name": "arrow",
+	"label": "Arrow",
+	"svgContent": {
+		"top": "<path d=\"M640 140L1280 0H0z\"/>",
+		"bottom": "<path d=\"M640 139L0 0v140h1280V0L640 139z\"/>"
+	}
+}

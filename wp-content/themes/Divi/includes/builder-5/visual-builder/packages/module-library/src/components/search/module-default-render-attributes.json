@@ -1,0 +1,72 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "search": {
+    "advanced": {
+      "showButton": {
+        "desktop": {
+          "value": "on"
+        }
+      },
+      "excludePages": {
+        "desktop": {
+          "value": "off"
+        }
+      },
+      "excludePosts": {
+        "desktop": {
+          "value": "off"
+        }
+      }
+    }
+  },
+  "module": {
+    "meta": {
+      "adminLabel": {
+        "desktop": {
+          "value": "Search"
+        }
+      }
+    },
+    "advanced": {
+      "text": {
+        "text": {
+          "desktop": {
+            "value": {
+              "orientation": "left",
+              "color": "light"
+            }
+          }
+        }
+      }
+    },
+    "decoration": {
+      "spacing": {
+        "desktop": {
+          "value": {
+            "padding": {
+              "bottom": "0.715em",
+              "left": "0.715em",
+              "right": "0.715em",
+              "syncHorizontal": "off",
+              "syncVertical": "off",
+              "top": "0.715em"
+            }
+          }
+        }
+      }
+    }
+  },
+  "button": {
+    "decoration": {
+      "font": {
+        "font": {
+          "desktop": {
+            "value": {
+              "lineHeight": "1em"
+            }
+          }
+        }
+      }
+    }
+  }
+}

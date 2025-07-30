@@ -1,0 +1,35 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "module": {
+    "meta": {
+      "adminLabel": {
+        "desktop": {
+          "value": "Fullwidth Image"
+        }
+      }
+    }
+  },
+  "image": {
+    "innerContent": {
+      "desktop": {
+        "value": {
+          "linkTarget": "off"
+        }
+      }
+    },
+    "advanced": {
+      "lightbox": {
+        "desktop": {
+          "value": "off"
+        }
+      },
+      "overlay": {
+        "desktop": {
+          "value": {
+            "use": "off"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "advanced": {
+    "fonts": {
+      "title": "title.decoration.font",
+      "caption": "caption.decoration.font",
+      "pagination": "pagination.decoration.font"
+    },
+    "borders": {
+      "default": "item.decoration.border",
+      "image": "image.decoration.border"
+    },
+    "box_shadow": {
+      "default": "module.decoration.boxShadow",
+      "image": "image.decoration.boxShadow"
+    },
+    "display_conditions": "module.decoration.conditions",
+    "filters": {
+      "default": "module.decoration.filters",
+      "child": "image.decoration.filters"
+    },
+    "text_shadow": {
+      "default": "module.advanced.text.textShadow"
+    },
+    "module": "module.advanced.htmlAttributes",
+    "link_options": "module.advanced.link",
+    "text": "module.advanced.text",
+    "animation": "module.decoration.animation",
+    "background": "module.decoration.background",
+    "disabled_on": "module.decoration.disabledOn",
+    "overflow": "module.decoration.overflow",
+    "position_fields": "module.decoration.position",
+    "scroll": "module.decoration.scroll",
+    "height": "module.decoration.sizing",
+    "max_width": "module.decoration.sizing",
+    "margin_padding": "module.decoration.spacing",
+    "sticky": "module.decoration.sticky",
+    "transform": "module.decoration.transform",
+    "transition": "module.decoration.transition",
+    "z_index": "module.decoration.zIndex",
+    "admin_label": "module.meta.adminLabel"
+  },
+  "css": {
+    "before": "css.*.before",
+    "main_element": "css.*.mainElement",
+    "after": "css.*.after",
+    "free_form": "css.*.freeForm",
+    "gallery_item": "css.*.galleryItem",
+    "overlay": "css.*.overlay",
+    "overlay_icon": "css.*.overlayIcon",
+    "gallery_item_title": "css.*.galleryItemTitle",
+    "gallery_item_caption": "css.*.galleryItemCaption",
+    "gallery_pagination": "css.*.galleryPagination",
+    "gallery_pagination_active": "css.*.galleryPaginationActive"
+  },
+  "module": {
+    "auto": "module.advanced.auto.*",
+    "auto_speed": "module.advanced.autoSpeed.*",
+    "title_level": "title.decoration.font.font.*.headingLevel",
+    "fullwidth": "module.advanced.fullwidth.*",
+    "gallery_captions": "image.advanced.galleryCaptions.*",
+    "gallery_ids": "image.advanced.galleryIds.*",
+    "gallery_orderby": "image.advanced.galleryOrderby.*",
+    "hover_icon": "overlay.innerContent.*.icon",
+    "hover_overlay_color": "overlay.advanced.hoverOverlayColor.*",
+    "orientation": "image.advanced.orientation.*",
+    "posts_number": "module.advanced.postsNumber.*",
+    "show_pagination": "pagination.advanced.showPagination.*",
+    "show_title_and_caption": "module.advanced.showTitleAndCaption.*",
+    "zoom_icon_color": "overlay.advanced.zoomIconColor.*"
+  },
+  "valueExpansionFunctionMap": {
+    "hover_icon": "convertFontIcon"
+  }
+}

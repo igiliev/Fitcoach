@@ -1,0 +1,8 @@
+{
+	"name": "curve",
+	"label": "Curve",
+	"svgContent": {
+		"top": "<path d=\"M640 140C286.54 140 0 0 0 0h1280S993.46 140 640 140z\" />",
+		"bottom": "<path d=\"M1280 140V0S993.46 140 640 139 0 0 0 0v140z\" />"
+	}
+}

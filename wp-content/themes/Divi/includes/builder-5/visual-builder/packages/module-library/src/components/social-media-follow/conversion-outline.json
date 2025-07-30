@@ -1,0 +1,55 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "advanced": {
+    "admin_label": "module.meta.adminLabel",
+    "animation": "module.decoration.animation",
+    "background": "module.decoration.background",
+    "disabled_on": "module.decoration.disabledOn",
+    "height": "module.decoration.sizing",
+    "margin_padding": "module.decoration.spacing",
+    "max_width": "module.decoration.sizing",
+    "module": "module.advanced.htmlAttributes",
+    "overflow": "module.decoration.overflow",
+    "position_fields": "module.decoration.position",
+    "scroll": "module.decoration.scroll",
+    "sticky": "module.decoration.sticky",
+    "text": "module.advanced.text",
+    "transform": "module.decoration.transform",
+    "transition": "module.decoration.transition",
+    "z_index": "module.decoration.zIndex",
+    "borders": {
+      "default": "module.decoration.border"
+    },
+    "box_shadow": {
+      "button": "button.decoration.boxShadow",
+      "default": "module.decoration.boxShadow"
+    },
+    "button": {
+      "button": "button"
+    },
+    "filters": {
+      "default": "module.decoration.filters"
+    },
+    "text_shadow": {
+      "default": "module.advanced.text.textShadow"
+    },
+    "display_conditions": "module.decoration.conditions"
+  },
+  "css": {
+    "after": "css.*.after",
+    "free_form": "css.*.freeForm",
+    "before": "css.*.before",
+    "follow_button": "css.*.followButton",
+    "main_element": "css.*.mainElement",
+    "social_follow": "css.*.socialFollow",
+    "social_icon": "css.*.socialIcon"
+  },
+  "module": {
+    "follow_button": "socialNetwork.advanced.followButton.*",
+    "url_new_window": "button.innerContent.*.linkTarget",
+    "icon_color": "icon.advanced.color.*",
+    "use_icon_font_size": "icon.advanced.size.*.useSize",
+    "icon_font_size": "icon.advanced.size.*.size",
+    "custom_button": "button.decoration.button.*.enable"
+  }
+}

@@ -1,0 +1,735 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "name": "divi/woocommerce-product-add-to-cart",
+  "d4Shortcode": "et_pb_wc_add_to_cart",
+  "moduleClassName": "et_pb_wc_add_to_cart",
+  "moduleOrderClassName": "et_pb_wc_add_to_cart",
+  "title": "Woo Product Add To Cart",
+  "titles": "Woo Product Add To Cart",
+  "moduleIcon": "divi/module-wc-add-to-cart",
+  "folder": "woo-modules",
+  "category": "module",
+  "videos": [
+    {
+      "id": "7X03vBPYJ1o",
+      "name": "Divi WooCommerce Modules"
+    },
+    {
+      "id": "1iqjhnHVA9Y",
+      "name": "Design Settings and Advanced Module Settings"
+    },
+    {
+      "id": "boNZZ0MYU0E",
+      "name": "Saving and loading from the library"
+    }
+  ],
+  "attributes": {
+    "module": {
+      "type": "object",
+      "selector": "{{selector}}",
+      "settings": {
+        "advanced": {
+          "htmlAttributes": {},
+          "link": {},
+          "text": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "designText",
+              "priority": 10,
+              "render": true,
+              "component": {
+                "type": "group",
+                "name": "divi/text",
+                "props": {
+                  "grouped": false,
+                  "fields": {
+                    "color": {
+                      "render": false
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "decoration": {
+          "animation": {},
+          "background": {},
+          "border": {},
+          "boxShadow": {},
+          "conditions": {},
+          "disabledOn": {},
+          "filters": {},
+          "overflow": {},
+          "position": {},
+          "scroll": {},
+          "sizing": {},
+          "spacing": {},
+          "sticky": {},
+          "transform": {},
+          "transition": {},
+          "zIndex": {}
+        },
+        "meta": {
+          "adminLabel": {}
+        }
+      }
+    },
+    "content": {
+      "type": "object",
+      "settings": {
+        "advanced": {
+          "product": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "contentMainContent",
+              "attrName": "content.advanced.product",
+              "label": "Product",
+              "description": "Here you can select the Product.",
+              "priority": 10,
+              "render": true,
+              "features": {
+                "sticky": false,
+                "hover": false
+              },
+              "component": {
+                "type": "field"
+              }
+            }
+          }
+        }
+      }
+    },
+    "button": {
+      "type": "object",
+      "elementType": "button",
+      "settings": {
+        "decoration": {
+          "button": {
+            "groupType": "group-items",
+            "items": {
+              "button": {
+                "groupSlug": "designButton",
+                "priority": 10,
+                "render": true,
+                "component": {
+                  "type": "group",
+                  "name": "divi/button",
+                  "props": {
+                    "grouped": false,
+                    "fieldLabel": "Button",
+                    "attrName": "button",
+                    "fields": {
+                      "alignment": {
+                        "render": false
+                      },
+                      "backgroundGroup": {
+                        "component": {
+                          "props": {
+                            "hidePanels": [
+                              "mask",
+                              "pattern",
+                              "video"
+                            ]
+                          }
+                        }
+                      },
+                      "fontGroup": {
+                        "component": {
+                          "props": {
+                            "fields": {
+                              "lineHeight": {
+                                "render": false
+                              },
+                              "textAlign": {
+                                "render": false
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "borderGroup": {
+                        "component": {
+                          "props": {
+                            "fields": {
+                              "styles": {
+                                "render": false
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "styleProps": {
+        "boxShadow": {
+          "selector": "{{selector}} .button"
+        }
+      }
+    },
+    "dropdownMenus": {
+      "type": "object",
+      "elementType": "field",
+      "settings": {
+        "advanced": {
+          "focusUseBorder": {
+            "groupType": "group-item",
+            "item": {
+              "priority": 60,
+              "render": true,
+              "groupSlug": "designDropdownMenus",
+              "attrName": "dropdownMenus.advanced.focusUseBorder",
+              "label": "Use Focus Borders",
+              "description": "Enabling this option will add borders to input fields when focused.",
+              "features": {
+                "preset": [
+                  "html"
+                ]
+              },
+              "component": {
+                "type": "field",
+                "name": "divi/toggle"
+              }
+            }
+          },
+          "focus": {
+            "groupType": "group-items",
+            "items": {
+              "focusBorderGroup": {
+                "render": true,
+                "priority": 80,
+                "groupSlug": "designDropdownMenus",
+                "component": {
+                  "props": {
+                    "grouped": false,
+                    "groupLabel": "",
+                    "fieldLabel": ""
+                  }
+                }
+              },
+              "focusBackgroundColor": {
+                "priority": 20,
+                "render": true,
+                "groupSlug": "designDropdownMenus",
+                "component": {
+                  "props": {
+                    "grouped": false,
+                    "groupLabel": "Dropdown Menus Focus",
+                    "fieldLabel": "Dropdown Menus Focus"
+                  }
+                }
+              },
+              "focusFont": {
+                "priority": 30,
+                "render": true,
+                "groupSlug": "designDropdownMenus",
+                "component": {
+                  "props": {
+                    "grouped": false,
+                    "groupLabel": "Dropdown Menus Focus",
+                    "fieldLabel": "Dropdown Menus Focus",
+                    "fields": {
+                      "letterSpacing": {
+                        "render": false
+                      },
+                      "lineHeight": {
+                        "render": false
+                      },
+                      "size": {
+                        "render": false
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "decoration": {
+          "background": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "designDropdownMenus",
+              "attrName": "dropdownMenus.decoration.background",
+              "subName": "color",
+              "label": "Dropdown Menus Background Color",
+              "description": "Pick a color to fill the module's input fields.",
+              "priority": 10,
+              "render": true,
+              "features": {
+                "dynamicContent": {
+                  "type": "color"
+                }
+              },
+              "component": {
+                "type": "field",
+                "name": "divi/color-picker"
+              }
+            }
+          },
+          "spacing": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "designDropdownMenus",
+              "priority": 40,
+              "render": true,
+              "component": {
+                "type": "group",
+                "name": "divi/spacing",
+                "props": {
+                  "grouped": false,
+                  "fieldLabel": "Dropdown Menus",
+                  "fields": {
+                    "padding": {
+                      "render": false
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "font": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "designDropdownMenus",
+              "priority": 50,
+              "render": true,
+              "component": {
+                "type": "group",
+                "name": "divi/font",
+                "props": {
+                  "grouped": false,
+                  "fieldLabel": "Dropdown Menus",
+                  "fields": {
+                    "textAlign": {
+                      "render": false
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "border": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "designDropdownMenus",
+              "priority": 70,
+              "render": true,
+              "component": {
+                "type": "group",
+                "name": "divi/border",
+                "props": {
+                  "grouped": false,
+                  "fieldLabel": "Dropdown Menus",
+                  "fields": {
+                    "radius": {
+                      "render": false
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "boxShadow": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "designDropdownMenus",
+              "priority": 90,
+              "render": true,
+              "component": {
+                "type": "group",
+                "name": "divi/box-shadow",
+                "props": {
+                  "grouped": false,
+                  "fieldLabel": "Dropdown Menus"
+                }
+              }
+            }
+          }
+        }
+      },
+      "styleProps": {
+        "border": {
+          "propertySelectors": {
+            "desktop": {
+              "value": {
+                "border-radius": "{{selector}}.et_pb_module .et_pb_module_inner form.cart .variations td select",
+                "border-style": "{{selector}}.et_pb_module .et_pb_module_inner form.cart .variations td select"
+              }
+            }
+          }
+        },
+        "boxShadow": {
+          "selector": "{{selector}}.et_pb_module .et_pb_module_inner form.cart .variations td select"
+        },
+        "font": {
+          "selector": "{{selector}} select",
+          "selectors": {
+            "desktop": {
+              "hover": "{{selector}} select:hover"
+            }
+          }
+        }
+      }
+    },
+    "elements": {
+      "type": "object",
+      "settings": {
+        "advanced": {
+          "showQuantity": {
+            "groupType": "group-item",
+            "item": {
+              "priority": 10,
+              "render": true,
+              "groupSlug": "contentElements",
+              "attrName": "elements.advanced.showQuantity",
+              "label": "Show Quantity Field",
+              "description": "Here you can choose whether the quantity field should be added before the Add to Cart button.",
+              "component": {
+                "type": "field",
+                "name": "divi/toggle"
+              }
+            }
+          },
+          "showStock": {
+            "groupType": "group-item",
+            "item": {
+              "priority": 10,
+              "render": true,
+              "groupSlug": "contentElements",
+              "attrName": "elements.advanced.showStock",
+              "label": "Show Stock",
+              "description": "Here you can choose whether the stock (displayed when product inventory is managed) should be visible or not.",
+              "component": {
+                "type": "field",
+                "name": "divi/toggle"
+              }
+            }
+          }
+        }
+      }
+    },
+    "field": {
+      "type": "object",
+      "elementType": "field",
+      "settings": {
+        "advanced": {
+          "focus": {
+            "groupType": "group-items",
+            "items": {
+              "focusBorderGroup": {
+                "render": false,
+                "groupSlug": "designFieldField"
+              },
+              "focusBackgroundColor": {
+                "priority": 10,
+                "render": true,
+                "groupSlug": "designFieldField",
+                "component": {
+                  "props": {
+                    "grouped": false
+                  }
+                }
+              },
+              "focusFont": {
+                "priority": 10,
+                "render": true,
+                "groupSlug": "designFieldField",
+                "component": {
+                  "props": {
+                    "grouped": false,
+                    "fields": {
+                      "letterSpacing": {
+                        "render": false
+                      },
+                      "lineHeight": {
+                        "render": false
+                      },
+                      "size": {
+                        "render": false
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "decoration": {
+          "background": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "designFieldField",
+              "attrName": "field.decoration.background",
+              "subName": "color",
+              "label": "Fields Background Color",
+              "description": "Pick a color to fill the module's input fields.",
+              "priority": 5,
+              "render": true,
+              "features": {
+                "dynamicContent": {
+                  "type": "color"
+                }
+              },
+              "component": {
+                "type": "field",
+                "name": "divi/color-picker"
+              }
+            }
+          },
+          "spacing": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "designFieldField",
+              "priority": 10,
+              "render": true,
+              "component": {
+                "type": "group",
+                "name": "divi/spacing",
+                "props": {
+                  "grouped": false,
+                  "fieldLabel": "Fields"
+                }
+              }
+            }
+          },
+          "font": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "designFieldField",
+              "priority": 10,
+              "render": true,
+              "component": {
+                "type": "group",
+                "name": "divi/font",
+                "props": {
+                  "grouped": false,
+                  "fieldLabel": "Fields"
+                }
+              }
+            }
+          },
+          "border": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "designFieldField",
+              "priority": 10,
+              "render": true,
+              "component": {
+                "type": "group",
+                "name": "divi/border",
+                "props": {
+                  "grouped": false,
+                  "fieldLabel": "Fields"
+                }
+              }
+            }
+          },
+          "boxShadow": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "designFieldField",
+              "priority": 200,
+              "render": true,
+              "component": {
+                "type": "group",
+                "name": "divi/box-shadow",
+                "props": {
+                  "grouped": false,
+                  "fieldLabel": "Fields"
+                }
+              }
+            }
+          }
+        }
+      },
+      "styleProps": {
+        "border": {
+          "propertySelectors": {
+            "desktop": {
+              "value": {
+                "border-radius": "{{selector}} input:focus, {{selector}} .quantity input.qty:focus",
+                "border-style": "{{selector}} input:focus, {{selector}} .quantity input.qty:focus"
+              }
+            }
+          }
+        },
+        "boxShadow": {
+          "selector": "{{selector}} input"
+        },
+        "font": {
+          "selector": "{{selector}} input, {{selector}} .quantity input.qty",
+          "selectors": {
+            "desktop": {
+              "hover": "{{selector}} input:hover, {{selector}} input:hover::-webkit-input-placeholder, {{selector}} input:hover::-moz-placeholder, {{selector}} input:hover:-ms-input-placeholder"
+            }
+          }
+        }
+      }
+    },
+    "fieldLabels": {
+      "type": "object",
+      "settings": {
+        "advanced": {
+          "fieldLabelPosition": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "designFieldLabel",
+              "attrName": "fieldLabels.advanced.fieldLabelPosition",
+              "label": "Fields Label Position",
+              "description": "Set the position of the field labels.",
+              "priority": 10,
+              "render": true,
+              "component": {
+                "type": "field",
+                "name": "divi/select",
+                "props": {
+                  "options": {
+                    "inline": {
+                      "label": "Inline"
+                    },
+                    "stacked": {
+                      "label": "Stacked"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "decoration": {
+          "font": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "designFieldLabel",
+              "priority": 20,
+              "render": true,
+              "component": {
+                "type": "group",
+                "name": "divi/font",
+                "props": {
+                  "grouped": false,
+                  "groupLabel": "Field Labels",
+                  "fieldLabel": "Field Labels"
+                }
+              }
+            }
+          }
+        }
+      },
+      "styleProps": {
+        "font": {
+          "selector": "{{selector}} label"
+        }
+      }
+    }
+  },
+  "customCssFields": {
+    "fields": {
+      "label": "Fields",
+      "subName": "fields",
+      "selectorSuffix": " input"
+    },
+    "dropdownMenus": {
+      "label": "Dropdown Menus",
+      "subName": "dropdownMenus",
+      "selectorSuffix": " select"
+    },
+    "buttons": {
+      "label": "Buttons",
+      "subName": "buttons",
+      "selectorSuffix": " .button"
+    }
+  },
+  "settings": {
+    "content": "auto",
+    "advanced": "auto",
+    "groups": {
+      "contentMainContent": {
+        "panel": "content",
+        "priority": 10,
+        "groupName": "contentMainContent",
+        "component": {
+          "name": "divi/composite",
+          "props": {
+            "groupLabel": "Content"
+          }
+        }
+      },
+      "contentElements": {
+        "panel": "content",
+        "priority": 20,
+        "groupName": "contentElements",
+        "component": {
+          "name": "divi/composite",
+          "props": {
+            "groupLabel": "Elements"
+          }
+        }
+      },
+      "designFieldLabel": {
+        "panel": "design",
+        "priority": 10,
+        "groupName": "designFieldLabel",
+        "component": {
+          "name": "divi/composite",
+          "props": {
+            "groupLabel": "Field Labels"
+          }
+        }
+      },
+      "designText": {
+        "panel": "design",
+        "priority": 20,
+        "groupName": "designText",
+        "component": {
+          "name": "divi/composite",
+          "props": {
+            "groupLabel": "Text"
+          }
+        }
+      },
+      "designFieldField": {
+        "panel": "design",
+        "priority": 30,
+        "groupName": "field",
+        "multiElements": true,
+        "component": {
+          "name": "divi/composite",
+          "props": {
+            "groupLabel": "Fields",
+            "clipboardCategory": "style"
+          }
+        }
+      },
+      "designDropdownMenus": {
+        "panel": "design",
+        "priority": 40,
+        "groupName": "dropdownMenus",
+        "component": {
+          "name": "divi/composite",
+          "props": {
+            "groupLabel": "Dropdown Menus"
+          }
+        }
+      },
+      "designButton": {
+        "panel": "design",
+        "priority": 50,
+        "groupName": "button",
+        "component": {
+          "name": "divi/composite",
+          "props": {
+            "groupLabel": "Button"
+          }
+        }
+      }
+    }
+  }
+}

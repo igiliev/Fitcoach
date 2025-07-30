@@ -1,0 +1,58 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "advanced": {
+    "admin_label": "module.meta.adminLabel",
+    "background": "module.decoration.background",
+    "borders": {
+      "default": "module.decoration.border"
+    },
+    "box_shadow": {
+      "default": "module.decoration.boxShadow"
+    },
+    "display_conditions": "module.decoration.conditions",
+    "filters": {
+      "default": "module.decoration.filters"
+    },
+    "fonts": {
+      "body": "content.decoration.bodyFont.body",
+      "body_link": "content.decoration.bodyFont.link",
+      "body_ol": "content.decoration.bodyFont.ol",
+      "body_quote": "content.decoration.bodyFont.quote",
+      "body_ul": "content.decoration.bodyFont.ul"
+    },
+    "height": "module.decoration.sizing",
+    "link_options": "module.advanced.link",
+    "margin_padding": "module.decoration.spacing",
+    "max_width": "module.decoration.sizing",
+    "overflow": "module.decoration.overflow",
+    "position_fields": "module.decoration.position",
+    "text": "module.advanced.text",
+    "text_shadow": {
+      "default": "module.advanced.text.textShadow"
+    },
+    "transform": "module.decoration.transform",
+    "transition": "module.decoration.transition",
+    "z_index": "module.decoration.zIndex"
+  },
+  "css": {
+    "after": "css.*.after",
+    "free_form": "css.*.freeForm",
+    "before": "css.*.before",
+    "main_element": "css.*.mainElement"
+  },
+  "module": {
+    "src": "video.innerContent.*.src",
+    "src_webm": "video.innerContent.*.webm",
+    "image_src": "thumbnail.innerContent.*.src",
+    "thumbnail_overlay_color": "overlay.decoration.background.*.color",
+    "use_icon_font_size": "playIcon.decoration.icon.*.useSize",
+    "icon_font_size": "playIcon.decoration.icon.*.size",
+    "play_icon_color": "playIcon.decoration.icon.*.color",
+    "font_icon": "playIcon.decoration.icon.*",
+    "show_image_overlay": "overlay.advanced.*.showImageOverlay",
+    "background_layout": "sliderControls.advanced.*.color"
+  },
+  "valueExpansionFunctionMap": {
+    "font_icon": "convertFontIcon"
+  }
+}

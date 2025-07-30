@@ -1,0 +1,144 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "module": {
+    "meta": {
+      "adminLabel": {
+        "desktop": {
+          "value": "Comments"
+        }
+      }
+    },
+    "advanced": {
+      "showReply": {
+        "desktop": {
+          "value": "on"
+        }
+      },
+      "text": {
+        "text": {
+          "desktop": {
+            "value": {
+              "color": "light"
+            }
+          }
+        }
+      }
+    }
+  },
+  "image": {
+    "advanced": {
+      "showAvatar": {
+        "desktop": {
+          "value": "on"
+        }
+      }
+    }
+  },
+  "field": {
+    "decoration": {
+      "border": {
+        "desktop": {
+          "value": {
+            "radius": {
+              "sync": "on",
+              "topLeft": "3px",
+              "topRight": "3px",
+              "bottomLeft": "3px",
+              "bottomRight": "3px"
+            },
+            "styles": {
+              "all": {
+                "color": "",
+                "style": "solid"
+              }
+            }
+          }
+        }
+      }
+    },
+    "advanced": {
+      "focusUseBorder": {
+        "desktop": {
+          "value": "off"
+        }
+      },
+      "focus": {
+        "border": {
+          "desktop": {
+            "value": {
+              "radius": {
+                "sync": "on",
+                "topLeft": "3px",
+                "topRight": "3px",
+                "bottomLeft": "3px",
+                "bottomRight": "3px"
+              },
+              "styles": {
+                "all": {
+                  "color": "",
+                  "style": "solid"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "button": {
+    "decoration": {
+      "button": {
+        "desktop": {
+          "value": {
+            "enable": "off",
+            "icon": {
+              "enable": "on"
+            }
+          }
+        }
+      }
+    }
+  },
+  "commentCount": {
+    "decoration": {
+      "font": {
+        "font": {
+          "desktop": {
+            "value": {
+              "headingLevel": "h1"
+            }
+          }
+        }
+      }
+    },
+    "advanced": {
+      "showCount": {
+        "desktop": {
+          "value": "on"
+        }
+      }
+    }
+  },
+  "formTitle": {
+    "decoration": {
+      "font": {
+        "font": {
+          "desktop": {
+            "value": {
+              "headingLevel": "h3"
+            }
+          }
+        }
+      }
+    }
+  },
+  "meta": {
+    "advanced": {
+      "showMeta": {
+        "desktop": {
+          "value": "on"
+        }
+      }
+    }
+  }
+}

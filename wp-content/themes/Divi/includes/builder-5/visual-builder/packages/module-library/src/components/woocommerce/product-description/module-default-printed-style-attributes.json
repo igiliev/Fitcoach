@@ -1,0 +1,135 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "module": {
+    "advanced": {
+      "text": {
+        "text": {
+          "desktop": {
+            "value": {
+              "color": "light",
+              "orientation": "left"
+            }
+          }
+        }
+      }
+    }
+  },
+  "content": {
+    "decoration": {
+      "bodyFont": {
+        "body": {
+          "font": {
+            "desktop": {
+              "value": {
+                "lineHeight": "1.7em",
+                "size": "14px"
+              }
+            }
+          }
+        },
+        "link": {
+          "font": {
+            "desktop": {
+              "value": {
+                "lineHeight": "1em",
+                "size": "14px"
+              }
+            }
+          }
+        },
+        "ol": {
+          "font": {
+            "desktop": {
+              "value": {
+                "lineHeight": "1em",
+                "size": "14px"
+              }
+            }
+          }
+        },
+        "quote": {
+          "font": {
+            "desktop": {
+              "value": {
+                "lineHeight": "1em",
+                "size": "14px"
+              }
+            }
+          }
+        },
+        "ul": {
+          "font": {
+            "desktop": {
+              "value": {
+                "lineHeight": "1em",
+                "size": "14px"
+              }
+            }
+          }
+        }
+      },
+      "headingFont": {
+        "h1": {
+          "font": {
+            "desktop": {
+              "value": {
+                "lineHeight": "1em",
+                "size": "30px"
+              }
+            }
+          }
+        },
+        "h2": {
+          "font": {
+            "desktop": {
+              "value": {
+                "lineHeight": "1em",
+                "size": "26px"
+              }
+            }
+          }
+        },
+        "h3": {
+          "font": {
+            "desktop": {
+              "value": {
+                "lineHeight": "1em",
+                "size": "22px"
+              }
+            }
+          }
+        },
+        "h4": {
+          "font": {
+            "desktop": {
+              "value": {
+                "lineHeight": "1em",
+                "size": "18px"
+              }
+            }
+          }
+        },
+        "h5": {
+          "font": {
+            "desktop": {
+              "value": {
+                "lineHeight": "1em",
+                "size": "16px"
+              }
+            }
+          }
+        },
+        "h6": {
+          "font": {
+            "desktop": {
+              "value": {
+                "lineHeight": "1em",
+                "size": "14px"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "advanced": {
+    "admin_label": "module.meta.adminLabel",
+    "animation": "module.decoration.animation",
+    "background": "module.decoration.background",
+    "borders": {
+      "default": "module.decoration.border",
+      "image": "image.decoration.border"
+    },
+    "box_shadow": {
+      "default": "module.decoration.boxShadow",
+      "image": "image.decoration.boxShadow"
+    },
+    "disabled_on": "module.decoration.disabledOn",
+    "filters": {
+      "default": "module.decoration.filters"
+    },
+    "fonts": {
+      "text": "module.decoration.bodyFont.body",
+      "link": "module.decoration.bodyFont.link",
+      "ul": "module.decoration.bodyFont.ul",
+      "ol": "module.decoration.bodyFont.ol",
+      "quote": "module.decoration.bodyFont.quote",
+      "header": "module.decoration.headingFont.h1",
+      "header_2": "module.decoration.headingFont.h2",
+      "header_3": "module.decoration.headingFont.h3",
+      "header_4": "module.decoration.headingFont.h4",
+      "header_5": "module.decoration.headingFont.h5",
+      "header_6": "module.decoration.headingFont.h6"
+    },
+    "height": "module.decoration.sizing",
+    "margin_padding": "module.decoration.spacing",
+    "max_width": "module.decoration.sizing",
+    "module": "module.advanced.htmlAttributes",
+    "overflow": "module.decoration.overflow",
+    "position_fields": "module.decoration.position",
+    "scroll": "module.decoration.scroll",
+    "sticky": "module.decoration.sticky",
+    "text_shadow": {
+      "default": "module.advanced.text.textShadow"
+    },
+    "transform": "module.decoration.transform",
+    "transition": "module.decoration.transition",
+    "z_index": "module.decoration.zIndex"
+  },
+  "css": {
+    "before": "css.*.before",
+    "main_element": "css.*.mainElement",
+    "after": "css.*.after",
+    "free_form": "css.*.freeForm"
+  },
+  "module": {
+    "ol_item_indent": "module.decoration.bodyFont.ol.list.*.itemIndent",
+    "ol_position": "module.decoration.bodyFont.ol.list.*.position",
+    "ol_type": "module.decoration.bodyFont.ol.list.*.type",
+    "quote_border_color": "module.decoration.bodyFont.quote.border.*.styles.left.color",
+    "quote_border_weight": "module.decoration.bodyFont.quote.border.*.styles.left.width",
+    "ul_item_indent": "module.decoration.bodyFont.ul.list.*.itemIndent",
+    "ul_position": "module.decoration.bodyFont.ul.list.*.position",
+    "ul_type": "module.decoration.bodyFont.ul.list.*.type",
+    "header_font": "module.decoration.headingFont.h1.font.*",
+    "header_font_size": "module.decoration.headingFont.h1.font.*.size",
+    "header_letter_spacing": "module.decoration.headingFont.h1.font.*.letterSpacing",
+    "header_line_height": "module.decoration.headingFont.h1.font.*.lineHeight",
+    "header_text_align": "module.decoration.headingFont.h1.font.*.textAlign",
+    "header_text_color": "module.decoration.headingFont.h1.font.*.color",
+    "header_text_shadow_blur_strength": "module.decoration.headingFont.h1.textShadow.*.blur",
+    "header_text_shadow_color": "module.decoration.headingFont.h1.textShadow.*.color",
+    "header_text_shadow_horizontal_length": "module.decoration.headingFont.h1.textShadow.*.horizontal",
+    "header_text_shadow_style": "module.decoration.headingFont.h1.textShadow.*.style",
+    "header_text_shadow_vertical_length": "module.decoration.headingFont.h1.textShadow.*.vertical",
+    "inline_fonts": "module.decoration.inlineFont.*.families"
+  },
+  "valueExpansionFunctionMap": {
+    "inline_fonts": "convertInlineFont"
+  }
+}

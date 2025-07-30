@@ -1,0 +1,27 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "module": {
+    "meta": {
+      "adminLabel": {
+        "desktop": {
+          "value": "Divider"
+        }
+      }
+    }
+  },
+  "divider": {
+    "advanced": {
+      "line": {
+        "desktop": {
+          "value": {
+            "show": "on",
+            "color": "var(--gcid-primary-color)",
+            "style": "solid",
+            "position": "top",
+            "weight": "1px"
+          }
+        }
+      }
+    }
+  }
+}

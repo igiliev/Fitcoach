@@ -1,0 +1,53 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "module": {
+    "meta": {
+      "adminLabel": {
+        "desktop": {
+          "value": "Social Media Follow"
+        }
+      }
+    },
+    "advanced": {
+      "text": {
+        "text": {
+          "desktop": {
+            "value": {
+              "color": "light"
+            }
+          }
+        }
+      }
+    },
+    "decoration": {
+      "background": {
+        "desktop": {
+          "value": {
+            "color": ""
+          }
+        }
+      }
+    }
+  },
+  "icon": {
+    "advanced": {
+      "size": {
+        "desktop": {
+          "value": {
+            "useSize": "off",
+            "size": "16px"
+          }
+        }
+      }
+    }
+  },
+  "socialNetwork": {
+    "advanced": {
+      "followButton": {
+        "desktop": {
+          "value": "off"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "advanced": {
+    "admin_label": "module.meta.adminLabel",
+    "background": "barCounter.decoration.background",
+    "borders": {
+      "default": "barCounter.decoration.border"
+    },
+    "box_shadow": {
+      "default": "barCounter.decoration.boxShadow"
+    },
+    "display_conditions": "module.decoration.conditions",
+    "filters": {
+      "default": "module.decoration.filters"
+    },
+    "fonts": {
+      "percent": "barProgress.decoration.font",
+      "title": "title.decoration.font"
+    },
+    "height": "barCounter.decoration.sizing",
+    "link_options": "module.advanced.link",
+    "margin_padding": "module.decoration.spacing",
+    "max_width": "barCounter.decoration.sizing",
+    "overflow": "module.decoration.overflow",
+    "position_fields": "module.decoration.position",
+    "text": "module.advanced.text",
+    "text_shadow": {
+      "default": "module.advanced.text.textShadow"
+    },
+    "transform": "module.decoration.transform",
+    "transition": "module.decoration.transition",
+    "z_index": "module.decoration.zIndex"
+  },
+  "css": {
+    "after": "css.*.after",
+    "free_form": "css.*.freeForm",
+    "before": "css.*.before",
+    "main_element": "css.*.mainElement",
+    "counter_amount": "css.*.counterAmount",
+    "counter_container": "css.*.counterContainer",
+    "counter_title": "css.*.counterTitle"
+  },
+  "module": {
+    "percent": "barProgress.innerContent.*",
+    "content": "title.innerContent.*",
+    "bar_background_color": "barProgress.decoration.background.*.color"
+  }
+}

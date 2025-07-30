@@ -1,0 +1,1440 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SoftWP\n"
+"POT-Creation-Date: 2023-11-03 12:26+0530\n"
+"PO-Revision-Date: 2025-02-10 18:18+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ja_JP\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.5\n"
+
+#: assets/js/ai/build/index.js:1 assets/js/ai/src/index.js:19
+msgid "Ask AI"
+msgstr "AIに聞く"
+
+#: main/admin.php:12
+msgid "Sorry, but you do not have permissions to save settings."
+msgstr "申し訳ありませんが、設定を保存する権限がありません。"
+
+#: main/admin.php:49 main/admin.php:341 main/admin.php:347 main/intros.php:22
+msgid "Tours"
+msgstr "ツアー"
+
+#: main/onboarding.php:1058
+msgid "Assistant"
+msgstr "アシスタント"
+
+#: main/admin.php:58
+msgid "WordPress Sidebar"
+msgstr "WordPress サイドバー"
+
+#: main/admin.php:61
+msgid "WordPress admin Dashboard"
+msgstr "WordPress 管理者ダッシュボード"
+
+#: main/admin.php:64
+msgid "Plugins Management"
+msgstr "プラグイン管理"
+
+#: main/admin.php:67
+msgid "Themes Management"
+msgstr "テーマ管理"
+
+#: main/admin.php:70
+msgid "Pages Management"
+msgstr "ページ管理"
+
+#: main/admin.php:73
+msgid "Posts Management"
+msgstr "投稿管理"
+
+#: main/admin.php:76
+msgid "Users Management"
+msgstr "ユーザー管理"
+
+#: main/admin.php:83 main/intros.php:30
+msgid "Recommended Features"
+msgstr "おすすめの機能"
+
+#: main/admin.php:85
+msgid "Show More"
+msgstr "もっと見る"
+
+#: main/admin.php:118
+msgid "Install"
+msgstr "インストール"
+
+#: main/admin.php:120 main/manage-plugins.php:116
+msgid "Activate"
+msgstr "活性化"
+
+#: main/manage-plugins.php:118
+msgid "Active"
+msgstr "アクティブ"
+
+#: main/admin.php:135 main/admin.php:343 main/admin.php:349 main/intros.php:36
+msgid "Quick Links"
+msgstr "クイックリンク"
+
+#: main/admin.php:143
+msgid "Manage Pro License"
+msgstr "プロライセンスの管理"
+
+#: main/admin.php:143
+msgid "Manage SoftWP License"
+msgstr "SoftWPライセンスの管理"
+
+#: main/admin.php:147
+msgid "View Site"
+msgstr "サイトを見る"
+
+#: main/admin.php:150
+msgid "Check Updates"
+msgstr "アップデートを確認する"
+
+#: main/admin.php:153
+msgid "Permalinks"
+msgstr "パーマリンク"
+
+#: main/admin.php:157
+msgid "Manage Pages"
+msgstr "ページの管理"
+
+#: main/admin.php:183 main/admin.php:189
+msgid "Add New"
+msgstr "新規追加"
+
+#: main/admin.php:163
+msgid "Manage Posts"
+msgstr "投稿の管理"
+
+#: main/admin.php:169
+msgid "Manage Media"
+msgstr "メディアの管理"
+
+#: main/admin.php:175 main/manage-plugins.php:51
+msgid "Manage Plugins"
+msgstr "プラグインの管理"
+
+#: main/admin.php:181
+msgid "Manage Themes"
+msgstr "テーマの管理"
+
+#: main/admin.php:187
+msgid "Manage Users"
+msgstr "ユーザーの管理"
+
+#: main/admin.php:193
+msgid "Launch Onboarding"
+msgstr "オンボーディングの開始"
+
+#: main/admin.php:201 main/intros.php:42 main/intros.php:152
+msgid "Settings"
+msgstr "設定"
+
+#: main/admin.php:210
+msgid "Completely Disable Comments across the site"
+msgstr "サイト全体でコメントを完全に無効にする"
+
+#: main/functions.php:845 main/intros.php:48
+msgid "AI"
+msgstr "AI"
+
+#: main/admin.php:218
+msgid "Buy AI Tokens"
+msgstr "AIトークンを購入する"
+
+#: main/admin.php:227
+msgid "Disable Softaculous AI"
+msgstr "Softaculous AI を無効にする"
+
+#: main/admin.php:232 main/admin.php:233 main/admin.php:234
+msgid "Days"
+msgstr "日数"
+
+#: main/admin.php:235
+msgid "Never"
+msgstr "一度もない"
+
+#: main/admin.php:238
+msgid "AI history retention"
+msgstr "AI履歴保持"
+
+#: main/admin.php:332
+msgid "WordPress Assistant"
+msgstr "ワードプレスアシスタント"
+
+#: main/admin.php:336 main/intros.php:82 main/intros.php:278
+msgid "Dashboard"
+msgstr "ダッシュボード"
+
+#: main/admin.php:342 main/admin.php:348
+msgid "Extend"
+msgstr "伸ばす"
+
+#: main/admin.php:558
+msgid "Are you sure you want to skip the Tour?"
+msgstr "ツアーをスキップしてもよろしいですか?"
+
+#: main/ai.php:65 main/ai.php:175
+msgid "You do not have required privilege"
+msgstr "必要な権限がありません"
+
+#: main/ai.php:76
+msgid "Please link a license to keep using the AI feature"
+msgstr "AI 機能を引き続き使用するには、ライセンスをリンクしてください"
+
+#: main/ai.php:81
+msgid "Please write a Prompt, for the AI to generate content"
+msgstr "AI がコンテンツを生成するようにプロンプ​​トを作成してください"
+
+#: main/ai.php:88
+msgid "AI shortcut can not be applied without any content."
+msgstr "AI ショートカットはコンテンツがないと適用できません。"
+
+#: main/ai.php:103
+msgid "Unable to complete this request"
+msgstr "このリクエストを完了できません"
+
+#: main/ai.php:115
+msgid "The AI API responsed with empty response, Response Code:"
+msgstr "AI API は空の応答、応答コードで応答しました:"
+
+#: main/ai.php:121
+msgid "Unexpected response code returned from AI API: "
+msgstr "AI API から予期しない応答コードが返されました: "
+
+#: main/functions.php:255
+msgid "Sorry, but you do not have permissions to change settings."
+msgstr "申し訳ありませんが、設定を変更する権限がありません。"
+
+#: main/functions.php:378
+#, php-format
+msgid "Your SoftWP plugin is %1$sUnlicensed%2$s. Please enter the license key %3$s here%4$s."
+msgstr "SoftWP プラグインは %1$sUnlicensed%2$s です。ここ%4$sにライセンス キー %3$s を入力してください。"
+
+#: main/functions.php:387
+#, php-format
+msgid "Your SoftWP plugin license is %1$snot authorized%2$s to be used on  %3$s. You can generate a new license for your domain from the %4$s panel."
+msgstr "SoftWP プラグイン ライセンスは %1$s %2$s で %3$s で使用することを許可されていません。 %4$s パネルからドメインの新しいライセンスを生成できます。"
+
+#: main/functions.php:394
+#, php-format
+msgid "Your SoftWP plugin license has %1$sExpired%2$s. Please renew your license for uninterrupted updates and support."
+msgstr "SoftWP プラグインのライセンスは %1$sExpired%2$s です。中断のないアップデートとサポートを利用するには、ライセンスを更新してください。"
+
+#: main/functions.php:416
+#, php-format
+msgid "Your Onboarding process is not completed yet! %1$sClick here%2$s to complete the simple setup process and build your site in a few steps."
+msgstr "オンボーディング プロセスはまだ完了していません。 %1$sここをクリック%2$sして簡単なセットアップ プロセスを完了し、いくつかの手順でサイトを構築します。"
+
+#: main/functions.php:447
+msgid "Enhance Content Writing with AI Assistant"
+msgstr "AI アシスタントでコンテンツライティングを強化"
+
+#: main/functions.php:449
+msgid "Use cutting-edge AI to write blog posts or content for your pages. Create a table, write a paragraph, change tone, translate, fix spelling & grammar and so much more."
+msgstr "最先端の AI を使用して、ブログ投稿やページのコンテンツを作成します。表を作成し、段落を書き、口調を変更し、翻訳し、スペルを修正し、文法などなど。"
+
+#: main/functions.php:450
+msgid "Start Exploring"
+msgstr "探検を始めましょう"
+
+#: main/functions.php:451
+msgid "New Page"
+msgstr "新しいページ"
+
+#: main/functions.php:452
+msgid "New Post"
+msgstr "新しい投稿"
+
+#: main/functions.php:453
+msgid "Existing Page"
+msgstr "既存のページ"
+
+#: main/functions.php:454
+msgid "Existing Post"
+msgstr "既存の投稿"
+
+#: main/functions.php:807
+msgid "Enter Pro License Key"
+msgstr "Pro ライセンス キーを入力してください"
+
+#: main/functions.php:843
+msgid "Explore Pro Plugins"
+msgstr "プロのプラグインを探索する"
+
+#: main/functions.php:844
+msgid "Tour"
+msgstr "ツアー"
+
+#: main/functions.php:877 main/functions.php:878
+msgid "AI History"
+msgstr "AIの歴史"
+
+#: main/intros.php:15
+msgid "Assistant adds AI to your site building process and lets you create content with just a few clicks (look for the AI option while editing your posts/pages)."
+msgstr "アシスタントを使用すると、サイト構築プロセスに AI が追加され、数回クリックするだけでコンテンツを作成できるようになります (投稿/ページを編集するときに AI オプションを探してください)。"
+
+#: main/intros.php:17
+msgid "Assistant also helps you with several aspects of building and maintaning your WordPress website."
+msgstr "アシスタントは、WordPress Web サイトの構築と保守のいくつかの面でも役立ちます。"
+
+#: main/intros.php:23
+msgid "Tours highlights and explains important options in WordPress that you will need while managing your site."
+msgstr "ツアーでは、サイトの管理中に必要となる WordPress の重要なオプションを強調して説明します。"
+
+#: main/intros.php:25
+msgid "You can replay the tours when needed."
+msgstr "必要に応じてツアーを再実行できます。"
+
+#: main/intros.php:31
+msgid "A recommended list of plugins to improve performace and extend functionalties for your site."
+msgstr "サイトのパフォーマンスを向上させ、機能を拡張するためのプラグインの推奨リスト。"
+
+#: main/intros.php:37
+msgid "Here you will find important links compiled in a single section which can sometimes be difficult to find in WordPress."
+msgstr "ここには、WordPress では見つけにくい重要なリンクが 1 つのセクションにまとめられています。"
+
+#: main/intros.php:43
+msgid "We have simplified complex WordPress settings that you can now manage with just a click via the Assistant."
+msgstr "複雑な WordPress 設定が簡素化され、アシスタントを介してクリックするだけで管理できるようになりました。"
+
+#: main/intros.php:49
+msgid "Experience hassle-free site building with inbuilt AI in Assistant."
+msgstr "アシスタントに組み込まれた AI を使用して、手間のかからないサイト構築を体験してください。"
+
+#: main/intros.php:54 main/intros.php:66
+msgid "Your Assistant"
+msgstr "あなたのアシスタント"
+
+#: main/intros.php:55 main/intros.php:67
+msgid "Assistant resides here, when you are unable to find something or having a hard time understanding a feature in WordPress we should be able to help you."
+msgstr "アシスタントがここに常駐しています。WordPress で何かが見つからない場合、または機能を理解するのが難しい場合は、お手伝いできるはずです。"
+
+#: main/intros.php:57 main/intros.php:69
+msgid "Visit this page anytime."
+msgstr "いつでもこのページにアクセスしてください。"
+
+#: main/intros.php:74
+msgid "Preview Site"
+msgstr "プレビューサイト"
+
+#: main/intros.php:75
+msgid "You can use this link to preview your site as a visitor."
+msgstr "このリンクを使用すると、訪問者としてサイトをプレビューできます。"
+
+#: main/intros.php:83 main/intros.php:279
+msgid "The Dashboard is your website's command center, providing a concise summary of its activity, such as site health, recent updates, comments, and statistics."
+msgstr "ダッシュボードは Web サイトのコマンド センターであり、サイトの健全性、最近の更新、コメント、統計などのアクティビティの簡潔な概要を提供します。"
+
+#: main/intros.php:85 main/intros.php:281
+msgid "Several plugins also display quick summary like orders, products, etc within the dashboard."
+msgstr "いくつかのプラグインは、ダッシュボード内に注文、製品などの簡単な概要も表示します。"
+
+#: main/intros.php:87
+msgid "You can also check for Updates from the sub-menu."
+msgstr "サブメニューからアップデートを確認することもできます。"
+
+#: main/intros.php:92 main/intros.php:394
+msgid "Posts"
+msgstr "投稿"
+
+#: main/intros.php:93
+msgid "Manage your blog posts here."
+msgstr "ここでブログ投稿を管理します。"
+
+#: main/intros.php:95
+msgid "Posts are typically utilized for blog posts, news updates, or articles, organized in a chronological order."
+msgstr "投稿は通常、時系列順に整理されたブログ投稿、ニュース更新、または記事に使用されます。"
+
+#: main/intros.php:100
+msgid "Media Library"
+msgstr "メディアライブラリ"
+
+#: main/intros.php:101
+msgid "Manage media files like images, audio, videos, etc. here."
+msgstr "画像、オーディオ、ビデオなどのメディア ファイルをここで管理します。"
+
+#: main/intros.php:103
+msgid "Media uploaded from anywhere on your site can be managed here."
+msgstr "サイト上のどこからでもアップロードされたメディアをここで管理できます。"
+
+#: main/intros.php:108 main/intros.php:455
+msgid "Pages"
+msgstr "ページ"
+
+#: main/intros.php:109
+msgid "Pages are static content sections such as Home, About Us, Contact, Services, etc."
+msgstr "ページは、ホーム、会社概要、連絡先、サービスなどの静的コンテンツ セクションです。"
+
+#: main/intros.php:111
+msgid "Use this menu to add, edit, delete your pages."
+msgstr "このメニューを使用して、ページを追加、編集、削除します。"
+
+#: main/intros.php:116
+msgid "Comments"
+msgstr "コメント"
+
+#: main/intros.php:117
+msgid "Here you can moderate comments posted by visitors on your posts."
+msgstr "ここでは、訪問者が投稿に投稿したコメントを管理できます。"
+
+#: main/intros.php:119
+msgid "You can one click disable comments for your entire site from the Assistant dashboard."
+msgstr "アシスタント ダッシュボードからワンクリックでサイト全体のコメントを無効にすることができます。"
+
+#: main/intros.php:124
+msgid "Appearance"
+msgstr "外観"
+
+#: main/intros.php:125
+msgid "Personalize your site's appearance effortlessly."
+msgstr "サイトの外観を簡単にカスタマイズできます。"
+
+#: main/intros.php:127
+msgid "Explore themes, customize headers, background, colors, manage widgets and menus to customize your site's look and feel."
+msgstr "テーマを探索し、ヘッダー、背景、色をカスタマイズし、ウィジェットとメニューを管理して、サイトの外観と雰囲気をカスタマイズします。"
+
+#: main/intros.php:132 main/intros.php:188
+msgid "Plugins"
+msgstr "プラグイン"
+
+#: main/intros.php:133
+msgid "Unlock endless possibilities for your website with plugins."
+msgstr "プラグインを使用してウェブサイトの無限の可能性を解き放ちます。"
+
+#: main/intros.php:135
+msgid "Easily search, add or delete plugins to enhance your site's functionality."
+msgstr "プラグインを簡単に検索、追加、削除してサイトの機能を強化します。"
+
+#: main/intros.php:140 main/intros.php:339
+msgid "Users"
+msgstr "ユーザー"
+
+#: main/intros.php:141
+msgid "Add or manage users to ensure smooth operation and collaboration."
+msgstr "ユーザーを追加または管理して、スムーズな操作とコラボレーションを確保します。"
+
+#: main/intros.php:146
+msgid "Tools"
+msgstr "ツール"
+
+#: main/intros.php:147
+msgid "Import/Export site data, check site health or edit plugin/theme files from the Tools menu."
+msgstr "[ツール] メニューからサイト データのインポート/エクスポート、サイトの健全性の確認、プラグイン/テーマ ファイルの編集を行います。"
+
+#: main/intros.php:153
+msgid "Advanced settings for your site can be managed here."
+msgstr "サイトの詳細設定はここで管理できます。"
+
+#: main/intros.php:155
+msgid "These settings include site title, tagline, site url, writing, reading, discussion, media, permalinks and more."
+msgstr "これらの設定には、サイトのタイトル、キャッチフレーズ、サイトの URL、書き込み、読み取り、ディスカッション、メディア、パーマリンクなどが含まれます。"
+
+#: main/intros.php:157
+msgid "Some plugins also add their settings page in this menu."
+msgstr "一部のプラグインは、このメニューに設定ページを追加します。"
+
+#: main/intros.php:162
+msgid "Toggle Menu"
+msgstr "メニューの切り替え"
+
+#: main/intros.php:163
+msgid "Expand or Collapse the sidebar menu using this option."
+msgstr "このオプションを使用して、サイドバー メニューを展開または折りたたみます。"
+
+#: main/intros.php:168
+msgid "Edit Profile"
+msgstr "プロフィールの編集"
+
+#: main/intros.php:169
+msgid "Here you can edit your profile information like name, email, password, bio, profile picture and more."
+msgstr "ここでは、名前、電子メール、パスワード、プロフィール、プロフィール写真などのプロフィール情報を編集できます。"
+
+#: main/intros.php:176
+msgid "Log Out"
+msgstr "ログアウト"
+
+#: main/intros.php:177
+msgid "Use this link to securely log out from your site."
+msgstr "このリンクを使用して、サイトから安全にログアウトします。"
+
+#: main/intros.php:189
+msgid "Click here to add or manage plugins on your site."
+msgstr "サイトにプラグインを追加または管理するには、ここをクリックしてください。"
+
+#: main/intros.php:194
+msgid "Add New Plugin"
+msgstr "新しいプラグインを追加"
+
+#: main/intros.php:195
+msgid "Here you can search wordpress.org plugins library or upload a custom plugin file to install a new plugin on your site."
+msgstr "ここで wordpress.org プラグイン ライブラリを検索したり、カスタム プラグイン ファイルをアップロードしてサイトに新しいプラグインをインストールしたりできます。"
+
+#: main/intros.php:200
+msgid "Installed Plugins List"
+msgstr "インストールされているプラ​​グインのリスト"
+
+#: main/intros.php:201
+msgid "All your installed plugins active as well as inactive will be listed here."
+msgstr "インストールされているすべてのプラグインがアクティブでも非アクティブでもここにリストされます。"
+
+#: main/intros.php:206
+msgid "Plugin Actions"
+msgstr "プラグインのアクション"
+
+#: main/intros.php:207
+msgid "You can perform actions for your plugins like Activate, Deactivate, Update, Delete, Plugin Settings and more.."
+msgstr "プラグインのアクティブ化、非アクティブ化、更新、削除、プラグイン設定などのアクションを実行できます。"
+
+#: main/intros.php:209
+msgid "It is recommended to delete plugins that you do not plan to use and keep all your plugins up to date."
+msgstr "使用する予定のないプラグインを削除し、すべてのプラグインを最新の状態に保つことをお勧めします。"
+
+#: main/intros.php:482
+msgid "Bulk Actions"
+msgstr "一括アクション"
+
+#: main/intros.php:215
+msgid "Choose bulk action for selected plugins: Activate, Deactivate, Update, Delete, toggle auto updates and more"
+msgstr "選択したプラグインの一括アクションを選択します: 有効化、無効化、更新、削除、自動更新の切り替えなど"
+
+#: main/intros.php:220
+msgid "Filter Installed Plugins"
+msgstr "インストールされているプラ​​グインをフィルタリングする"
+
+#: main/intros.php:221
+msgid "Filter your installed plugins list with Active, Inactive, Auto Updates Enabled or Disabled options"
+msgstr "アクティブ、非アクティブ、自動更新の有効または無効のオプションを使用して、インストールされているプラ​​グインのリストをフィルタリングします。"
+
+#: main/intros.php:226
+msgid "Search Installed Plugins"
+msgstr "インストールされているプラ​​グインの検索"
+
+#: main/intros.php:227
+msgid "Search a plugin from the installed plugins list."
+msgstr "インストールされているプラ​​グインのリストからプラグインを検索します。"
+
+#: main/intros.php:236
+msgid "Themes"
+msgstr "テーマ"
+
+#: main/intros.php:237
+msgid "Click here to add or manage themes on your site."
+msgstr "サイトにテーマを追加または管理するには、ここをクリックしてください。"
+
+#: main/intros.php:242
+msgid "Add New Theme"
+msgstr "新しいテーマを追加"
+
+#: main/intros.php:243
+msgid "Here you can search wordpress.org themes library or upload a custom theme file to install a new theme on your site."
+msgstr "ここで wordpress.org テーマ ライブラリを検索したり、カスタム テーマ ファイルをアップロードしてサイトに新しいテーマをインストールしたりできます。"
+
+#: main/intros.php:248
+msgid "Installed Themes List"
+msgstr "インストールされているテーマのリスト"
+
+#: main/intros.php:249
+msgid "All your installed themes active as well as inactive will be listed here."
+msgstr "インストールされているアクティブなテーマも非アクティブなテーマもすべてここにリストされます。"
+
+#: main/intros.php:254
+msgid "Active Theme"
+msgstr "アクティブなテーマ"
+
+#: main/intros.php:255
+msgid "Your active theme will be listed here."
+msgstr "アクティブなテーマがここにリストされます。"
+
+#: main/intros.php:260
+msgid "Theme Actions"
+msgstr "テーマのアクション"
+
+#: main/intros.php:261
+msgid "You can perform actions for your theme like Activate, Live Preview, Customize and more"
+msgstr "アクティブ化、ライブプレビュー、カスタマイズなどのテーマのアクションを実行できます。"
+
+#: main/intros.php:263
+msgid "It is recommended to delete themes that you do not plan to use and keep all your themes up to date."
+msgstr "使用する予定のないテーマを削除し、すべてのテーマを最新の状態に保つことをお勧めします。"
+
+#: main/intros.php:268
+msgid "Search Installed Themes"
+msgstr "インストールされているテーマの検索"
+
+#: main/intros.php:269
+msgid "Search a theme from the installed themes list."
+msgstr "インストールされているテーマのリストからテーマを検索します。"
+
+#: main/intros.php:286
+msgid "Site Health"
+msgstr "サイトの健全性"
+
+#: main/intros.php:287
+msgid "Here you can get insights on the overall performance and security of your website."
+msgstr "ここでは、Web サイトの全体的なパフォーマンスとセキュリティに関する洞察を得ることができます。"
+
+#: main/intros.php:289
+msgid "It offers recommendations and troubleshooting tools to help you maintain an efficient and secure site."
+msgstr "効率的で安全なサイトを維持するために役立つ推奨事項とトラブルシューティング ツールを提供します。"
+
+#: main/intros.php:294
+msgid "Info at a Glance"
+msgstr "一目でわかる情報"
+
+#: main/intros.php:295
+msgid "Here you will get the number of posts, pages, comments, current version of WordPress and theme that you are running."
+msgstr "ここでは、投稿、ページ、コメントの数、WordPress の現在のバージョン、実行しているテーマが表示されます。"
+
+#: main/intros.php:300
+msgid "Activity"
+msgstr "活動"
+
+#: main/intros.php:301
+msgid "Here you will get a quick summary of recent activity like published posts and comments received on your site."
+msgstr "ここには、公開された投稿やサイトで受け取ったコメントなど、最近のアクティビティの簡単な概要が表示されます。"
+
+#: main/intros.php:307
+msgid "Quick Draft"
+msgstr "クイックドラフト"
+
+#: main/intros.php:308
+msgid "Use this section for capturing ideas as they come to you, quickly jot down the ideas for new posts."
+msgstr "このセクションを使用して、思いついたアイデアを取り込み、新しい投稿のアイデアをすぐに書き留めます。"
+
+#: main/intros.php:310
+msgid "You can later access these drafts from the Posts section and continue editing them in the full post editor."
+msgstr "後で [投稿] セクションからこれらの下書きにアクセスし、完全な投稿エディターで編集を続けることができます。"
+
+#: main/intros.php:316
+msgid "Events and News"
+msgstr "イベントとニュース"
+
+#: main/intros.php:317
+msgid "This widget is a valuable resource for staying informed about the latest happenings in the WordPress community and connecting with other WordPress enthusiasts."
+msgstr "このウィジェットは、WordPress コミュニティの最新情報を入手し、他の WordPress 愛好家とつながるための貴重なリソースです。"
+
+#: main/intros.php:319
+msgid "Here you will find updates on new releases, upcoming features, security updates, and general news about the WordPress community."
+msgstr "ここでは、新しいリリース、今後の機能、セキュリティ更新、WordPress コミュニティに関する一般ニュースに関する更新情報を見つけることができます。"
+
+#: main/intros.php:321
+msgid "This section also shows upcoming WordPress events such as WordCamps, local meetups, and other community gatherings."
+msgstr "このセクションには、WordCamp、地元のミートアップ、その他のコミュニティの集まりなどの今後の WordPress イベントも表示されます。"
+
+#: main/intros.php:327
+msgid "Screen Options"
+msgstr "画面オプション"
+
+#: main/intros.php:328
+msgid "This useful feature allows you to select the screen elements that you would like to show or hide by using the checkboxes."
+msgstr "この便利な機能を使用すると、チェックボックスを使用して表示または非表示にする画面要素を選択できます。"
+
+#: main/intros.php:330
+msgid "You will find this option on several pages across your site."
+msgstr "このオプションはサイト内のいくつかのページにあります。"
+
+#: main/intros.php:340
+msgid "Click here to add or manage users on your site."
+msgstr "サイト上のユーザーを追加または管理するには、ここをクリックしてください。"
+
+#: main/intros.php:345
+msgid "Add New User"
+msgstr "新しいユーザーを追加"
+
+#: main/intros.php:346
+msgid "Add a new user for your site. You can enter user details, password, role, etc."
+msgstr "サイトに新しいユーザーを追加します。ユーザーの詳細、パスワード、役割などを入力できます。"
+
+#: main/intros.php:351
+msgid "Users List"
+msgstr "ユーザーリスト"
+
+#: main/intros.php:352
+msgid "All your users with admin role as well as other roles will be listed here."
+msgstr "管理者ロールおよびその他のロールを持つすべてのユーザーがここにリストされます。"
+
+#: main/intros.php:357
+msgid "Edit User"
+msgstr "ユーザーの編集"
+
+#: main/intros.php:358
+msgid "You can edit the user information, change password, change role and much more with the Edit link here."
+msgstr "ここの「編集」リンクを使用して、ユーザー情報の編集、パスワードの変更、ロールの変更などを行うことができます。"
+
+#: main/intros.php:367
+msgid "Choose bulk action for selected users: Delete or send password reset link"
+msgstr "選択したユーザーに対する一括アクションを選択します: パスワード リセット リンクを削除または送信します"
+
+#: main/intros.php:372
+msgid "Change Role"
+msgstr "役割の変更"
+
+#: main/intros.php:373
+msgid "Here you can bulk change role for the selected users"
+msgstr "ここで、選択したユーザーのロールを一括変更できます"
+
+#: main/intros.php:378
+msgid "Filter Users"
+msgstr "ユーザーをフィルタリングする"
+
+#: main/intros.php:379
+msgid "Filter your users list with their roles"
+msgstr "ユーザーリストをロールでフィルタリングします"
+
+#: main/intros.php:384
+msgid "Search Users"
+msgstr "ユーザーの検索"
+
+#: main/intros.php:385
+msgid "Search a user from the users list."
+msgstr "ユーザーリストからユーザーを検索します。"
+
+#: main/intros.php:395
+msgid "Click here to add or manage blog posts on your site."
+msgstr "サイト上のブログ投稿を追加または管理するには、ここをクリックしてください。"
+
+#: main/intros.php:400
+msgid "Add New Post"
+msgstr "新しい投稿を追加"
+
+#: main/intros.php:401
+msgid "Start writing a new blog post for your site."
+msgstr "サイトの新しいブログ投稿を書き始めます。"
+
+#: main/intros.php:406
+msgid "Posts List"
+msgstr "投稿一覧"
+
+#: main/intros.php:407
+msgid "All the posts owned by all the users on your site will be listed here."
+msgstr "サイト上のすべてのユーザーが所有するすべての投稿がここにリストされます。"
+
+#: main/intros.php:412
+msgid "Manage Post"
+msgstr "投稿の管理"
+
+#: main/intros.php:413
+msgid "You can view, edit or delete the posts with the links here."
+msgstr "ここのリンクを使用して投稿を表示、編集、削除できます。"
+
+#: main/intros.php:422
+msgid "Choose bulk action for selected posts: Quick Edit or Move to Trash."
+msgstr "選択した投稿の一括操作を選択します: [クイック編集] または [ゴミ箱に移動]。"
+
+#: main/intros.php:427
+msgid "Filter Posts by Date"
+msgstr "投稿を日付でフィルタリングする"
+
+#: main/intros.php:428
+msgid "Here you can filter the posts by date."
+msgstr "ここでは、投稿を日付でフィルタリングできます。"
+
+#: main/intros.php:433
+msgid "Filter Posts by Category"
+msgstr "カテゴリ別に投稿をフィルタリングする"
+
+#: main/intros.php:434
+msgid "Here you can filter the posts by category."
+msgstr "ここではカテゴリごとに投稿をフィルタリングできます。"
+
+#: main/intros.php:439
+msgid "Filter Posts"
+msgstr "投稿をフィルターする"
+
+#: main/intros.php:440
+msgid "Filter your posts list by their status like published, drafts, trash, etc."
+msgstr "公開済み、下書き、ゴミ箱などのステータスによって投稿リストをフィルタリングします。"
+
+#: main/intros.php:445
+msgid "Search Posts"
+msgstr "投稿を検索"
+
+#: main/intros.php:446
+msgid "Search a post from the posts list."
+msgstr "投稿一覧から投稿を検索します。"
+
+#: main/intros.php:456
+msgid "Click here to add or manage pages on your site."
+msgstr "サイトにページを追加または管理するには、ここをクリックしてください。"
+
+#: main/intros.php:461
+msgid "Add New Page"
+msgstr "新しいページを追加"
+
+#: main/intros.php:462
+msgid "Start creating a new page for your site."
+msgstr "サイトの新しいページの作成を開始します。"
+
+#: main/intros.php:467
+msgid "Pages List"
+msgstr "ページリスト"
+
+#: main/intros.php:468
+msgid "All the pages on your site will be listed here."
+msgstr "サイト上のすべてのページがここにリストされます。"
+
+#: main/intros.php:473
+msgid "Manage Page"
+msgstr "ページの管理"
+
+#: main/intros.php:474
+msgid "You can view, edit or delete the pages with the links here."
+msgstr "ここのリンクを使用してページを表示、編集、削除できます。"
+
+#: main/intros.php:483
+msgid "Choose bulk action for selected pages: Quick Edit or Move to Trash."
+msgstr "選択したページの一括操作を選択します: [クイック編集] または [ゴミ箱に移動]。"
+
+#: main/intros.php:488
+msgid "Filter Pages by Date"
+msgstr "日付でページをフィルタリングする"
+
+#: main/intros.php:489
+msgid "Here you can filter the pages by date."
+msgstr "ここでは日付でページをフィルタリングできます。"
+
+#: main/intros.php:494
+msgid "Filter Pages"
+msgstr "ページのフィルタリング"
+
+#: main/intros.php:495
+msgid "Filter your pages list by their status like published, drafts, trash, etc."
+msgstr "公開済み、下書き、ゴミ箱などのステータスによってページリストをフィルタリングします。"
+
+#: main/intros.php:500
+msgid "Search Pages"
+msgstr "検索ページ"
+
+#: main/intros.php:501
+msgid "Search a page from the pages list."
+msgstr "ページ一覧からページを検索します。"
+
+#: main/license.php:43
+msgid "The license key was not submitted"
+msgstr "ライセンスキーが送信されていませんでした"
+
+#: main/license.php:53
+msgid "The response was malformed"
+msgstr "応答の形式が正しくありませんでした"
+
+#: main/license.php:60 main/onboarding.php:517
+msgid "The license key is invalid"
+msgstr "ライセンスキーが無効です"
+
+#: main/license.php:88
+msgid "The license has been saved successfully"
+msgstr "ライセンスは正常に保存されました"
+
+#: main/license.php:103
+msgid "System Information"
+msgstr "システム情報"
+
+#: main/license.php:115
+msgid "SoftWP version"
+msgstr "SoftWPのバージョン"
+
+#: main/license.php:121
+msgid "SoftWP License"
+msgstr "SoftWPライセンス"
+
+#: main/license.php:125
+msgid "Update License"
+msgstr "ライセンスの更新"
+
+#: main/license.php:132
+msgid "License Status : "
+msgstr "ライセンスステータス: "
+
+#: main/license.php:133
+msgid "License Expires : "
+msgstr "ライセンスの有効期限: "
+
+#: main/license.php:143
+msgid "URL"
+msgstr "URL"
+
+#: main/license.php:147
+msgid "Path"
+msgstr "パス"
+
+#: main/license.php:151
+msgid "Server's IP Address"
+msgstr "サーバーのIPアドレス"
+
+#: main/manage-plugins.php:65 main/setup.php:172
+#, php-format
+msgid "Requires PHP version %1$s or higher"
+msgstr "PHP バージョン %1$s 以降が必要です"
+
+#: main/manage-plugins.php:84 main/manage-plugins.php:100
+msgid "Not Installed"
+msgstr "インストールされていません"
+
+#: main/manage-plugins.php:87 main/manage-plugins.php:103
+msgid "Installed"
+msgstr "インストール済み"
+
+#: main/manage-plugins.php:93
+msgid "Free"
+msgstr "無料"
+
+#: main/manage-plugins.php:109
+msgid "Pro"
+msgstr "プロ"
+
+#: main/manage-plugins.php:114
+msgid "Install for Free"
+msgstr "無料でインストール"
+
+#: main/manage-plugins.php:125
+msgid "Pro included with your subscription"
+msgstr "Pro はサブスクリプションに含まれています"
+
+#: main/media.php:95
+msgid "Action Buttons"
+msgstr "アクションボタン"
+
+#: main/media.php:111
+msgid "Edit with Photopea"
+msgstr "Photopeaで編集する"
+
+#: main/media.php:120
+msgid "Compress Image"
+msgstr "画像を圧縮する"
+
+#: main/media.php:125
+msgid "Replace Media"
+msgstr "メディアを交換する"
+
+#: main/media.php:240
+msgid "Quality"
+msgstr "品質"
+
+#: main/media.php:243
+msgid "Save"
+msgstr "保存"
+
+#: main/media.php:244
+msgid "Save & Close"
+msgstr "保存して近い"
+
+#: main/media.php:245
+msgid "Save As"
+msgstr "名前を付けて保存"
+
+#: main/media.php:246
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: main/media.php:260 main/media.php:421 main/media.php:481
+msgid "Security Check Failed!"
+msgstr "セキュリティチェックに失敗しました!"
+
+#: main/media.php:274
+msgid "Original image attachment not found"
+msgstr "元の画像添付ファイルが見つかりません"
+
+#: main/media.php:280
+msgid "Original image path not found"
+msgstr "元の画像のパスが見つかりません"
+
+#: main/media.php:297
+msgid "File already exists. Please choose another file name"
+msgstr "ファイルはすでに存在します。別のファイル名を選択してください"
+
+#: main/media.php:306
+msgid "Failed to decode base64 image data"
+msgstr "Base64画像データのデコードに失敗しました"
+
+#: main/media.php:317
+msgid "Failed to create image from data"
+msgstr "データから画像を作成できませんでした"
+
+#: main/media.php:355
+msgid "Unsupported image format"
+msgstr "サポートされていない画像形式です"
+
+#: main/media.php:363
+msgid "Failed to save the image"
+msgstr "画像の保存に失敗しました"
+
+#: main/media.php:381
+msgid "Failed to insert the new image as attachment"
+msgstr "新しい画像を添付ファイルとして挿入できませんでした"
+
+#: main/media.php:387
+msgid "Failed to regenerate image sub-sizes"
+msgstr "画像のサブサイズの再生成に失敗しました"
+
+#: main/media.php:395
+msgid "Image saved successfully"
+msgstr "画像は正常に保存されました"
+
+#: main/media.php:434 main/media.php:502
+msgid "Invalid image path."
+msgstr "無効な画像パスです。"
+
+#: main/media.php:437 main/media.php:505
+msgid "No image ID provided."
+msgstr "画像 ID が提供されていません。"
+
+#: main/media.php:472
+msgid "Unsupported image type."
+msgstr "サポートされていない画像タイプです。"
+
+#: main/media.php:497
+msgid "Image has been successfully compressed and replaced."
+msgstr "画像は正常に圧縮され、置き換えられました。"
+
+#: main/media.php:499
+msgid "Compression and replacement failed."
+msgstr "圧縮と置換に失敗しました。"
+
+#: main/media.php:570
+msgid "No file was uploaded ! Please try again."
+msgstr "ファイルがアップロードされていません!もう一度試してください。"
+
+#: main/media.php:576
+msgid "There was some error uploading the file ! Please try again."
+msgstr "ファイルのアップロード中にエラーが発生しました。もう一度試してください。"
+
+#: main/media.php:584
+msgid "The File type could not be determined. Please upload a permitted file type."
+msgstr "ファイルの種類を特定できませんでした。許可されたファイル形式をアップロードしてください。"
+
+#: main/media.php:619
+msgid "Please fix the below errors"
+msgstr "以下のエラーを修正してください"
+
+#: main/media.php:683
+msgid "Failed to determine the media file path !"
+msgstr "メディア ファイル パスを特定できませんでした。"
+
+#: main/media.php:688
+msgid "No folder for the target found !"
+msgstr "ターゲットのフォルダーが見つかりません!"
+
+#: main/onboarding.php:81
+msgid "Please confirm that you accept data loss since you have already run the onboarding process previously"
+msgstr "以前にオンボーディング プロセスをすでに実行しているため、データ損失を受け入れることを確認してください。"
+
+#: main/onboarding.php:82
+msgid "Please select atleast one page to import"
+msgstr "インポートするページを少なくとも 1 つ選択してください"
+
+#: main/onboarding.php:83
+msgid "Downloading and installing required plugins"
+msgstr "必要なプラグインのダウンロードとインストール"
+
+#: main/onboarding.php:84
+msgid "WordPress requires FTP details, without them you won't be able to install a plugin/theme"
+msgstr "WordPress には FTP の詳細が必要です。これがないとプラグイン/テーマをインストールできません"
+
+#: main/onboarding.php:85
+msgid "Downloading the template"
+msgstr "テンプレートのダウンロード"
+
+#: main/onboarding.php:86
+msgid "Building your website..."
+msgstr "ウェブサイトを構築中..."
+
+#: main/onboarding.php:87
+msgid "Checking the requirements ..."
+msgstr "要件を確認しています..."
+
+#: main/onboarding.php:88
+msgid "Importing the template"
+msgstr "テンプレートのインポート"
+
+#: main/onboarding.php:89
+msgid "Your website setup is completed"
+msgstr "ウェブサイトの設定が完了しました"
+
+#: main/onboarding.php:90
+msgid "Congratulations"
+msgstr "おめでとう"
+
+#: main/onboarding.php:109
+msgid "Increase Website Traffic (SEO)"
+msgstr "ウェブサイトのトラフィックを増やす (SEO)"
+
+#: main/onboarding.php:110
+msgid "Improve your site's ranking on search engines"
+msgstr "検索エンジンでのサイトのランキングを向上させる"
+
+#: main/onboarding.php:114
+msgid "SiteSEO ? One Click SEO for WordPress"
+msgstr "SiteSEO – WordPress のワンクリック SEO"
+
+#: main/onboarding.php:120
+msgid "Boost your website's search rankings today with the most powerful WordPress SEO plugin. Its lightweight, optimized, and delivers exceptional performance."
+msgstr "最も強力な WordPress SEO プラグインを使用して、ウェブサイトの検索ランキングを今すぐ高めましょう。軽量で最適化されており、優れたパフォーマンスを実現します。"
+
+#: main/onboarding.php:129
+msgid "Improve Page Speed"
+msgstr "ページ速度の向上"
+
+#: main/onboarding.php:130
+msgid "Improve speed by cache, minify, compress"
+msgstr "キャッシュ、縮小、圧縮による速度向上"
+
+#: main/onboarding.php:134
+msgid "SpeedyCache ? Cache, Optimization, Performance"
+msgstr "SpeedyCache – キャッシュ、最適化、パフォーマンス"
+
+#: main/onboarding.php:139
+msgid "SpeedyCache is an easy to use and powerful WordPress Cache Plugin, it helps you reduce page load time improving User Experience and boosting your Google PageSpeed."
+msgstr "SpeedyCache は使いやすく強力な WordPress キャッシュ プラグインで、ページの読み込み時間を短縮し、ユーザー エクスペリエンスを向上させ、Google PageSpeed を向上させるのに役立ちます。"
+
+#: main/onboarding.php:148
+msgid "Schedule Backups"
+msgstr "バックアップのスケジュールを設定する"
+
+#: main/onboarding.php:149
+msgid "Backup your site on local or remote servers"
+msgstr "サイトをローカルまたはリモートサーバーにバックアップします"
+
+#: main/onboarding.php:153
+msgid "Backuply ? Backup, Restore, Migrate and Clone"
+msgstr "バックアップ – バックアップ、復元、移行、クローン作成"
+
+#: main/onboarding.php:158
+msgid "Backuply is a WordPress backup plugin that helps you backup your WordPress website, saving you from loss of data because of server crashes, hacks, dodgy updates, or bad plugins."
+msgstr "Backuply は、WordPress ウェブサイトのバックアップに役立つ WordPress バックアップ プラグインで、サーバーのクラッシュ、ハッキング、危険なアップデート、または不正なプラグインによるデータの損失を防ぎます。"
+
+#: main/onboarding.php:167
+msgid "Sell Products"
+msgstr "製品を販売する"
+
+#: main/onboarding.php:168
+msgid "Sell physical or digital products"
+msgstr "物理的またはデジタル製品を販売する"
+
+#: main/onboarding.php:172
+msgid "WooCommerce"
+msgstr "ウーコマース"
+
+#: main/onboarding.php:180
+msgid "Limit Login Attempts"
+msgstr "ログイン試行を制限する"
+
+#: main/onboarding.php:181
+msgid "Brute force protection, 2FA, login captcha"
+msgstr "ブルート フォース保護、2FA、ログイン キャプチャ"
+
+#: main/onboarding.php:185
+msgid "Loginizer"
+msgstr "ロジナイザー"
+
+#: main/onboarding.php:190
+msgid "Loginizer is a simple and effortless solution that takes care of all your security problems. It comes with default optimal configuration to protect your site from Brute Force attacks."
+msgstr "Loginizer は、すべてのセキュリティ問題に対処するシンプルで簡単なソリューションです。ブルート フォース攻撃からサイトを保護するためのデフォルトの最適な構成が付属しています。"
+
+#: main/onboarding.php:199
+msgid "Page Builder"
+msgstr "ページビルダー"
+
+#: main/onboarding.php:200
+msgid "Page Builder, Drag and Drop website builder"
+msgstr "ページビルダー、ドラッグアンドドロップウェブサイトビルダー"
+
+#: main/onboarding.php:204
+msgid "Pagelayer"
+msgstr "ページレイヤー"
+
+#: main/onboarding.php:209
+msgid "Pagelayer is an awesome page builder that allows you to create and design your website instantly in the simplest way possible. Take control over your page content with the most advanced page builder plugin available."
+msgstr "Pagelayer は、最も簡単な方法で Web サイトを即座に作成およびデザインできる素晴らしいページ ビルダーです。利用可能な最も高度なページ ビルダー プラグインを使用して、ページ コンテンツを制御します。"
+
+#: main/onboarding.php:218
+msgid "Send Email with SMTP"
+msgstr "SMTP を使用して電子メールを送信する"
+
+#: main/onboarding.php:219
+msgid "Providers: Gmail, Outlook, AWS SES & more"
+msgstr "プロバイダー: Gmail、Outlook、AWS SES、もっと"
+
+#: main/onboarding.php:223
+msgid "GoSMTP ? SMTP for WordPress"
+msgstr "GoSMTP – WordPress 用の SMTP"
+
+#: main/onboarding.php:228
+msgid "GoSMTP allows you to send emails from your WordPress over SMTP or many popular outgoing email service providers. Using these improves your email deliverability."
+msgstr "GoSMTP を使用すると、WordPress から SMTP または多くの一般的な送信メール サービス プロバイダー経由でメールを送信できます。これらを使用すると、電子メールの到達性が向上します。"
+
+#: main/onboarding.php:237
+msgid "File Manager"
+msgstr "ファイルマネージャー"
+
+#: main/onboarding.php:238
+msgid "Manage files with drag & drop editor"
+msgstr "ドラッグ＆ドロップでファイルを管理ドロップエディター"
+
+#: main/onboarding.php:242
+msgid "FileOrganizer ? Manage WordPress and Website Files"
+msgstr "FileOrganizer – WordPress と Web サイトのファイルを管理"
+
+#: main/onboarding.php:247
+msgid "FileOrganizer is a lightweight and easy-to-use file management plugin for WordPress. Organize and manage your WordPress files with FileOrganizer without any control panel or FTP access. "
+msgstr "FileOrganizer は、軽量で使いやすい WordPress 用のファイル管理プラグインです。コントロール パネルや FTP にアクセスしなくても、FileOrganizer を使用して WordPress ファイルを整理および管理できます。 "
+
+#: main/onboarding.php:292
+msgid "Could not import the template !"
+msgstr "テンプレートをインポートできませんでした。"
+
+#: main/onboarding.php:340
+msgid "Theme template can only be uploaded using FTP !"
+msgstr "テーマ テンプレートは FTP を使用してのみアップロードできます。"
+
+#: main/onboarding.php:363
+msgid "Could not download the theme !"
+msgstr "テーマをダウンロードできませんでした!"
+
+#: main/onboarding.php:381
+msgid "Could not extract the template !"
+msgstr "テンプレートを抽出できませんでした。"
+
+#: main/onboarding.php:509
+msgid "The response from the server was malformed. Please try again in sometime !"
+msgstr "サーバーからの応答の形式が正しくありませんでした。しばらくしてからもう一度お試しください。"
+
+#: main/onboarding.php:541
+msgid "Pagelayer is required to use the templates !"
+msgstr "テンプレートを使用するには Pagelayer が必要です。"
+
+#: main/onboarding.php:551
+msgid "PopularFX plugin is required to use the templates !"
+msgstr "テンプレートを使用するには PopularFX プラグインが必要です。"
+
+#: main/onboarding.php:561
+msgid "PopularFX theme is required to use the templates !"
+msgstr "テンプレートを使用するには PopularFX テーマが必要です。"
+
+#: main/onboarding.php:568
+msgid "The template you submitted is invalid !"
+msgstr "送信したテンプレートは無効です。"
+
+#: main/onboarding.php:576
+#, php-format
+msgid "Your Pagelayer version is %1$s while the template requires Pagelayer version higher than or equal to %2$s "
+msgstr "Pagelayer のバージョンは %1$s ですが、テンプレートには %2$s 以上の Pagelayer バージョンが必要です "
+
+#: main/onboarding.php:582
+#, php-format
+msgid "Your Pagelayer version is %1$s while the onboarding requires Pagelayer version higher than or equal to 1.8.9"
+msgstr "Pagelayer のバージョンは %1$s ですが、オンボーディングには 1.8.9 以上の Pagelayer バージョンが必要です"
+
+#: main/onboarding.php:588
+#, php-format
+msgid "Your PopularFX Plugin version is %1$s while the template requires PopularFX version higher than or equal to %2$s"
+msgstr "PopularFX プラグインのバージョンは %1$s ですが、テンプレートには %2$s 以上の PopularFX バージョンが必要です"
+
+#: main/onboarding.php:594
+#, php-format
+msgid "The selected template is a Pro template and you have a free or expired license. Please enter your license key %1$shere%2$s."
+msgstr "選択したテンプレートは Pro テンプレートで、無料または有効期限切れのライセンスを持っています。ライセンス キー %1$sここ%2$s を入力してください。"
+
+#: main/onboarding.php:615
+#, php-format
+msgid "There was an error in installing Pagelayer which is required by this template. Please install Pagelayer manually by clicking %1$shere%2$s and then install the template !"
+msgstr "このテンプレートに必要な Pagelayer のインストール中にエラーが発生しました。 %1$shere%2$s をクリックして Pagelayer を手動でインストールしてから、テンプレートをインストールしてください。"
+
+#: main/onboarding.php:760
+msgid "Plugin activated successfully."
+msgstr "プラグインが正常に有効化されました。"
+
+#: main/onboarding.php:765
+#, php-format
+msgid "Plugin installation failed. %1$s requires PHP version %2$s or higher. Your PHP version is %3$s."
+msgstr "プラグインのインストールに失敗しました。 %1$s には PHP バージョン %2$s 以降が必要です。 PHP のバージョンは %3$s です。"
+
+#: main/onboarding.php:801
+msgid "Plugin installed and activated successfully."
+msgstr "プラグインが正常にインストールされ、有効化されました。"
+
+#: main/onboarding.php:804
+msgid "Plugin already installed."
+msgstr "プラグインはすでにインストールされています。"
+
+#: main/onboarding.php:831
+msgid "You do not have enough permissions to install theme"
+msgstr "テーマをインストールするための十分な権限がありません"
+
+#: main/onboarding.php:857
+msgid "Theme activated successfully."
+msgstr "テーマが正常に有効化されました。"
+
+#: main/onboarding.php:873
+msgid "The filesystem could not write files to the server!"
+msgstr "ファイルシステムはサーバーにファイルを書き込むことができませんでした。"
+
+#: main/onboarding.php:887
+#, php-format
+msgid "Error downloading theme: %1$s"
+msgstr "テーマのダウンロード中にエラーが発生しました: %1$s"
+
+#: main/onboarding.php:895
+msgid "Error unzipping theme: "
+msgstr "テーマの解凍中にエラーが発生しました: "
+
+#: main/onboarding.php:904
+msgid "Theme installation failed "
+msgstr "テーマのインストールに失敗しました "
+
+#: main/onboarding.php:908
+msgid "Theme installed and activated successfully."
+msgstr "テーマが正常にインストールされ、アクティブ化されました。"
+
+#: main/onboarding.php:969
+msgid "Choose a design"
+msgstr "デザインを選ぶ"
+
+#: main/onboarding.php:973
+msgid "Search for theme"
+msgstr "テーマを検索"
+
+#: main/onboarding.php:977
+msgid "All"
+msgstr "全て"
+
+#: main/onboarding.php:988
+msgid "Demo"
+msgstr "デモ"
+
+#: main/onboarding.php:1001
+msgid "Select pages to import"
+msgstr "インポートするページを選択してください"
+
+#: main/onboarding.php:1007
+msgid "Import stock images ?"
+msgstr "ストック画像をインポートしますか?"
+
+#: main/onboarding.php:1009
+msgid "We try our best to use images that are free to use from legal perspectives. However, we are not liable for any copyright infringement for your site."
+msgstr "法的な観点から、無料で使用できる画像を使用するよう最善を尽くします。ただし、当社はあなたのサイトの著作権侵害については責任を負いません。"
+
+#: main/onboarding.php:1018
+msgid "Go Back"
+msgstr "戻る"
+
+#: main/onboarding.php:1019
+msgid "Import Theme Content"
+msgstr "テーマコンテンツをインポートする"
+
+#: main/onboarding.php:1033
+msgid "Import Theme Contents"
+msgstr "テーマの内容をインポートする"
+
+#: main/onboarding.php:1045
+msgid "Congratulations, the template was imported successfully !"
+msgstr "おめでとうございます。テンプレートは正常にインポートされました。"
+
+#: main/onboarding.php:1046
+msgid "You can now customize the website as per your requirements with the help of Pagelayer or the Customizer."
+msgstr "Pagelayer または Customizer を使用して、要件に応じて Web サイトをカスタマイズできるようになりました。"
+
+#: main/onboarding.php:1049
+msgid "We strongly recommend you change all images and media. We try our best to use images which are copyright free or are allowed under their licensing. However, we take no responsibilities for the same and recommend you change all media and images !"
+msgstr "すべての画像とメディアを変更することを強くお勧めします。私たちは、著作権フリーの画像、またはライセンスの下で許可されている画像を使用するよう最善を尽くします。ただし、これについては責任を負いませんので、すべてのメディアと画像を変更することをお勧めします。"
+
+#: main/onboarding.php:1056
+msgid "Visit Website"
+msgstr "ウェブサイトにアクセス"
+
+#: main/onboarding.php:1057
+msgid "WordPress Dashboard"
+msgstr "WordPress ダッシュボード"
+
+#: main/setup.php:8
+msgid "Welcome"
+msgstr "いらっしゃいませ"
+
+#: main/setup.php:9
+msgid "Business Type"
+msgstr "業種"
+
+#: main/setup.php:10
+msgid "Site Title"
+msgstr "サイトタイトル"
+
+#: main/setup.php:11
+msgid "Goals"
+msgstr "目標"
+
+#: main/setup.php:12
+msgid "Choose Template"
+msgstr "テンプレートの選択"
+
+#: main/setup.php:75
+msgid "Exit"
+msgstr "出口"
+
+#: main/setup.php:82
+msgid "Welcome to the Onboarding process!"
+msgstr "オンボーディング プロセスへようこそ!"
+
+#: main/setup.php:83
+msgid "This process will help you choose a professional template for your website and install plugins that you might need to achieve your goal for creating this website"
+msgstr "このプロセスは、Web サイト用のプロフェッショナルなテンプレートを選択し、この Web サイトを作成する目的を達成するために必要なプラグインをインストールするのに役立ちます。"
+
+#: main/setup.php:88
+msgid "It looks like you have already completed the onboarding process. You might lose data if you run the onboarding process again. Select this checkbox to confirm that you agree."
+msgstr "すでにオンボーディングプロセスを完了しているようです。オンボーディング プロセスを再度実行すると、データが失われる可能性があります。同意することを確認するには、このチェックボックスを選択します。"
+
+#: main/setup.php:93
+msgid "Get Started"
+msgstr "始めましょう"
+
+#: main/setup.php:97
+msgid "No, I don't want to try an easy setup process"
+msgstr "いいえ、簡単なセットアッププロセスは試したくないです"
+
+#: main/setup.php:105
+msgid "How would you categorize your website ?"
+msgstr "あなたのウェブサイトをどのように分類しますか?"
+
+#: main/setup.php:106
+msgid "This helps us recommend design and functionalities for your website"
+msgstr "これは、ウェブサイトのデザインと機能を推奨するのに役立ちます"
+
+#: main/setup.php:109
+msgid "Search for a category"
+msgstr "カテゴリを検索する"
+
+#: main/setup.php:119
+msgid "No results match your search criteria"
+msgstr "検索条件に一致する結果はありません"
+
+#: main/setup.php:126 main/setup.php:143 main/setup.php:184
+msgid "Previous Step"
+msgstr "前のステップ"
+
+#: main/setup.php:128 main/setup.php:145 main/setup.php:186
+msgid "Continue"
+msgstr "続く"
+
+#: main/setup.php:135
+msgid "Enter the title of your new site"
+msgstr "新しいサイトのタイトルを入力してください"
+
+#: main/setup.php:136
+msgid "Can be changed later"
+msgstr "後で変更可能"
+
+#: main/setup.php:139
+msgid "Enter a title for your website"
+msgstr "ウェブサイトのタイトルを入力してください"
+
+#: main/setup.php:152
+msgid "What are you looking to achieve with your new site ?"
+msgstr "新しいサイトで何を達成したいと考えていますか?"
+
+#: main/setup.php:153
+msgid "We will install the appropriate plugins that will add the required functionality to your website"
+msgstr "ウェブサイトに必要な機能を追加する適切なプラグインをインストールします。"

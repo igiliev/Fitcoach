@@ -1,0 +1,69 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "advanced": {
+    "borders": {
+      "default": "module.decoration.border",
+      "image": "image.decoration.border"
+    },
+    "box_shadow": {
+      "default": "module.decoration.boxShadow",
+      "image": "image.decoration.boxShadow"
+    },
+    "filters": {
+      "default": "module.decoration.filters",
+      "child": "image.decoration.filters"
+    },
+    "fonts": {
+      "caption": "caption.decoration.font",
+      "pagination": "pagination.decoration.font",
+      "title": "title.decoration.font"
+    },
+    "text_shadow": {
+      "default": "module.advanced.text.textShadow"
+    },
+    "admin_label": "module.meta.adminLabel",
+    "animation": "module.decoration.animation",
+    "background": "module.decoration.background",
+    "disabled_on": "module.decoration.disabledOn",
+    "display_conditions": "module.decoration.conditions",
+    "height": "module.decoration.sizing",
+    "margin_padding": "module.decoration.spacing",
+    "max_width": "module.decoration.sizing",
+    "module": "module.advanced.htmlAttributes",
+    "overflow": "module.decoration.overflow",
+    "position_fields": "module.decoration.position",
+    "scroll": "module.decoration.scroll",
+    "sticky": "module.decoration.sticky",
+    "text": "module.advanced.text",
+    "transform": "module.decoration.transform",
+    "transition": "module.decoration.transition",
+    "z_index": "module.decoration.zIndex"
+  },
+  "css": {
+    "free_form": "css.*.freeForm",
+    "before": "css.*.before",
+    "main_element": "css.*.mainElement",
+    "after": "css.*.after",
+    "gallery_item": "css.*.galleryItem",
+    "gallery_pagination": "css.*.galleryPagination",
+    "gallery_pagination_active": "css.*.galleryPaginationActive"
+  },
+  "module": {
+    "fullwidth": "layout.advanced.fullwidth.*",
+    "gallery_captions": "image.advanced.galleryCaptions.*",
+    "gallery_ids": "image.advanced.galleryIds.*",
+    "gallery_orderby": "image.advanced.galleryOrderby.*",
+    "header_level": "title.decoration.font.font.*.headingLevel",
+    "hover_icon": "overlayIcon.decoration.icon.*",
+    "hover_overlay_color": "overlay.decoration.background.*.color",
+    "orientation": "layout.advanced.orientation.*",
+    "posts_number": "content.advanced.postsNumber.*",
+    "product": "content.advanced.product.*",
+    "show_pagination": "content.advanced.showPagination.*",
+    "show_title_and_caption": "content.advanced.showTitleAndCaption.*",
+    "zoom_icon_color": "overlayIcon.decoration.icon.*.color"
+  },
+  "valueExpansionFunctionMap": {
+    "hover_icon": "convertFontIcon"
+  }
+}

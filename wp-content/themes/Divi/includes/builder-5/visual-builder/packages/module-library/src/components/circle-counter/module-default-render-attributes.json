@@ -1,0 +1,81 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "module": {
+    "meta": {
+      "adminLabel": {
+        "desktop": {
+          "value": "Circle Counter"
+        }
+      }
+    },
+    "advanced": {
+      "text": {
+        "text": {
+          "desktop": {
+            "value": {
+              "orientation": "center",
+              "color": "light"
+            }
+          }
+        }
+      }
+    },
+    "decoration": {
+      "spacing": {
+        "desktop": {
+          "value": {
+            "margin": {
+              "top": "0px",
+              "right": "auto",
+              "bottom": "30px",
+              "left": "auto"
+            }
+          }
+        }
+      }
+    }
+  },
+  "circle": {
+    "advanced": {
+      "color": {
+        "desktop": {
+          "value": "var(--gcid-primary-color)"
+        }
+      },
+      "background": {
+        "desktop": {
+          "value": {
+            "opacity": "0.1"
+          }
+        }
+      }
+    }
+  },
+  "title": {
+    "decoration": {
+      "font": {
+        "font": {
+          "desktop": {
+            "value": {
+              "headingLevel": "h3"
+            }
+          }
+        }
+      }
+    }
+  },
+  "number": {
+    "advanced": {
+      "percentSign": {
+        "desktop": {
+          "value": "on"
+        }
+      }
+    },
+    "innerContent": {
+      "desktop": {
+        "value": "0"
+      }
+    }
+  }
+}

@@ -1,0 +1,644 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+.spro-header{
+background-color:#28527a;
+padding-left:4%;
+padding-right:5%;
+margin-left:-20px;
+padding-top:10px;
+padding-bottom:10px;
+margin-bottom:20px;
+}
+
+.spro-body{
+margin-left:1%;
+margin-right:2%;
+}
+
+#soft-main-logo{
+	max-height:60px;
+}
+
+ul.spro-header-menu{
+float:right;
+margin-top:19px;
+}
+
+ul.spro-header-menu li{
+display:inline;
+padding: 0 10px;
+}
+
+ul.spro-header-menu a{
+text-decoration:none;
+font-size:15px;
+font-weight:400;
+color: #FFFFFF;
+}
+
+ul.spro-header-menu i{
+font-size:1.2em;
+}
+
+.spro-quick-links i{
+font-size:1.1em;
+width:17px; text-align:center;
+}
+
+.spro-box-holder{
+background-color:#ffffff;
+border-radius:4px;
+border: 1px solid #c3c4c7;
+padding:10px 20px;
+}
+
+.spro-box-heading{
+font-size:1.3em;
+font-weight:600;
+color: #000;
+padding:5px 0px 0px 0px;
+}
+
+.spro-box-heading hr{
+margin-bottom: 0px;
+}
+
+.spro-box-body{
+padding:5px 0px;
+}
+
+.spro-action-tile{
+padding:5px 0px;
+border-radius: 4px;
+border: 1px solid #3582c4;
+padding: 10px 15px;
+margin: 15px 0px;
+font-size:1.1em;
+cursor:pointer;
+}
+
+.spro-action-tile:hover{
+background-color: #f6f7f7;
+outline: 2px solid transparent;
+outline-offset: 0;
+}
+
+.spro-action-tile:active{
+box-shadow: 0 0 0 1px #3582c4;
+}
+
+.spro-quick-links li{
+font-size:14px;
+}
+
+.spro-quick-links li>a{
+font-size:14px;
+text-decoration:none;
+}
+
+.spro-quick-links li>a:hover{
+color:#3c434a;
+}
+
+.spro-settings{
+font-size:14px;
+}
+
+.spro-settings label{
+cursor:pointer;
+}
+
+/* Checkbox switch Start */
+
+.spro-toggle {
+position: relative;
+display: inline-block;
+width: 31px;
+height: 17px;
+}
+
+/* Hide the checkbox input */
+.spro-toggle input {
+display: none;
+}
+
+/* Intro.JS Customization Start */
+
+.introjs-helperLayer {
+box-shadow: rgba(255, 33, 33, 0.8) 0px 0px 1px 2px, rgba(33, 33, 33, 0.5) 0px 0px 0px 5000px !important;
+}
+.introjs-nextbutton {
+background: #0d47a1 !important;
+color: white !important;
+text-rendering: optimizeLegibility !important;
+text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3) !important;
+}
+.introjs-nextbutton:hover {
+background: #ffffff !important;
+border-color: #0d47a1 !important;
+color: #0d47a1 !important;
+}
+.introjs-prevbutton{
+border-color: #119768 !important;
+color:#119768 !important;
+}
+.introjs-prevbutton:hover {
+background-color: #119768 !important;
+color: #ffffff !important;
+text-rendering: optimizeLegibility !important;
+text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3) !important;
+}
+
+.introjs-tooltipReferenceLayer *{
+font-family: "Open Sans" !important;
+}
+
+.introjs-tooltip{
+min-width: 300px !important;
+max-width: 600px !important;
+}
+
+.introjs-tooltip-title{
+font-weight: 550 !important;
+}
+
+.introjs-tooltip-header{
+padding-bottom: 4px;
+border-bottom: 1px solid #e0e0e0;
+}
+
+/* Intro.JS Customization End */
+
+/* Describe slider's look and position. */
+.spro-slider {
+position: absolute;
+cursor: pointer;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background-color: gray;
+transition: .4s;
+border-radius: 34px;
+}
+
+/* Describe the white ball's location 
+  and appearance in the slider. */
+.spro-slider:before {
+position: absolute;
+content: "";
+height: 13px;
+width: 13px;
+left: 2.2px;
+bottom: 2.2px;
+background-color: white;
+transition: .2s;
+border-radius: 50%;
+}
+
+/* Modify the slider's background color to 
+  green once the checkbox has been selected. */
+input:checked+.spro-slider {
+background-color: #3582c4;
+}
+
+/* When the checkbox is checked, shift the 
+  white ball towards the right within the slider. */
+input:checked+.spro-slider:before {
+transform: translateX(13px);
+}
+
+/* Checkbox switch End */
+
+/* Custom Grid Start */
+
+*,
+*::before,
+*::after {
+box-sizing: border-box;
+}
+
+.spro-container{
+  display: flex;
+  flex-wrap: wrap; /* Ensures that columns wrap to the next line */
+  width: 100%;
+  max-width: 100%;
+  gap: 10px; /* Adds space between blocks */
+}
+
+.srow{
+	display:flex;
+	margin-left:15px;
+	margin-right:15px;
+	flex-flow:wrap;
+	gap:10px;
+}
+
+/* For mobile phones: */
+[class*="scol-"] {
+  width: 100%;
+  display:inline;
+  position:relative;
+  flex:auto;
+}
+
+/* For desktop: */
+@media only screen and (min-width: 768px) {
+
+	.srow{
+		flex-flow:wrap;
+	}
+	
+	/* For desktop: */
+	.scol-1 {width: 7.33%;flex: 0 0 7.33%;}
+	.scol-2 {width: 15.66%;flex: 0 0 15.66%;}
+	.scol-3 {width: 24%;flex: 0 0 24%;}
+	.scol-4 {width: 31.33%;flex: 0 0 31.33%;}
+	.scol-5 {width: 40.66%;flex: 0 0 40.66%;}
+	.scol-6 {width: 49%;flex: 0 0 49%;}
+	.scol-7 {width: 57.33%;flex: 0 0 57.33%;}
+	.scol-8 {width: 65.66%;flex: 0 0 65.66%;}
+	.scol-9 {width: 74%;flex: 0 0 74%;}
+	.scol-10 {width: 82.33%;flex: 0 0 82.33%;}
+	.scol-11 {width: 90.66%;flex: 0 0 90.66%;}
+	.scol-12 {width: 100%;flex: 0 0 100%;}
+
+}
+
+/* Custom Grid End */
+
+ /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	.spro-header{
+	padding-top:20px;
+	padding-bottom:20px;
+	text-align:center;
+	}
+
+	ul.spro-header-menu{
+		float:none;
+	}
+
+	#soft-main-logo{
+		max-height:50px;
+	}
+	
+	.spro-header{
+		text-align:left;
+	}
+	
+	ul.spro-header-menu li{
+		display:block;
+		padding:5px 10px;
+	}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+	ul.spro-header-menu li{
+	padding: 0 20px;
+	}
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	
+}
+
+/* Large devices Portrait mode (laptops/desktops, 700px to 900px) */
+@media only screen and (max-width: 900px) and (min-width: 700px) {
+	#soft-main-logo{
+		max-height:50px;
+	}
+	ul.spro-header-menu li{
+		padding: 0 10px;
+	}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+	
+}
+
+.sm-0 {
+  margin:0!important
+}
+.smt-0,
+.smy-0 {
+  margin-top:0!important
+}
+.smr-0,
+.smx-0 {
+  margin-right:0!important
+}
+.smb-0,
+.smy-0 {
+  margin-bottom:0!important
+}
+.sml-0,
+.smx-0 {
+  margin-left:0!important
+}
+.sm-1 {
+  margin:.25rem!important
+}
+.smt-1,
+.smy-1 {
+  margin-top:.25rem!important
+}
+.smr-1,
+.smx-1 {
+  margin-right:.25rem!important
+}
+.smb-1,
+.smy-1 {
+  margin-bottom:.25rem!important
+}
+.sml-1,
+.smx-1 {
+  margin-left:.25rem!important
+}
+.sm-2 {
+  margin:.5rem!important
+}
+.smt-2,
+.smy-2 {
+  margin-top:.5rem!important
+}
+.smr-2,
+.smx-2 {
+  margin-right:.5rem!important
+}
+.smb-2,
+.smy-2 {
+  margin-bottom:.5rem!important
+}
+.sml-2,
+.smx-2 {
+  margin-left:.5rem!important
+}
+.sm-3 {
+  margin:1rem!important
+}
+.smt-3,
+.smy-3 {
+  margin-top:1rem!important
+}
+.smr-3,
+.smx-3 {
+  margin-right:1rem!important
+}
+.smb-3,
+.smy-3 {
+  margin-bottom:1rem!important
+}
+.sml-3,
+.smx-3 {
+  margin-left:1rem!important
+}
+.sm-4 {
+  margin:1.5rem!important
+}
+.smt-4,
+.smy-4 {
+  margin-top:1.5rem!important
+}
+.smr-4,
+.smx-4 {
+  margin-right:1.5rem!important
+}
+.smb-4,
+.smy-4 {
+  margin-bottom:1.5rem!important
+}
+.sml-4,
+.smx-4 {
+  margin-left:1.5rem!important
+}
+.sm-5 {
+  margin:3rem!important
+}
+.smt-5,
+.smy-5 {
+  margin-top:3rem!important
+}
+.smr-5,
+.smx-5 {
+  margin-right:3rem!important
+}
+.smb-5,
+.smy-5 {
+  margin-bottom:3rem!important
+}
+.sml-5,
+.smx-5 {
+  margin-left:3rem!important
+}
+.sp-0 {
+  padding:0!important
+}
+.spt-0,
+.spy-0 {
+  padding-top:0!important
+}
+.spr-0,
+.spx-0 {
+  padding-right:0!important
+}
+.spb-0,
+.spy-0 {
+  padding-bottom:0!important
+}
+.spl-0,
+.spx-0 {
+  padding-left:0!important
+}
+.sp-1 {
+  padding:.25rem!important
+}
+.spt-1,
+.spy-1 {
+  padding-top:.25rem!important
+}
+.spr-1,
+.spx-1 {
+  padding-right:.25rem!important
+}
+.spb-1,
+.spy-1 {
+  padding-bottom:.25rem!important
+}
+.spl-1,
+.spx-1 {
+  padding-left:.25rem!important
+}
+.sp-2 {
+  padding:.5rem!important
+}
+.spt-2,
+.spy-2 {
+  padding-top:.5rem!important
+}
+.spr-2,
+.spx-2 {
+  padding-right:.5rem!important
+}
+.spb-2,
+.spy-2 {
+  padding-bottom:.5rem!important
+}
+.spl-2,
+.spx-2 {
+  padding-left:.5rem!important
+}
+.sp-3 {
+  padding:1rem!important
+}
+.spt-3,
+.spy-3 {
+  padding-top:1rem!important
+}
+.spr-3,
+.spx-3 {
+  padding-right:1rem!important
+}
+.spb-3,
+.spy-3 {
+  padding-bottom:1rem!important
+}
+.spl-3,
+.spx-3 {
+  padding-left:1rem!important
+}
+.sp-4 {
+  padding:1.5rem!important
+}
+.spt-4,
+.spy-4 {
+  padding-top:1.5rem!important
+}
+.spr-4,
+.spx-4 {
+  padding-right:1.5rem!important
+}
+.spb-4,
+.spy-4 {
+  padding-bottom:1.5rem!important
+}
+.spl-4,
+.spx-4 {
+  padding-left:1.5rem!important
+}
+.sp-5 {
+  padding:3rem!important
+}
+.spt-5,
+.spy-5 {
+  padding-top:3rem!important
+}
+.spr-5,
+.spx-5 {
+  padding-right:3rem!important
+}
+.spb-5,
+.spy-5 {
+  padding-bottom:3rem!important
+}
+.spl-5,
+.spx-5 {
+  padding-left:3rem!important
+}
+
+/* Recommended Features CSS*/
+
+.spro-rec-plugin{
+justify-content: space-between;
+}
+
+.spro-justify-center{
+justify-content:center;
+}
+
+.spro-plugin-title{
+font-size: 0.9rem;
+font-weight: 600;
+}
+
+.spro-manage-plugin-title{
+font-size: 1rem;
+font-weight: 600;
+}
+
+.spro-manage-plugin-desc{
+font-size:14px;
+line-height:22px;
+font-style: italic;
+}
+
+.spro-plugin-install-btn{
+background: #2271b1;
+color: white;
+border-color: #2271b1;
+border-radius: 4px;	
+min-width: 68px;
+cursor: pointer;
+max-height: 36px;
+font-size:13px;
+}
+
+.spro-plugin-install-btn:hover {
+background: #135e96;
+border-color: #135e96;
+}
+
+.spro-plugin-active{
+font-size:14px;
+color:green;
+padding-right:2px;
+padding-right:15px;
+}
+
+
+/* Manage Plugins Page */
+
+.spro-mng-plugins-body{
+display : flex;
+flex-wrap: wrap;
+justify-content: flex-start;
+}
+
+.spro-mng-plugin-header{
+display: flex;
+align-items: center;
+}
+
+.spro-plugin-info{
+display: flex;
+flex-direction: column;
+}
+
+.spro-mng-plugin{
+flex: 0 0 26vw;
+display: flex;
+flex-direction: column;
+}
+
+.spro-status{
+align-self: center;
+}
+
+.spro-plugin-info-con{
+min-height:115px;
+}
+
+#spro-token-count{
+	font-weight: 400;
+	font-size: 14px;
+}

@@ -1,0 +1,1361 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "name": "divi/fullwidth-menu",
+  "moduleClassName": "et_pb_fullwidth_menu",
+  "moduleOrderClassName": "et_pb_fullwidth_menu",
+  "d4Shortcode": "et_pb_fullwidth_menu",
+  "title": "Fullwidth Menu",
+  "titles": "Fullwidth Menus",
+  "moduleIcon": "divi/module-menu",
+  "category": "fullwidth-module",
+  "videos": [
+    {
+      "id": "-IkzKRz8zc0",
+      "name": "An introduction to the Fullwidth Menu module"
+    },
+    {
+      "id": "1iqjhnHVA9Y",
+      "name": "Design Settings and Advanced Module Settings"
+    },
+    {
+      "id": "boNZZ0MYU0E",
+      "name": "Saving and loading from the library"
+    }
+  ],
+  "attributes": {
+    "module": {
+      "type": "object",
+      "selector": "{{selector}}.et_pb_fullwidth_menu",
+      "styleProps": {
+        "boxShadow": {
+          "selector": "{{selector}}, {{selector}} .sub-menu"
+        },
+        "spacing": {
+          "important": {
+            "desktop": {
+              "value": {
+                "margin": true
+              }
+            }
+          }
+        }
+      },
+      "settings": {
+        "meta": {
+          "adminLabel": {}
+        },
+        "advanced": {
+          "link": {},
+          "loop": {},
+          "htmlAttributes": {},
+          "text": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "designMenuText",
+              "priority": 21,
+              "render": true,
+              "component": {
+                "name": "divi/text",
+                "type": "group",
+                "props": {
+                  "grouped": false,
+                  "fields": {
+                    "orientation": {
+                      "visible": true
+                    },
+                    "textShadowGroup": {
+                      "render": false
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "decoration": {
+          "animation": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "designAnimation",
+              "priority": 10,
+              "render": true,
+              "component": {
+                "type": "group",
+                "name": "divi/animation",
+                "props": {
+                  "grouped": false
+                }
+              }
+            }
+          },
+          "background": {},
+          "border": {},
+          "boxShadow": {},
+          "conditions": {},
+          "disabledOn": {},
+          "filters": {},
+          "overflow": {},
+          "order": {},
+          "position": {},
+          "scroll": {},
+          "sizing": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "designSizing",
+              "priority": 10,
+              "render": true,
+              "component": {
+                "type": "group",
+                "name": "divi/sizing",
+                "props": {
+                  "grouped": false
+                }
+              }
+            }
+          },
+          "spacing": {},
+          "sticky": {},
+          "transform": {},
+          "transition": {},
+          "zIndex": {}
+        }
+      }
+    },
+    "logo": {
+      "type": "object",
+      "selector": "{{selector}} .et_pb_menu__logo-wrap img",
+      "elementType": "imageLink",
+      "styleProps": {
+        "sizing": {
+          "propertySelectors": {
+            "desktop": {
+              "value": {
+                "width": "{{selector}} .et_pb_row > .et_pb_menu__logo-wrap, {{selector}} .et_pb_menu__logo-slot",
+                "max-width": "{{selector}} .et_pb_row > .et_pb_menu__logo-wrap, {{selector}} .et_pb_menu__logo-slot",
+                "height": "{{selector}} .et_pb_row > .et_pb_menu__logo-wrap .et_pb_menu__logo img, {{selector}} .et_pb_menu__logo-slot .et_pb_menu__logo-wrap img",
+                "max-height": "{{selector}} .et_pb_row > .et_pb_menu__logo-wrap .et_pb_menu__logo img, {{selector}} .et_pb_menu__logo-slot .et_pb_menu__logo-wrap img"
+              }
+            }
+          }
+        },
+        "border": {
+          "selector": "{{selector}} .et_pb_menu__logo-wrap .et_pb_menu__logo img"
+        },
+        "boxShadow": {
+          "selector": "{{selector}} .et_pb_menu__logo-wrap .et_pb_menu__logo"
+        },
+        "filters": {
+          "selector": "{{selector}} .et_pb_menu__logo-wrap img"
+        }
+      },
+      "settings": {
+        "innerContent": {
+          "groupType": "group-items",
+          "items": {
+            "alt": {
+              "groupSlug": "advancedAttributes",
+              "priority": 5,
+              "render": true,
+              "attrName": "logo.innerContent",
+              "subName": "alt",
+              "label": "Logo Alt Text",
+              "description": "Define the HTML ALT text for your logo here.",
+              "features": {
+                "responsive": false,
+                "hover": false,
+                "sticky": false,
+                "dynamicContent": {
+                  "type": "text"
+                },
+                "preset": [
+                  "html"
+                ]
+              },
+              "component": {
+                "name": "divi/text",
+                "type": "field"
+              }
+            },
+            "src": {
+              "groupSlug": "contentLogo",
+              "priority": 10,
+              "render": true,
+              "attrName": "logo.innerContent",
+              "subName": "src",
+              "label": "Logo",
+              "description": "Upload an image to display beside your menu.",
+              "features": {
+                "dynamicContent": {
+                  "type": "image"
+                },
+                "sticky": false,
+                "preset": [
+                  "html"
+                ]
+              },
+              "component": {
+                "name": "divi/upload",
+                "type": "field",
+                "props": {
+                  "syncImageData": {
+                    "src": true,
+                    "id": true,
+                    "alt": true,
+                    "titleText": false
+                  }
+                }
+              }
+            },
+            "linkUrl": {
+              "groupSlug": "contentLink",
+              "priority": 5,
+              "render": true,
+              "attrName": "logo.innerContent",
+              "subName": "linkUrl",
+              "label": "Logo Link URL",
+              "description": "If you would like to make your logo a link, input your destination URL here.",
+              "features": {
+                "responsive": false,
+                "hover": false,
+                "sticky": false,
+                "preset": "content",
+                "dynamicContent": {
+                  "type": "url"
+                }
+              },
+              "component": {
+                "name": "divi/text",
+                "type": "field"
+              }
+            },
+            "linkTarget": {
+              "groupSlug": "contentLink",
+              "priority": 10,
+              "render": true,
+              "attrName": "logo.innerContent",
+              "subName": "linkTarget",
+              "label": "Logo Link Target",
+              "description": "Here you can choose whether or not your link opens in a new window",
+              "features": {
+                "responsive": false,
+                "hover": false,
+                "sticky": false,
+                "preset": "content"
+              },
+              "component": {
+                "name": "divi/select",
+                "type": "field",
+                "props": {
+                  "options": {
+                    "off": {
+                      "label": "In The Current Tab"
+                    },
+                    "on": {
+                      "label": "In A New Tab"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "decoration": {
+          "border": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "designLogo",
+              "priority": 10,
+              "render": true,
+              "component": {
+                "type": "group",
+                "name": "divi/border",
+                "props": {
+                  "grouped": false,
+                  "fieldLabel": "Logo",
+                  "fields": {
+                    "styles": {
+                      "features": {
+                        "responsive": false,
+                        "hover": false,
+                        "sticky": false
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "boxShadow": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "designLogo",
+              "priority": 15,
+              "render": true,
+              "component": {
+                "type": "group",
+                "name": "divi/box-shadow",
+                "props": {
+                  "grouped": false,
+                  "fieldLabel": "Logo",
+                  "fields": {
+                    "style": {
+                      "features": {
+                        "responsive": false,
+                        "hover": false,
+                        "sticky": false
+                      }
+                    },
+                    "position": {
+                      "features": {
+                        "hover": false,
+                        "sticky": false
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "filters": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "designLogo",
+              "priority": 20,
+              "render": true,
+              "component": {
+                "type": "group",
+                "name": "divi/filters",
+                "props": {
+                  "grouped": false,
+                  "fieldLabel": "Image",
+                  "fields": {
+                    "blendMode": {
+                      "features": {
+                        "sticky": false
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "sizing": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "designSizing",
+              "priority": 5,
+              "render": true,
+              "component": {
+                "type": "group",
+                "name": "divi/sizing",
+                "props": {
+                  "grouped": false,
+                  "fieldLabel": "Logo",
+                  "fields": {
+                    "alignment": {
+                      "render": false
+                    },
+                    "minHeight": {
+                      "render": false
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "menu": {
+      "type": "object",
+      "selector": "",
+      "styleProps": {
+        "font": {
+          "selectors": {
+            "desktop": {
+              "value": "{{selector}}.et_pb_fullwidth_menu ul li a",
+              "hover": "{{selector}}.et_pb_fullwidth_menu ul li:hover > a"
+            }
+          }
+        }
+      },
+      "settings": {
+        "advanced": {
+          "menuId": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "contentMenu",
+              "priority": 5,
+              "render": true,
+              "attrName": "menu.advanced.menuId",
+              "label": "Menu",
+              "description": "",
+              "features": {
+                "responsive": false,
+                "hover": false,
+                "sticky": false,
+                "preset": "content"
+              },
+              "component": {
+                "name": "divi/select-menu",
+                "type": "field",
+                "props": {
+                  "options": {}
+                }
+              }
+            }
+          },
+          "style": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "designLayout",
+              "priority": 5,
+              "render": true,
+              "attrName": "menu.advanced.style",
+              "label": "Style",
+              "features": {
+                "responsive": false,
+                "hover": false,
+                "sticky": false,
+                "preset": [
+                  "html"
+                ]
+              },
+              "component": {
+                "name": "divi/select",
+                "type": "field",
+                "props": {
+                  "options": {
+                    "left_aligned": {
+                      "label": "Left Aligned"
+                    },
+                    "centered": {
+                      "label": "Centered"
+                    },
+                    "inline_centered_logo": {
+                      "label": "Inline Centered Logo"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "activeLinkColor": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "designMenuText",
+              "priority": 5,
+              "render": true,
+              "attrName": "menu.advanced.activeLinkColor",
+              "label": "Active Link Color",
+              "description": "An active link is the page currently being visited. You can pick a color to be applied to active links to differentiate them from other links.",
+              "features": {
+                "dynamicContent": {
+                  "type": "color"
+                }
+              },
+              "component": {
+                "name": "divi/color-picker",
+                "type": "field"
+              }
+            }
+          },
+          "fullwidth": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "designLayout",
+              "priority": 15,
+              "render": true,
+              "attrName": "menu.advanced.fullwidth",
+              "label": "Make Menu Links Fullwidth",
+              "description": "Menu width is limited by your website content width. Enabling this option will extend the menu the full width of the browser window.",
+              "features": {
+                "preset": [
+                  "html"
+                ]
+              },
+              "defaultAttr": {
+                "desktop": {
+                  "value": "off"
+                }
+              },
+              "component": {
+                "type": "field",
+                "name": "divi/toggle",
+                "props": {
+                  "options": {
+                    "off": "No",
+                    "on": "Yes"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "decoration": {
+          "font": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "designMenuText",
+              "priority": 10,
+              "render": true,
+              "component": {
+                "name": "divi/font",
+                "type": "group",
+                "props": {
+                  "grouped": false,
+                  "fieldLabel": "Menu",
+                  "fields": {
+                    "textAlign": {
+                      "render": false
+                    },
+                    "family": {
+                      "features": {
+                        "hover": false,
+                        "sticky": false
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "menuDropdown": {
+      "type": "object",
+      "selector": "",
+      "styleProps": {
+        "font": {
+          "propertySelectors": {
+            "font": {
+              "desktop": {
+                "value": {
+                  "color": "{{selector}}.et_pb_fullwidth_menu .nav li ul.sub-menu a"
+                }
+              }
+            }
+          },
+          "important": {
+            "font": {
+              "desktop": {
+                "value": {
+                  "color": true
+                }
+              }
+            }
+          }
+        },
+        "background": {
+          "selector": "{{selector}}.et_pb_fullwidth_menu .nav li ul",
+          "important": true
+        }
+      },
+      "settings": {
+        "advanced": {
+          "direction": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "designLayout",
+              "priority": 10,
+              "render": true,
+              "attrName": "menuDropdown.advanced.direction",
+              "label": "Dropdown Menu Direction",
+              "description": "Here you can choose the direction that your sub-menus will open. You can choose to have them open downwards or upwards.",
+              "features": {
+                "responsive": false,
+                "hover": false,
+                "sticky": false,
+                "preset": [
+                  "html"
+                ]
+              },
+              "component": {
+                "name": "divi/select",
+                "type": "field",
+                "props": {
+                  "options": {
+                    "downwards": {
+                      "label": "Downwards"
+                    },
+                    "upwards": {
+                      "label": "Upwards"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "animation": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "designAnimation",
+              "priority": 30,
+              "render": true,
+              "attrName": "menuDropdown.advanced.animation",
+              "label": "Dropdown Menu Animation",
+              "description": "<p class=\"description\">Select a menu that should be used in the module. <a href=\"//d4.etdev.site/wp-admin/nav-menus.php\" target=\"_blank\">Click here to create new menu</a>.</p>",
+              "features": {
+                "responsive": false,
+                "hover": false,
+                "sticky": false,
+                "preset": [
+                  "script"
+                ]
+              },
+              "component": {
+                "name": "divi/select",
+                "type": "field",
+                "props": {
+                  "options": {
+                    "expand": {
+                      "label": "Expand"
+                    },
+                    "fade": {
+                      "label": "Fade"
+                    },
+                    "flip": {
+                      "label": "Flip"
+                    },
+                    "slide": {
+                      "label": "Slide"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "lineColor": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "designDropdownMenu",
+              "priority": 10,
+              "render": true,
+              "attrName": "menuDropdown.advanced.lineColor",
+              "label": "Dropdown Menu Line Color",
+              "description": "Pick a color to be used for the dividing line between links in dropdown menus. Dropdown menus appear when hovering over links with sub items.",
+              "features": {
+                "dynamicContent": {
+                  "type": "color"
+                }
+              },
+              "component": {
+                "name": "divi/color-picker",
+                "type": "field"
+              }
+            }
+          },
+          "activeLinkColor": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "designDropdownMenu",
+              "priority": 20,
+              "render": true,
+              "attrName": "menuDropdown.advanced.activeLinkColor",
+              "label": "Dropdown Menu Active Link Color",
+              "description": "Pick a color to be used for active links in dropdown menus. Dropdown menus appear when hovering over links with sub items.",
+              "features": {
+                "responsive": false,
+                "dynamicContent": {
+                  "type": "color"
+                }
+              },
+              "component": {
+                "name": "divi/color-picker",
+                "type": "field"
+              }
+            }
+          }
+        },
+        "decoration": {
+          "background": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "designDropdownMenu",
+              "priority": 5,
+              "render": true,
+              "attrName": "menuDropdown.decoration.background",
+              "subName": "color",
+              "label": "Dropdown Menu Background Color",
+              "description": "Pick a color to be applied to the background of dropdown menus. Dropdown menus appear when hovering over links with sub items.",
+              "features": {
+                "responsive": false,
+                "dynamicContent": {
+                  "type": "color"
+                }
+              },
+              "component": {
+                "name": "divi/color-picker",
+                "type": "field"
+              }
+            }
+          },
+          "font": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "designDropdownMenu",
+              "priority": 15,
+              "render": true,
+              "attrName": "menuDropdown.decoration.font.font",
+              "subName": "color",
+              "label": "Dropdown Menu Text Color",
+              "description": "Pick a color to be used for links in dropdown menus. Dropdown menus appear when hovering over links with sub items.",
+              "features": {
+                "responsive": false,
+                "dynamicContent": {
+                  "type": "color"
+                }
+              },
+              "component": {
+                "name": "divi/color-picker",
+                "type": "field"
+              }
+            }
+          }
+        }
+      }
+    },
+    "menuMobile": {
+      "type": "object",
+      "selector": "",
+      "styleProps": {
+        "font": {
+          "selector": "{{selector}}.et_pb_fullwidth_menu .et_mobile_menu a",
+          "important": true
+        },
+        "background": {
+          "selectors": {
+            "desktop": {
+              "value": "{{selector}}.et_pb_fullwidth_menu .et_mobile_menu,{{selector}}.et_pb_fullwidth_menu .et_mobile_menu ul",
+              "hover": "{{selector}}.et_pb_fullwidth_menu .et_mobile_menu:hover, {{selector}}.et_pb_fullwidth_menu .et_mobile_menu ul:hover, {{selector}}.et_pb_fullwidth_menu .et_mobile_menu:hover ul"
+            }
+          },
+          "important": true
+        }
+      },
+      "settings": {
+        "decoration": {
+          "background": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "designDropdownMenu",
+              "priority": 25,
+              "render": true,
+              "attrName": "menuMobile.decoration.background",
+              "subName": "color",
+              "label": "Mobile Menu Background Color",
+              "description": "Pick a unique color to be used for the menu background color when viewed on a mobile device.",
+              "features": {
+                "dynamicContent": {
+                  "type": "color"
+                }
+              },
+              "component": {
+                "name": "divi/color-picker",
+                "type": "field"
+              }
+            }
+          },
+          "font": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "designDropdownMenu",
+              "priority": 30,
+              "render": true,
+              "attrName": "menuMobile.decoration.font.font",
+              "subName": "color",
+              "label": "Mobile Menu Text Color",
+              "description": "Pick a color to be used for links in mobile menus.",
+              "features": {
+                "dynamicContent": {
+                  "type": "color"
+                }
+              },
+              "component": {
+                "name": "divi/color-picker",
+                "type": "field"
+              }
+            }
+          }
+        }
+      }
+    },
+    "cartQuantity": {
+      "type": "object",
+      "selector": "",
+      "styleProps": {
+        "font": {
+          "selector": "{{selector}}.et_pb_fullwidth_menu .et_pb_menu__icon.et_pb_menu__icon__with_count .et_pb_menu__cart-count"
+        }
+      },
+      "settings": {
+        "advanced": {
+          "show": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "contentElements",
+              "priority": 10,
+              "render": true,
+              "attrName": "cartQuantity.advanced.show",
+              "label": "Show Cart Quantity",
+              "defaultAttr": {
+                "desktop": {
+                  "value": "off"
+                }
+              },
+              "component": {
+                "type": "field",
+                "name": "divi/toggle",
+                "props": {
+                  "options": {
+                    "off": "No",
+                    "on": "Yes"
+                  }
+                }
+              },
+              "features": {
+                "preset": [
+                  "html"
+                ]
+              }
+            }
+          }
+        },
+        "decoration": {
+          "font": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "designCartQuantity",
+              "priority": 21,
+              "render": true,
+              "component": {
+                "name": "divi/font",
+                "type": "group",
+                "props": {
+                  "grouped": false,
+                  "fieldLabel": "Cart Quantity",
+                  "fields": {
+                    "textAlign": {
+                      "render": false
+                    },
+                    "family": {
+                      "features": {
+                        "responsive": false,
+                        "hover": false,
+                        "sticky": false
+                      }
+                    },
+                    "color": {
+                      "features": {
+                        "responsive": false
+                      }
+                    },
+                    "size": {
+                      "features": {
+                        "responsive": false
+                      }
+                    },
+                    "letterSpacing": {
+                      "features": {
+                        "responsive": false
+                      }
+                    },
+                    "lineHeight": {
+                      "features": {
+                        "responsive": false
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "cartIcon": {
+      "type": "object",
+      "selector": "",
+      "styleProps": {
+        "selector": "{{selector}} .et_pb_menu__icon.et_pb_menu__cart-button"
+      },
+      "settings": {
+        "advanced": {
+          "show": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "contentElements",
+              "priority": 5,
+              "render": true,
+              "attrName": "cartIcon.advanced.show",
+              "label": "Show Shopping Cart Icon",
+              "defaultAttr": {
+                "desktop": {
+                  "value": "off"
+                }
+              },
+              "component": {
+                "type": "field",
+                "name": "divi/toggle",
+                "props": {
+                  "options": {
+                    "off": "No",
+                    "on": "Yes"
+                  }
+                }
+              },
+              "features": {
+                "preset": [
+                  "html"
+                ]
+              }
+            }
+          }
+        },
+        "decoration": {
+          "font": {
+            "groupType": "group-items",
+            "items": {
+              "cartIconColor": {
+                "groupSlug": "designIcons",
+                "priority": 5,
+                "render": true,
+                "attrName": "cartIcon.decoration.font.font",
+                "subName": "color",
+                "label": "Shopping Cart Icon Color",
+                "description": "Here you can define a custom color for your shopping cart icon.",
+                "defaultAttr": {
+                  "desktop": {
+                    "value": {
+                      "color": "var(--gcid-primary-color)"
+                    }
+                  }
+                },
+                "features": {
+                  "dynamicContent": {
+                    "type": "color"
+                  }
+                },
+                "component": {
+                  "name": "divi/color-picker",
+                  "type": "field"
+                }
+              },
+              "cartIconSize": {
+                "groupSlug": "designIcons",
+                "priority": 20,
+                "render": true,
+                "attrName": "cartIcon.decoration.font.font",
+                "subName": "size",
+                "label": "Shopping Cart Icon Font Size",
+                "description": "Control the size of the icon by increasing or decreasing the font size.",
+                "defaultAttr": {
+                  "desktop": {
+                    "value": {
+                      "size": "17px"
+                    }
+                  }
+                },
+                "component": {
+                  "name": "divi/range",
+                  "type": "field",
+                  "props": {
+                    "cssProperty": "font-size",
+                    "defaultUnit": "px",
+                    "max": 120,
+                    "min": 1,
+                    "step": 1
+                  }
+                },
+                "features": {
+                  "dynamicContent": {
+                    "type": "number"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "searchIcon": {
+      "type": "object",
+      "selector": "",
+      "styleProps": {
+        "selector": "{{selector}} .et_pb_menu__icon.et_pb_menu__search-button, {{selector}} .et_pb_menu__icon.et_pb_menu__close-search-button"
+      },
+      "settings": {
+        "advanced": {
+          "show": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "contentElements",
+              "priority": 15,
+              "render": true,
+              "attrName": "searchIcon.advanced.show",
+              "label": "Show Search Icon",
+              "defaultAttr": {
+                "desktop": {
+                  "value": "off"
+                }
+              },
+              "component": {
+                "type": "field",
+                "name": "divi/toggle",
+                "props": {
+                  "options": {
+                    "off": "No",
+                    "on": "Yes"
+                  }
+                }
+              },
+              "features": {
+                "preset": [
+                  "html"
+                ]
+              }
+            }
+          }
+        },
+        "decoration": {
+          "font": {
+            "groupType": "group-items",
+            "items": {
+              "searchIconColor": {
+                "groupSlug": "designIcons",
+                "priority": 10,
+                "render": true,
+                "attrName": "searchIcon.decoration.font.font",
+                "subName": "color",
+                "label": "Search Icon Color",
+                "description": "Here you can define a custom color for your search icon.",
+                "defaultAttr": {
+                  "desktop": {
+                    "value": {
+                      "color": "var(--gcid-primary-color)"
+                    }
+                  }
+                },
+                "features": {
+                  "dynamicContent": {
+                    "type": "color"
+                  }
+                },
+                "component": {
+                  "name": "divi/color-picker",
+                  "type": "field"
+                }
+              },
+              "searchIconSize": {
+                "groupSlug": "designIcons",
+                "priority": 25,
+                "render": true,
+                "attrName": "searchIcon.decoration.font.font",
+                "subName": "size",
+                "label": "Search Icon Font Size",
+                "description": "Control the size of the icon by increasing or decreasing the font size.",
+                "defaultAttr": {
+                  "desktop": {
+                    "value": {
+                      "size": "17px"
+                    }
+                  }
+                },
+                "component": {
+                  "name": "divi/range",
+                  "type": "field",
+                  "props": {
+                    "cssProperty": "font-size",
+                    "defaultUnit": "px",
+                    "max": 120,
+                    "min": 1,
+                    "step": 1
+                  }
+                },
+                "features": {
+                  "dynamicContent": {
+                    "type": "number"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "hamburgerMenuIcon": {
+      "type": "object",
+      "selector": "",
+      "styleProps": {
+        "selector": "{{selector}} .mobile_nav .mobile_menu_bar:before"
+      },
+      "settings": {
+        "decoration": {
+          "font": {
+            "groupType": "group-items",
+            "items": {
+              "hamburgerMenuIconColor": {
+                "groupSlug": "designIcons",
+                "priority": 15,
+                "render": true,
+                "attrName": "hamburgerMenuIcon.decoration.font.font",
+                "subName": "color",
+                "label": "Hamburger Menu Icon Color",
+                "description": "Here you can define a custom color for your hamburger menu icon.",
+                "defaultAttr": {
+                  "desktop": {
+                    "value": {
+                      "color": "var(--gcid-primary-color)"
+                    }
+                  }
+                },
+                "features": {
+                  "dynamicContent": {
+                    "type": "color"
+                  }
+                },
+                "component": {
+                  "name": "divi/color-picker",
+                  "type": "field"
+                }
+              },
+              "hamburgerMenuIconSize": {
+                "groupSlug": "designIcons",
+                "priority": 30,
+                "render": true,
+                "attrName": "hamburgerMenuIcon.decoration.font.font",
+                "subName": "size",
+                "label": "Hamburger Menu Icon Font Size",
+                "description": "Control the size of the icon by increasing or decreasing the font size.",
+                "defaultAttr": {
+                  "desktop": {
+                    "value": {
+                      "size": "32px"
+                    }
+                  }
+                },
+                "component": {
+                  "name": "divi/range",
+                  "type": "field",
+                  "props": {
+                    "cssProperty": "font-size",
+                    "defaultUnit": "px",
+                    "max": 120,
+                    "min": 1,
+                    "step": 1
+                  }
+                },
+                "features": {
+                  "dynamicContent": {
+                    "type": "number"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "customCssFields": {
+    "menuLink": {
+      "subName": "menuLink",
+      "selectorSuffix": " .et-menu-nav li a",
+      "label": "Menu Link"
+    },
+    "activeMenuLink": {
+      "subName": "activeMenuLink",
+      "selectorSuffix": " .et-menu-nav li.current-menu-item a",
+      "label": "Active Menu Link"
+    },
+    "dropdownContainer": {
+      "subName": "dropdownContainer",
+      "selectorSuffix": " .et-menu-nav li ul.sub-menu",
+      "label": "Dropdown Menu Container"
+    },
+    "dropdownLinks": {
+      "subName": "dropdownLinks",
+      "selectorSuffix": " .et-menu-nav li ul.sub-menu a",
+      "label": "Dropdown Menu Links"
+    },
+    "menuLogo": {
+      "subName": "menuLogo",
+      "selectorSuffix": " .et_pb_menu__logo",
+      "label": "Menu Logo"
+    }
+  },
+  "settings": {
+    "advanced": "auto",
+    "groups": {
+      "contentMenu": {
+        "panel": "content",
+        "priority": 5,
+        "groupName": "contentMenu",
+        "multiElements": true,
+        "component": {
+          "name": "divi/composite",
+          "props": {
+            "groupLabel": "Content"
+          }
+        }
+      },
+      "contentLogo": {
+        "panel": "content",
+        "priority": 10,
+        "groupName": "contentLogo",
+        "multiElements": true,
+        "component": {
+          "name": "divi/composite",
+          "props": {
+            "groupLabel": "Logo"
+          }
+        }
+      },
+      "contentElements": {
+        "panel": "content",
+        "priority": 15,
+        "groupName": "contentElements",
+        "multiElements": true,
+        "component": {
+          "name": "divi/composite",
+          "props": {
+            "groupLabel": "Elements"
+          }
+        }
+      },
+      "contentLink": {
+        "panel": "content",
+        "priority": 20,
+        "groupName": "contentLink",
+        "multiElements": true,
+        "component": {
+          "name": "divi/composite",
+          "props": {
+            "groupLabel": "Link",
+            "preset": "content"
+          }
+        }
+      },
+      "designLayout": {
+        "panel": "design",
+        "priority": 5,
+        "groupName": "layoutStyle",
+        "multiElements": true,
+        "component": {
+          "name": "divi/composite",
+          "props": {
+            "groupLabel": "Layout",
+            "clipboardCategory": "style"
+          }
+        }
+      },
+      "designMenuText": {
+        "panel": "design",
+        "priority": 10,
+        "groupName": "menuTextStyle",
+        "multiElements": true,
+        "component": {
+          "name": "divi/composite",
+          "props": {
+            "groupLabel": "Menu Text",
+            "clipboardCategory": "style",
+            "presetGroup": "divi/font"
+          }
+        }
+      },
+      "designDropdownMenu": {
+        "panel": "design",
+        "priority": 15,
+        "groupName": "dropdownMenuStyle",
+        "multiElements": true,
+        "component": {
+          "name": "divi/composite",
+          "props": {
+            "groupLabel": "Dropdown Menu",
+            "clipboardCategory": "style"
+          }
+        }
+      },
+      "designIcons": {
+        "panel": "design",
+        "priority": 15,
+        "groupName": "iconStyle",
+        "multiElements": true,
+        "component": {
+          "name": "divi/composite",
+          "props": {
+            "groupLabel": "Icons",
+            "clipboardCategory": "style"
+          }
+        }
+      },
+      "designLogo": {
+        "panel": "design",
+        "priority": 20,
+        "groupName": "logoStyle",
+        "multiElements": true,
+        "component": {
+          "name": "divi/composite",
+          "props": {
+            "groupLabel": "Logo",
+            "clipboardCategory": "style"
+          }
+        }
+      },
+      "designCartQuantity": {
+        "panel": "design",
+        "priority": 21,
+        "groupName": "cartQuantityStyle",
+        "multiElements": true,
+        "component": {
+          "name": "divi/composite",
+          "props": {
+            "groupLabel": "Cart Quantity Text",
+            "clipboardCategory": "style",
+            "presetGroup": "divi/font"
+          }
+        }
+      },
+      "designSizing": {
+        "panel": "design",
+        "priority": 70,
+        "groupName": "sizing",
+        "multiElements": true,
+        "component": {
+          "name": "divi/composite",
+          "props": {
+            "groupLabel": "Sizing",
+            "clipboardCategory": "style",
+            "presetGroup": "divi/sizing"
+          }
+        }
+      },
+      "designAnimation": {
+        "panel": "design",
+        "priority": 150,
+        "groupName": "animation",
+        "multiElements": true,
+        "component": {
+          "name": "divi/composite",
+          "props": {
+            "groupLabel": "Animation",
+            "clipboardCategory": "style",
+            "presetGroup": "divi/animation"
+          }
+        }
+      },
+      "advancedAttributes": {
+        "panel": "advanced",
+        "priority": 25,
+        "groupName": "layout",
+        "component": {
+          "name": "divi/composite",
+          "props": {
+            "groupLabel": "Attributes"
+          }
+        }
+      }
+    }
+  }
+}

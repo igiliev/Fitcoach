@@ -1,0 +1,80 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "advanced": {
+    "admin_label": "module.meta.adminLabel",
+    "animation": "module.decoration.animation",
+    "background": "module.decoration.background",
+    "disabled_on": "module.decoration.disabledOn",
+    "height": "module.decoration.sizing",
+    "link_options": "module.advanced.link",
+    "margin_padding": "module.decoration.spacing",
+    "max_width": "module.decoration.sizing",
+    "module": "module.advanced.htmlAttributes",
+    "overflow": "module.decoration.overflow",
+    "position_fields": "module.decoration.position",
+    "scroll": "module.decoration.scroll",
+    "sticky": "module.decoration.sticky",
+    "text": "module.advanced.text",
+    "transform": "module.decoration.transform",
+    "transition": "module.decoration.transition",
+    "z_index": "module.decoration.zIndex",
+    "display_conditions": "module.decoration.conditions",
+    "borders": {
+      "default": "module.decoration.border",
+      "portrait": "portrait.decoration.border"
+    },
+    "box_shadow": {
+      "default": "module.decoration.boxShadow",
+      "image": "image.decoration.boxShadow"
+    },
+    "fonts": {
+      "author": "author.decoration.font",
+      "body": "content.decoration.bodyFont.body",
+      "body_link": "content.decoration.bodyFont.link",
+      "body_ol": "content.decoration.bodyFont.ol",
+      "body_quote": "content.decoration.bodyFont.quote",
+      "body_ul": "content.decoration.bodyFont.ul",
+      "company": "company.decoration.font",
+      "position": "jobTitle.decoration.font"
+    },
+    "text_shadow": {
+      "default": "module.advanced.text.textShadow"
+    },
+    "filters": {
+      "default": "module.decoration.filters",
+      "child": "portrait.decoration.filters"
+    }
+  },
+  "css": {
+    "after": "css.*.after",
+    "free_form": "css.*.freeForm",
+    "before": "css.*.before",
+    "main_element": "css.*.mainElement",
+    "testimonial_author": "css.*.testimonialAuthor",
+    "testimonial_description": "css.*.testimonialDescription",
+    "testimonial_meta": "css.*.testimonialMeta",
+    "testimonial_portrait": "css.*.testimonialPortrait"
+  },
+  "module": {
+    "author": "author.innerContent.*",
+    "company_name": "company.innerContent.*.text",
+    "content": "content.innerContent.*",
+    "font_icon": "quoteIcon.decoration.icon.*",
+    "icon_font_size": "quoteIcon.decoration.icon.*.size",
+    "job_title": "jobTitle.innerContent.*",
+    "portrait_height": "portrait.decoration.sizing.*.height",
+    "portrait_url": "portrait.innerContent.*.url",
+    "portrait_width": "portrait.decoration.sizing.*.width",
+    "quote_icon": "quoteIcon.decoration.icon.*.show",
+    "quote_icon_background_color": "quoteIcon.decoration.background.*.color",
+    "quote_icon_color": "quoteIcon.decoration.icon.*.color",
+    "url": "company.innerContent.*.linkUrl",
+    "url_new_window": "company.innerContent.*.linkTarget",
+    "use_icon_font_size": "quoteIcon.decoration.icon.*.useSize",
+    "inline_fonts": "content.decoration.inlineFont.*.families"
+  },
+  "valueExpansionFunctionMap": {
+    "font_icon": "convertFontIcon",
+    "inline_fonts": "convertInlineFont"
+  }
+}

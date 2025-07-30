@@ -1,0 +1,79 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "module": {
+    "meta": {
+      "adminLabel": {
+        "desktop": {
+          "value": "Gallery"
+        }
+      }
+    },
+    "advanced": {
+      "fullwidth": {
+        "desktop": {
+          "value": "off"
+        }
+      },
+      "showTitleAndCaption": {
+        "desktop": {
+          "value": "on"
+        }
+      },
+      "postsNumber": {
+        "desktop": {
+          "value": "4"
+        }
+      },
+      "text": {
+        "text": {
+          "desktop": {
+            "value": {
+              "color": "light"
+            }
+          }
+        }
+      },
+      "autoSpeed": {
+        "desktop": {
+          "value": "7000"
+        }
+      }
+    }
+  },
+  "title": {
+    "decoration": {
+      "font": {
+        "font": {
+          "desktop": {
+            "value": {
+              "headingLevel": "h3"
+            }
+          }
+        }
+      }
+    }
+  },
+  "pagination": {
+    "advanced": {
+      "showPagination": {
+        "desktop": {
+          "value": "on"
+        }
+      }
+    }
+  },
+  "image": {
+    "advanced": {
+      "galleryOrderby": {
+        "desktop": {
+          "value": "default"
+        }
+      },
+      "orientation": {
+        "desktop": {
+          "value": "landscape"
+        }
+      }
+    }
+  }
+}

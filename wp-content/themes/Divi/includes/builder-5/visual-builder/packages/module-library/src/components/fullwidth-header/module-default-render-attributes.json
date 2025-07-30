@@ -1,0 +1,112 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "module": {
+    "meta": {
+      "adminLabel": {
+        "desktop": {
+          "value": "Fullwidth Header"
+        }
+      }
+    },
+    "advanced": {
+      "text": {
+        "text": {
+          "desktop": {
+            "value": {
+              "orientation": "left",
+              "color": "dark"
+            }
+          }
+        }
+      },
+      "headerFullscreen": {
+        "desktop": {
+          "value": "off"
+        }
+      }
+    },
+    "decoration": {
+      "background": {
+        "desktop": {
+          "value": {
+            "color": "var(--gcid-primary-color)"
+          }
+        }
+      }
+    }
+  },
+  "image": {
+    "advanced": {
+      "orientation": {
+        "desktop": {
+          "value": "center"
+        }
+      }
+    }
+  },
+  "title": {
+    "decoration": {
+      "font": {
+        "font": {
+          "desktop": {
+            "value": {
+              "headingLevel": "h1"
+            }
+          }
+        }
+      }
+    }
+  },
+  "content": {
+    "advanced": {
+      "orientation": {
+        "desktop": {
+          "value": "center"
+        }
+      }
+    }
+  },
+  "buttonOne": {
+    "decoration": {
+      "button": {
+        "desktop": {
+          "value": {
+            "enable": "off",
+            "icon": {
+              "enable": "on"
+            }
+          }
+        }
+      }
+    }
+  },
+  "buttonTwo": {
+    "decoration": {
+      "button": {
+        "desktop": {
+          "value": {
+            "enable": "off",
+            "icon": {
+              "enable": "on"
+            }
+          }
+        }
+      }
+    }
+  },
+  "scrollDown": {
+    "decoration": {
+      "icon": {
+        "desktop": {
+          "value": {
+            "show": "off",
+            "unicode": "&#x3b;",
+            "type": "divi",
+            "weight": "400",
+            "size": "50px"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "module": {
+    "advanced": {
+      "text": {
+        "text": {
+          "desktop": {
+            "value": {
+              "color": "light"
+            }
+          }
+        }
+      }
+    }
+  },
+  "price": {
+    "decoration": {
+      "font": {
+        "font": {
+          "desktop": {
+            "value": {
+              "lineHeight": "1.7em",
+              "size": "26px"
+            }
+          }
+        }
+      }
+    }
+  },
+  "saleNewPrice": {
+    "decoration": {
+      "font": {
+        "font": {
+          "desktop": {
+            "value": {
+              "weight": "700",
+              "lineHeight": "1.7em",
+              "size": "26px"
+            }
+          }
+        }
+      }
+    }
+  },
+  "saleOldPrice": {
+    "decoration": {
+      "font": {
+        "font": {
+          "desktop": {
+            "value": {
+              "lineHeight": "1.7em",
+              "size": "26px"
+            }
+          }
+        }
+      }
+    }
+  }
+}

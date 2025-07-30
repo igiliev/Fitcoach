@@ -1,0 +1,52 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "advanced": {
+    "admin_label": "module.meta.adminLabel",
+    "animation": "module.decoration.animation",
+    "background": "barCounter.decoration.background",
+    "borders": {
+      "default": "barCounter.decoration.border"
+    },
+    "box_shadow": {
+      "default": "barCounter.decoration.boxShadow"
+    },
+    "disabled_on": "module.decoration.disabledOn",
+    "display_conditions": "module.decoration.conditions",
+    "filters": {
+      "default": "module.decoration.filters"
+    },
+    "fonts": {
+      "percent": "barProgress.decoration.font",
+      "title": "title.decoration.font"
+    },
+    "height": "module.decoration.sizing",
+    "link_options": "module.advanced.link",
+    "margin_padding": "module.decoration.spacing",
+    "max_width": "module.decoration.sizing",
+    "module": "module.advanced.htmlAttributes",
+    "overflow": "module.decoration.overflow",
+    "position_fields": "module.decoration.position",
+    "scroll": "module.decoration.scroll",
+    "sticky": "module.decoration.sticky",
+    "text": "module.advanced.text",
+    "text_shadow": {
+      "default": "module.advanced.text.textShadow"
+    },
+    "transform": "module.decoration.transform",
+    "transition": "module.decoration.transition",
+    "z_index": "module.decoration.zIndex"
+  },
+  "css": {
+    "after": "css.*.after",
+    "free_form": "css.*.freeForm",
+    "before": "css.*.before",
+    "main_element": "css.*.mainElement",
+    "counter_amount": "css.*.counterAmount",
+    "counter_container": "css.*.counterContainer",
+    "counter_title": "css.*.counterTitle"
+  },
+  "module": {
+    "use_percentages": "barProgress.advanced.usePercentages.*",
+    "bar_bg_color": "children.barProgress.decoration.background.*.color"
+  }
+}

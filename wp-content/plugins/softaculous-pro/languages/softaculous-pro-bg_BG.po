@@ -1,0 +1,1440 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SoftWP\n"
+"POT-Creation-Date: 2023-11-03 12:26+0530\n"
+"PO-Revision-Date: 2025-02-10 17:52+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: bg_BG\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.5\n"
+
+#: assets/js/ai/build/index.js:1 assets/js/ai/src/index.js:19
+msgid "Ask AI"
+msgstr "Попитайте AI"
+
+#: main/admin.php:12
+msgid "Sorry, but you do not have permissions to save settings."
+msgstr "Съжаляваме, но нямате разрешения за запазване на настройките."
+
+#: main/admin.php:49 main/admin.php:341 main/admin.php:347 main/intros.php:22
+msgid "Tours"
+msgstr "Турове"
+
+#: main/onboarding.php:1058
+msgid "Assistant"
+msgstr "Помощник"
+
+#: main/admin.php:58
+msgid "WordPress Sidebar"
+msgstr "Странична лента на WordPress"
+
+#: main/admin.php:61
+msgid "WordPress admin Dashboard"
+msgstr "Администраторско табло на WordPress"
+
+#: main/admin.php:64
+msgid "Plugins Management"
+msgstr "Управление на плъгини"
+
+#: main/admin.php:67
+msgid "Themes Management"
+msgstr "Управление на теми"
+
+#: main/admin.php:70
+msgid "Pages Management"
+msgstr "Управление на страници"
+
+#: main/admin.php:73
+msgid "Posts Management"
+msgstr "Управление на публикации"
+
+#: main/admin.php:76
+msgid "Users Management"
+msgstr "Управление на потребителите"
+
+#: main/admin.php:83 main/intros.php:30
+msgid "Recommended Features"
+msgstr "Препоръчителни функции"
+
+#: main/admin.php:85
+msgid "Show More"
+msgstr "Покажи повече"
+
+#: main/admin.php:118
+msgid "Install"
+msgstr "Инсталирайте"
+
+#: main/admin.php:120 main/manage-plugins.php:116
+msgid "Activate"
+msgstr "Активирайте"
+
+#: main/manage-plugins.php:118
+msgid "Active"
+msgstr "Активен"
+
+#: main/admin.php:135 main/admin.php:343 main/admin.php:349 main/intros.php:36
+msgid "Quick Links"
+msgstr "Бързи връзки"
+
+#: main/admin.php:143
+msgid "Manage Pro License"
+msgstr "Управление на Pro лиценз"
+
+#: main/admin.php:143
+msgid "Manage SoftWP License"
+msgstr "Управление на SoftWP лиценз"
+
+#: main/admin.php:147
+msgid "View Site"
+msgstr "Вижте сайта"
+
+#: main/admin.php:150
+msgid "Check Updates"
+msgstr "Проверете актуализациите"
+
+#: main/admin.php:153
+msgid "Permalinks"
+msgstr "Постоянни връзки"
+
+#: main/admin.php:157
+msgid "Manage Pages"
+msgstr "Управление на страници"
+
+#: main/admin.php:183 main/admin.php:189
+msgid "Add New"
+msgstr "Добавяне на нов"
+
+#: main/admin.php:163
+msgid "Manage Posts"
+msgstr "Управление на публикации"
+
+#: main/admin.php:169
+msgid "Manage Media"
+msgstr "Управление на медиите"
+
+#: main/admin.php:175 main/manage-plugins.php:51
+msgid "Manage Plugins"
+msgstr "Управление на приставки"
+
+#: main/admin.php:181
+msgid "Manage Themes"
+msgstr "Управление на теми"
+
+#: main/admin.php:187
+msgid "Manage Users"
+msgstr "Управление на потребителите"
+
+#: main/admin.php:193
+msgid "Launch Onboarding"
+msgstr "Стартирайте Onboarding"
+
+#: main/admin.php:201 main/intros.php:42 main/intros.php:152
+msgid "Settings"
+msgstr "Настройки"
+
+#: main/admin.php:210
+msgid "Completely Disable Comments across the site"
+msgstr "Напълно деактивирайте коментарите в сайта"
+
+#: main/functions.php:845 main/intros.php:48
+msgid "AI"
+msgstr "AI"
+
+#: main/admin.php:218
+msgid "Buy AI Tokens"
+msgstr "Купете AI токени"
+
+#: main/admin.php:227
+msgid "Disable Softaculous AI"
+msgstr "Деактивирайте Softaculous AI"
+
+#: main/admin.php:232 main/admin.php:233 main/admin.php:234
+msgid "Days"
+msgstr "дни"
+
+#: main/admin.php:235
+msgid "Never"
+msgstr "Никога"
+
+#: main/admin.php:238
+msgid "AI history retention"
+msgstr "Запазване на историята на AI"
+
+#: main/admin.php:332
+msgid "WordPress Assistant"
+msgstr "WordPress асистент"
+
+#: main/admin.php:336 main/intros.php:82 main/intros.php:278
+msgid "Dashboard"
+msgstr "Табло за управление"
+
+#: main/admin.php:342 main/admin.php:348
+msgid "Extend"
+msgstr "Разширете"
+
+#: main/admin.php:558
+msgid "Are you sure you want to skip the Tour?"
+msgstr "Сигурни ли сте, че искате да пропуснете обиколката?"
+
+#: main/ai.php:65 main/ai.php:175
+msgid "You do not have required privilege"
+msgstr "Нямате необходимата привилегия"
+
+#: main/ai.php:76
+msgid "Please link a license to keep using the AI feature"
+msgstr "Моля, свържете лиценз, за ​​да продължите да използвате функцията AI"
+
+#: main/ai.php:81
+msgid "Please write a Prompt, for the AI to generate content"
+msgstr "Моля, напишете подкана, за да може AI да генерира съдържание"
+
+#: main/ai.php:88
+msgid "AI shortcut can not be applied without any content."
+msgstr "AI пряк път не може да се приложи без съдържание."
+
+#: main/ai.php:103
+msgid "Unable to complete this request"
+msgstr "Не може да се изпълни тази заявка"
+
+#: main/ai.php:115
+msgid "The AI API responsed with empty response, Response Code:"
+msgstr "AI API отговори с празен отговор, код на отговора:"
+
+#: main/ai.php:121
+msgid "Unexpected response code returned from AI API: "
+msgstr "Неочакван код на отговор, върнат от AI API: "
+
+#: main/functions.php:255
+msgid "Sorry, but you do not have permissions to change settings."
+msgstr "Съжаляваме, но нямате разрешения за промяна на настройките."
+
+#: main/functions.php:378
+#, php-format
+msgid "Your SoftWP plugin is %1$sUnlicensed%2$s. Please enter the license key %3$s here%4$s."
+msgstr "Вашият плъгин SoftWP е %1$sНелицензиран%2$s. Моля, въведете лицензния ключ %3$s тук%4$s."
+
+#: main/functions.php:387
+#, php-format
+msgid "Your SoftWP plugin license is %1$snot authorized%2$s to be used on  %3$s. You can generate a new license for your domain from the %4$s panel."
+msgstr "Вашият лиценз за добавка SoftWP е %1$sне е упълномощен%2$s да се използва на %3$s. Можете да генерирате нов лиценз за вашия домейн от панела %4$s."
+
+#: main/functions.php:394
+#, php-format
+msgid "Your SoftWP plugin license has %1$sExpired%2$s. Please renew your license for uninterrupted updates and support."
+msgstr "Вашият лиценз за SoftWP плъгин е %1$sИзтекъл%2$s. Моля, подновете лиценза си за непрекъснати актуализации и поддръжка."
+
+#: main/functions.php:416
+#, php-format
+msgid "Your Onboarding process is not completed yet! %1$sClick here%2$s to complete the simple setup process and build your site in a few steps."
+msgstr "Вашият процес на включване все още не е завършен! %1$sЩракнете тук%2$s, за да завършите простия процес на настройка и да създадете своя сайт в няколко стъпки."
+
+#: main/functions.php:447
+msgid "Enhance Content Writing with AI Assistant"
+msgstr "Подобрете писането на съдържание с AI Assistant"
+
+#: main/functions.php:449
+msgid "Use cutting-edge AI to write blog posts or content for your pages. Create a table, write a paragraph, change tone, translate, fix spelling & grammar and so much more."
+msgstr "Използвайте авангарден AI, за да пишете публикации в блогове или съдържание за вашите страници. Създайте таблица, напишете параграф, променете тона, преведете, коригирайте правописа & граматика и много повече."
+
+#: main/functions.php:450
+msgid "Start Exploring"
+msgstr "Започнете да изследвате"
+
+#: main/functions.php:451
+msgid "New Page"
+msgstr "Нова страница"
+
+#: main/functions.php:452
+msgid "New Post"
+msgstr "Нова публикация"
+
+#: main/functions.php:453
+msgid "Existing Page"
+msgstr "Съществуваща страница"
+
+#: main/functions.php:454
+msgid "Existing Post"
+msgstr "Съществуваща публикация"
+
+#: main/functions.php:807
+msgid "Enter Pro License Key"
+msgstr "Въведете Pro лицензен ключ"
+
+#: main/functions.php:843
+msgid "Explore Pro Plugins"
+msgstr "Разгледайте Pro Plugins"
+
+#: main/functions.php:844
+msgid "Tour"
+msgstr "Обиколка"
+
+#: main/functions.php:877 main/functions.php:878
+msgid "AI History"
+msgstr "История на AI"
+
+#: main/intros.php:15
+msgid "Assistant adds AI to your site building process and lets you create content with just a few clicks (look for the AI option while editing your posts/pages)."
+msgstr "Асистентът добавя AI към процеса на изграждане на вашия сайт и ви позволява да създавате съдържание само с няколко щраквания (потърсете опцията AI, докато редактирате вашите публикации/страници)."
+
+#: main/intros.php:17
+msgid "Assistant also helps you with several aspects of building and maintaning your WordPress website."
+msgstr "Асистентът също така ви помага с няколко аспекта на изграждането и поддържането на вашия уебсайт WordPress."
+
+#: main/intros.php:23
+msgid "Tours highlights and explains important options in WordPress that you will need while managing your site."
+msgstr "Tours подчертава и обяснява важни опции в WordPress, които ще ви трябват, докато управлявате сайта си."
+
+#: main/intros.php:25
+msgid "You can replay the tours when needed."
+msgstr "Можете да повторите обиколките, когато е необходимо."
+
+#: main/intros.php:31
+msgid "A recommended list of plugins to improve performace and extend functionalties for your site."
+msgstr "Препоръчителен списък с добавки за подобряване на производителността и разширяване на функционалностите на вашия сайт."
+
+#: main/intros.php:37
+msgid "Here you will find important links compiled in a single section which can sometimes be difficult to find in WordPress."
+msgstr "Тук ще намерите важни връзки, събрани в един раздел, които понякога могат да бъдат трудни за намиране в WordPress."
+
+#: main/intros.php:43
+msgid "We have simplified complex WordPress settings that you can now manage with just a click via the Assistant."
+msgstr "Имаме опростени сложни настройки на WordPress, които вече можете да управлявате само с едно кликване чрез Асистента."
+
+#: main/intros.php:49
+msgid "Experience hassle-free site building with inbuilt AI in Assistant."
+msgstr "Изпитайте безпроблемното изграждане на сайт с вграден AI в Асистент."
+
+#: main/intros.php:54 main/intros.php:66
+msgid "Your Assistant"
+msgstr "Вашият асистент"
+
+#: main/intros.php:55 main/intros.php:67
+msgid "Assistant resides here, when you are unable to find something or having a hard time understanding a feature in WordPress we should be able to help you."
+msgstr "Асистентът се намира тук, когато не можете да намерите нещо или ви е трудно да разберете функция в WordPress, трябва да можем да ви помогнем."
+
+#: main/intros.php:57 main/intros.php:69
+msgid "Visit this page anytime."
+msgstr "Посетете тази страница по всяко време."
+
+#: main/intros.php:74
+msgid "Preview Site"
+msgstr "Преглед на сайта"
+
+#: main/intros.php:75
+msgid "You can use this link to preview your site as a visitor."
+msgstr "Можете да използвате тази връзка, за да прегледате сайта си като посетител."
+
+#: main/intros.php:83 main/intros.php:279
+msgid "The Dashboard is your website's command center, providing a concise summary of its activity, such as site health, recent updates, comments, and statistics."
+msgstr "Таблото за управление е командният център на вашия уебсайт, предоставящ кратко резюме на неговата дейност, като състояние на сайта, скорошни актуализации, коментари и статистика."
+
+#: main/intros.php:85 main/intros.php:281
+msgid "Several plugins also display quick summary like orders, products, etc within the dashboard."
+msgstr "Няколко плъгина също показват бързо резюме като поръчки, продукти и т.н. в таблото за управление."
+
+#: main/intros.php:87
+msgid "You can also check for Updates from the sub-menu."
+msgstr "Можете също да проверите за актуализации от подменюто."
+
+#: main/intros.php:92 main/intros.php:394
+msgid "Posts"
+msgstr "Публикации"
+
+#: main/intros.php:93
+msgid "Manage your blog posts here."
+msgstr "Управлявайте публикациите си в блога тук."
+
+#: main/intros.php:95
+msgid "Posts are typically utilized for blog posts, news updates, or articles, organized in a chronological order."
+msgstr "Публикациите обикновено се използват за публикации в блогове, актуализации на новини или статии, организирани в хронологичен ред."
+
+#: main/intros.php:100
+msgid "Media Library"
+msgstr "Медийна библиотека"
+
+#: main/intros.php:101
+msgid "Manage media files like images, audio, videos, etc. here."
+msgstr "Управлявайте медийни файлове като изображения, аудио, видео и т.н. тук."
+
+#: main/intros.php:103
+msgid "Media uploaded from anywhere on your site can be managed here."
+msgstr "Мултимедия, качена от всяка точка на вашия сайт, може да се управлява тук."
+
+#: main/intros.php:108 main/intros.php:455
+msgid "Pages"
+msgstr "Страници"
+
+#: main/intros.php:109
+msgid "Pages are static content sections such as Home, About Us, Contact, Services, etc."
+msgstr "Страниците са секции със статично съдържание като Начало, За нас, Контакти, Услуги и др."
+
+#: main/intros.php:111
+msgid "Use this menu to add, edit, delete your pages."
+msgstr "Използвайте това меню, за да добавяте, редактирате, изтривате вашите страници."
+
+#: main/intros.php:116
+msgid "Comments"
+msgstr "Коментари"
+
+#: main/intros.php:117
+msgid "Here you can moderate comments posted by visitors on your posts."
+msgstr "Тук можете да модерирате коментари, публикувани от посетители във вашите публикации."
+
+#: main/intros.php:119
+msgid "You can one click disable comments for your entire site from the Assistant dashboard."
+msgstr "Можете да деактивирате коментарите за целия си сайт с едно кликване от таблото за управление на Асистент."
+
+#: main/intros.php:124
+msgid "Appearance"
+msgstr "Външен вид"
+
+#: main/intros.php:125
+msgid "Personalize your site's appearance effortlessly."
+msgstr "Персонализирайте външния вид на вашия сайт без усилие."
+
+#: main/intros.php:127
+msgid "Explore themes, customize headers, background, colors, manage widgets and menus to customize your site's look and feel."
+msgstr "Разгледайте теми, персонализирайте заглавки, фон, цветове, управлявайте уиджети и менюта, за да персонализирате външния вид и усещането на вашия сайт."
+
+#: main/intros.php:132 main/intros.php:188
+msgid "Plugins"
+msgstr "Плъгини"
+
+#: main/intros.php:133
+msgid "Unlock endless possibilities for your website with plugins."
+msgstr "Отключете безкрайни възможности за вашия уебсайт с добавки."
+
+#: main/intros.php:135
+msgid "Easily search, add or delete plugins to enhance your site's functionality."
+msgstr "Лесно търсете, добавяйте или изтривайте добавки, за да подобрите функционалността на вашия сайт."
+
+#: main/intros.php:140 main/intros.php:339
+msgid "Users"
+msgstr "Потребители"
+
+#: main/intros.php:141
+msgid "Add or manage users to ensure smooth operation and collaboration."
+msgstr "Добавете или управлявайте потребители, за да осигурите гладка работа и сътрудничество."
+
+#: main/intros.php:146
+msgid "Tools"
+msgstr "Инструменти"
+
+#: main/intros.php:147
+msgid "Import/Export site data, check site health or edit plugin/theme files from the Tools menu."
+msgstr "Импортирайте/Експортирайте данни за сайта, проверете здравето на сайта или редактирайте файлове с плъгини/теми от менюто Инструменти."
+
+#: main/intros.php:153
+msgid "Advanced settings for your site can be managed here."
+msgstr "Разширените настройки за вашия сайт могат да се управляват тук."
+
+#: main/intros.php:155
+msgid "These settings include site title, tagline, site url, writing, reading, discussion, media, permalinks and more."
+msgstr "Тези настройки включват заглавие на сайта, слоган, URL адрес на сайта, писане, четене, дискусия, медии, постоянни връзки и др."
+
+#: main/intros.php:157
+msgid "Some plugins also add their settings page in this menu."
+msgstr "Някои плъгини също добавят своя страница с настройки в това меню."
+
+#: main/intros.php:162
+msgid "Toggle Menu"
+msgstr "Превключване на менюто"
+
+#: main/intros.php:163
+msgid "Expand or Collapse the sidebar menu using this option."
+msgstr "Разширете или свийте менюто на страничната лента, като използвате тази опция."
+
+#: main/intros.php:168
+msgid "Edit Profile"
+msgstr "Редактиране на профил"
+
+#: main/intros.php:169
+msgid "Here you can edit your profile information like name, email, password, bio, profile picture and more."
+msgstr "Тук можете да редактирате информацията за вашия профил като име, имейл, парола, биография, профилна снимка и др."
+
+#: main/intros.php:176
+msgid "Log Out"
+msgstr "Излезте"
+
+#: main/intros.php:177
+msgid "Use this link to securely log out from your site."
+msgstr "Използвайте тази връзка, за да излезете безопасно от вашия сайт."
+
+#: main/intros.php:189
+msgid "Click here to add or manage plugins on your site."
+msgstr "Щракнете тук, за да добавите или управлявате плъгини на вашия сайт."
+
+#: main/intros.php:194
+msgid "Add New Plugin"
+msgstr "Добавете нов плъгин"
+
+#: main/intros.php:195
+msgid "Here you can search wordpress.org plugins library or upload a custom plugin file to install a new plugin on your site."
+msgstr "Тук можете да търсите в библиотека с плъгини на wordpress.org или да качите персонализиран файл с плъгини, за да инсталирате нов плъгин на вашия сайт."
+
+#: main/intros.php:200
+msgid "Installed Plugins List"
+msgstr "Списък с инсталирани добавки"
+
+#: main/intros.php:201
+msgid "All your installed plugins active as well as inactive will be listed here."
+msgstr "Всички ваши инсталирани активни и неактивни добавки ще бъдат изброени тук."
+
+#: main/intros.php:206
+msgid "Plugin Actions"
+msgstr "Действия на приставката"
+
+#: main/intros.php:207
+msgid "You can perform actions for your plugins like Activate, Deactivate, Update, Delete, Plugin Settings and more.."
+msgstr "Можете да извършвате действия за вашите приставки като активиране, деактивиране, актуализиране, изтриване, настройки на приставки и др."
+
+#: main/intros.php:209
+msgid "It is recommended to delete plugins that you do not plan to use and keep all your plugins up to date."
+msgstr "Препоръчително е да изтриете добавките, които не планирате да използвате, и да поддържате всичките си добавки актуални."
+
+#: main/intros.php:482
+msgid "Bulk Actions"
+msgstr "Групови действия"
+
+#: main/intros.php:215
+msgid "Choose bulk action for selected plugins: Activate, Deactivate, Update, Delete, toggle auto updates and more"
+msgstr "Изберете групово действие за избрани добавки: Активиране, Деактивиране, Актуализиране, Изтриване, превключване на автоматичните актуализации и други"
+
+#: main/intros.php:220
+msgid "Filter Installed Plugins"
+msgstr "Филтриране на инсталираните добавки"
+
+#: main/intros.php:221
+msgid "Filter your installed plugins list with Active, Inactive, Auto Updates Enabled or Disabled options"
+msgstr "Филтрирайте вашия списък с инсталирани добавки с опциите Active, Inactive, Auto Updates Enabled или Disabled"
+
+#: main/intros.php:226
+msgid "Search Installed Plugins"
+msgstr "Търсете инсталирани добавки"
+
+#: main/intros.php:227
+msgid "Search a plugin from the installed plugins list."
+msgstr "Търсете плъгин от списъка с инсталирани плъгини."
+
+#: main/intros.php:236
+msgid "Themes"
+msgstr "Теми"
+
+#: main/intros.php:237
+msgid "Click here to add or manage themes on your site."
+msgstr "Щракнете тук, за да добавите или управлявате теми на вашия сайт."
+
+#: main/intros.php:242
+msgid "Add New Theme"
+msgstr "Добавяне на нова тема"
+
+#: main/intros.php:243
+msgid "Here you can search wordpress.org themes library or upload a custom theme file to install a new theme on your site."
+msgstr "Тук можете да търсите в библиотека с теми на wordpress.org или да качите файл с персонализирана тема, за да инсталирате нова тема на вашия сайт."
+
+#: main/intros.php:248
+msgid "Installed Themes List"
+msgstr "Списък с инсталирани теми"
+
+#: main/intros.php:249
+msgid "All your installed themes active as well as inactive will be listed here."
+msgstr "Тук ще бъдат изброени всички ваши инсталирани теми, както активни, така и неактивни."
+
+#: main/intros.php:254
+msgid "Active Theme"
+msgstr "Активна тема"
+
+#: main/intros.php:255
+msgid "Your active theme will be listed here."
+msgstr "Вашата активна тема ще бъде посочена тук."
+
+#: main/intros.php:260
+msgid "Theme Actions"
+msgstr "Тема Действия"
+
+#: main/intros.php:261
+msgid "You can perform actions for your theme like Activate, Live Preview, Customize and more"
+msgstr "Можете да извършвате действия за вашата тема като активиране, преглед на живо, персонализиране и други"
+
+#: main/intros.php:263
+msgid "It is recommended to delete themes that you do not plan to use and keep all your themes up to date."
+msgstr "Препоръчително е да изтриете теми, които не планирате да използвате, и да поддържате всичките си теми актуални."
+
+#: main/intros.php:268
+msgid "Search Installed Themes"
+msgstr "Търсете инсталирани теми"
+
+#: main/intros.php:269
+msgid "Search a theme from the installed themes list."
+msgstr "Търсете тема от списъка с инсталирани теми."
+
+#: main/intros.php:286
+msgid "Site Health"
+msgstr "Здраве на сайта"
+
+#: main/intros.php:287
+msgid "Here you can get insights on the overall performance and security of your website."
+msgstr "Тук можете да получите представа за цялостната производителност и сигурност на вашия уебсайт."
+
+#: main/intros.php:289
+msgid "It offers recommendations and troubleshooting tools to help you maintain an efficient and secure site."
+msgstr "Той предлага препоръки и инструменти за отстраняване на неизправности, за да ви помогне да поддържате ефективен и сигурен сайт."
+
+#: main/intros.php:294
+msgid "Info at a Glance"
+msgstr "Информация с един поглед"
+
+#: main/intros.php:295
+msgid "Here you will get the number of posts, pages, comments, current version of WordPress and theme that you are running."
+msgstr "Тук ще получите броя на публикациите, страниците, коментарите, текущата версия на WordPress и темата, която използвате."
+
+#: main/intros.php:300
+msgid "Activity"
+msgstr "активност"
+
+#: main/intros.php:301
+msgid "Here you will get a quick summary of recent activity like published posts and comments received on your site."
+msgstr "Тук ще получите кратко резюме на скорошна дейност, като публикувани публикации и коментари, получени на вашия сайт."
+
+#: main/intros.php:307
+msgid "Quick Draft"
+msgstr "Бърза чернова"
+
+#: main/intros.php:308
+msgid "Use this section for capturing ideas as they come to you, quickly jot down the ideas for new posts."
+msgstr "Използвайте този раздел, за да улавяте идеи, докато идват при вас, бързо запишете идеите за нови публикации."
+
+#: main/intros.php:310
+msgid "You can later access these drafts from the Posts section and continue editing them in the full post editor."
+msgstr "По-късно можете да получите достъп до тези чернови от секцията Публикации и да продължите да ги редактирате в пълния редактор на публикации."
+
+#: main/intros.php:316
+msgid "Events and News"
+msgstr "Събития и новини"
+
+#: main/intros.php:317
+msgid "This widget is a valuable resource for staying informed about the latest happenings in the WordPress community and connecting with other WordPress enthusiasts."
+msgstr "Тази джаджа е ценен ресурс, за да бъдете информирани за най-новите събития в общността на WordPress и да се свържете с други ентусиасти на WordPress."
+
+#: main/intros.php:319
+msgid "Here you will find updates on new releases, upcoming features, security updates, and general news about the WordPress community."
+msgstr "Тук ще намерите актуализации за нови версии, предстоящи функции, актуализации за сигурност и общи новини за общността на WordPress."
+
+#: main/intros.php:321
+msgid "This section also shows upcoming WordPress events such as WordCamps, local meetups, and other community gatherings."
+msgstr "Този раздел също така показва предстоящи събития на WordPress като WordCamps, местни срещи и други събирания на общността."
+
+#: main/intros.php:327
+msgid "Screen Options"
+msgstr "Опции на екрана"
+
+#: main/intros.php:328
+msgid "This useful feature allows you to select the screen elements that you would like to show or hide by using the checkboxes."
+msgstr "Тази полезна функция ви позволява да изберете елементите на екрана, които искате да покажете или скриете, като използвате квадратчетата за отметка."
+
+#: main/intros.php:330
+msgid "You will find this option on several pages across your site."
+msgstr "Ще намерите тази опция на няколко страници в сайта си."
+
+#: main/intros.php:340
+msgid "Click here to add or manage users on your site."
+msgstr "Щракнете тук, за да добавите или управлявате потребители на вашия сайт."
+
+#: main/intros.php:345
+msgid "Add New User"
+msgstr "Добавяне на нов потребител"
+
+#: main/intros.php:346
+msgid "Add a new user for your site. You can enter user details, password, role, etc."
+msgstr "Добавете нов потребител за вашия сайт. Можете да въведете потребителски данни, парола, роля и др."
+
+#: main/intros.php:351
+msgid "Users List"
+msgstr "Списък с потребители"
+
+#: main/intros.php:352
+msgid "All your users with admin role as well as other roles will be listed here."
+msgstr "Всички ваши потребители с администраторска роля, както и други роли ще бъдат изброени тук."
+
+#: main/intros.php:357
+msgid "Edit User"
+msgstr "Редактиране на потребител"
+
+#: main/intros.php:358
+msgid "You can edit the user information, change password, change role and much more with the Edit link here."
+msgstr "Можете да редактирате потребителската информация, да промените паролата, да промените ролята и много повече с връзката Редактиране тук."
+
+#: main/intros.php:367
+msgid "Choose bulk action for selected users: Delete or send password reset link"
+msgstr "Изберете групово действие за избрани потребители: Изтриване или изпращане на връзка за повторно задаване на парола"
+
+#: main/intros.php:372
+msgid "Change Role"
+msgstr "Промяна на ролята"
+
+#: main/intros.php:373
+msgid "Here you can bulk change role for the selected users"
+msgstr "Тук можете групово да промените ролите за избраните потребители"
+
+#: main/intros.php:378
+msgid "Filter Users"
+msgstr "Филтриране на потребители"
+
+#: main/intros.php:379
+msgid "Filter your users list with their roles"
+msgstr "Филтрирайте списъка си с потребители с техните роли"
+
+#: main/intros.php:384
+msgid "Search Users"
+msgstr "Търсене на потребители"
+
+#: main/intros.php:385
+msgid "Search a user from the users list."
+msgstr "Търсете потребител от списъка с потребители."
+
+#: main/intros.php:395
+msgid "Click here to add or manage blog posts on your site."
+msgstr "Щракнете тук, за да добавите или управлявате публикации в блогове на вашия сайт."
+
+#: main/intros.php:400
+msgid "Add New Post"
+msgstr "Добавяне на нова публикация"
+
+#: main/intros.php:401
+msgid "Start writing a new blog post for your site."
+msgstr "Започнете да пишете нова публикация в блога за вашия сайт."
+
+#: main/intros.php:406
+msgid "Posts List"
+msgstr "Списък с публикации"
+
+#: main/intros.php:407
+msgid "All the posts owned by all the users on your site will be listed here."
+msgstr "Всички публикации, притежавани от всички потребители на вашия сайт, ще бъдат изброени тук."
+
+#: main/intros.php:412
+msgid "Manage Post"
+msgstr "Управление на публикацията"
+
+#: main/intros.php:413
+msgid "You can view, edit or delete the posts with the links here."
+msgstr "Можете да преглеждате, редактирате или изтривате публикациите с връзките тук."
+
+#: main/intros.php:422
+msgid "Choose bulk action for selected posts: Quick Edit or Move to Trash."
+msgstr "Изберете групово действие за избрани публикации: Бързо редактиране или Преместване в кошчето."
+
+#: main/intros.php:427
+msgid "Filter Posts by Date"
+msgstr "Филтрирайте публикациите по дата"
+
+#: main/intros.php:428
+msgid "Here you can filter the posts by date."
+msgstr "Тук можете да филтрирате публикациите по дата."
+
+#: main/intros.php:433
+msgid "Filter Posts by Category"
+msgstr "Филтрирайте публикациите по категория"
+
+#: main/intros.php:434
+msgid "Here you can filter the posts by category."
+msgstr "Тук можете да филтрирате публикациите по категории."
+
+#: main/intros.php:439
+msgid "Filter Posts"
+msgstr "Филтриране на публикации"
+
+#: main/intros.php:440
+msgid "Filter your posts list by their status like published, drafts, trash, etc."
+msgstr "Филтрирайте списъка си с публикации по състоянието им, като публикувани, чернови, кошче и др."
+
+#: main/intros.php:445
+msgid "Search Posts"
+msgstr "Търсене на публикации"
+
+#: main/intros.php:446
+msgid "Search a post from the posts list."
+msgstr "Търсете публикация от списъка с публикации."
+
+#: main/intros.php:456
+msgid "Click here to add or manage pages on your site."
+msgstr "Щракнете тук, за да добавите или управлявате страници на вашия сайт."
+
+#: main/intros.php:461
+msgid "Add New Page"
+msgstr "Добавяне на нова страница"
+
+#: main/intros.php:462
+msgid "Start creating a new page for your site."
+msgstr "Започнете да създавате нова страница за вашия сайт."
+
+#: main/intros.php:467
+msgid "Pages List"
+msgstr "Списък със страници"
+
+#: main/intros.php:468
+msgid "All the pages on your site will be listed here."
+msgstr "Всички страници на вашия сайт ще бъдат изброени тук."
+
+#: main/intros.php:473
+msgid "Manage Page"
+msgstr "Управление на страницата"
+
+#: main/intros.php:474
+msgid "You can view, edit or delete the pages with the links here."
+msgstr "Тук можете да преглеждате, редактирате или изтривате страниците с връзките."
+
+#: main/intros.php:483
+msgid "Choose bulk action for selected pages: Quick Edit or Move to Trash."
+msgstr "Изберете групово действие за избрани страници: Бързо редактиране или Преместване в кошчето."
+
+#: main/intros.php:488
+msgid "Filter Pages by Date"
+msgstr "Филтриране на страници по дата"
+
+#: main/intros.php:489
+msgid "Here you can filter the pages by date."
+msgstr "Тук можете да филтрирате страниците по дата."
+
+#: main/intros.php:494
+msgid "Filter Pages"
+msgstr "Филтриране на страници"
+
+#: main/intros.php:495
+msgid "Filter your pages list by their status like published, drafts, trash, etc."
+msgstr "Филтрирайте списъка си със страници по тяхното състояние като публикувани, чернови, кошче и др."
+
+#: main/intros.php:500
+msgid "Search Pages"
+msgstr "Страници за търсене"
+
+#: main/intros.php:501
+msgid "Search a page from the pages list."
+msgstr "Търсете страница от списъка със страници."
+
+#: main/license.php:43
+msgid "The license key was not submitted"
+msgstr "Лицензионният ключ не беше изпратен"
+
+#: main/license.php:53
+msgid "The response was malformed"
+msgstr "Отговорът беше деформиран"
+
+#: main/license.php:60 main/onboarding.php:517
+msgid "The license key is invalid"
+msgstr "Лицензионният ключ е невалиден"
+
+#: main/license.php:88
+msgid "The license has been saved successfully"
+msgstr "Лицензът е запазен успешно"
+
+#: main/license.php:103
+msgid "System Information"
+msgstr "Системна информация"
+
+#: main/license.php:115
+msgid "SoftWP version"
+msgstr "SoftWP версия"
+
+#: main/license.php:121
+msgid "SoftWP License"
+msgstr "Лиценз на SoftWP"
+
+#: main/license.php:125
+msgid "Update License"
+msgstr "Лиценз за актуализиране"
+
+#: main/license.php:132
+msgid "License Status : "
+msgstr "Състояние на лиценза: "
+
+#: main/license.php:133
+msgid "License Expires : "
+msgstr "Лицензът изтича: "
+
+#: main/license.php:143
+msgid "URL"
+msgstr "URL адрес"
+
+#: main/license.php:147
+msgid "Path"
+msgstr "Пътека"
+
+#: main/license.php:151
+msgid "Server's IP Address"
+msgstr "IP адрес на сървъра"
+
+#: main/manage-plugins.php:65 main/setup.php:172
+#, php-format
+msgid "Requires PHP version %1$s or higher"
+msgstr "Изисква PHP версия %1$s или по-нова"
+
+#: main/manage-plugins.php:84 main/manage-plugins.php:100
+msgid "Not Installed"
+msgstr "Не е инсталиран"
+
+#: main/manage-plugins.php:87 main/manage-plugins.php:103
+msgid "Installed"
+msgstr "Инсталиран"
+
+#: main/manage-plugins.php:93
+msgid "Free"
+msgstr "безплатно"
+
+#: main/manage-plugins.php:109
+msgid "Pro"
+msgstr "Професионалист"
+
+#: main/manage-plugins.php:114
+msgid "Install for Free"
+msgstr "Инсталирайте безплатно"
+
+#: main/manage-plugins.php:125
+msgid "Pro included with your subscription"
+msgstr "Професионалист, включен в абонамента ви"
+
+#: main/media.php:95
+msgid "Action Buttons"
+msgstr "Бутони за действие"
+
+#: main/media.php:111
+msgid "Edit with Photopea"
+msgstr "Редактирайте с Photopea"
+
+#: main/media.php:120
+msgid "Compress Image"
+msgstr "Компресирайте изображението"
+
+#: main/media.php:125
+msgid "Replace Media"
+msgstr "Смяна на носителя"
+
+#: main/media.php:240
+msgid "Quality"
+msgstr "качество"
+
+#: main/media.php:243
+msgid "Save"
+msgstr "Запазване"
+
+#: main/media.php:244
+msgid "Save & Close"
+msgstr "Запазване & затвори"
+
+#: main/media.php:245
+msgid "Save As"
+msgstr "Запази като"
+
+#: main/media.php:246
+msgid "Cancel"
+msgstr "Отказ"
+
+#: main/media.php:260 main/media.php:421 main/media.php:481
+msgid "Security Check Failed!"
+msgstr "Проверката за сигурност е неуспешна!"
+
+#: main/media.php:274
+msgid "Original image attachment not found"
+msgstr "Оригиналното прикачено изображение не е намерено"
+
+#: main/media.php:280
+msgid "Original image path not found"
+msgstr "Оригиналният път на изображението не е намерен"
+
+#: main/media.php:297
+msgid "File already exists. Please choose another file name"
+msgstr "Файлът вече съществува. Моля, изберете друго име на файл"
+
+#: main/media.php:306
+msgid "Failed to decode base64 image data"
+msgstr "Неуспешно декодиране на данни за изображение base64"
+
+#: main/media.php:317
+msgid "Failed to create image from data"
+msgstr "Неуспешно създаване на изображение от данни"
+
+#: main/media.php:355
+msgid "Unsupported image format"
+msgstr "Неподдържан формат на изображението"
+
+#: main/media.php:363
+msgid "Failed to save the image"
+msgstr "Неуспешно запазване на изображението"
+
+#: main/media.php:381
+msgid "Failed to insert the new image as attachment"
+msgstr "Неуспешно вмъкване на новото изображение като прикачен файл"
+
+#: main/media.php:387
+msgid "Failed to regenerate image sub-sizes"
+msgstr "Неуспешно повторно генериране на подразмери на изображението"
+
+#: main/media.php:395
+msgid "Image saved successfully"
+msgstr "Изображението е запазено успешно"
+
+#: main/media.php:434 main/media.php:502
+msgid "Invalid image path."
+msgstr "Невалиден път на изображението."
+
+#: main/media.php:437 main/media.php:505
+msgid "No image ID provided."
+msgstr "Не е предоставен ID на изображението."
+
+#: main/media.php:472
+msgid "Unsupported image type."
+msgstr "Неподдържан тип изображение."
+
+#: main/media.php:497
+msgid "Image has been successfully compressed and replaced."
+msgstr "Изображението е успешно компресирано и заменено."
+
+#: main/media.php:499
+msgid "Compression and replacement failed."
+msgstr "Компресирането и подмяната са неуспешни."
+
+#: main/media.php:570
+msgid "No file was uploaded ! Please try again."
+msgstr "Няма качен файл! Моля, опитайте отново."
+
+#: main/media.php:576
+msgid "There was some error uploading the file ! Please try again."
+msgstr "Възникна грешка при качването на файла! Моля, опитайте отново."
+
+#: main/media.php:584
+msgid "The File type could not be determined. Please upload a permitted file type."
+msgstr "Типът на файла не може да бъде определен. Моля, качете разрешен тип файл."
+
+#: main/media.php:619
+msgid "Please fix the below errors"
+msgstr "Моля, коригирайте грешките по-долу"
+
+#: main/media.php:683
+msgid "Failed to determine the media file path !"
+msgstr "Неуспешно определяне на пътя на медийния файл!"
+
+#: main/media.php:688
+msgid "No folder for the target found !"
+msgstr "Няма намерена папка за целта!"
+
+#: main/onboarding.php:81
+msgid "Please confirm that you accept data loss since you have already run the onboarding process previously"
+msgstr "Моля, потвърдете, че приемате загуба на данни, тъй като вече сте стартирали процеса на интегриране преди това"
+
+#: main/onboarding.php:82
+msgid "Please select atleast one page to import"
+msgstr "Моля, изберете поне една страница за импортиране"
+
+#: main/onboarding.php:83
+msgid "Downloading and installing required plugins"
+msgstr "Изтегляне и инсталиране на необходимите добавки"
+
+#: main/onboarding.php:84
+msgid "WordPress requires FTP details, without them you won't be able to install a plugin/theme"
+msgstr "WordPress изисква подробности за FTP, без тях няма да можете да инсталирате плъгин/тема"
+
+#: main/onboarding.php:85
+msgid "Downloading the template"
+msgstr "Изтегляне на шаблона"
+
+#: main/onboarding.php:86
+msgid "Building your website..."
+msgstr "Изграждане на вашия уебсайт..."
+
+#: main/onboarding.php:87
+msgid "Checking the requirements ..."
+msgstr "Проверка на изискванията..."
+
+#: main/onboarding.php:88
+msgid "Importing the template"
+msgstr "Импортиране на шаблона"
+
+#: main/onboarding.php:89
+msgid "Your website setup is completed"
+msgstr "Настройката на вашия уебсайт е завършена"
+
+#: main/onboarding.php:90
+msgid "Congratulations"
+msgstr "честито"
+
+#: main/onboarding.php:109
+msgid "Increase Website Traffic (SEO)"
+msgstr "Увеличете трафика на уебсайта (SEO)"
+
+#: main/onboarding.php:110
+msgid "Improve your site's ranking on search engines"
+msgstr "Подобрете класирането на вашия сайт в търсачките"
+
+#: main/onboarding.php:114
+msgid "SiteSEO ? One Click SEO for WordPress"
+msgstr "SiteSEO – SEO с едно кликване за WordPress"
+
+#: main/onboarding.php:120
+msgid "Boost your website's search rankings today with the most powerful WordPress SEO plugin. Its lightweight, optimized, and delivers exceptional performance."
+msgstr "Увеличете класирането на уебсайта си в търсенето днес с най-мощния WordPress SEO плъгин. Неговият лек, оптимизиран и осигурява изключителна производителност."
+
+#: main/onboarding.php:129
+msgid "Improve Page Speed"
+msgstr "Подобрете скоростта на страницата"
+
+#: main/onboarding.php:130
+msgid "Improve speed by cache, minify, compress"
+msgstr "Подобрете скоростта чрез кеширане, минимизиране, компресиране"
+
+#: main/onboarding.php:134
+msgid "SpeedyCache ? Cache, Optimization, Performance"
+msgstr "SpeedyCache – Кеш, оптимизация, производителност"
+
+#: main/onboarding.php:139
+msgid "SpeedyCache is an easy to use and powerful WordPress Cache Plugin, it helps you reduce page load time improving User Experience and boosting your Google PageSpeed."
+msgstr "SpeedyCache е лесна за използване и мощна добавка за кеширане на WordPress, която ви помага да намалите времето за зареждане на страницата, подобрявайки потребителското изживяване и увеличавайки вашата Google PageSpeed."
+
+#: main/onboarding.php:148
+msgid "Schedule Backups"
+msgstr "Планиране на архивиране"
+
+#: main/onboarding.php:149
+msgid "Backup your site on local or remote servers"
+msgstr "Архивирайте вашия сайт на локални или отдалечени сървъри"
+
+#: main/onboarding.php:153
+msgid "Backuply ? Backup, Restore, Migrate and Clone"
+msgstr "Архивиране – архивиране, възстановяване, мигриране и клониране"
+
+#: main/onboarding.php:158
+msgid "Backuply is a WordPress backup plugin that helps you backup your WordPress website, saving you from loss of data because of server crashes, hacks, dodgy updates, or bad plugins."
+msgstr "Backuply е приставка за архивиране на WordPress, която ви помага да архивирате уебсайта си в WordPress, като ви предпазва от загуба на данни поради сривове на сървъра, хакове, измамни актуализации или лоши добавки."
+
+#: main/onboarding.php:167
+msgid "Sell Products"
+msgstr "Продавайте продукти"
+
+#: main/onboarding.php:168
+msgid "Sell physical or digital products"
+msgstr "Продавайте физически или цифрови продукти"
+
+#: main/onboarding.php:172
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: main/onboarding.php:180
+msgid "Limit Login Attempts"
+msgstr "Ограничете опитите за влизане"
+
+#: main/onboarding.php:181
+msgid "Brute force protection, 2FA, login captcha"
+msgstr "Защита от груба сила, 2FA, captcha за влизане"
+
+#: main/onboarding.php:185
+msgid "Loginizer"
+msgstr "Логинизатор"
+
+#: main/onboarding.php:190
+msgid "Loginizer is a simple and effortless solution that takes care of all your security problems. It comes with default optimal configuration to protect your site from Brute Force attacks."
+msgstr "Loginizer е просто и лесно решение, което се грижи за всички ваши проблеми със сигурността. Той идва с оптимална конфигурация по подразбиране, за да защити вашия сайт от Brute Force атаки."
+
+#: main/onboarding.php:199
+msgid "Page Builder"
+msgstr "Създател на страници"
+
+#: main/onboarding.php:200
+msgid "Page Builder, Drag and Drop website builder"
+msgstr "Създател на страници, конструктор на уебсайтове с плъзгане и пускане"
+
+#: main/onboarding.php:204
+msgid "Pagelayer"
+msgstr "Pagelayer"
+
+#: main/onboarding.php:209
+msgid "Pagelayer is an awesome page builder that allows you to create and design your website instantly in the simplest way possible. Take control over your page content with the most advanced page builder plugin available."
+msgstr "Pagelayer е страхотен конструктор на страници, който ви позволява незабавно да създавате и проектирате уебсайта си по възможно най-лесния начин. Поемете контрол върху съдържанието на страницата си с най-усъвършенствания наличен плъгин за създаване на страници."
+
+#: main/onboarding.php:218
+msgid "Send Email with SMTP"
+msgstr "Изпращане на имейл с SMTP"
+
+#: main/onboarding.php:219
+msgid "Providers: Gmail, Outlook, AWS SES & more"
+msgstr "Доставчици: Gmail, Outlook, AWS SES & повече"
+
+#: main/onboarding.php:223
+msgid "GoSMTP ? SMTP for WordPress"
+msgstr "GoSMTP – SMTP за WordPress"
+
+#: main/onboarding.php:228
+msgid "GoSMTP allows you to send emails from your WordPress over SMTP or many popular outgoing email service providers. Using these improves your email deliverability."
+msgstr "GoSMTP ви позволява да изпращате имейли от вашия WordPress през SMTP или много популярни доставчици на услуги за изходящ имейл. Използването им подобрява доставката на вашия имейл."
+
+#: main/onboarding.php:237
+msgid "File Manager"
+msgstr "Файлов мениджър"
+
+#: main/onboarding.php:238
+msgid "Manage files with drag & drop editor"
+msgstr "Управление на файлове с drag & капка редактор"
+
+#: main/onboarding.php:242
+msgid "FileOrganizer ? Manage WordPress and Website Files"
+msgstr "FileOrganizer – Управление на WordPress и файлове на уебсайтове"
+
+#: main/onboarding.php:247
+msgid "FileOrganizer is a lightweight and easy-to-use file management plugin for WordPress. Organize and manage your WordPress files with FileOrganizer without any control panel or FTP access. "
+msgstr "FileOrganizer е лек и лесен за използване плъгин за управление на файлове за WordPress. Организирайте и управлявайте вашите WordPress файлове с FileOrganizer без контролен панел или FTP достъп. "
+
+#: main/onboarding.php:292
+msgid "Could not import the template !"
+msgstr "Шаблонът не можа да се импортира!"
+
+#: main/onboarding.php:340
+msgid "Theme template can only be uploaded using FTP !"
+msgstr "Шаблонът за тема може да се качи само чрез FTP!"
+
+#: main/onboarding.php:363
+msgid "Could not download the theme !"
+msgstr "Темата не можа да бъде изтеглена!"
+
+#: main/onboarding.php:381
+msgid "Could not extract the template !"
+msgstr "Шаблонът не можа да се извлече!"
+
+#: main/onboarding.php:509
+msgid "The response from the server was malformed. Please try again in sometime !"
+msgstr "Отговорът от сървъра беше деформиран. Моля, опитайте отново след малко!"
+
+#: main/onboarding.php:541
+msgid "Pagelayer is required to use the templates !"
+msgstr "Pagelayer е необходим за използване на шаблоните!"
+
+#: main/onboarding.php:551
+msgid "PopularFX plugin is required to use the templates !"
+msgstr "Плъгинът PopularFX е необходим за използване на шаблоните!"
+
+#: main/onboarding.php:561
+msgid "PopularFX theme is required to use the templates !"
+msgstr "Темата PopularFX е необходима за използване на шаблоните!"
+
+#: main/onboarding.php:568
+msgid "The template you submitted is invalid !"
+msgstr "Изпратеният от вас шаблон е невалиден!"
+
+#: main/onboarding.php:576
+#, php-format
+msgid "Your Pagelayer version is %1$s while the template requires Pagelayer version higher than or equal to %2$s "
+msgstr "Вашата версия на Pagelayer е %1$s, докато шаблонът изисква версия на Pagelayer по-висока или равна на %2$s "
+
+#: main/onboarding.php:582
+#, php-format
+msgid "Your Pagelayer version is %1$s while the onboarding requires Pagelayer version higher than or equal to 1.8.9"
+msgstr "Вашата версия на Pagelayer е %1$s, докато интегрирането изисква версия на Pagelayer по-висока или равна на 1.8.9"
+
+#: main/onboarding.php:588
+#, php-format
+msgid "Your PopularFX Plugin version is %1$s while the template requires PopularFX version higher than or equal to %2$s"
+msgstr "Вашата версия на PopularFX Plugin е %1$s, докато шаблонът изисква версия на PopularFX, по-висока или равна на %2$s"
+
+#: main/onboarding.php:594
+#, php-format
+msgid "The selected template is a Pro template and you have a free or expired license. Please enter your license key %1$shere%2$s."
+msgstr "Избраният шаблон е Pro шаблон и имате безплатен или изтекъл лиценз. Моля, въведете вашия лицензен ключ %1$sтук%2$s."
+
+#: main/onboarding.php:615
+#, php-format
+msgid "There was an error in installing Pagelayer which is required by this template. Please install Pagelayer manually by clicking %1$shere%2$s and then install the template !"
+msgstr "Възникна грешка при инсталирането на Pagelayer, което се изисква от този шаблон. Моля, инсталирайте Pagelayer ръчно, като щракнете върху %1$sтук%2$s и след това инсталирайте шаблона!"
+
+#: main/onboarding.php:760
+msgid "Plugin activated successfully."
+msgstr "Приставката е активирана успешно."
+
+#: main/onboarding.php:765
+#, php-format
+msgid "Plugin installation failed. %1$s requires PHP version %2$s or higher. Your PHP version is %3$s."
+msgstr "Инсталирането на приставката е неуспешно. %1$s изисква PHP версия %2$s или по-нова. Вашата PHP версия е %3$s."
+
+#: main/onboarding.php:801
+msgid "Plugin installed and activated successfully."
+msgstr "Приставката е инсталирана и активирана успешно."
+
+#: main/onboarding.php:804
+msgid "Plugin already installed."
+msgstr "Плъгинът вече е инсталиран."
+
+#: main/onboarding.php:831
+msgid "You do not have enough permissions to install theme"
+msgstr "Нямате достатъчно разрешения за инсталиране на тема"
+
+#: main/onboarding.php:857
+msgid "Theme activated successfully."
+msgstr "Темата е активирана успешно."
+
+#: main/onboarding.php:873
+msgid "The filesystem could not write files to the server!"
+msgstr "Файловата система не може да запише файлове на сървъра!"
+
+#: main/onboarding.php:887
+#, php-format
+msgid "Error downloading theme: %1$s"
+msgstr "Грешка при изтегляне на тема: %1$s"
+
+#: main/onboarding.php:895
+msgid "Error unzipping theme: "
+msgstr "Грешка при разархивирането на темата: "
+
+#: main/onboarding.php:904
+msgid "Theme installation failed "
+msgstr "Инсталирането на темата е неуспешно "
+
+#: main/onboarding.php:908
+msgid "Theme installed and activated successfully."
+msgstr "Темата е инсталирана и активирана успешно."
+
+#: main/onboarding.php:969
+msgid "Choose a design"
+msgstr "Изберете дизайн"
+
+#: main/onboarding.php:973
+msgid "Search for theme"
+msgstr "Търсене на тема"
+
+#: main/onboarding.php:977
+msgid "All"
+msgstr "Всички"
+
+#: main/onboarding.php:988
+msgid "Demo"
+msgstr "Демо"
+
+#: main/onboarding.php:1001
+msgid "Select pages to import"
+msgstr "Изберете страници за импортиране"
+
+#: main/onboarding.php:1007
+msgid "Import stock images ?"
+msgstr "Импортиране на стокови изображения?"
+
+#: main/onboarding.php:1009
+msgid "We try our best to use images that are free to use from legal perspectives. However, we are not liable for any copyright infringement for your site."
+msgstr "Опитваме се да използваме изображения, които са безплатни за използване от правна гледна точка. Ние обаче не носим отговорност за нарушаване на авторски права за вашия сайт."
+
+#: main/onboarding.php:1018
+msgid "Go Back"
+msgstr "Върнете се назад"
+
+#: main/onboarding.php:1019
+msgid "Import Theme Content"
+msgstr "Импортиране на тематично съдържание"
+
+#: main/onboarding.php:1033
+msgid "Import Theme Contents"
+msgstr "Импортирайте съдържанието на темата"
+
+#: main/onboarding.php:1045
+msgid "Congratulations, the template was imported successfully !"
+msgstr "Поздравления, шаблонът беше импортиран успешно!"
+
+#: main/onboarding.php:1046
+msgid "You can now customize the website as per your requirements with the help of Pagelayer or the Customizer."
+msgstr "Вече можете да персонализирате уебсайта според вашите изисквания с помощта на Pagelayer или Customizer."
+
+#: main/onboarding.php:1049
+msgid "We strongly recommend you change all images and media. We try our best to use images which are copyright free or are allowed under their licensing. However, we take no responsibilities for the same and recommend you change all media and images !"
+msgstr "Силно препоръчваме да промените всички изображения и медии. Опитваме се да използваме изображения, които са без авторски права или са разрешени съгласно техния лиценз. Ние обаче не поемаме отговорност за същото и ви препоръчваме да промените всички медии и изображения!"
+
+#: main/onboarding.php:1056
+msgid "Visit Website"
+msgstr "Посетете уебсайта"
+
+#: main/onboarding.php:1057
+msgid "WordPress Dashboard"
+msgstr "Табло за управление на WordPress"
+
+#: main/setup.php:8
+msgid "Welcome"
+msgstr "Добре дошли"
+
+#: main/setup.php:9
+msgid "Business Type"
+msgstr "Тип бизнес"
+
+#: main/setup.php:10
+msgid "Site Title"
+msgstr "Заглавие на сайта"
+
+#: main/setup.php:11
+msgid "Goals"
+msgstr "цели"
+
+#: main/setup.php:12
+msgid "Choose Template"
+msgstr "Изберете Шаблон"
+
+#: main/setup.php:75
+msgid "Exit"
+msgstr "Изход"
+
+#: main/setup.php:82
+msgid "Welcome to the Onboarding process!"
+msgstr "Добре дошли в процеса на включване!"
+
+#: main/setup.php:83
+msgid "This process will help you choose a professional template for your website and install plugins that you might need to achieve your goal for creating this website"
+msgstr "Този процес ще ви помогне да изберете професионален шаблон за вашия уебсайт и да инсталирате добавки, които може да са ви необходими, за да постигнете целта си за създаване на този уебсайт"
+
+#: main/setup.php:88
+msgid "It looks like you have already completed the onboarding process. You might lose data if you run the onboarding process again. Select this checkbox to confirm that you agree."
+msgstr "Изглежда, че вече сте завършили процеса на включване. Може да загубите данни, ако стартирате процеса на интегриране отново. Поставете отметка в това квадратче, за да потвърдите, че сте съгласни."
+
+#: main/setup.php:93
+msgid "Get Started"
+msgstr "Започнете"
+
+#: main/setup.php:97
+msgid "No, I don't want to try an easy setup process"
+msgstr "Не, не искам да пробвам лесен процес на настройка"
+
+#: main/setup.php:105
+msgid "How would you categorize your website ?"
+msgstr "Как бихте категоризирали уебсайта си?"
+
+#: main/setup.php:106
+msgid "This helps us recommend design and functionalities for your website"
+msgstr "Това ни помага да препоръчаме дизайн и функционалности за вашия уебсайт"
+
+#: main/setup.php:109
+msgid "Search for a category"
+msgstr "Търсете категория"
+
+#: main/setup.php:119
+msgid "No results match your search criteria"
+msgstr "Няма резултати, отговарящи на вашите критерии за търсене"
+
+#: main/setup.php:126 main/setup.php:143 main/setup.php:184
+msgid "Previous Step"
+msgstr "Предишна стъпка"
+
+#: main/setup.php:128 main/setup.php:145 main/setup.php:186
+msgid "Continue"
+msgstr "Продължи"
+
+#: main/setup.php:135
+msgid "Enter the title of your new site"
+msgstr "Въведете заглавието на вашия нов сайт"
+
+#: main/setup.php:136
+msgid "Can be changed later"
+msgstr "Може да се промени по-късно"
+
+#: main/setup.php:139
+msgid "Enter a title for your website"
+msgstr "Въведете заглавие за вашия уебсайт"
+
+#: main/setup.php:152
+msgid "What are you looking to achieve with your new site ?"
+msgstr "Какво искате да постигнете с новия си сайт?"
+
+#: main/setup.php:153
+msgid "We will install the appropriate plugins that will add the required functionality to your website"
+msgstr "Ние ще инсталираме подходящите добавки, които ще добавят необходимата функционалност към вашия уебсайт"

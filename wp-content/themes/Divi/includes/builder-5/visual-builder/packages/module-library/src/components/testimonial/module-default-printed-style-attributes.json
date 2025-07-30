@@ -1,0 +1,130 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "module": {
+    "decoration": {
+      "position": {
+        "desktop": {
+          "value": {
+            "mode": "relative",
+            "offset": {
+              "horizontal": "0px",
+              "vertical": "0px"
+            },
+            "origin": {
+              "relative": "top left"
+            }
+          }
+        }
+      }
+    }
+  },
+  "company": {
+    "decoration": {
+      "font": {
+        "font": {
+          "desktop": {
+            "value": {
+              "weight": "400",
+              "size": "14px",
+              "letterSpacing": "0px",
+              "lineHeight": "1.5em",
+              "lineStyle": "solid"
+            }
+          }
+        }
+      }
+    }
+  },
+  "quoteIcon": {
+    "decoration": {
+      "icon": {
+        "desktop": {
+          "value": {
+            "size": "32px"
+          }
+        }
+      }
+    }
+  },
+  "author": {
+    "decoration": {
+      "font": {
+        "font": {
+          "desktop": {
+            "value": {
+              "weight": "700",
+              "size": "14px",
+              "letterSpacing": "0px",
+              "lineHeight": "1.5em",
+              "lineStyle": "solid"
+            }
+          }
+        }
+      }
+    }
+  },
+  "jobTitle": {
+    "decoration": {
+      "font": {
+        "font": {
+          "desktop": {
+            "value": {
+              "weight": "400",
+              "size": "14px",
+              "letterSpacing": "0px",
+              "lineHeight": "1.5em",
+              "lineStyle": "solid"
+            }
+          }
+        }
+      }
+    }
+  },
+  "portrait": {
+    "decoration": {
+      "border": {
+        "desktop": {
+          "value": {
+            "radius": {
+              "topLeft": "90px",
+              "topRight": "90px",
+              "bottomLeft": "90px",
+              "bottomRight": "90px",
+              "sync": "on"
+            },
+            "styles": {
+              "all": {
+                "width": "0px",
+                "style": "solid"
+              },
+              "top": {
+                "width": "0px",
+                "style": "solid"
+              },
+              "right": {
+                "width": "0px",
+                "style": "solid"
+              },
+              "bottom": {
+                "width": "0px",
+                "style": "solid"
+              },
+              "left": {
+                "width": "0px",
+                "style": "solid"
+              }
+            }
+          }
+        }
+      },
+      "sizing": {
+        "desktop": {
+          "value": {
+            "width": "90px",
+            "height": "90px"
+          }
+        }
+      }
+    }
+  }
+}

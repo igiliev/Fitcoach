@@ -1,0 +1,74 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "module": {
+    "advanced": {
+      "text": {
+        "text": {
+          "desktop": {
+            "value": {
+              "color": "light"
+            }
+          }
+        }
+      }
+    },
+    "meta": {
+      "adminLabel": {
+        "desktop": {
+          "value": "Woo Product Reviews"
+        }
+      }
+    }
+  },
+  "content": {
+    "advanced": {
+      "product": {
+        "desktop": {
+          "value": "filter,et_builder_get_woo_default_product"
+        }
+      }
+    }
+  },
+  "elements": {
+    "advanced": {
+      "showAvatar": {
+        "desktop": {
+          "value": "on"
+        }
+      },
+      "showCount": {
+        "desktop": {
+          "value": "on"
+        }
+      },
+      "showMeta": {
+        "desktop": {
+          "value": "on"
+        }
+      },
+      "showRating": {
+        "desktop": {
+          "value": "on"
+        }
+      },
+      "showReply": {
+        "desktop": {
+          "value": "on"
+        }
+      }
+    }
+  },
+  "reviewCount": {
+    "decoration": {
+      "font": {
+        "font": {
+          "desktop": {
+            "value": {
+              "headingLevel": "h2"
+            }
+          }
+        }
+      }
+    }
+  }
+}

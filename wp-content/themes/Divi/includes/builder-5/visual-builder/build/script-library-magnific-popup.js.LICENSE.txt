@@ -1,0 +1,12 @@
+/*!
+* Magnific Popup v1.0.1 by Dmitry Semenov
+* The MIT License (MIT)
+* Copyright (c) 2014-2015 Dmitry Semenov, http://dimsemenov.com
+* http://bit.ly/magnific-popup#build=inline+image+ajax+iframe+gallery+retina+imagezoom+fastclick
+*
+* Modified to adapt the latest jQuery version (v3 above) included on WordPress 5.6:
+* - (2020-12-15) - jQuery isFunction method is deprecated.
+* - (2021-02-01) - Number type value passed to css method is deprecated.
+* - (2021-02-04) - jQuery focus event shorthand is deprecated.
+* - (2020-02-27) - jQuery isArray method is deprecated.
+*/

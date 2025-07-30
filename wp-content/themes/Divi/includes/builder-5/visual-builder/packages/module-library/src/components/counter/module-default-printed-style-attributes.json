@@ -1,0 +1,29 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "title": {
+    "decoration": {
+      "font": {
+        "font": {
+          "desktop": {
+            "value": {
+              "size": "12px"
+            }
+          }
+        }
+      }
+    }
+  },
+  "barProgress": {
+    "decoration": {
+      "font": {
+        "font": {
+          "desktop": {
+            "value": {
+              "size": "12px"
+            }
+          }
+        }
+      }
+    }
+  }
+}

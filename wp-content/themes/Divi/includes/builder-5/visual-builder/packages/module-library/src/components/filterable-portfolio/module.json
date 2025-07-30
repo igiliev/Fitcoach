@@ -1,0 +1,709 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "name": "divi/filterable-portfolio",
+  "d4Shortcode": "et_pb_filterable_portfolio",
+  "title": "Filterable Portfolio",
+  "titles": "Filterable Portfolios",
+  "moduleIcon": "divi/module-filterable-portfolio",
+  "category": "module",
+  "videos": [
+    {
+      "id": "xVlL4lshxwM",
+      "name": "An introduction to the Filterable Portfolio module"
+    },
+    {
+      "id": "1iqjhnHVA9Y",
+      "name": "Design Settings and Advanced Module Settings"
+    },
+    {
+      "id": "boNZZ0MYU0E",
+      "name": "Saving and loading from the library"
+    }
+  ],
+  "attributes": {
+    "module": {
+      "type": "object",
+      "selector": "{{selector}}",
+      "styleProps": {
+        "sizing": {
+          "propertySelectors": {
+            "desktop": {
+              "value": {
+                "margin-left": "{{selector}}.et_pb_filterable_portfolio.et_pb_module",
+                "margin-right": "{{selector}}.et_pb_filterable_portfolio.et_pb_module"
+              }
+            }
+          },
+          "important": {
+            "desktop": {
+              "value": {
+                "margin-left": true,
+                "margin-right": true
+              }
+            }
+          }
+        },
+        "spacing": {
+          "important": {
+            "desktop": {
+              "value": {
+                "margin": true
+              }
+            }
+          }
+        }
+      },
+      "settings": {
+        "meta": {
+          "adminLabel": {}
+        },
+        "advanced": {
+          "link": {},
+          "htmlAttributes": {},
+          "text": {
+            "priority": 20,
+            "component": {
+              "props": {
+                "fields": {
+                  "color": {
+                    "render": true
+                  }
+                }
+              }
+            }
+          }
+        },
+        "decoration": {
+          "animation": {},
+          "background": {},
+          "conditions": {},
+          "disabledOn": {},
+          "filters": {},
+          "overflow": {},
+          "order": {},
+          "position": {},
+          "scroll": {
+            "groupType": "group-item",
+            "item": {
+              "priority": 20,
+              "render": true,
+              "groupSlug": "advancedScrollModule",
+              "component": {
+                "name": "divi/scroll",
+                "type": "group",
+                "props": {
+                  "grouped": false,
+                  "fields": {
+                    "gridMotion": {
+                      "render": true
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "sizing": {},
+          "spacing": {},
+          "sticky": {},
+          "boxShadow": {},
+          "transform": {},
+          "transition": {},
+          "zIndex": {}
+        }
+      }
+    },
+    "portfolio": {
+      "type": "object",
+      "selector": "{{selector}}",
+      "settings": {
+        "advanced": {
+          "postsNumber": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "content",
+              "attrName": "portfolio.advanced.postsNumber",
+              "label": "Post Count",
+              "description": "Define the number of projects that should be displayed per page.",
+              "priority": 10,
+              "render": true,
+              "features": {
+                "responsive": false,
+                "hover": false,
+                "sticky": false,
+                "preset": "content"
+              },
+              "component": {
+                "type": "field",
+                "name": "divi/text",
+                "props": {
+                  "showPlaceholderOnEmpty": true
+                }
+              }
+            }
+          },
+          "includedCategories": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "content",
+              "attrName": "portfolio.advanced.includedCategories",
+              "label": "Included Categories",
+              "description": "Select the categories that you would like to include in the feed.",
+              "priority": 10,
+              "render": true,
+              "features": {
+                "responsive": false,
+                "hover": false,
+                "sticky": false,
+                "preset": "content"
+              },
+              "component": {
+                "type": "field",
+                "name": "divi/checkboxes",
+                "props": {
+                  "options": [],
+                  "value": []
+                }
+              }
+            }
+          },
+          "showTitle": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "contentElements",
+              "attrName": "portfolio.advanced.showTitle",
+              "label": "Show Title",
+              "description": "Turn project titles on or off.",
+              "priority": 10,
+              "render": true,
+              "features": {
+                "sticky": false,
+                "preset": [
+                  "html"
+                ]
+              },
+              "component": {
+                "type": "field",
+                "name": "divi/toggle"
+              }
+            }
+          },
+          "showCategories": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "contentElements",
+              "attrName": "portfolio.advanced.showCategories",
+              "label": "Show Categories",
+              "description": "Turn the category links on or off.",
+              "priority": 10,
+              "render": true,
+              "features": {
+                "sticky": false,
+                "preset": [
+                  "html"
+                ]
+              },
+              "component": {
+                "type": "field",
+                "name": "divi/toggle"
+              }
+            }
+          },
+          "showPagination": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "contentElements",
+              "attrName": "portfolio.advanced.showPagination",
+              "label": "Show Pagination",
+              "description": "Enable or disable pagination for this feed.",
+              "priority": 10,
+              "render": true,
+              "features": {
+                "sticky": false,
+                "preset": [
+                  "html"
+                ]
+              },
+              "component": {
+                "type": "field",
+                "name": "divi/toggle"
+              }
+            }
+          },
+          "layout": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "designLayout",
+              "attrName": "portfolio.advanced.layout",
+              "label": "Layout",
+              "description": "Choose your desired portfolio layout style.",
+              "priority": 10,
+              "render": true,
+              "features": {
+                "responsive": false,
+                "hover": false,
+                "sticky": false,
+                "preset": [
+                  "html"
+                ]
+              },
+              "component": {
+                "type": "field",
+                "name": "divi/select",
+                "props": {
+                  "options": {
+                    "on": {
+                      "label": "Fullwidth"
+                    },
+                    "off": {
+                      "label": "Grid"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "portfolioItem": {
+      "type": "object",
+      "selector": "{{selector}}",
+      "styleProps": {
+        "border": {
+          "selector": "{{selector}}.et_pb_filterable_portfolio .et_pb_portfolio_item"
+        }
+      },
+      "settings": {
+        "decoration": {
+          "border": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "designBorder",
+              "attrName": "portfolioItem.decoration.border",
+              "priority": 90,
+              "render": true,
+              "component": {
+                "type": "group",
+                "name": "divi/border",
+                "props": {
+                  "grouped": false
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "title": {
+      "type": "object",
+      "selector": "{{selector}}.et_pb_filterable_portfolio h2, {{selector}}.et_pb_filterable_portfolio h2 a, {{selector}}.et_pb_filterable_portfolio h1.et_pb_module_header, {{selector}}.et_pb_filterable_portfolio h1.et_pb_module_header a, {{selector}}.et_pb_filterable_portfolio h3.et_pb_module_header, {{selector}}.et_pb_filterable_portfolio h3.et_pb_module_header a, {{selector}}.et_pb_filterable_portfolio h4.et_pb_module_header, {{selector}}.et_pb_filterable_portfolio h4.et_pb_module_header a, {{selector}}.et_pb_filterable_portfolio h5.et_pb_module_header, {{selector}}.et_pb_filterable_portfolio h5.et_pb_module_header a, {{selector}}.et_pb_filterable_portfolio h6.et_pb_module_header, {{selector}}.et_pb_filterable_portfolio h6.et_pb_module_header a",
+      "attributes": {
+        "class": "et_pb_module_header"
+      },
+      "styleProps": {
+        "font": {
+          "important": true
+        }
+      },
+      "settings": {
+        "decoration": {
+          "font": {
+            "component": {
+              "props": {
+                "fieldLabel": "Title",
+                "groupLabel": "Title Text",
+                "fields": {
+                  "headingLevel": {
+                    "render": true
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "overlay": {
+      "type": "object",
+      "selector": "{{selector}}.et_pb_filterable_portfolio .et_overlay",
+      "styleProps": {
+        "icon": {
+          "selector": "{{selector}} .et_overlay:before",
+          "important": {
+            "desktop": {
+              "value": {
+                "color": true,
+                "font-family": true,
+                "content": true,
+                "font-weight": true
+              }
+            }
+          }
+        }
+      },
+      "settings": {
+        "decoration": {
+          "background": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "designOverlay",
+              "attrName": "overlay.decoration.background",
+              "subName": "color",
+              "label": "Hover Overlay Color",
+              "description": "Here you can define a custom color for the overlay.",
+              "priority": 20,
+              "render": true,
+              "features": {
+                "dynamicContent": {
+                  "type": "color"
+                }
+              },
+              "component": {
+                "type": "field",
+                "name": "divi/color-picker"
+              }
+            }
+          },
+          "icon": {
+            "groupType": "group-items",
+            "items": {
+              "color": {
+                "groupSlug": "designOverlay",
+                "attrName": "overlay.decoration.icon",
+                "subName": "color",
+                "label": "Zoom Icon Color",
+                "priority": 10,
+                "render": true,
+                "features": {
+                  "dynamicContent": {
+                    "type": "color"
+                  }
+                },
+                "component": {
+                  "type": "field",
+                  "name": "divi/color-picker"
+                }
+              },
+              "icon": {
+                "groupSlug": "designOverlay",
+                "attrName": "overlay.decoration.icon",
+                "priority": 30,
+                "render": true,
+                "component": {
+                  "type": "group",
+                  "name": "divi/icon",
+                  "props": {
+                    "grouped": false,
+                    "fieldLabel": "Hover Icon Picker",
+                    "fields": {
+                      "color": {
+                        "render": false
+                      },
+                      "icon": {
+                        "render": true
+                      },
+                      "useSize": {
+                        "render": false
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "image": {
+      "type": "object",
+      "selector": "{{selector}} .et_portfolio_image",
+      "styleProps": {
+        "border": {
+          "selector": "{{selector}}.et_pb_filterable_portfolio .et_portfolio_image"
+        },
+        "boxShadow": {
+          "selector": "{{selector}} .et_pb_portfolio_item .et_portfolio_image",
+          "useOverlay": true
+        }
+      },
+      "styleComponentsProps": {
+        "background": false,
+        "boxShadow": {
+          "settings": {
+            "overlay": true
+          }
+        }
+      },
+      "settings": {
+        "decoration": {
+          "border": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "designImage",
+              "attrName": "image.decoration.border",
+              "priority": 10,
+              "render": true,
+              "component": {
+                "type": "group",
+                "name": "divi/border",
+                "props": {
+                  "grouped": false,
+                  "fieldLabel": "Image"
+                }
+              }
+            }
+          },
+          "boxShadow": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "designImage",
+              "attrName": "image.decoration.boxShadow",
+              "priority": 10,
+              "render": true,
+              "component": {
+                "type": "group",
+                "name": "divi/box-shadow",
+                "props": {
+                  "grouped": false,
+                  "fieldLabel": "Image"
+                }
+              }
+            }
+          },
+          "filters": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "designImage",
+              "attrName": "image.decoration.filters",
+              "priority": 10,
+              "render": true,
+              "component": {
+                "type": "group",
+                "name": "divi/filters",
+                "props": {
+                  "grouped": false,
+                  "fieldLabel": "Image"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "filter": {
+      "type": "object",
+      "selector": "{{selector}}.et_pb_filterable_portfolio .et_pb_portfolio_filter, {{selector}} .et_pb_portfolio_filter a",
+      "styleProps": {
+        "font": {
+          "important": {
+            "font": {
+              "desktop": {
+                "value": {
+                  "color": true
+                }
+              }
+            }
+          },
+          "propertySelectors": {
+            "font": {
+              "desktop": {
+                "value": {
+                  "color": "{{selector}}.et_pb_filterable_portfolio .et_pb_portfolio_filter a"
+                }
+              }
+            }
+          }
+        }
+      },
+      "settings": {
+        "decoration": {
+          "font": {
+            "component": {
+              "props": {
+                "fieldLabel": "Filter Criteria",
+                "groupLabel": "Filter Criteria Text",
+                "fields": {
+                  "textAlign": {
+                    "render": false
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "meta": {
+      "type": "object",
+      "selector": "{{selector}}.et_pb_filterable_portfolio .post-meta, {{selector}}.et_pb_filterable_portfolio .post-meta a",
+      "settings": {
+        "decoration": {
+          "font": {
+            "component": {
+              "props": {
+                "fieldLabel": "Meta",
+                "groupLabel": "Meta Text"
+              }
+            }
+          }
+        }
+      }
+    },
+    "pagination": {
+      "type": "object",
+      "selector": "{{selector}}.et_pb_filterable_portfolio .et_pb_portofolio_pagination a",
+      "styleProps": {
+        "font": {
+          "propertySelectors": {
+            "font": {
+              "desktop": {
+                "value": {
+                  "text-align": "{{selector}}.et_pb_filterable_portfolio .et_pb_portofolio_pagination ul"
+                }
+              }
+            }
+          }
+        }
+      },
+      "settings": {
+        "decoration": {
+          "font": {
+            "component": {
+              "props": {
+                "fieldLabel": "Pagination",
+                "groupLabel": "Pagination Text"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "customCssFields": {
+    "portfolioFilters": {
+      "label": "Portfolio Filters",
+      "subName": "portfolioFilters",
+      "selectorSuffix": " .et_pb_filterable_portfolio .et_pb_portfolio_filters"
+    },
+    "activePortfolioFilter": {
+      "label": "Active Portfolio Filter",
+      "subName": "activePortfolioFilter",
+      "selectorSuffix": " .et_pb_filterable_portfolio .et_pb_portfolio_filters li a.active"
+    },
+    "portfolioImage": {
+      "label": "Portfolio Image",
+      "subName": "portfolioImage",
+      "selectorSuffix": " .et_filterable_portfolio_image"
+    },
+    "overlay": {
+      "label": "Overlay",
+      "subName": "overlay",
+      "selectorSuffix": " .et_overlay"
+    },
+    "overlayIcon": {
+      "label": "Overlay Icon",
+      "subName": "overlayIcon",
+      "selectorSuffix": " .et_overlay:before"
+    },
+    "portfolioTitle": {
+      "label": "Portfolio Title",
+      "subName": "portfolioTitle",
+      "selectorSuffix": " .et_pb_filterable_portfolio_item h2"
+    },
+    "portfolioPostMeta": {
+      "label": "Portfolio Post Meta",
+      "subName": "portfolioPostMeta",
+      "selectorSuffix": " .et_pb_filterable_portfolio_item .post-meta"
+    },
+    "portfolioPagination": {
+      "label": "Portfolio Pagination",
+      "subName": "portfolioPagination",
+      "selectorSuffix": " .et_pb_portofolio_pagination"
+    },
+    "portfolioPaginationActive": {
+      "label": "Portfolio Pagination Active",
+      "subName": "portfolioPaginationActive",
+      "selectorSuffix": " .et_pb_portofolio_pagination a.active"
+    }
+  },
+  "settings": {
+    "advanced": "auto",
+    "groups": {
+      "content": {
+        "panel": "content",
+        "priority": 10,
+        "groupName": "content",
+        "component": {
+          "name": "divi/composite",
+          "props": {
+            "groupLabel": "Content"
+          }
+        }
+      },
+      "contentElements": {
+        "panel": "content",
+        "priority": 10,
+        "groupName": "elements",
+        "multiElements": true,
+        "component": {
+          "name": "divi/composite",
+          "props": {
+            "groupLabel": "Elements"
+          }
+        }
+      },
+      "designLayout": {
+        "panel": "design",
+        "priority": 10,
+        "groupName": "designLayout",
+        "component": {
+          "name": "divi/composite",
+          "props": {
+            "groupLabel": "Layout"
+          }
+        }
+      },
+      "designOverlay": {
+        "panel": "design",
+        "priority": 10,
+        "groupName": "designOverlay",
+        "component": {
+          "name": "divi/composite",
+          "props": {
+            "groupLabel": "Overlay"
+          }
+        }
+      },
+      "designImage": {
+        "panel": "design",
+        "priority": 10,
+        "groupName": "designImage",
+        "component": {
+          "name": "divi/composite",
+          "props": {
+            "groupLabel": "Image"
+          }
+        }
+      },
+      "designBorder": {
+        "panel": "design",
+        "groupName": "border",
+        "priority": 90,
+        "multiElements": false,
+        "component": {
+          "name": "divi/composite",
+          "props": {
+            "clipboardCategory": "style",
+            "groupLabel": "Border",
+            "presetGroup": "divi/border"
+          }
+        }
+      }
+    }
+  },
+  "mousetrap": {
+    "zIndex": {
+      "edited": "aboveModuleElements"
+    }
+  }
+}

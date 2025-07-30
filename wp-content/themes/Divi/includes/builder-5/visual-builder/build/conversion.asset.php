@@ -1,0 +1,1 @@
+<?php return array('dependencies' => array('divi-constant-library', 'divi-data', 'divi-global-data', 'divi-module-utils', 'divi-sanitize', 'divi-vendor-wp-block-serialization-default-parser', 'divi-vendor-wp-hooks', 'divi-vendor-wp-shortcode', 'lodash'), 'version' => 'c0526455f7a27968b0c9');

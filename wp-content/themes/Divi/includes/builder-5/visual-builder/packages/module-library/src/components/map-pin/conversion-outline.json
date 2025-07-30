@@ -1,0 +1,17 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "module": {
+    "content": "content.innerContent.*",
+    "inline_fonts": "content.decoration.inlineFont.*.families",
+    "pin_address": "pin.innerContent.*.address",
+    "pin_address_lat": "pin.innerContent.*.lat",
+    "pin_address_lng": "pin.innerContent.*.lng",
+    "title": "title.innerContent.*",
+    "zoom_level": "pin.innerContent.*.zoom"
+  },
+  "advanced": {},
+  "css": {},
+  "valueExpansionFunctionMap": {
+    "inline_fonts": "convertInlineFont"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "advanced": {
+    "admin_label": "module.meta.adminLabel",
+    "background": "module.decoration.background",
+    "box_shadow": {
+      "default": "module.decoration.boxShadow"
+    },
+    "display_conditions": "module.decoration.conditions",
+    "filters": {
+      "default": "module.decoration.filters"
+    },
+    "fonts": {
+      "body": "content.decoration.bodyFont.body",
+      "body_link": "content.decoration.bodyFont.link",
+      "body_ol": "content.decoration.bodyFont.ol",
+      "body_quote": "content.decoration.bodyFont.quote",
+      "body_ul": "content.decoration.bodyFont.ul",
+      "tab": "title.decoration.font"
+    },
+    "link_options": "module.advanced.link",
+    "margin_padding": "module.decoration.spacing",
+    "position_fields": "module.decoration.position",
+    "overflow": "module.decoration.overflow",
+    "transform": "module.decoration.transform",
+    "transition": "module.decoration.transition",
+    "z_index": "module.decoration.zIndex"
+  },
+  "css": {
+    "after": "css.*.after",
+    "free_form": "css.*.freeForm",
+    "before": "css.*.before",
+    "main_element": "css.*.mainElement"
+  },
+  "module": {
+    "content": "content.innerContent.*",
+    "title": "title.innerContent.*",
+    "inline_fonts": "content.decoration.inlineFont.*.families"
+  },
+  "valueExpansionFunctionMap": {
+    "inline_fonts": "convertInlineFont"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "module": {
+    "meta": {
+      "adminLabel": {
+        "desktop": {
+          "value": "Video"
+        }
+      }
+    }
+  },
+  "overlay": {
+    "decoration": {
+      "background": {
+        "desktop": {
+          "value": {
+            "color": "rgba(0,0,0,.6)"
+          }
+        }
+      }
+    }
+  },
+  "playIcon": {
+    "decoration": {
+      "icon": {
+        "desktop": {
+          "value": {
+            "size": "96px",
+            "useSize": "off"
+          }
+        }
+      }
+    }
+  }
+}

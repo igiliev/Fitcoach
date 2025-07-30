@@ -1,0 +1,12 @@
+/*!
+* jQuery Mobile v1.5.0-rc1 
+* (c) 2010, 2018 jQuery Foundation, Inc.
+* jquery.org/license
+*
+* Modified to adapt the latest jQuery version (v3 above) included on WordPress 5.6:
+* - (2020-12-11) - Try to access `.concat` of undefined `$.event.props` - removed.
+* - (2021-02-04) - jQuery bind method is deprecated.
+* - (2021-02-04) - jQuery unbind method is deprecated.
+* - (2024-10-13) - Upgrade to 1.5.0-alpha.1
+* - (2024-10-20) - Remove code unrelated to swipe feature
+*/

@@ -1,0 +1,1440 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SoftWP\n"
+"POT-Creation-Date: 2023-11-03 12:26+0530\n"
+"PO-Revision-Date: 2025-02-10 18:28+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: hu_HU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.5\n"
+
+#: assets/js/ai/build/index.js:1 assets/js/ai/src/index.js:19
+msgid "Ask AI"
+msgstr "Kérdezd meg az AI-t"
+
+#: main/admin.php:12
+msgid "Sorry, but you do not have permissions to save settings."
+msgstr "Sajnáljuk, de nincs engedélye a beállítások mentésére."
+
+#: main/admin.php:49 main/admin.php:341 main/admin.php:347 main/intros.php:22
+msgid "Tours"
+msgstr "Túrák"
+
+#: main/onboarding.php:1058
+msgid "Assistant"
+msgstr "Helyettes"
+
+#: main/admin.php:58
+msgid "WordPress Sidebar"
+msgstr "WordPress oldalsáv"
+
+#: main/admin.php:61
+msgid "WordPress admin Dashboard"
+msgstr "WordPress adminisztrátori irányítópult"
+
+#: main/admin.php:64
+msgid "Plugins Management"
+msgstr "Beépülő modulok kezelése"
+
+#: main/admin.php:67
+msgid "Themes Management"
+msgstr "Témák kezelése"
+
+#: main/admin.php:70
+msgid "Pages Management"
+msgstr "Oldalkezelés"
+
+#: main/admin.php:73
+msgid "Posts Management"
+msgstr "Hozzászólások kezelése"
+
+#: main/admin.php:76
+msgid "Users Management"
+msgstr "Felhasználók kezelése"
+
+#: main/admin.php:83 main/intros.php:30
+msgid "Recommended Features"
+msgstr "Ajánlott funkciók"
+
+#: main/admin.php:85
+msgid "Show More"
+msgstr "Továbbiak megjelenítése"
+
+#: main/admin.php:118
+msgid "Install"
+msgstr "Telepítés"
+
+#: main/admin.php:120 main/manage-plugins.php:116
+msgid "Activate"
+msgstr "Aktiválja"
+
+#: main/manage-plugins.php:118
+msgid "Active"
+msgstr "Aktív"
+
+#: main/admin.php:135 main/admin.php:343 main/admin.php:349 main/intros.php:36
+msgid "Quick Links"
+msgstr "Gyors linkek"
+
+#: main/admin.php:143
+msgid "Manage Pro License"
+msgstr "Kezelje a Pro licencet"
+
+#: main/admin.php:143
+msgid "Manage SoftWP License"
+msgstr "SoftWP licenc kezelése"
+
+#: main/admin.php:147
+msgid "View Site"
+msgstr "Webhely megtekintése"
+
+#: main/admin.php:150
+msgid "Check Updates"
+msgstr "Ellenőrizze a Frissítéseket"
+
+#: main/admin.php:153
+msgid "Permalinks"
+msgstr "Permalinks"
+
+#: main/admin.php:157
+msgid "Manage Pages"
+msgstr "Oldalak kezelése"
+
+#: main/admin.php:183 main/admin.php:189
+msgid "Add New"
+msgstr "Új hozzáadása"
+
+#: main/admin.php:163
+msgid "Manage Posts"
+msgstr "Bejegyzések kezelése"
+
+#: main/admin.php:169
+msgid "Manage Media"
+msgstr "Médiakezelés"
+
+#: main/admin.php:175 main/manage-plugins.php:51
+msgid "Manage Plugins"
+msgstr "Beépülő modulok kezelése"
+
+#: main/admin.php:181
+msgid "Manage Themes"
+msgstr "Témák kezelése"
+
+#: main/admin.php:187
+msgid "Manage Users"
+msgstr "Felhasználók kezelése"
+
+#: main/admin.php:193
+msgid "Launch Onboarding"
+msgstr "Indítsa el az Onboarding programot"
+
+#: main/admin.php:201 main/intros.php:42 main/intros.php:152
+msgid "Settings"
+msgstr "Beállítások elemre"
+
+#: main/admin.php:210
+msgid "Completely Disable Comments across the site"
+msgstr "Teljesen tiltsa le a megjegyzéseket a webhelyen"
+
+#: main/functions.php:845 main/intros.php:48
+msgid "AI"
+msgstr "AI"
+
+#: main/admin.php:218
+msgid "Buy AI Tokens"
+msgstr "Vásároljon AI tokeneket"
+
+#: main/admin.php:227
+msgid "Disable Softaculous AI"
+msgstr "A Softaculous AI letiltása"
+
+#: main/admin.php:232 main/admin.php:233 main/admin.php:234
+msgid "Days"
+msgstr "Napok"
+
+#: main/admin.php:235
+msgid "Never"
+msgstr "Soha"
+
+#: main/admin.php:238
+msgid "AI history retention"
+msgstr "AI történelem megőrzése"
+
+#: main/admin.php:332
+msgid "WordPress Assistant"
+msgstr "WordPress asszisztens"
+
+#: main/admin.php:336 main/intros.php:82 main/intros.php:278
+msgid "Dashboard"
+msgstr "Műszerfal"
+
+#: main/admin.php:342 main/admin.php:348
+msgid "Extend"
+msgstr "Hosszabbítás"
+
+#: main/admin.php:558
+msgid "Are you sure you want to skip the Tour?"
+msgstr "Biztos, hogy kihagyja a körutat?"
+
+#: main/ai.php:65 main/ai.php:175
+msgid "You do not have required privilege"
+msgstr "Nem rendelkezik a szükséges jogosultságokkal"
+
+#: main/ai.php:76
+msgid "Please link a license to keep using the AI feature"
+msgstr "Kérjük, kapcsoljon össze egy licencet az AI funkció használatának folytatásához"
+
+#: main/ai.php:81
+msgid "Please write a Prompt, for the AI to generate content"
+msgstr "Kérjük, írjon egy felszólítást, hogy az AI tartalmat generáljon"
+
+#: main/ai.php:88
+msgid "AI shortcut can not be applied without any content."
+msgstr "Az AI parancsikon nem alkalmazható tartalom nélkül."
+
+#: main/ai.php:103
+msgid "Unable to complete this request"
+msgstr "Ezt a kérést nem lehet teljesíteni"
+
+#: main/ai.php:115
+msgid "The AI API responsed with empty response, Response Code:"
+msgstr "Az AI API üres válasszal válaszolt, válaszkód:"
+
+#: main/ai.php:121
+msgid "Unexpected response code returned from AI API: "
+msgstr "Az AI API váratlan válaszkódja: "
+
+#: main/functions.php:255
+msgid "Sorry, but you do not have permissions to change settings."
+msgstr "Sajnáljuk, de nincs engedélye a beállítások módosítására."
+
+#: main/functions.php:378
+#, php-format
+msgid "Your SoftWP plugin is %1$sUnlicensed%2$s. Please enter the license key %3$s here%4$s."
+msgstr "Az Ön SoftWP beépülő modulja %1$sUnlicenzált%2$s. Kérjük, adja meg a %3$s licenckulcsot itt%4$s."
+
+#: main/functions.php:387
+#, php-format
+msgid "Your SoftWP plugin license is %1$snot authorized%2$s to be used on  %3$s. You can generate a new license for your domain from the %4$s panel."
+msgstr "Az Ön SoftWP beépülő moduljának licence %1$snem engedélyezett%2$s a %3$s használatára. A %4$s panelről új licencet hozhat létre domainjéhez."
+
+#: main/functions.php:394
+#, php-format
+msgid "Your SoftWP plugin license has %1$sExpired%2$s. Please renew your license for uninterrupted updates and support."
+msgstr "A SoftWP beépülő modul licence %1$slejárt%2$s. Kérjük, újítsa meg licencét a megszakítás nélküli frissítések és támogatás érdekében."
+
+#: main/functions.php:416
+#, php-format
+msgid "Your Onboarding process is not completed yet! %1$sClick here%2$s to complete the simple setup process and build your site in a few steps."
+msgstr "A felvételi folyamat még nem fejeződött be! %1$sKattintson ide%2$s az egyszerű beállítási folyamat befejezéséhez és webhelyének néhány lépésben történő elkészítéséhez."
+
+#: main/functions.php:447
+msgid "Enhance Content Writing with AI Assistant"
+msgstr "Fokozza a tartalomírást az AI Assistant segítségével"
+
+#: main/functions.php:449
+msgid "Use cutting-edge AI to write blog posts or content for your pages. Create a table, write a paragraph, change tone, translate, fix spelling & grammar and so much more."
+msgstr "Az élvonalbeli mesterséges intelligencia segítségével blogbejegyzéseket vagy tartalmat írhat oldalaihoz. Táblázat létrehozása, bekezdés írása, hangszín megváltoztatása, fordítás, helyesírás javítása & nyelvtan és még sok más."
+
+#: main/functions.php:450
+msgid "Start Exploring"
+msgstr "Kezdje el a felfedezést"
+
+#: main/functions.php:451
+msgid "New Page"
+msgstr "Új oldal"
+
+#: main/functions.php:452
+msgid "New Post"
+msgstr "Új bejegyzés"
+
+#: main/functions.php:453
+msgid "Existing Page"
+msgstr "Meglévő oldal"
+
+#: main/functions.php:454
+msgid "Existing Post"
+msgstr "Meglévő bejegyzés"
+
+#: main/functions.php:807
+msgid "Enter Pro License Key"
+msgstr "Írja be a Pro licenckulcsot"
+
+#: main/functions.php:843
+msgid "Explore Pro Plugins"
+msgstr "Fedezze fel a Pro beépülő modulokat"
+
+#: main/functions.php:844
+msgid "Tour"
+msgstr "Kirándulás"
+
+#: main/functions.php:877 main/functions.php:878
+msgid "AI History"
+msgstr "AI története"
+
+#: main/intros.php:15
+msgid "Assistant adds AI to your site building process and lets you create content with just a few clicks (look for the AI option while editing your posts/pages)."
+msgstr "Az Asszisztens mesterséges intelligenciát ad a webhelyépítési folyamathoz, és lehetővé teszi, hogy mindössze néhány kattintással hozzon létre tartalmat (keresse az AI opciót a bejegyzések/oldalak szerkesztése közben)."
+
+#: main/intros.php:17
+msgid "Assistant also helps you with several aspects of building and maintaning your WordPress website."
+msgstr "Az Asszisztens a WordPress-webhely felépítésének és karbantartásának számos vonatkozásában is segítséget nyújt."
+
+#: main/intros.php:23
+msgid "Tours highlights and explains important options in WordPress that you will need while managing your site."
+msgstr "A Tours kiemeli és elmagyarázza a WordPress azon fontos lehetőségeit, amelyekre a webhely kezelése során szüksége lesz."
+
+#: main/intros.php:25
+msgid "You can replay the tours when needed."
+msgstr "Szükség esetén újra lejátszhatja a túrákat."
+
+#: main/intros.php:31
+msgid "A recommended list of plugins to improve performace and extend functionalties for your site."
+msgstr "Javasolt lista a beépülő modulokról, amelyek javítják a teljesítményt és bővítik webhelye funkcióit."
+
+#: main/intros.php:37
+msgid "Here you will find important links compiled in a single section which can sometimes be difficult to find in WordPress."
+msgstr "Itt egyetlen szakaszban összeállított fontos hivatkozásokat talál, amelyeket néha nehéz megtalálni a WordPressben."
+
+#: main/intros.php:43
+msgid "We have simplified complex WordPress settings that you can now manage with just a click via the Assistant."
+msgstr "Egyszerűsített összetett WordPress-beállításokkal rendelkezünk, amelyeket most egyetlen kattintással kezelhet az Asszisztensen keresztül."
+
+#: main/intros.php:49
+msgid "Experience hassle-free site building with inbuilt AI in Assistant."
+msgstr "Tapasztalja meg a problémamentes webhelyépítést a beépített mesterséges intelligencia Assistant segítségével."
+
+#: main/intros.php:54 main/intros.php:66
+msgid "Your Assistant"
+msgstr "Az Ön asszisztense"
+
+#: main/intros.php:55 main/intros.php:67
+msgid "Assistant resides here, when you are unable to find something or having a hard time understanding a feature in WordPress we should be able to help you."
+msgstr "Az asszisztens itt lakik, és ha nem talál valamit, vagy nehezen érti meg a WordPress egy funkcióját, akkor tudunk segíteni."
+
+#: main/intros.php:57 main/intros.php:69
+msgid "Visit this page anytime."
+msgstr "Látogassa meg ezt az oldalt bármikor."
+
+#: main/intros.php:74
+msgid "Preview Site"
+msgstr "Webhely előnézete"
+
+#: main/intros.php:75
+msgid "You can use this link to preview your site as a visitor."
+msgstr "Ezzel a hivatkozással megtekintheti webhelye előnézetét látogatóként."
+
+#: main/intros.php:83 main/intros.php:279
+msgid "The Dashboard is your website's command center, providing a concise summary of its activity, such as site health, recent updates, comments, and statistics."
+msgstr "Az Irányítópult a webhely parancsközpontja, amely tömör összefoglalót nyújt a webhely tevékenységeiről, például a webhely állapotáról, a legutóbbi frissítésekről, megjegyzésekről és statisztikákról."
+
+#: main/intros.php:85 main/intros.php:281
+msgid "Several plugins also display quick summary like orders, products, etc within the dashboard."
+msgstr "Számos bővítmény gyors összefoglalót is megjelenít, például a rendeléseket, termékeket stb. az irányítópulton."
+
+#: main/intros.php:87
+msgid "You can also check for Updates from the sub-menu."
+msgstr "A Frissítéseket az almenüből is ellenőrizheti."
+
+#: main/intros.php:92 main/intros.php:394
+msgid "Posts"
+msgstr "Hozzászólások"
+
+#: main/intros.php:93
+msgid "Manage your blog posts here."
+msgstr "Itt kezelheti blogbejegyzéseit."
+
+#: main/intros.php:95
+msgid "Posts are typically utilized for blog posts, news updates, or articles, organized in a chronological order."
+msgstr "A bejegyzéseket általában blogbejegyzésekhez, hírekhez vagy cikkekhez használják, időrendi sorrendben."
+
+#: main/intros.php:100
+msgid "Media Library"
+msgstr "Médiatár"
+
+#: main/intros.php:101
+msgid "Manage media files like images, audio, videos, etc. here."
+msgstr "Itt kezelheti a médiafájlokat, például a képeket, hangokat, videókat stb."
+
+#: main/intros.php:103
+msgid "Media uploaded from anywhere on your site can be managed here."
+msgstr "A webhelyén bárhonnan feltöltött média itt kezelhető."
+
+#: main/intros.php:108 main/intros.php:455
+msgid "Pages"
+msgstr "Oldalak"
+
+#: main/intros.php:109
+msgid "Pages are static content sections such as Home, About Us, Contact, Services, etc."
+msgstr "Az oldalak statikus tartalmú szekciók, például Kezdőlap, Rólunk, Kapcsolat, Szolgáltatások stb."
+
+#: main/intros.php:111
+msgid "Use this menu to add, edit, delete your pages."
+msgstr "Használja ezt a menüt oldalak hozzáadásához, szerkesztéséhez és törléséhez."
+
+#: main/intros.php:116
+msgid "Comments"
+msgstr "Megjegyzések"
+
+#: main/intros.php:117
+msgid "Here you can moderate comments posted by visitors on your posts."
+msgstr "Itt moderálhatja a látogatók által a bejegyzéseihez írt megjegyzéseket."
+
+#: main/intros.php:119
+msgid "You can one click disable comments for your entire site from the Assistant dashboard."
+msgstr "A Segéd irányítópultján egy kattintással letilthatja a megjegyzéseket a teljes webhelyen."
+
+#: main/intros.php:124
+msgid "Appearance"
+msgstr "Megjelenés"
+
+#: main/intros.php:125
+msgid "Personalize your site's appearance effortlessly."
+msgstr "Könnyedén testreszabhatja webhelye megjelenését."
+
+#: main/intros.php:127
+msgid "Explore themes, customize headers, background, colors, manage widgets and menus to customize your site's look and feel."
+msgstr "Fedezze fel a témákat, szabja testre a fejléceket, a hátteret, a színeket, kezelje a widgeteket és menüket, hogy személyre szabja webhelye megjelenését és hangulatát."
+
+#: main/intros.php:132 main/intros.php:188
+msgid "Plugins"
+msgstr "Beépülő modulok"
+
+#: main/intros.php:133
+msgid "Unlock endless possibilities for your website with plugins."
+msgstr "Nyisson meg végtelen lehetőségeket webhelye számára a bővítmények segítségével."
+
+#: main/intros.php:135
+msgid "Easily search, add or delete plugins to enhance your site's functionality."
+msgstr "Egyszerűen kereshet, adhat hozzá vagy törölhet beépülő modulokat webhelye funkcionalitásának javítása érdekében."
+
+#: main/intros.php:140 main/intros.php:339
+msgid "Users"
+msgstr "Felhasználók"
+
+#: main/intros.php:141
+msgid "Add or manage users to ensure smooth operation and collaboration."
+msgstr "Felhasználók hozzáadása vagy kezelése a zavartalan működés és együttműködés érdekében."
+
+#: main/intros.php:146
+msgid "Tools"
+msgstr "Eszközök"
+
+#: main/intros.php:147
+msgid "Import/Export site data, check site health or edit plugin/theme files from the Tools menu."
+msgstr "Webhelyadatok importálása/exportálása, webhely állapotának ellenőrzése vagy bővítmény-/témafájlok szerkesztése az Eszközök menüből."
+
+#: main/intros.php:153
+msgid "Advanced settings for your site can be managed here."
+msgstr "Itt kezelheti a webhely speciális beállításait."
+
+#: main/intros.php:155
+msgid "These settings include site title, tagline, site url, writing, reading, discussion, media, permalinks and more."
+msgstr "Ezek a beállítások magukban foglalják a webhely címét, a címsort, a webhely URL-címét, az írást, az olvasást, a vitát, a médiát, az állandó hivatkozásokat és egyebeket."
+
+#: main/intros.php:157
+msgid "Some plugins also add their settings page in this menu."
+msgstr "Egyes beépülő modulok beállítási oldalukat is hozzáadják ehhez a menühöz."
+
+#: main/intros.php:162
+msgid "Toggle Menu"
+msgstr "Menü váltása"
+
+#: main/intros.php:163
+msgid "Expand or Collapse the sidebar menu using this option."
+msgstr "Ezzel a lehetőséggel bontsa ki vagy csukja össze az oldalsáv menüjét."
+
+#: main/intros.php:168
+msgid "Edit Profile"
+msgstr "Profil szerkesztése"
+
+#: main/intros.php:169
+msgid "Here you can edit your profile information like name, email, password, bio, profile picture and more."
+msgstr "Itt szerkesztheti profiladatait, például nevét, e-mail címét, jelszavát, életrajzát, profilképét és egyebeket."
+
+#: main/intros.php:176
+msgid "Log Out"
+msgstr "Jelentkezzen ki"
+
+#: main/intros.php:177
+msgid "Use this link to securely log out from your site."
+msgstr "Ezzel a hivatkozással biztonságosan kijelentkezhet webhelyéről."
+
+#: main/intros.php:189
+msgid "Click here to add or manage plugins on your site."
+msgstr "Kattintson ide, ha bővítményeket szeretne hozzáadni vagy kezelni a webhelyén."
+
+#: main/intros.php:194
+msgid "Add New Plugin"
+msgstr "Új beépülő modul hozzáadása"
+
+#: main/intros.php:195
+msgid "Here you can search wordpress.org plugins library or upload a custom plugin file to install a new plugin on your site."
+msgstr "Itt kereshet a wordpress.org beépülő modulok könyvtárában, vagy feltölthet egyéni beépülő modult, hogy új beépülő modult telepítsen webhelyére."
+
+#: main/intros.php:200
+msgid "Installed Plugins List"
+msgstr "Telepített beépülő modulok listája"
+
+#: main/intros.php:201
+msgid "All your installed plugins active as well as inactive will be listed here."
+msgstr "Itt megjelenik az összes telepített aktív és inaktív bővítmény."
+
+#: main/intros.php:206
+msgid "Plugin Actions"
+msgstr "Beépülő modulok műveletei"
+
+#: main/intros.php:207
+msgid "You can perform actions for your plugins like Activate, Deactivate, Update, Delete, Plugin Settings and more.."
+msgstr "A beépülő modulokhoz olyan műveleteket hajthat végre, mint az Aktiválás, Deaktiválás, Frissítés, Törlés, Beépülő modul beállításai és egyebek."
+
+#: main/intros.php:209
+msgid "It is recommended to delete plugins that you do not plan to use and keep all your plugins up to date."
+msgstr "Javasoljuk, hogy törölje azokat a beépülő modulokat, amelyeket nem tervez használni, és tartsa naprakészen az összes beépülő modult."
+
+#: main/intros.php:482
+msgid "Bulk Actions"
+msgstr "Tömeges műveletek"
+
+#: main/intros.php:215
+msgid "Choose bulk action for selected plugins: Activate, Deactivate, Update, Delete, toggle auto updates and more"
+msgstr "Válasszon tömeges műveletet a kiválasztott beépülő modulokhoz: Aktiválás, Deaktiválás, Frissítés, Törlés, automatikus frissítések váltása és egyebek"
+
+#: main/intros.php:220
+msgid "Filter Installed Plugins"
+msgstr "Telepített beépülő modulok szűrése"
+
+#: main/intros.php:221
+msgid "Filter your installed plugins list with Active, Inactive, Auto Updates Enabled or Disabled options"
+msgstr "Szűrje a telepített bővítmények listáját az Aktív, Inaktív, Automatikus frissítések engedélyezve vagy Letiltva opciókkal"
+
+#: main/intros.php:226
+msgid "Search Installed Plugins"
+msgstr "Keresés a telepített bővítmények között"
+
+#: main/intros.php:227
+msgid "Search a plugin from the installed plugins list."
+msgstr "Keressen egy bővítményt a telepített bővítmények listájából."
+
+#: main/intros.php:236
+msgid "Themes"
+msgstr "Témák"
+
+#: main/intros.php:237
+msgid "Click here to add or manage themes on your site."
+msgstr "Kattintson ide, ha témákat szeretne hozzáadni vagy kezelni webhelyén."
+
+#: main/intros.php:242
+msgid "Add New Theme"
+msgstr "Új téma hozzáadása"
+
+#: main/intros.php:243
+msgid "Here you can search wordpress.org themes library or upload a custom theme file to install a new theme on your site."
+msgstr "Itt kereshet a wordpress.org témakönyvtárban, vagy feltölthet egyéni témafájlt, hogy új témát telepítsen webhelyére."
+
+#: main/intros.php:248
+msgid "Installed Themes List"
+msgstr "Telepített témák listája"
+
+#: main/intros.php:249
+msgid "All your installed themes active as well as inactive will be listed here."
+msgstr "Itt megjelenik az összes telepített aktív és inaktív téma."
+
+#: main/intros.php:254
+msgid "Active Theme"
+msgstr "Aktív téma"
+
+#: main/intros.php:255
+msgid "Your active theme will be listed here."
+msgstr "Az aktív témája itt jelenik meg."
+
+#: main/intros.php:260
+msgid "Theme Actions"
+msgstr "Témaműveletek"
+
+#: main/intros.php:261
+msgid "You can perform actions for your theme like Activate, Live Preview, Customize and more"
+msgstr "A témához olyan műveleteket hajthat végre, mint az Aktiválás, Élő előnézet, Testreszabás stb"
+
+#: main/intros.php:263
+msgid "It is recommended to delete themes that you do not plan to use and keep all your themes up to date."
+msgstr "Javasoljuk, hogy törölje azokat a témákat, amelyeket nem tervez használni, és tartsa naprakészen az összes témát."
+
+#: main/intros.php:268
+msgid "Search Installed Themes"
+msgstr "Keresés a telepített témákban"
+
+#: main/intros.php:269
+msgid "Search a theme from the installed themes list."
+msgstr "Keressen egy témát a telepített témák listájából."
+
+#: main/intros.php:286
+msgid "Site Health"
+msgstr "Webhely egészsége"
+
+#: main/intros.php:287
+msgid "Here you can get insights on the overall performance and security of your website."
+msgstr "Itt betekintést nyerhet webhelye általános teljesítményébe és biztonságába."
+
+#: main/intros.php:289
+msgid "It offers recommendations and troubleshooting tools to help you maintain an efficient and secure site."
+msgstr "Javaslatokat és hibaelhárítási eszközöket kínál a hatékony és biztonságos webhely fenntartásához."
+
+#: main/intros.php:294
+msgid "Info at a Glance"
+msgstr "Információ egy pillantással"
+
+#: main/intros.php:295
+msgid "Here you will get the number of posts, pages, comments, current version of WordPress and theme that you are running."
+msgstr "Itt láthatja a bejegyzések, oldalak, megjegyzések számát, a WordPress aktuális verzióját és a futó témát."
+
+#: main/intros.php:300
+msgid "Activity"
+msgstr "Tevékenység"
+
+#: main/intros.php:301
+msgid "Here you will get a quick summary of recent activity like published posts and comments received on your site."
+msgstr "Itt egy gyors összefoglalót kaphat a legutóbbi tevékenységekről, például a közzétett bejegyzésekről és a webhelyén érkezett megjegyzésekről."
+
+#: main/intros.php:307
+msgid "Quick Draft"
+msgstr "Gyors vázlat"
+
+#: main/intros.php:308
+msgid "Use this section for capturing ideas as they come to you, quickly jot down the ideas for new posts."
+msgstr "Használja ezt a részt az ötletek megörökítésére, amint megérkeznek, és gyorsan jegyezze fel az ötleteket új bejegyzésekhez."
+
+#: main/intros.php:310
+msgid "You can later access these drafts from the Posts section and continue editing them in the full post editor."
+msgstr "Később elérheti ezeket a piszkozatokat a Bejegyzések szakaszból, és folytathatja a szerkesztésüket a teljes bejegyzésszerkesztőben."
+
+#: main/intros.php:316
+msgid "Events and News"
+msgstr "Események és hírek"
+
+#: main/intros.php:317
+msgid "This widget is a valuable resource for staying informed about the latest happenings in the WordPress community and connecting with other WordPress enthusiasts."
+msgstr "Ez a widget értékes forrás a WordPress közösség legfrissebb eseményeiről való tájékozódáshoz és a WordPress többi rajongóival való kapcsolattartáshoz."
+
+#: main/intros.php:319
+msgid "Here you will find updates on new releases, upcoming features, security updates, and general news about the WordPress community."
+msgstr "Itt találhat frissítéseket az új kiadásokról, a közelgő funkciókról, a biztonsági frissítésekről és a WordPress közösséggel kapcsolatos általános hírekről."
+
+#: main/intros.php:321
+msgid "This section also shows upcoming WordPress events such as WordCamps, local meetups, and other community gatherings."
+msgstr "Ez a rész a közelgő WordPress-eseményeket is megjeleníti, például a WordCampeket, a helyi találkozókat és más közösségi összejöveteleket."
+
+#: main/intros.php:327
+msgid "Screen Options"
+msgstr "Képernyőbeállítások"
+
+#: main/intros.php:328
+msgid "This useful feature allows you to select the screen elements that you would like to show or hide by using the checkboxes."
+msgstr "Ez a hasznos funkció lehetővé teszi a megjeleníteni vagy elrejteni kívánt képernyőelemek kiválasztását a jelölőnégyzetek segítségével."
+
+#: main/intros.php:330
+msgid "You will find this option on several pages across your site."
+msgstr "Ezt a lehetőséget webhelye számos oldalán megtalálja."
+
+#: main/intros.php:340
+msgid "Click here to add or manage users on your site."
+msgstr "Kattintson ide, ha felhasználókat szeretne hozzáadni vagy kezelni webhelyén."
+
+#: main/intros.php:345
+msgid "Add New User"
+msgstr "Új felhasználó hozzáadása"
+
+#: main/intros.php:346
+msgid "Add a new user for your site. You can enter user details, password, role, etc."
+msgstr "Adjon hozzá új felhasználót a webhelyéhez. Megadhat felhasználói adatokat, jelszót, szerepkört stb."
+
+#: main/intros.php:351
+msgid "Users List"
+msgstr "Felhasználók listája"
+
+#: main/intros.php:352
+msgid "All your users with admin role as well as other roles will be listed here."
+msgstr "Az összes adminisztrátori szerepkörrel rendelkező felhasználó, valamint más szerepkörök itt lesznek felsorolva."
+
+#: main/intros.php:357
+msgid "Edit User"
+msgstr "Felhasználó szerkesztése"
+
+#: main/intros.php:358
+msgid "You can edit the user information, change password, change role and much more with the Edit link here."
+msgstr "Az itt található Szerkesztés link segítségével szerkesztheti a felhasználói adatokat, megváltoztathatja a jelszavát, megváltoztathatja a szerepkört és még sok mást."
+
+#: main/intros.php:367
+msgid "Choose bulk action for selected users: Delete or send password reset link"
+msgstr "Válasszon tömeges műveletet a kiválasztott felhasználókhoz: Törölje vagy küldje el a jelszó-visszaállítási hivatkozást"
+
+#: main/intros.php:372
+msgid "Change Role"
+msgstr "Szerepváltás"
+
+#: main/intros.php:373
+msgid "Here you can bulk change role for the selected users"
+msgstr "Itt tömegesen módosíthatja a kiválasztott felhasználók szerepkörét"
+
+#: main/intros.php:378
+msgid "Filter Users"
+msgstr "Felhasználók szűrése"
+
+#: main/intros.php:379
+msgid "Filter your users list with their roles"
+msgstr "Szűrje a felhasználók listáját a szerepköreik alapján"
+
+#: main/intros.php:384
+msgid "Search Users"
+msgstr "Felhasználók keresése"
+
+#: main/intros.php:385
+msgid "Search a user from the users list."
+msgstr "Keressen egy felhasználót a felhasználók listájából."
+
+#: main/intros.php:395
+msgid "Click here to add or manage blog posts on your site."
+msgstr "Kattintson ide, ha blogbejegyzéseket szeretne hozzáadni vagy kezelni webhelyén."
+
+#: main/intros.php:400
+msgid "Add New Post"
+msgstr "Új bejegyzés hozzáadása"
+
+#: main/intros.php:401
+msgid "Start writing a new blog post for your site."
+msgstr "Kezdjen el új blogbejegyzést írni webhelyéhez."
+
+#: main/intros.php:406
+msgid "Posts List"
+msgstr "Hozzászólások listája"
+
+#: main/intros.php:407
+msgid "All the posts owned by all the users on your site will be listed here."
+msgstr "Itt megjelenik a webhely összes felhasználójának összes bejegyzése."
+
+#: main/intros.php:412
+msgid "Manage Post"
+msgstr "Bejegyzés kezelése"
+
+#: main/intros.php:413
+msgid "You can view, edit or delete the posts with the links here."
+msgstr "Az itt található linkek segítségével megtekintheti, szerkesztheti vagy törölheti a bejegyzéseket."
+
+#: main/intros.php:422
+msgid "Choose bulk action for selected posts: Quick Edit or Move to Trash."
+msgstr "Válasszon tömeges műveletet a kiválasztott bejegyzésekhez: Gyorsszerkesztés vagy Áthelyezés a Kukába."
+
+#: main/intros.php:427
+msgid "Filter Posts by Date"
+msgstr "Bejegyzések szűrése dátum szerint"
+
+#: main/intros.php:428
+msgid "Here you can filter the posts by date."
+msgstr "Itt dátum szerint szűrheti a bejegyzéseket."
+
+#: main/intros.php:433
+msgid "Filter Posts by Category"
+msgstr "Bejegyzések szűrése kategória szerint"
+
+#: main/intros.php:434
+msgid "Here you can filter the posts by category."
+msgstr "Itt kategóriák szerint szűrheti a bejegyzéseket."
+
+#: main/intros.php:439
+msgid "Filter Posts"
+msgstr "Bejegyzések szűrése"
+
+#: main/intros.php:440
+msgid "Filter your posts list by their status like published, drafts, trash, etc."
+msgstr "Szűrje a bejegyzések listáját állapotuk szerint, például közzétéve, piszkozatok, kuka stb."
+
+#: main/intros.php:445
+msgid "Search Posts"
+msgstr "Keresés a bejegyzésekben"
+
+#: main/intros.php:446
+msgid "Search a post from the posts list."
+msgstr "Keressen egy bejegyzést a bejegyzések listájából."
+
+#: main/intros.php:456
+msgid "Click here to add or manage pages on your site."
+msgstr "Kattintson ide oldalak hozzáadásához vagy kezeléséhez webhelyén."
+
+#: main/intros.php:461
+msgid "Add New Page"
+msgstr "Új oldal hozzáadása"
+
+#: main/intros.php:462
+msgid "Start creating a new page for your site."
+msgstr "Kezdjen el új oldalt létrehozni webhelyéhez."
+
+#: main/intros.php:467
+msgid "Pages List"
+msgstr "Oldalak listája"
+
+#: main/intros.php:468
+msgid "All the pages on your site will be listed here."
+msgstr "Itt megjelenik a webhely összes oldala."
+
+#: main/intros.php:473
+msgid "Manage Page"
+msgstr "Oldal kezelése"
+
+#: main/intros.php:474
+msgid "You can view, edit or delete the pages with the links here."
+msgstr "Az itt található linkekkel megtekintheti, szerkesztheti vagy törölheti az oldalakat."
+
+#: main/intros.php:483
+msgid "Choose bulk action for selected pages: Quick Edit or Move to Trash."
+msgstr "Válasszon tömeges műveletet a kiválasztott oldalakhoz: Gyorsszerkesztés vagy Áthelyezés a kukába."
+
+#: main/intros.php:488
+msgid "Filter Pages by Date"
+msgstr "Oldalak szűrése dátum szerint"
+
+#: main/intros.php:489
+msgid "Here you can filter the pages by date."
+msgstr "Itt dátum szerint szűrheti az oldalakat."
+
+#: main/intros.php:494
+msgid "Filter Pages"
+msgstr "Oldalak szűrése"
+
+#: main/intros.php:495
+msgid "Filter your pages list by their status like published, drafts, trash, etc."
+msgstr "Szűrje oldallistáját állapotuk szerint, például közzétéve, piszkozatok, kuka stb."
+
+#: main/intros.php:500
+msgid "Search Pages"
+msgstr "Oldalak keresése"
+
+#: main/intros.php:501
+msgid "Search a page from the pages list."
+msgstr "Keressen egy oldalt az oldalak listájából."
+
+#: main/license.php:43
+msgid "The license key was not submitted"
+msgstr "A licenckulcs nem lett elküldve"
+
+#: main/license.php:53
+msgid "The response was malformed"
+msgstr "A válasz hibás volt"
+
+#: main/license.php:60 main/onboarding.php:517
+msgid "The license key is invalid"
+msgstr "A licenckulcs érvénytelen"
+
+#: main/license.php:88
+msgid "The license has been saved successfully"
+msgstr "A licenc sikeresen elmentve"
+
+#: main/license.php:103
+msgid "System Information"
+msgstr "Rendszerinformációk"
+
+#: main/license.php:115
+msgid "SoftWP version"
+msgstr "SoftWP verzió"
+
+#: main/license.php:121
+msgid "SoftWP License"
+msgstr "SoftWP licenc"
+
+#: main/license.php:125
+msgid "Update License"
+msgstr "Licenc frissítése"
+
+#: main/license.php:132
+msgid "License Status : "
+msgstr "Licenc állapota: "
+
+#: main/license.php:133
+msgid "License Expires : "
+msgstr "A licenc lejár: "
+
+#: main/license.php:143
+msgid "URL"
+msgstr "URL"
+
+#: main/license.php:147
+msgid "Path"
+msgstr "Útvonal"
+
+#: main/license.php:151
+msgid "Server's IP Address"
+msgstr "A szerver IP-címe"
+
+#: main/manage-plugins.php:65 main/setup.php:172
+#, php-format
+msgid "Requires PHP version %1$s or higher"
+msgstr "A PHP %1$s vagy újabb verziója szükséges"
+
+#: main/manage-plugins.php:84 main/manage-plugins.php:100
+msgid "Not Installed"
+msgstr "Nincs telepítve"
+
+#: main/manage-plugins.php:87 main/manage-plugins.php:103
+msgid "Installed"
+msgstr "Telepítve"
+
+#: main/manage-plugins.php:93
+msgid "Free"
+msgstr "Ingyenes"
+
+#: main/manage-plugins.php:109
+msgid "Pro"
+msgstr "Pro"
+
+#: main/manage-plugins.php:114
+msgid "Install for Free"
+msgstr "Ingyenes telepítés"
+
+#: main/manage-plugins.php:125
+msgid "Pro included with your subscription"
+msgstr "Az előfizetés része a Pro"
+
+#: main/media.php:95
+msgid "Action Buttons"
+msgstr "Művelet gombok"
+
+#: main/media.php:111
+msgid "Edit with Photopea"
+msgstr "Szerkesztés Photopea-val"
+
+#: main/media.php:120
+msgid "Compress Image"
+msgstr "Kép tömörítése"
+
+#: main/media.php:125
+msgid "Replace Media"
+msgstr "Cserélje ki az adathordozót"
+
+#: main/media.php:240
+msgid "Quality"
+msgstr "Minőség"
+
+#: main/media.php:243
+msgid "Save"
+msgstr "Megtakarítás"
+
+#: main/media.php:244
+msgid "Save & Close"
+msgstr "Mentés & Közeli"
+
+#: main/media.php:245
+msgid "Save As"
+msgstr "Mentés másként"
+
+#: main/media.php:246
+msgid "Cancel"
+msgstr "Mégsem"
+
+#: main/media.php:260 main/media.php:421 main/media.php:481
+msgid "Security Check Failed!"
+msgstr "A biztonsági ellenőrzés sikertelen!"
+
+#: main/media.php:274
+msgid "Original image attachment not found"
+msgstr "Az eredeti képmelléklet nem található"
+
+#: main/media.php:280
+msgid "Original image path not found"
+msgstr "Az eredeti kép elérési útja nem található"
+
+#: main/media.php:297
+msgid "File already exists. Please choose another file name"
+msgstr "A fájl már létezik. Kérjük, válasszon másik fájlnevet"
+
+#: main/media.php:306
+msgid "Failed to decode base64 image data"
+msgstr "Nem sikerült dekódolni a base64 képadatokat"
+
+#: main/media.php:317
+msgid "Failed to create image from data"
+msgstr "Nem sikerült képet létrehozni az adatokból"
+
+#: main/media.php:355
+msgid "Unsupported image format"
+msgstr "Nem támogatott képformátum"
+
+#: main/media.php:363
+msgid "Failed to save the image"
+msgstr "Nem sikerült menteni a képet"
+
+#: main/media.php:381
+msgid "Failed to insert the new image as attachment"
+msgstr "Nem sikerült csatolni az új képet"
+
+#: main/media.php:387
+msgid "Failed to regenerate image sub-sizes"
+msgstr "Nem sikerült újragenerálni a képalméreteket"
+
+#: main/media.php:395
+msgid "Image saved successfully"
+msgstr "A kép sikeresen mentve"
+
+#: main/media.php:434 main/media.php:502
+msgid "Invalid image path."
+msgstr "Érvénytelen kép elérési útja."
+
+#: main/media.php:437 main/media.php:505
+msgid "No image ID provided."
+msgstr "Nincs megadva képazonosító."
+
+#: main/media.php:472
+msgid "Unsupported image type."
+msgstr "Nem támogatott képtípus."
+
+#: main/media.php:497
+msgid "Image has been successfully compressed and replaced."
+msgstr "A kép tömörítése és cseréje sikeresen megtörtént."
+
+#: main/media.php:499
+msgid "Compression and replacement failed."
+msgstr "A tömörítés és a csere nem sikerült."
+
+#: main/media.php:570
+msgid "No file was uploaded ! Please try again."
+msgstr "Nincs fájl feltöltve! Kérjük, próbálja újra."
+
+#: main/media.php:576
+msgid "There was some error uploading the file ! Please try again."
+msgstr "Hiba történt a fájl feltöltésekor! Kérjük, próbálja újra."
+
+#: main/media.php:584
+msgid "The File type could not be determined. Please upload a permitted file type."
+msgstr "A fájl típusa nem határozható meg. Kérjük, töltsön fel egy engedélyezett fájltípust."
+
+#: main/media.php:619
+msgid "Please fix the below errors"
+msgstr "Kérjük, javítsa ki az alábbi hibákat"
+
+#: main/media.php:683
+msgid "Failed to determine the media file path !"
+msgstr "Nem sikerült meghatározni a médiafájl elérési útját!"
+
+#: main/media.php:688
+msgid "No folder for the target found !"
+msgstr "Nem található a célhoz tartozó mappa!"
+
+#: main/onboarding.php:81
+msgid "Please confirm that you accept data loss since you have already run the onboarding process previously"
+msgstr "Kérjük, erősítse meg, hogy elfogadja az adatvesztést, mivel korábban már futtatta a belépési folyamatot"
+
+#: main/onboarding.php:82
+msgid "Please select atleast one page to import"
+msgstr "Kérjük, válasszon legalább egy oldalt az importáláshoz"
+
+#: main/onboarding.php:83
+msgid "Downloading and installing required plugins"
+msgstr "A szükséges bővítmények letöltése és telepítése"
+
+#: main/onboarding.php:84
+msgid "WordPress requires FTP details, without them you won't be able to install a plugin/theme"
+msgstr "A WordPresshez FTP adatok szükségesek, ezek nélkül nem tudsz bővítményt/témát telepíteni"
+
+#: main/onboarding.php:85
+msgid "Downloading the template"
+msgstr "A sablon letöltése"
+
+#: main/onboarding.php:86
+msgid "Building your website..."
+msgstr "Weboldal készítése..."
+
+#: main/onboarding.php:87
+msgid "Checking the requirements ..."
+msgstr "A követelmények ellenőrzése..."
+
+#: main/onboarding.php:88
+msgid "Importing the template"
+msgstr "A sablon importálása"
+
+#: main/onboarding.php:89
+msgid "Your website setup is completed"
+msgstr "A webhely beállítása befejeződött"
+
+#: main/onboarding.php:90
+msgid "Congratulations"
+msgstr "Gratulálok"
+
+#: main/onboarding.php:109
+msgid "Increase Website Traffic (SEO)"
+msgstr "A webhely forgalmának növelése (SEO)"
+
+#: main/onboarding.php:110
+msgid "Improve your site's ranking on search engines"
+msgstr "Javítsa webhelye rangját a keresőmotorokban"
+
+#: main/onboarding.php:114
+msgid "SiteSEO ? One Click SEO for WordPress"
+msgstr "SiteSEO – SEO egy kattintással a WordPresshez"
+
+#: main/onboarding.php:120
+msgid "Boost your website's search rankings today with the most powerful WordPress SEO plugin. Its lightweight, optimized, and delivers exceptional performance."
+msgstr "Növelje webhelye keresési helyezéseit még ma a legerősebb WordPress SEO beépülő modullal. Könnyű, optimalizált és kivételes teljesítményt nyújt."
+
+#: main/onboarding.php:129
+msgid "Improve Page Speed"
+msgstr "Az oldalsebesség javítása"
+
+#: main/onboarding.php:130
+msgid "Improve speed by cache, minify, compress"
+msgstr "Javítsa a sebességet a gyorsítótár segítségével, kicsinyítse, tömörítse"
+
+#: main/onboarding.php:134
+msgid "SpeedyCache ? Cache, Optimization, Performance"
+msgstr "SpeedyCache – gyorsítótár, optimalizálás, teljesítmény"
+
+#: main/onboarding.php:139
+msgid "SpeedyCache is an easy to use and powerful WordPress Cache Plugin, it helps you reduce page load time improving User Experience and boosting your Google PageSpeed."
+msgstr "A SpeedyCache egy könnyen használható és hatékony WordPress gyorsítótár-bővítmény, amely segít csökkenteni az oldal betöltési idejét, javítva a felhasználói élményt és növelni a Google PageSpeed-et."
+
+#: main/onboarding.php:148
+msgid "Schedule Backups"
+msgstr "Biztonsági mentések ütemezése"
+
+#: main/onboarding.php:149
+msgid "Backup your site on local or remote servers"
+msgstr "Készítsen biztonsági másolatot webhelyéről helyi vagy távoli szervereken"
+
+#: main/onboarding.php:153
+msgid "Backuply ? Backup, Restore, Migrate and Clone"
+msgstr "Biztonsági mentés – biztonsági mentés, visszaállítás, migráció és klónozás"
+
+#: main/onboarding.php:158
+msgid "Backuply is a WordPress backup plugin that helps you backup your WordPress website, saving you from loss of data because of server crashes, hacks, dodgy updates, or bad plugins."
+msgstr "A Backuply egy WordPress biztonsági mentési beépülő modul, amely segít biztonsági másolat készítésében a WordPress webhelyéről, megóvva Önt a szerver összeomlások, feltörések, fura frissítések vagy rossz beépülő modulok miatti adatvesztéstől."
+
+#: main/onboarding.php:167
+msgid "Sell Products"
+msgstr "Termékek eladása"
+
+#: main/onboarding.php:168
+msgid "Sell physical or digital products"
+msgstr "Fizikai vagy digitális termékek értékesítése"
+
+#: main/onboarding.php:172
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: main/onboarding.php:180
+msgid "Limit Login Attempts"
+msgstr "A bejelentkezési kísérletek korlátozása"
+
+#: main/onboarding.php:181
+msgid "Brute force protection, 2FA, login captcha"
+msgstr "Brute force védelem, 2FA, bejelentkezési captcha"
+
+#: main/onboarding.php:185
+msgid "Loginizer"
+msgstr "Loginizer"
+
+#: main/onboarding.php:190
+msgid "Loginizer is a simple and effortless solution that takes care of all your security problems. It comes with default optimal configuration to protect your site from Brute Force attacks."
+msgstr "A Loginizer egy egyszerű és könnyed megoldás, amely minden biztonsági problémát megold. Alapértelmezés szerint optimális konfigurációval rendelkezik, hogy megvédje webhelyét a Brute Force támadásoktól."
+
+#: main/onboarding.php:199
+msgid "Page Builder"
+msgstr "Oldalkészítő"
+
+#: main/onboarding.php:200
+msgid "Page Builder, Drag and Drop website builder"
+msgstr "Oldalkészítő, Drag and Drop webhelykészítő"
+
+#: main/onboarding.php:204
+msgid "Pagelayer"
+msgstr "Oldalréteg"
+
+#: main/onboarding.php:209
+msgid "Pagelayer is an awesome page builder that allows you to create and design your website instantly in the simplest way possible. Take control over your page content with the most advanced page builder plugin available."
+msgstr "A Pagelayer egy nagyszerű oldalkészítő, amely lehetővé teszi webhelyének azonnali létrehozását és megtervezését a lehető legegyszerűbb módon. Vegye át az irányítást az oldal tartalma felett az elérhető legfejlettebb oldalkészítő beépülő modullal."
+
+#: main/onboarding.php:218
+msgid "Send Email with SMTP"
+msgstr "E-mail küldése SMTP-vel"
+
+#: main/onboarding.php:219
+msgid "Providers: Gmail, Outlook, AWS SES & more"
+msgstr "Szolgáltatók: Gmail, Outlook, AWS SES & több"
+
+#: main/onboarding.php:223
+msgid "GoSMTP ? SMTP for WordPress"
+msgstr "GoSMTP – SMTP WordPresshez"
+
+#: main/onboarding.php:228
+msgid "GoSMTP allows you to send emails from your WordPress over SMTP or many popular outgoing email service providers. Using these improves your email deliverability."
+msgstr "A GoSMTP lehetővé teszi e-mailek küldését WordPress-ről SMTP-n vagy számos népszerű kimenő e-mail szolgáltatón keresztül. Ezek használata javítja az e-mailek kézbesíthetőségét."
+
+#: main/onboarding.php:237
+msgid "File Manager"
+msgstr "Fájlkezelő"
+
+#: main/onboarding.php:238
+msgid "Manage files with drag & drop editor"
+msgstr "Fájlok kezelése a drag & csepp szerkesztő"
+
+#: main/onboarding.php:242
+msgid "FileOrganizer ? Manage WordPress and Website Files"
+msgstr "FileOrganizer – WordPress és webhelyfájlok kezelése"
+
+#: main/onboarding.php:247
+msgid "FileOrganizer is a lightweight and easy-to-use file management plugin for WordPress. Organize and manage your WordPress files with FileOrganizer without any control panel or FTP access. "
+msgstr "A FileOrganizer egy könnyű és könnyen használható fájlkezelő bővítmény a WordPresshez. Szervezze és kezelje WordPress-fájljait a FileOrganizer segítségével vezérlőpult vagy FTP-hozzáférés nélkül. "
+
+#: main/onboarding.php:292
+msgid "Could not import the template !"
+msgstr "Nem sikerült importálni a sablont!"
+
+#: main/onboarding.php:340
+msgid "Theme template can only be uploaded using FTP !"
+msgstr "A téma sablont csak FTP-vel lehet feltölteni!"
+
+#: main/onboarding.php:363
+msgid "Could not download the theme !"
+msgstr "Nem sikerült letölteni a témát!"
+
+#: main/onboarding.php:381
+msgid "Could not extract the template !"
+msgstr "Nem sikerült kicsomagolni a sablont!"
+
+#: main/onboarding.php:509
+msgid "The response from the server was malformed. Please try again in sometime !"
+msgstr "A szerver válasza hibás volt. Kérjük, próbálja újra valamikor!"
+
+#: main/onboarding.php:541
+msgid "Pagelayer is required to use the templates !"
+msgstr "A sablonok használatához Pagelayer szükséges!"
+
+#: main/onboarding.php:551
+msgid "PopularFX plugin is required to use the templates !"
+msgstr "A sablonok használatához PopularFX plugin szükséges!"
+
+#: main/onboarding.php:561
+msgid "PopularFX theme is required to use the templates !"
+msgstr "A sablonok használatához PopularFX téma szükséges!"
+
+#: main/onboarding.php:568
+msgid "The template you submitted is invalid !"
+msgstr "A beküldött sablon érvénytelen!"
+
+#: main/onboarding.php:576
+#, php-format
+msgid "Your Pagelayer version is %1$s while the template requires Pagelayer version higher than or equal to %2$s "
+msgstr "Az Ön Pagelayer verziója %1$s, míg a sablonhoz a %2$s-nál magasabb vagy azzal egyenlő Pagelayer verzió szükséges "
+
+#: main/onboarding.php:582
+#, php-format
+msgid "Your Pagelayer version is %1$s while the onboarding requires Pagelayer version higher than or equal to 1.8.9"
+msgstr "Az Ön Pagelayer verziója %1$s, míg a bevezetéshez 1.8.9-nél magasabb vagy azzal egyenlő Pagelayer verzió szükséges"
+
+#: main/onboarding.php:588
+#, php-format
+msgid "Your PopularFX Plugin version is %1$s while the template requires PopularFX version higher than or equal to %2$s"
+msgstr "A PopularFX beépülő modul verziója %1$s, míg a sablonhoz legalább %2$s PopularFX verzió szükséges"
+
+#: main/onboarding.php:594
+#, php-format
+msgid "The selected template is a Pro template and you have a free or expired license. Please enter your license key %1$shere%2$s."
+msgstr "A kiválasztott sablon egy Pro-sablon, és Önnek ingyenes vagy lejárt licence van. Kérjük, adja meg licenckulcsát %1$shere%2$s."
+
+#: main/onboarding.php:615
+#, php-format
+msgid "There was an error in installing Pagelayer which is required by this template. Please install Pagelayer manually by clicking %1$shere%2$s and then install the template !"
+msgstr "Hiba történt a Pagelayer telepítésekor, amelyet ez a sablon megkövetel. Kérjük, telepítse manuálisan a Pagelayert a %1$shere%2$s elemre kattintva, majd telepítse a sablont!"
+
+#: main/onboarding.php:760
+msgid "Plugin activated successfully."
+msgstr "A bővítmény sikeresen aktiválva."
+
+#: main/onboarding.php:765
+#, php-format
+msgid "Plugin installation failed. %1$s requires PHP version %2$s or higher. Your PHP version is %3$s."
+msgstr "A beépülő modul telepítése nem sikerült. A(z) %1$s %2$s vagy újabb PHP verziót igényel. Az Ön PHP verziója %3$s."
+
+#: main/onboarding.php:801
+msgid "Plugin installed and activated successfully."
+msgstr "A bővítmény telepítve és sikeresen aktiválva."
+
+#: main/onboarding.php:804
+msgid "Plugin already installed."
+msgstr "A plugin már telepítve van."
+
+#: main/onboarding.php:831
+msgid "You do not have enough permissions to install theme"
+msgstr "Nincs elegendő engedélye a téma telepítéséhez"
+
+#: main/onboarding.php:857
+msgid "Theme activated successfully."
+msgstr "A téma sikeresen aktiválva."
+
+#: main/onboarding.php:873
+msgid "The filesystem could not write files to the server!"
+msgstr "A fájlrendszer nem tudott fájlokat írni a szerverre!"
+
+#: main/onboarding.php:887
+#, php-format
+msgid "Error downloading theme: %1$s"
+msgstr "Hiba a téma letöltése közben: %1$s"
+
+#: main/onboarding.php:895
+msgid "Error unzipping theme: "
+msgstr "Hiba a téma kicsomagolásakor: "
+
+#: main/onboarding.php:904
+msgid "Theme installation failed "
+msgstr "A téma telepítése nem sikerült "
+
+#: main/onboarding.php:908
+msgid "Theme installed and activated successfully."
+msgstr "A téma sikeresen telepítve és aktiválva."
+
+#: main/onboarding.php:969
+msgid "Choose a design"
+msgstr "Válasszon egy dizájnt"
+
+#: main/onboarding.php:973
+msgid "Search for theme"
+msgstr "Téma keresése"
+
+#: main/onboarding.php:977
+msgid "All"
+msgstr "Minden"
+
+#: main/onboarding.php:988
+msgid "Demo"
+msgstr "Demó"
+
+#: main/onboarding.php:1001
+msgid "Select pages to import"
+msgstr "Válassza ki az importálni kívánt oldalakat"
+
+#: main/onboarding.php:1007
+msgid "Import stock images ?"
+msgstr "Importálja a stock képeket?"
+
+#: main/onboarding.php:1009
+msgid "We try our best to use images that are free to use from legal perspectives. However, we are not liable for any copyright infringement for your site."
+msgstr "Igyekszünk minden tőlünk telhetőt olyan képeket használni, amelyek jogi szempontból szabadon felhasználhatók. Mindazonáltal nem vállalunk felelősséget az Ön webhelyét érintő szerzői jogok megsértéséért."
+
+#: main/onboarding.php:1018
+msgid "Go Back"
+msgstr "Menj vissza"
+
+#: main/onboarding.php:1019
+msgid "Import Theme Content"
+msgstr "Tématartalom importálása"
+
+#: main/onboarding.php:1033
+msgid "Import Theme Contents"
+msgstr "Importálja a téma tartalmát"
+
+#: main/onboarding.php:1045
+msgid "Congratulations, the template was imported successfully !"
+msgstr "Gratulálunk, a sablon importálása sikeres volt!"
+
+#: main/onboarding.php:1046
+msgid "You can now customize the website as per your requirements with the help of Pagelayer or the Customizer."
+msgstr "Most már testreszabhatja a webhelyet igényei szerint a Pagelayer vagy a testreszabó segítségével."
+
+#: main/onboarding.php:1049
+msgid "We strongly recommend you change all images and media. We try our best to use images which are copyright free or are allowed under their licensing. However, we take no responsibilities for the same and recommend you change all media and images !"
+msgstr "Erősen javasoljuk, hogy változtassa meg az összes képet és adathordozót. Minden tőlünk telhetőt megteszünk, hogy olyan képeket használjunk fel, amelyek szerzői jogok mentesek vagy engedélyük alapján engedélyezettek. Azonban nem vállalunk felelősséget ezért, és javasoljuk, hogy cserélje le az összes adathordozót és képet!"
+
+#: main/onboarding.php:1056
+msgid "Visit Website"
+msgstr "Látogassa meg a webhelyet"
+
+#: main/onboarding.php:1057
+msgid "WordPress Dashboard"
+msgstr "WordPress irányítópult"
+
+#: main/setup.php:8
+msgid "Welcome"
+msgstr "Üdvözöljük"
+
+#: main/setup.php:9
+msgid "Business Type"
+msgstr "Üzleti típus"
+
+#: main/setup.php:10
+msgid "Site Title"
+msgstr "Webhely címe"
+
+#: main/setup.php:11
+msgid "Goals"
+msgstr "Gólok"
+
+#: main/setup.php:12
+msgid "Choose Template"
+msgstr "Válassza a Sablon lehetőséget"
+
+#: main/setup.php:75
+msgid "Exit"
+msgstr "Kijárat"
+
+#: main/setup.php:82
+msgid "Welcome to the Onboarding process!"
+msgstr "Üdvözöljük a felvételi folyamatban!"
+
+#: main/setup.php:83
+msgid "This process will help you choose a professional template for your website and install plugins that you might need to achieve your goal for creating this website"
+msgstr "Ez a folyamat segít kiválasztani a professzionális sablont webhelyéhez, és telepíteni azokat a bővítményeket, amelyekre szükség lehet a webhely létrehozásával kapcsolatos cél eléréséhez"
+
+#: main/setup.php:88
+msgid "It looks like you have already completed the onboarding process. You might lose data if you run the onboarding process again. Select this checkbox to confirm that you agree."
+msgstr "Úgy tűnik, hogy már befejezte a felvételi folyamatot. Adatokat veszíthet, ha újra futtatja a belépési folyamatot. Jelölje be ezt a jelölőnégyzetet az egyetértés megerősítéséhez."
+
+#: main/setup.php:93
+msgid "Get Started"
+msgstr "Kezdje el"
+
+#: main/setup.php:97
+msgid "No, I don't want to try an easy setup process"
+msgstr "Nem, nem szeretnék egy egyszerű beállítási eljárást kipróbálni"
+
+#: main/setup.php:105
+msgid "How would you categorize your website ?"
+msgstr "Hogyan kategorizálná a weboldalát?"
+
+#: main/setup.php:106
+msgid "This helps us recommend design and functionalities for your website"
+msgstr "Ez segít nekünk javasolni webhelye tervezését és funkcióit"
+
+#: main/setup.php:109
+msgid "Search for a category"
+msgstr "Keressen egy kategóriát"
+
+#: main/setup.php:119
+msgid "No results match your search criteria"
+msgstr "Egyetlen találat sem felel meg a keresési feltételeknek"
+
+#: main/setup.php:126 main/setup.php:143 main/setup.php:184
+msgid "Previous Step"
+msgstr "Előző lépés"
+
+#: main/setup.php:128 main/setup.php:145 main/setup.php:186
+msgid "Continue"
+msgstr "Folytatás"
+
+#: main/setup.php:135
+msgid "Enter the title of your new site"
+msgstr "Adja meg az új webhely címét"
+
+#: main/setup.php:136
+msgid "Can be changed later"
+msgstr "Később módosítható"
+
+#: main/setup.php:139
+msgid "Enter a title for your website"
+msgstr "Adja meg a webhely címét"
+
+#: main/setup.php:152
+msgid "What are you looking to achieve with your new site ?"
+msgstr "Mit szeretne elérni új webhelyével?"
+
+#: main/setup.php:153
+msgid "We will install the appropriate plugins that will add the required functionality to your website"
+msgstr "Telepítjük a megfelelő bővítményeket, amelyek a szükséges funkcionalitást adják hozzá webhelyéhez"

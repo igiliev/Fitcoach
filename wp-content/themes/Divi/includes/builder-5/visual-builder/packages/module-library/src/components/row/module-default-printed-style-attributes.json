@@ -1,0 +1,41 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "module": {
+    "decoration": {
+      "layout": {
+        "desktop": {
+          "value": {
+            "flexDirection": "row",
+            "alignItems": "stretch",
+            "columnGap": "60px"
+          }
+        }
+      },
+      "position": {
+        "desktop": {
+          "value": {
+            "mode": "relative",
+            "offset": {
+              "horizontal": "0px",
+              "vertical": "0px"
+            },
+            "origin": {
+              "relative": "top left"
+            }
+          }
+        }
+      },
+      "sizing": {
+        "desktop": {
+          "value": {
+            "minHeight": "auto",
+            "height": "auto",
+            "maxHeight": "none",
+            "width": "80%",
+            "maxWidth": "1080px"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "module": {
+    "meta": {
+      "adminLabel": {
+        "desktop": {
+          "value": "Countdown Timer"
+        }
+      }
+    },
+    "decoration": {
+      "background": {
+        "desktop": {
+          "value": {
+            "color": "var(--gcid-primary-color)"
+          }
+        }
+      }
+    },
+    "advanced": {
+      "text": {
+        "text": {
+          "desktop": {
+            "value": {
+              "orientation": "center",
+              "color": "dark"
+            }
+          }
+        }
+      }
+    }
+  },
+  "title": {
+    "decoration": {
+      "font": {
+        "font": {
+          "desktop": {
+            "value": {
+              "headingLevel": "h4"
+            }
+          }
+        }
+      }
+    }
+  },
+  "content": {
+    "advanced": {
+      "dateTime": {
+        "desktop": {
+          "value": "2020-03-23 01:30"
+        }
+      }
+    }
+  }
+}

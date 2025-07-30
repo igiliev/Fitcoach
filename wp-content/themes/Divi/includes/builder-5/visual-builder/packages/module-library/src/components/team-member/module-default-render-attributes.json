@@ -1,0 +1,56 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "module": {
+    "meta": {
+      "adminLabel": {
+        "desktop": {
+          "value": "Person"
+        }
+      }
+    },
+    "advanced": {
+      "text": {
+        "text": {
+          "desktop": {
+            "value": {
+              "color": "light"
+            }
+          }
+        }
+      }
+    }
+  },
+  "name": {
+    "decoration": {
+      "font": {
+        "font": {
+          "desktop": {
+            "value": {
+              "headingLevel": "h4"
+            }
+          }
+        }
+      }
+    }
+  },
+  "image": {
+    "innerContent": {
+      "desktop": {
+        "value": {
+          "animation": "off"
+        }
+      }
+    }
+  },
+  "social": {
+    "decoration": {
+      "icon": {
+        "desktop": {
+          "value": {
+            "size": "16px"
+          }
+        }
+      }
+    }
+  }
+}

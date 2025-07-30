@@ -1,0 +1,35 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "module": {
+    "meta": {
+      "adminLabel": {
+        "desktop": {
+          "value": "Woo Notice"
+        }
+      }
+    }
+  },
+  "content": {
+    "advanced": {
+      "pageType": {
+        "desktop": {
+          "value": "filter,et_builder_get_woo_default_page_type"
+        }
+      },
+      "product": {
+        "desktop": {
+          "value": "filter,et_builder_get_woo_default_product"
+        }
+      }
+    }
+  },
+  "field": {
+    "advanced": {
+      "width": {
+        "desktop": {
+          "value": "default"
+        }
+      }
+    }
+  }
+}

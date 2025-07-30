@@ -1,0 +1,118 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "module": {
+    "advanced": {
+      "text": {
+        "text": {
+          "desktop": {
+            "value": {
+              "orientation": "left"
+            }
+          }
+        }
+      }
+    }
+  },
+  "dropdownMenus": {
+    "decoration": {
+      "border": {
+        "desktop": {
+          "value": {
+            "radius": {
+              "bottomLeft": "3px",
+              "bottomRight": "3px",
+              "sync": "on",
+              "topLeft": "3px",
+              "topRight": "3px"
+            },
+            "styles": {
+              "all": {
+                "style": "solid",
+                "width": "0px"
+              }
+            }
+          }
+        }
+      },
+      "font": {
+        "font": {
+          "desktop": {
+            "value": {
+              "size": "12px"
+            }
+          }
+        }
+      }
+    }
+  },
+  "field": {
+    "advanced": {
+      "focus": {
+        "border": {
+          "desktop": {
+            "value": {
+              "radius": {
+                "bottomLeft": "3px",
+                "bottomRight": "3px",
+                "sync": "on",
+                "topLeft": "3px",
+                "topRight": "3px"
+              },
+              "styles": {
+                "all": {
+                  "style": "solid",
+                  "width": "0px"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "decoration": {
+      "border": {
+        "desktop": {
+          "value": {
+            "radius": {
+              "bottomLeft": "3px",
+              "bottomRight": "3px",
+              "sync": "on",
+              "topLeft": "3px",
+              "topRight": "3px"
+            },
+            "styles": {
+              "all": {
+                "style": "solid",
+                "width": "0px"
+              }
+            }
+          }
+        }
+      },
+      "font": {
+        "font": {
+          "desktop": {
+            "value": {
+              "lineHeight": "1em",
+              "size": "20px"
+            }
+          }
+        }
+      }
+    }
+  },
+  "fieldLabels": {
+    "decoration": {
+      "font": {
+        "font": {
+          "desktop": {
+            "value": {
+              "weight": "700",
+              "size": "14px"
+            }
+          }
+        }
+      }
+    }
+  }
+}

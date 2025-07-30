@@ -1,0 +1,85 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "advanced": {
+    "admin_label": "module.meta.adminLabel",
+    "animation": "module.decoration.animation",
+    "background": "module.decoration.background",
+    "disabled_on": "module.decoration.disabledOn",
+    "height": "module.decoration.sizing",
+    "link_options": "module.advanced.link",
+    "margin_padding": "module.decoration.spacing",
+    "max_width": "module.decoration.sizing",
+    "module": "module.advanced.htmlAttributes",
+    "overflow": "module.decoration.overflow",
+    "position_fields": "module.decoration.position",
+    "scroll": "module.decoration.scroll",
+    "sticky": "module.decoration.sticky",
+    "text": "module.advanced.text",
+    "transform": "module.decoration.transform",
+    "transition": "module.decoration.transition",
+    "z_index": "module.decoration.zIndex",
+    "borders": {
+      "default": "module.decoration.border",
+      "image": "logo.decoration.border"
+    },
+    "box_shadow": {
+      "default": "module.decoration.boxShadow",
+      "image": "logo.decoration.boxShadow"
+    },
+    "filters": {
+      "default": "module.decoration.filters",
+      "child": "logo.decoration.filters"
+    },
+    "fonts": {
+      "default": "module.decoration.font",
+      "menu": "menu.decoration.font",
+      "cart_quantity": "cartQuantity.decoration.font"
+    },
+    "text_shadow": {
+      "default": "module.advanced.text.textShadow"
+    },
+    "display_conditions": "module.decoration.conditions"
+  },
+  "css": {
+    "after": "css.*.after",
+    "free_form": "css.*.freeForm",
+    "before": "css.*.before",
+    "main_element": "css.*.mainElement",
+    "menu_link": "css.*.menuLink",
+    "active_menu_link": "css.*.activeMenuLink",
+    "dropdown_container": "css.*.dropdownContainer",
+    "dropdown_links": "css.*.dropdownLinks",
+    "menu_logo": "css.*.menuLogo"
+  },
+  "module": {
+    "menu_id": "menu.advanced.menuId.*",
+    "logo": "logo.innerContent.*.src",
+    "show_cart_icon": "cartIcon.advanced.show.*",
+    "show_cart_quantity": "cartQuantity.advanced.show.*",
+    "show_search_icon": "searchIcon.advanced.show.*",
+    "logo_url": "logo.innerContent.*.linkUrl",
+    "logo_url_new_window": "logo.innerContent.*.linkTarget",
+    "menu_style": "menu.advanced.style.*",
+    "submenu_direction": "menuDropdown.advanced.direction.*",
+    "fullwidth_menu": "menu.advanced.fullwidth.*",
+    "active_link_color": "menu.advanced.activeLinkColor.*",
+    "dropdown_menu_bg_color": "menuDropdown.decoration.background.*.color",
+    "dropdown_menu_line_color": "menuDropdown.advanced.lineColor.*",
+    "dropdown_menu_text_color": "menuDropdown.decoration.font.font.*.color",
+    "dropdown_menu_active_link_color": "menuDropdown.advanced.activeLinkColor.*",
+    "mobile_menu_bg_color": "menuMobile.decoration.background.*.color",
+    "mobile_menu_text_color": "menuMobile.decoration.font.font.*.color",
+    "cart_icon_color": "cartIcon.decoration.font.font.*.color",
+    "search_icon_color": "searchIcon.decoration.font.font.*.color",
+    "menu_icon_color": "hamburgerMenuIcon.decoration.font.font.*.color",
+    "cart_icon_font_size": "cartIcon.decoration.font.font.*.size",
+    "search_icon_font_size": "searchIcon.decoration.font.font.*.size",
+    "menu_icon_font_size": "hamburgerMenuIcon.decoration.font.font.*.size",
+    "logo_width": "logo.decoration.sizing.*.width",
+    "logo_max_width": "logo.decoration.sizing.*.maxWidth",
+    "logo_height": "logo.decoration.sizing.*.height",
+    "logo_max_height": "logo.decoration.sizing.*.maxHeight",
+    "dropdown_menu_animation": "menuDropdown.advanced.animation.*",
+    "logo_alt": "logo.innerContent.*.alt"
+  }
+}

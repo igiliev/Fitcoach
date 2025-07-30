@@ -1,0 +1,53 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "module": {
+    "meta": {
+      "adminLabel": {
+        "desktop": {
+          "value": "Testimonial"
+        }
+      }
+    },
+    "decoration": {
+      "background": {
+        "desktop": {
+          "value": {
+            "color": "#f5f5f5"
+          }
+        }
+      }
+    },
+    "advanced": {
+      "text": {
+        "text": {
+          "desktop": {
+            "value": {
+              "color": "light"
+            }
+          }
+        }
+      }
+    }
+  },
+  "company": {
+    "innerContent": {
+      "desktop": {
+        "value": {
+          "linkTarget": "off"
+        }
+      }
+    }
+  },
+  "quoteIcon": {
+    "decoration": {
+      "icon": {
+        "desktop": {
+          "value": {
+            "show": "on",
+            "useSize": "off"
+          }
+        }
+      }
+    }
+  }
+}

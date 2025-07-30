@@ -1,0 +1,42 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "module": {
+    "meta": {
+      "adminLabel": {
+        "desktop": {
+          "value": "Video Slider Item"
+        }
+      }
+    }
+  },
+  "overlay": {
+    "advanced": {
+      "desktop": {
+        "value": {
+          "showImageOverlay": "off"
+        }
+      }
+    }
+  },
+  "playIcon": {
+    "decoration": {
+      "icon": {
+        "desktop": {
+          "value": {
+            "size": "96px",
+            "useSize": "off"
+          }
+        }
+      }
+    }
+  },
+  "sliderControls": {
+    "advanced": {
+      "desktop": {
+        "value": {
+          "color": "dark"
+        }
+      }
+    }
+  }
+}

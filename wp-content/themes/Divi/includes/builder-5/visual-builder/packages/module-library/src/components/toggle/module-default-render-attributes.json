@@ -1,0 +1,54 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "module": {
+    "meta": {
+      "adminLabel": {
+        "desktop": {
+          "value": "Toggle"
+        }
+      }
+    },
+    "advanced": {
+      "open": {
+        "desktop": {
+          "value": "off"
+        }
+      }
+    }
+  },
+  "openToggleIcon": {
+    "decoration": {
+      "icon": {
+        "desktop": {
+          "value": {
+            "useSize": "off"
+          }
+        }
+      }
+    }
+  },
+  "closedToggleIcon": {
+    "decoration": {
+      "icon": {
+        "desktop": {
+          "value": {
+            "useSize": "off"
+          }
+        }
+      }
+    }
+  },
+  "title": {
+    "decoration": {
+      "font": {
+        "font": {
+          "desktop": {
+            "value": {
+              "headingLevel": "h5"
+            }
+          }
+        }
+      }
+    }
+  }
+}

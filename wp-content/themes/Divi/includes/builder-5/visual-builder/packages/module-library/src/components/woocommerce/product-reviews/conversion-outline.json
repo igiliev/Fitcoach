@@ -1,0 +1,85 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "advanced": {
+    "borders": {
+      "default": "module.decoration.border",
+      "fields": "field.decoration.border",
+      "fields_focus": "field.advanced.focus.border",
+      "image": "image.decoration.border"
+    },
+    "box_shadow": {
+      "default": "module.decoration.boxShadow",
+      "button": "button.decoration.boxShadow",
+      "fields": "field.decoration.boxShadow",
+      "image": "image.decoration.boxShadow"
+    },
+    "button": {
+      "button": "button"
+    },
+    "filters": {
+      "default": "module.decoration.filters",
+      "child": "image.decoration.filters"
+    },
+    "fonts": {
+      "body": "comment.decoration.font",
+      "form_field": "field.decoration.font",
+      "header": "reviewCount.decoration.font",
+      "meta": "meta.decoration.font",
+      "rating": "starRating.decoration.font",
+      "title": "formTitle.decoration.font"
+    },
+    "form_field": {
+      "form_field": "field"
+    },
+    "text_shadow": {
+      "default": "module.advanced.text.textShadow"
+    },
+    "admin_label": "module.meta.adminLabel",
+    "animation": "module.decoration.animation",
+    "background": "module.decoration.background",
+    "disabled_on": "module.decoration.disabledOn",
+    "display_conditions": "module.decoration.conditions",
+    "height": "module.decoration.sizing",
+    "link_options": "module.advanced.link",
+    "margin_padding": "module.decoration.spacing",
+    "max_width": "module.decoration.sizing",
+    "module": "module.advanced.htmlAttributes",
+    "overflow": "module.decoration.overflow",
+    "position_fields": "module.decoration.position",
+    "scroll": "module.decoration.scroll",
+    "sticky": "module.decoration.sticky",
+    "text": "module.advanced.text",
+    "transform": "module.decoration.transform",
+    "transition": "module.decoration.transition",
+    "z_index": "module.decoration.zIndex"
+  },
+  "css": {
+    "free_form": "css.*.freeForm",
+    "before": "css.*.before",
+    "main_element": "css.*.mainElement",
+    "after": "css.*.after",
+    "comment_avatar": "css.*.commentAvatar",
+    "comment_body": "css.*.commentBody",
+    "comment_content": "css.*.commentContent",
+    "comment_meta": "css.*.commentMeta",
+    "email_field": "css.*.emailField",
+    "main_header": "css.*.mainHeader",
+    "message_field": "css.*.messageField",
+    "name_field": "css.*.nameField",
+    "new_title": "css.*.newTitle",
+    "submit_button": "css.*.submitButton"
+  },
+  "module": {
+    "form_field_custom_margin": "field.decoration.spacing.*.margin",
+    "form_field_custom_padding": "field.decoration.spacing.*.padding",
+    "header_level": "reviewCount.decoration.font.font.*.headingLevel",
+    "product": "content.advanced.product.*",
+    "show_avatar": "elements.advanced.showAvatar.*",
+    "show_count": "elements.advanced.showCount.*",
+    "show_meta": "elements.advanced.showMeta.*",
+    "show_rating": "elements.advanced.showRating.*",
+    "show_reply": "elements.advanced.showReply.*",
+    "use_focus_border_color": "field.advanced.focusUseBorder.*"
+  },
+  "valueExpansionFunctionMap": {}
+}

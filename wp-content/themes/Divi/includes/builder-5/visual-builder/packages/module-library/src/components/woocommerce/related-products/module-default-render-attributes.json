@@ -1,0 +1,70 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "module": {
+    "meta": {
+      "adminLabel": {
+        "desktop": {
+          "value": "Woo Related Products"
+        }
+      }
+    }
+  },
+  "content": {
+    "advanced": {
+      "columnsNumber": {
+        "desktop": {
+          "value": "filter,et_builder_get_woo_default_columns"
+        }
+      },
+      "offsetNumber": {
+        "desktop": {
+          "value": "0"
+        }
+      },
+      "orderby": {
+        "desktop": {
+          "value": "default"
+        }
+      },
+      "postsNumber": {
+        "desktop": {
+          "value": "filter,et_builder_get_woo_default_columns"
+        }
+      },
+      "product": {
+        "desktop": {
+          "value": "filter,et_builder_get_woo_default_product"
+        }
+      }
+    }
+  },
+  "elements": {
+    "advanced": {
+      "showImage": {
+        "desktop": {
+          "value": "on"
+        }
+      },
+      "showName": {
+        "desktop": {
+          "value": "on"
+        }
+      },
+      "showPrice": {
+        "desktop": {
+          "value": "on"
+        }
+      },
+      "showRating": {
+        "desktop": {
+          "value": "on"
+        }
+      },
+      "showSaleBadge": {
+        "desktop": {
+          "value": "on"
+        }
+      }
+    }
+  }
+}

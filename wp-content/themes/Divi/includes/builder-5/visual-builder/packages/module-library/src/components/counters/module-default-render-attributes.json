@@ -1,0 +1,45 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "module": {
+    "meta": {
+      "adminLabel": {
+        "desktop": {
+          "value": "Bar Counters"
+        }
+      }
+    },
+    "advanced": {
+      "text": {
+        "text": {
+          "desktop": {
+            "value": {
+              "color": "light"
+            }
+          }
+        }
+      }
+    }
+  },
+  "barProgress": {
+    "advanced": {
+      "usePercentages": {
+        "desktop": {
+          "value": "on"
+        }
+      }
+    }
+  },
+  "children": {
+    "barProgress": {
+      "decoration": {
+        "background": {
+          "desktop": {
+            "value": {
+              "color": "var(--gcid-primary-color)"
+            }
+          }
+        }
+      }
+    }
+  }
+}

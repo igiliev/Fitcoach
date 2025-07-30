@@ -1,0 +1,80 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "advanced": {
+    "admin_label": "module.meta.adminLabel",
+    "animation": "module.decoration.animation",
+    "background": "module.decoration.background",
+    "disabled_on": "module.decoration.disabledOn",
+    "height": "module.decoration.sizing",
+    "link_options": "module.advanced.link",
+    "margin_padding": "module.decoration.spacing",
+    "max_width": "module.decoration.sizing",
+    "module": "module.advanced.htmlAttributes",
+    "overflow": "module.decoration.overflow",
+    "position_fields": "module.decoration.position",
+    "scroll": "module.decoration.scroll",
+    "sticky": "module.decoration.sticky",
+    "text": "module.advanced.text",
+    "transform": "module.decoration.transform",
+    "transition": "module.decoration.transition",
+    "z_index": "module.decoration.zIndex",
+    "display_conditions": "module.decoration.conditions",
+    "borders": {
+      "default": "module.decoration.border",
+      "image": "image.decoration.border"
+    },
+    "box_shadow": {
+      "default": "module.decoration.boxShadow",
+      "image": "image.decoration.boxShadow"
+    },
+    "button": {
+      "button": "button.decoration.button"
+    },
+    "fonts": {
+      "body": "content.decoration.bodyFont.body",
+      "body_link": "content.decoration.bodyFont.link",
+      "body_ol": "content.decoration.bodyFont.ol",
+      "body_quote": "content.decoration.bodyFont.quote",
+      "body_ul": "content.decoration.bodyFont.ul",
+      "header": "name.decoration.font",
+      "position": "position.decoration.font"
+    },
+    "text_shadow": {
+      "default": "module.advanced.text.textShadow"
+    },
+    "filters": {
+      "default": "module.decoration.filters",
+      "child": "image.decoration.filters"
+    }
+  },
+  "css": {
+    "after": "css.*.after",
+    "free_form": "css.*.freeForm",
+    "before": "css.*.before",
+    "main_element": "css.*.mainElement",
+    "member_description": "css.*.memberDescription",
+    "member_image": "css.*.memberImage",
+    "member_position": "css.*.memberPosition",
+    "member_social_links": "css.*.memberSocialLinks",
+    "title": "css.*.name"
+  },
+  "module": {
+    "content": "content.innerContent.*",
+    "facebook_url": "social.innerContent.*.facebookUrl",
+    "google_url": "social.innerContent.*.googleUrl",
+    "icon_color": "social.decoration.icon.*.color",
+    "linkedin_url": "social.innerContent.*.linkedinUrl",
+    "name": "name.innerContent.*",
+    "twitter_url": "social.innerContent.*.twitterUrl",
+    "position": "position.innerContent.*",
+    "image_url": "image.innerContent.*.url",
+    "header_level": "name.decoration.font.font.*.headingLevel",
+    "icon_font_size": "social.decoration.icon.*.size",
+    "use_icon_font_size": "social.decoration.icon.*.useSize",
+    "animation": "image.innerContent.*.animation",
+    "inline_fonts": "content.decoration.inlineFont.*.families"
+  },
+  "valueExpansionFunctionMap": {
+    "inline_fonts": "convertInlineFont"
+  }
+}

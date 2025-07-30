@@ -1,0 +1,54 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "advanced": {
+    "animation": "module.decoration.animation",
+    "background": "module.decoration.background",
+    "borders": {
+      "default": "image.decoration.border"
+    },
+    "box_shadow": {
+      "default": "image.decoration.boxShadow"
+    },
+    "disabled_on": "module.decoration.disabledOn",
+    "display_conditions": "module.decoration.conditions",
+    "filters": {
+      "default": "module.decoration.filters"
+    },
+    "height": "module.advanced.sizing",
+    "margin_padding": "module.advanced.spacing",
+    "max_width": "module.advanced.sizing",
+    "module": "module.advanced.htmlAttributes",
+    "overflow": "module.decoration.overflow",
+    "position_fields": "module.decoration.position",
+    "scroll": "module.decoration.scroll",
+    "sticky": "module.decoration.sticky",
+    "transform": "module.decoration.transform",
+    "transition": "module.decoration.transition",
+    "z_index": "module.decoration.zIndex",
+    "admin_label": "module.meta.adminLabel"
+  },
+  "css": {
+    "after": "css.*.after",
+    "free_form": "css.*.freeForm",
+    "before": "css.*.before",
+    "main_element": "css.*.mainElement"
+  },
+  "module": {
+    "align": "module.advanced.align.*",
+    "alt": "image.innerContent.*.alt",
+    "force_fullwidth": "module.advanced.sizing.*.forceFullwidth",
+    "hover_icon": "image.advanced.overlayIcon.*.hoverIcon",
+    "hover_overlay_color": "image.advanced.overlay.*.backgroundColor",
+    "overlay_icon_color": "image.advanced.overlayIcon.*.iconColor",
+    "show_bottom_space": "module.advanced.spacing.*.showBottomSpace",
+    "show_in_lightbox": "image.advanced.lightbox.*",
+    "src": "image.innerContent.*.src",
+    "title_text": "image.innerContent.*.titleText",
+    "url": "image.innerContent.*.linkUrl",
+    "url_new_window": "image.innerContent.*.linkTarget",
+    "use_overlay": "image.advanced.overlay.*.use"
+  },
+  "valueExpansionFunctionMap": {
+    "hover_icon": "convertFontIcon"
+  }
+}

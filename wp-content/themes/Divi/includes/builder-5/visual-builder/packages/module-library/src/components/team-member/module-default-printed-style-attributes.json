@@ -1,0 +1,27 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "name": {
+    "decoration": {
+      "font": {
+        "font": {
+          "desktop": {
+            "value": {
+              "lineHeight": "1em"
+            }
+          }
+        }
+      }
+    }
+  },
+  "social": {
+    "decoration": {
+      "icon": {
+        "desktop": {
+          "value": {
+            "size": "16px"
+          }
+        }
+      }
+    }
+  }
+}

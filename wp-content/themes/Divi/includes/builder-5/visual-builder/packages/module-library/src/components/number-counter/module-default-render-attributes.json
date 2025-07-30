@@ -1,0 +1,62 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "module": {
+    "meta": {
+      "adminLabel": {
+        "desktop": {
+          "value": "Number Counter"
+        }
+      }
+    },
+    "advanced": {
+      "text": {
+        "text": {
+          "desktop": {
+            "value": {
+              "color": "light",
+              "orientation": "center"
+            }
+          }
+        }
+      }
+    }
+  },
+  "title": {
+    "decoration": {
+      "font": {
+        "font": {
+          "desktop": {
+            "value": {
+              "headingLevel": "h3"
+            }
+          }
+        }
+      }
+    }
+  },
+  "number": {
+    "innerContent": {
+      "desktop": {
+        "value": "0"
+      }
+    },
+    "advanced": {
+      "enablePercentSign": {
+        "desktop": {
+          "value": "on"
+        }
+      }
+    },
+    "decoration": {
+      "font": {
+        "font": {
+          "desktop": {
+            "value": {
+              "color": "var(--gcid-primary-color)"
+            }
+          }
+        }
+      }
+    }
+  }
+}

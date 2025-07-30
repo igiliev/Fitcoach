@@ -1,0 +1,62 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "title": {
+    "decoration": {
+      "font": {
+        "font": {
+          "desktop": {
+            "value": {
+              "size": "22px",
+              "lineHeight": "1em"
+            }
+          }
+        }
+      }
+    }
+  },
+  "number": {
+    "decoration": {
+      "font": {
+        "font": {
+          "desktop": {
+            "value": {
+              "size": "54px",
+              "lineHeight": "54px",
+              "weight": "400"
+            }
+          }
+        }
+      }
+    }
+  },
+  "separator": {
+    "decoration": {
+      "font": {
+        "font": {
+          "desktop": {
+            "value": {
+              "size": "54px",
+              "lineHeight": "54px",
+              "weight": "400"
+            }
+          }
+        }
+      }
+    }
+  },
+  "label": {
+    "decoration": {
+      "font": {
+        "font": {
+          "desktop": {
+            "value": {
+              "size": "14px",
+              "lineHeight": "25px",
+              "weight": "400"
+            }
+          }
+        }
+      }
+    }
+  }
+}

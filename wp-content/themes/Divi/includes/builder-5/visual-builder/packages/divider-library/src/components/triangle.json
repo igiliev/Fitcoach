@@ -1,0 +1,25 @@
+{
+	"name": "triangle",
+	"label": "Triangle",
+	"svgContent": {
+		"top": "<path d=\"M720 140L640 0l-80 140H0V0h1280v140H720z\" />",
+		"bottom": "<path d=\"M80 0L0 140h160z\" />"
+	},
+	"svgThumbnail": {
+		"top": "<path d=\"M720 140L640 0l-80 140H0V0h1280v140H720z\" />",
+		"bottom": "<polygon points=\"640 0 560 140 720 140 640 0\" />"
+	},
+	"svgDimension": {
+		"top": {
+			"viewBox": "0 0 1280 100",
+			"height": "100px"
+		},
+		"bottom": {
+			"viewBox": "0 0 160 140",
+			"width": "160px",
+			"height": "140px",
+			"dynamicPosition": false
+		}
+	},
+	"repeatable": false
+}

@@ -1,0 +1,74 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "advanced": {
+    "admin_label": "module.meta.adminLabel",
+    "animation": "module.decoration.animation",
+    "background": "module.decoration.background",
+    "disabled_on": "module.decoration.disabledOn",
+    "height": "module.decoration.sizing",
+    "link_options": "module.advanced.link",
+    "margin_padding": "module.decoration.spacing",
+    "max_width": "module.decoration.sizing",
+    "module": "module.advanced.htmlAttributes",
+    "overflow": "module.decoration.overflow",
+    "position_fields": "module.decoration.position",
+    "scroll": "module.decoration.scroll",
+    "sticky": "module.decoration.sticky",
+    "text": "module.advanced.text",
+    "transform": "module.decoration.transform",
+    "transition": "module.decoration.transition",
+    "z_index": "module.decoration.zIndex",
+    "borders": {
+      "default": "module.decoration.border",
+      "image": "image.decoration.border"
+    },
+    "box_shadow": {
+      "default": "module.decoration.boxShadow",
+      "image": "image.decoration.boxShadow"
+    },
+    "filters": {
+      "default": "module.decoration.filters",
+      "child": "image.decoration.filters"
+    },
+    "fonts": {
+      "caption": "meta.decoration.font",
+      "title": "portfolio.decoration.font",
+      "portfolio_header": "title.decoration.font"
+    },
+    "text_shadow": {
+      "default": "module.advanced.text.textShadow"
+    },
+    "display_conditions": "module.decoration.conditions"
+  },
+  "css": {
+    "after": "css.*.after",
+    "free_form": "css.*.freeForm",
+    "before": "css.*.before",
+    "main_element": "css.*.mainElement",
+    "portfolio_arrows": "css.*.portfolioArrows",
+    "portfolio_item": "css.*.portfolioItem",
+    "portfolio_item_title": "css.*.portfolioItemTitle",
+    "portfolio_meta": "css.*.portfolioMeta",
+    "portfolio_overlay": "css.*.portfolioOverlay",
+    "portfolio_title": "css.*.portfolioTitle"
+  },
+  "module": {
+    "auto": "module.advanced.autoRotate.*",
+    "auto_speed": "module.advanced.autoRotateSpeed.*",
+    "hover_icon": "overlay.decoration.icon.*",
+    "hover_overlay_color": "overlay.decoration.background.*.color",
+    "zoom_icon_color": "overlay.decoration.icon.*.color",
+    "include_categories": "portfolio.innerContent.*.includedCategories",
+    "posts_number": "portfolio.innerContent.*.postsNumber",
+    "show_date": "portfolio.advanced.showDate.*",
+    "show_title": "portfolio.advanced.showTitle.*",
+    "fullwidth": "portfolio.advanced.layout.*",
+    "title": "title.innerContent.*",
+    "title_level": "portfolio.decoration.font.font.*.headingLevel",
+    "portfolio_header_level": "title.decoration.font.font.*.headingLevel"
+  },
+  "valueExpansionFunctionMap": {
+    "hover_icon": "convertFontIcon",
+    "include_categories": "includedProjectCategories"
+  }
+}

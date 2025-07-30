@@ -1,0 +1,713 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "name": "divi/fullwidth-post-title",
+  "moduleClassName": "et_pb_post_title",
+  "moduleOrderClassName": "et_pb_fullwidth_post_title",
+  "d4Shortcode": "et_pb_fullwidth_post_title",
+  "title": "Fullwidth Post Title",
+  "titles": "Fullwidth Post Titles",
+  "moduleIcon": "divi/module-post-title",
+  "category": "fullwidth-module",
+  "videos": [
+    {
+      "id": "LCAgDW4rkNo",
+      "name": "An introduction to the Fullwidth Post Title module"
+    },
+    {
+      "id": "1iqjhnHVA9Y",
+      "name": "Design Settings and Advanced Module Settings"
+    },
+    {
+      "id": "boNZZ0MYU0E",
+      "name": "Saving and loading from the library"
+    }
+  ],
+  "attributes": {
+    "module": {
+      "type": "object",
+      "selector": "{{selector}}",
+      "styleProps": {
+        "spacing": {
+          "important": true,
+          "selector": "{{selectorPrefix}}.et_pb_fullwidth_section {{baseSelector}}.et_pb_post_title"
+        },
+        "sizing": {
+          "propertySelectors": {
+            "desktop": {
+              "value": {
+                "margin-left": "{{selectorPrefix}}.et_pb_fullwidth_section {{baseSelector}}.et_pb_post_title.et_pb_module",
+                "margin-right": "{{selectorPrefix}}.et_pb_fullwidth_section {{baseSelector}}.et_pb_post_title.et_pb_module"
+              }
+            }
+          },
+          "important": {
+            "desktop": {
+              "value": {
+                "margin-left": true,
+                "margin-right": true
+              }
+            }
+          }
+        },
+        "border": {
+          "propertySelectors": {
+            "desktop": {
+              "value": {
+                "border-radius": "{{selector}}.et_pb_featured_bg,{{selector}}",
+                "border-style": "{{selector}}.et_pb_featured_bg,{{selector}}"
+              }
+            }
+          }
+        },
+        "background": {
+          "selector": "{{selector}}, {{selector}}.et_pb_featured_bg"
+        }
+      },
+      "settings": {
+        "meta": {
+          "adminLabel": {}
+        },
+        "advanced": {
+          "link": {},
+          "loop": {},
+          "htmlAttributes": {},
+          "text": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "designText",
+              "priority": 5,
+              "render": true,
+              "component": {
+                "type": "group",
+                "name": "divi/text",
+                "props": {
+                  "grouped": false
+                }
+              }
+            }
+          }
+        },
+        "decoration": {
+          "animation": {},
+          "background": {},
+          "border": {},
+          "boxShadow": {},
+          "conditions": {},
+          "disabledOn": {},
+          "filters": {},
+          "overflow": {},
+          "order": {},
+          "position": {},
+          "scroll": {},
+          "sizing": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "designSizing",
+              "priority": 30,
+              "render": true,
+              "component": {
+                "type": "group",
+                "name": "divi/sizing",
+                "props": {
+                  "grouped": false
+                }
+              }
+            }
+          },
+          "spacing": {},
+          "sticky": {},
+          "transform": {},
+          "transition": {},
+          "zIndex": {}
+        }
+      }
+    },
+    "title": {
+      "type": "object",
+      "selector": "{{selector}} .et_pb_title_container h1.entry-title,{{selector}} .et_pb_title_container h2.entry-title,{{selector}} .et_pb_title_container h3.entry-title,{{selector}} .et_pb_title_container h4.entry-title,{{selector}} .et_pb_title_container h5.entry-title,{{selector}} .et_pb_title_container h6.entry-title",
+      "styleProps": {
+        "font": {
+          "important": true
+        }
+      },
+      "settings": {
+        "advanced": {
+          "showTitle": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "contentElements",
+              "priority": 5,
+              "render": true,
+              "attrName": "title.advanced.showTitle",
+              "label": "Show Title",
+              "description": "Here you can choose whether or not display the Post Title.",
+              "features": {
+                "sticky": false,
+                "preset": [
+                  "html"
+                ]
+              },
+              "component": {
+                "type": "field",
+                "name": "divi/toggle"
+              }
+            }
+          }
+        },
+        "decoration": {
+          "font": {
+            "priority": 20,
+            "component": {
+              "props": {
+                "groupLabel": "Title Text",
+                "fieldLabel": "Title",
+                "fields": {
+                  "headingLevel": {
+                    "render": true
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "meta": {
+      "type": "object",
+      "selector": "{{selector}} .et_pb_title_container .et_pb_title_meta_container, {{selector}} .et_pb_title_container .et_pb_title_meta_container a",
+      "styleProps": {
+        "font": {
+          "important": true
+        }
+      },
+      "settings": {
+        "advanced": {
+          "showMeta": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "contentElements",
+              "priority": 10,
+              "render": true,
+              "attrName": "meta.advanced.showMeta",
+              "label": "Show Meta",
+              "description": "Here you can choose whether or not display the Post Meta.",
+              "features": {
+                "sticky": false,
+                "preset": [
+                  "html"
+                ]
+              },
+              "component": {
+                "type": "field",
+                "name": "divi/toggle"
+              }
+            }
+          },
+          "showAuthor": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "contentElements",
+              "priority": 15,
+              "render": true,
+              "attrName": "meta.advanced.showAuthor",
+              "label": "Show Author",
+              "description": "Here you can choose whether or not display the Author Name in Post Meta.",
+              "features": {
+                "sticky": false,
+                "preset": [
+                  "html"
+                ]
+              },
+              "component": {
+                "type": "field",
+                "name": "divi/toggle"
+              }
+            }
+          },
+          "showDate": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "contentElements",
+              "priority": 20,
+              "render": true,
+              "attrName": "meta.advanced.showDate",
+              "label": "Show Date",
+              "description": "Here you can choose whether or not display the Date in Post Meta.",
+              "features": {
+                "sticky": false,
+                "preset": [
+                  "html"
+                ]
+              },
+              "component": {
+                "type": "field",
+                "name": "divi/toggle"
+              }
+            }
+          },
+          "dateFormat": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "contentElements",
+              "priority": 25,
+              "render": true,
+              "attrName": "meta.advanced.dateFormat",
+              "label": "Date Format",
+              "description": "Here you can define the Date Format in Post Meta. Default is 'M j, Y'.",
+              "features": {
+                "hover": false,
+                "sticky": false,
+                "responsive": false,
+                "preset": [
+                  "html"
+                ]
+              },
+              "component": {
+                "name": "divi/text",
+                "type": "field",
+                "props": {
+                  "showPlaceholderOnEmpty": true
+                }
+              }
+            }
+          },
+          "showCategories": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "contentElements",
+              "priority": 30,
+              "render": true,
+              "attrName": "meta.advanced.showCategories",
+              "label": "Show Post Categories",
+              "description": "Here you can choose whether or not display the Categories in Post Meta. Note: This option doesn't work with custom post types.",
+              "features": {
+                "sticky": false,
+                "preset": [
+                  "html"
+                ]
+              },
+              "component": {
+                "type": "field",
+                "name": "divi/toggle"
+              }
+            }
+          },
+          "showCommentsCount": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "contentElements",
+              "priority": 35,
+              "render": true,
+              "attrName": "meta.advanced.showCommentsCount",
+              "label": "Show Comments Count",
+              "description": "Here you can choose whether or not display the Comments Count in Post Meta.",
+              "features": {
+                "sticky": false,
+                "preset": [
+                  "html"
+                ]
+              },
+              "component": {
+                "type": "field",
+                "name": "divi/toggle"
+              }
+            }
+          }
+        },
+        "decoration": {
+          "font": {
+            "priority": 25,
+            "component": {
+              "props": {
+                "groupLabel": "Meta Text",
+                "fieldLabel": "Meta",
+                "fields": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "textWrapper": {
+      "type": "object",
+      "selector": "{{selector}} .et_pb_title_container",
+      "settings": {
+        "advanced": {
+          "useBackground": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "designText",
+              "priority": 5,
+              "render": true,
+              "attrName": "textWrapper.advanced.useBackground",
+              "label": "Use Text Background Color",
+              "description": "Here you can choose whether or not use the background color for the Title/Meta text.",
+              "features": {
+                "sticky": false,
+                "responsive": false,
+                "hover": false
+              },
+              "component": {
+                "type": "field",
+                "name": "divi/toggle"
+              }
+            }
+          }
+        },
+        "decoration": {
+          "background": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "designText",
+              "priority": 5,
+              "render": true,
+              "attrName": "textWrapper.decoration.background",
+              "subName": "color",
+              "label": "Text Background Color",
+              "description": "Pick a color to use behind the post title text. Reducing the color's opacity will allow the background image to show through while still increasing text readability.",
+              "features": {
+                "sticky": true,
+                "responsive": false,
+                "hover": false,
+                "dynamicContent": {
+                  "type": "color"
+                }
+              },
+              "component": {
+                "name": "divi/color-picker",
+                "type": "field"
+              }
+            }
+          }
+        }
+      }
+    },
+    "featuredImage": {
+      "type": "object",
+      "selector": "{{selector}} .et_pb_title_featured_container img",
+      "styleProps": {
+        "sizing": {
+          "propertySelectors": {
+            "desktop": {
+              "value": {
+                "width": "{{selector}} .et_pb_title_featured_image",
+                "max-width": "{{selector}} .et_pb_title_featured_image",
+                "margin-left": "{{selector}} .et_pb_title_featured_image",
+                "margin-right": "{{selector}} .et_pb_title_featured_image"
+              }
+            }
+          }
+        }
+      },
+      "settings": {
+        "advanced": {
+          "enabled": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "contentElements",
+              "priority": 40,
+              "render": true,
+              "attrName": "featuredImage.advanced.enabled",
+              "label": "Show Featured Image",
+              "description": "Here you can choose whether or not display the Featured Image.",
+              "features": {
+                "sticky": false,
+                "preset": [
+                  "html"
+                ]
+              },
+              "component": {
+                "type": "field",
+                "name": "divi/toggle"
+              }
+            }
+          },
+          "forceFullwidth": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "designSizing",
+              "priority": 5,
+              "render": true,
+              "attrName": "featuredImage.advanced.forceFullwidth",
+              "label": "Force Fullwidth",
+              "description": "When enabled, this will force your image to extend 100% of the width of the column it's in.",
+              "features": {
+                "sticky": false,
+                "responsive": false,
+                "hover": false
+              },
+              "component": {
+                "type": "field",
+                "name": "divi/toggle"
+              }
+            }
+          },
+          "placement": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "contentElements",
+              "priority": 45,
+              "render": true,
+              "attrName": "featuredImage.advanced.placement",
+              "label": "Featured Image Placement",
+              "description": "Here you can choose where to place the Featured Image.",
+              "features": {
+                "responsive": false,
+                "hover": false,
+                "sticky": false,
+                "preset": [
+                  "html"
+                ]
+              },
+              "component": {
+                "name": "divi/select",
+                "type": "field",
+                "props": {
+                  "options": {
+                    "below": {
+                      "label": "Below Title"
+                    },
+                    "above": {
+                      "label": "Above Title"
+                    },
+                    "background": {
+                      "label": "Title/Meta Background Image"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "decoration": {
+          "sizing": {
+            "groupType": "group-items",
+            "items": {
+              "alignment": {
+                "groupSlug": "designImage",
+                "priority": 5,
+                "render": true,
+                "attrName": "featuredImage.decoration.sizing",
+                "subName": "alignment",
+                "label": "Image Alignment",
+                "description": "Align image to the left, right or center.",
+                "features": {
+                  "responsive": true,
+                  "hover": false,
+                  "sticky": false
+                },
+                "multipleChoices": false,
+                "component": {
+                  "name": "divi/button-options",
+                  "type": "field",
+                  "props": {
+                    "allowClickToUnset": false,
+                    "options": {
+                      "left": {
+                        "icon": "divi/align-left"
+                      },
+                      "center": {
+                        "icon": "divi/align-center"
+                      },
+                      "right": {
+                        "icon": "divi/align-right"
+                      }
+                    },
+                    "showLabel": false
+                  }
+                }
+              },
+              "width": {
+                "groupSlug": "designSizing",
+                "priority": 10,
+                "render": true,
+                "attrName": "featuredImage.decoration.sizing",
+                "subName": "width",
+                "label": "Featured Image Width",
+                "description": "Adjust the width of the featured image.",
+                "features": {
+                  "responsive": true,
+                  "hover": false,
+                  "sticky": true,
+                  "dynamicContent": {
+                    "type": "number"
+                  }
+                },
+                "component": {
+                  "name": "divi/range",
+                  "type": "field",
+                  "props": {
+                    "cssProperty": "height",
+                    "defaultUnit": "%",
+                    "max": 100,
+                    "min": 0,
+                    "step": 1
+                  }
+                }
+              },
+              "maxWidth": {
+                "groupSlug": "designSizing",
+                "priority": 15,
+                "render": true,
+                "attrName": "featuredImage.decoration.sizing",
+                "subName": "maxWidth",
+                "label": "Featured Image Max Width",
+                "description": "Adjust the max width of the featured image.",
+                "features": {
+                  "responsive": true,
+                  "hover": false,
+                  "sticky": true,
+                  "dynamicContent": {
+                    "type": "number"
+                  }
+                },
+                "component": {
+                  "name": "divi/range",
+                  "type": "field",
+                  "props": {
+                    "cssProperty": "max-height",
+                    "defaultUnit": "%",
+                    "max": 100,
+                    "min": 0,
+                    "step": 1
+                  }
+                }
+              },
+              "height": {
+                "groupSlug": "designSizing",
+                "priority": 20,
+                "render": true,
+                "attrName": "featuredImage.decoration.sizing",
+                "subName": "height",
+                "label": "Featured Image Height",
+                "description": "Adjust the height of the featured image.",
+                "features": {
+                  "responsive": true,
+                  "hover": false,
+                  "sticky": true,
+                  "dynamicContent": {
+                    "type": "number"
+                  }
+                },
+                "component": {
+                  "name": "divi/range",
+                  "type": "field",
+                  "props": {
+                    "cssProperty": "height",
+                    "defaultUnit": "px",
+                    "max": 1000,
+                    "min": 0,
+                    "step": 1
+                  }
+                }
+              },
+              "maxHeight": {
+                "groupSlug": "designSizing",
+                "priority": 25,
+                "render": true,
+                "attrName": "featuredImage.decoration.sizing",
+                "subName": "maxHeight",
+                "label": "Featured Image Max Height",
+                "description": "Adjust the max height of the featured image.",
+                "features": {
+                  "responsive": true,
+                  "hover": false,
+                  "sticky": true,
+                  "dynamicContent": {
+                    "type": "number"
+                  }
+                },
+                "component": {
+                  "name": "divi/range",
+                  "type": "field",
+                  "props": {
+                    "cssProperty": "max-height",
+                    "defaultUnit": "px",
+                    "max": 1000,
+                    "min": 0,
+                    "step": 1
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "customCssFields": {
+    "postTitle": {
+      "subName": "postTitle",
+      "selectorSuffix": " h1",
+      "label": "Title"
+    },
+    "postMeta": {
+      "subName": "postMeta",
+      "selectorSuffix": " .et_pb_title_meta_container",
+      "label": "Meta"
+    },
+    "postImage": {
+      "subName": "postImage",
+      "selectorSuffix": " .et_pb_title_featured_container",
+      "label": "Featured Image"
+    }
+  },
+  "settings": {
+    "advanced": "auto",
+    "groups": {
+      "contentElements": {
+        "panel": "content",
+        "priority": 5,
+        "groupName": "element",
+        "multiElements": true,
+        "component": {
+          "name": "divi/composite",
+          "props": {
+            "groupLabel": "Elements"
+          }
+        }
+      },
+      "designImage": {
+        "panel": "design",
+        "priority": 5,
+        "groupName": "imageStyle",
+        "multiElements": true,
+        "component": {
+          "name": "divi/composite",
+          "props": {
+            "groupLabel": "Image",
+            "clipboardCategory": "style"
+          }
+        }
+      },
+      "designText": {
+        "panel": "design",
+        "priority": 10,
+        "groupName": "textStyle",
+        "multiElements": true,
+        "component": {
+          "name": "divi/composite",
+          "props": {
+            "groupLabel": "Text",
+            "clipboardCategory": "style",
+            "presetGroup": "divi/text"
+          }
+        }
+      },
+      "designSizing": {
+        "panel": "design",
+        "priority": 70,
+        "groupName": "sizing",
+        "multiElements": true,
+        "component": {
+          "name": "divi/composite",
+          "props": {
+            "groupLabel": "Sizing",
+            "clipboardCategory": "style",
+            "presetGroup": "divi/sizing"
+          }
+        }
+      }
+    }
+  }
+}

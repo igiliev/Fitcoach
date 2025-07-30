@@ -1,0 +1,35 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "module": {
+    "decoration": {
+      "spacing": {
+        "desktop": {
+          "value": {
+            "margin": {
+              "bottom": "1.618em",
+              "left": "0em",
+              "right": "0em",
+              "syncHorizontal": "off",
+              "syncVertical": "off",
+              "top": "0em"
+            }
+          }
+        }
+      }
+    }
+  },
+  "body": {
+    "decoration": {
+      "font": {
+        "font": {
+          "desktop": {
+            "value": {
+              "lineHeight": "1.7em",
+              "size": "14px"
+            }
+          }
+        }
+      }
+    }
+  }
+}

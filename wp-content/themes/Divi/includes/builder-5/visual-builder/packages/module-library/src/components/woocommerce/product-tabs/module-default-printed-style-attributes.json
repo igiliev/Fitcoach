@@ -1,0 +1,93 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "module": {
+    "decoration": {
+      "border": {
+        "desktop": {
+          "value": {
+            "radius": {
+              "sync": "on"
+            },
+            "styles": {
+              "all": {
+                "color": "#d9d9d9",
+                "style": "solid",
+                "width": "1px"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "content": {
+    "decoration": {
+      "bodyFont": {
+        "body": {
+          "font": {
+            "desktop": {
+              "value": {
+                "lineHeight": "1.7em",
+                "size": "14px"
+              }
+            }
+          }
+        },
+        "link": {
+          "font": {
+            "desktop": {
+              "value": {
+                "lineHeight": "1em",
+                "size": "14px"
+              }
+            }
+          }
+        },
+        "ol": {
+          "font": {
+            "desktop": {
+              "value": {
+                "lineHeight": "1em",
+                "size": "14px"
+              }
+            }
+          }
+        },
+        "quote": {
+          "font": {
+            "desktop": {
+              "value": {
+                "lineHeight": "1em",
+                "size": "14px"
+              }
+            }
+          }
+        },
+        "ul": {
+          "font": {
+            "desktop": {
+              "value": {
+                "lineHeight": "1em",
+                "size": "14px"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "tab": {
+    "decoration": {
+      "font": {
+        "font": {
+          "desktop": {
+            "value": {
+              "lineHeight": "1.7em",
+              "size": "14px"
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "module": {
+    "meta": {
+      "adminLabel": {
+        "desktop": {
+          "value": "Woo Product Gallery"
+        }
+      }
+    }
+  },
+  "title": {
+    "decoration": {
+      "font": {
+        "font": {
+          "desktop": {
+            "value": {
+              "headingLevel": "h3"
+            }
+          }
+        }
+      }
+    }
+  },
+  "content": {
+    "advanced": {
+      "product": {
+        "desktop": {
+          "value": "filter,et_builder_get_woo_default_product"
+        }
+      },
+      "showPagination": {
+        "desktop": {
+          "value": "on"
+        }
+      },
+      "showTitleAndCaption": {
+        "desktop": {
+          "value": "on"
+        }
+      },
+      "postsNumber": {
+        "desktop": {
+          "value": "4"
+        }
+      }
+    }
+  },
+  "layout": {
+    "advanced": {
+      "fullwidth": {
+        "desktop": {
+          "value": "on"
+        }
+      },
+      "orientation": {
+        "desktop": {
+          "value": "landscape"
+        }
+      }
+    }
+  },
+  "image": {
+    "advanced": {
+      "galleryOrderby": {
+        "desktop": {
+          "value": "off"
+        }
+      }
+    }
+  }
+}

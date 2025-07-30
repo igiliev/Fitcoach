@@ -1,0 +1,10 @@
+/*!
+ * Salvattore 1.0.5 by @rnmp and @ppold
+* https://github.com/rnmp/salvattore
+* Licensed under the MIT license.
+* Copyright (c) 2013-2014 Rolando Murillo and Giorgio Leveroni
+*/
+
+/*! matchMedia() polyfill - Test a CSS media type/query in JS. Authors & copyright (c) 2012: Scott Jehl, Paul Irish, Nicholas Zakas, David Knight. Dual MIT/BSD license */
+
+/*! matchMedia() polyfill addListener/removeListener extension. Author & copyright (c) 2012: Scott Jehl. Dual MIT/BSD license */

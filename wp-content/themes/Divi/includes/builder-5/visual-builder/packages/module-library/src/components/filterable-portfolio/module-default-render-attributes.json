@@ -1,0 +1,76 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "module": {
+    "meta": {
+      "adminLabel": {
+        "desktop": {
+          "value": "Filterable Portfolio"
+        }
+      }
+    },
+    "advanced": {
+      "text": {
+        "text": {
+          "desktop": {
+            "value": {
+              "color": "light"
+            }
+          }
+        }
+      }
+    }
+  },
+  "portfolio": {
+    "advanced": {
+      "postsNumber": {
+        "desktop": {
+          "value": "10"
+        }
+      },
+      "showCategories": {
+        "desktop": {
+          "value": "on"
+        }
+      },
+      "showTitle": {
+        "desktop": {
+          "value": "on"
+        }
+      },
+      "showPagination": {
+        "desktop": {
+          "value": "on"
+        }
+      },
+      "layout": {
+        "desktop": {
+          "value": "on"
+        }
+      }
+    }
+  },
+  "title": {
+    "decoration": {
+      "font": {
+        "font": {
+          "desktop": {
+            "value": {
+              "headingLevel": "h2"
+            }
+          }
+        }
+      }
+    }
+  },
+  "overlay": {
+    "decoration": {
+      "icon": {
+        "desktop": {
+          "value": {
+            "unicode": ""
+          }
+        }
+      }
+    }
+  }
+}

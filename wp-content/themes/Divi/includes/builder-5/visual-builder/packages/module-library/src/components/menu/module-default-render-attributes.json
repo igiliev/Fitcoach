@@ -1,0 +1,140 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "module": {
+    "meta": {
+      "adminLabel": {
+        "desktop": {
+          "value": "Menu"
+        }
+      }
+    },
+    "advanced": {
+      "text": {
+        "text": {
+          "desktop": {
+            "value": {
+              "color": "light",
+              "orientation": "left"
+            }
+          },
+          "tablet": {
+            "value": {
+              "orientation": "right"
+            }
+          },
+          "phone": {
+            "value": {
+              "orientation": "right"
+            }
+          }
+        }
+      }
+    },
+    "decoration": {
+      "background": {
+        "desktop": {
+          "value": {
+            "color": "#ffffff"
+          }
+        }
+      }
+    }
+  },
+  "logo": {
+    "innerContent": {
+      "desktop": {
+        "value": {
+          "linkTarget": "off"
+        }
+      }
+    }
+  },
+  "menu": {
+    "advanced": {
+      "style": {
+        "desktop": {
+          "value": "left_aligned"
+        }
+      }
+    }
+  },
+  "menuDropdown": {
+    "advanced": {
+      "direction": {
+        "desktop": {
+          "value": "downwards"
+        }
+      },
+      "animation": {
+        "desktop": {
+          "value": "fade"
+        }
+      }
+    }
+  },
+  "cartQuantity": {
+    "advanced": {
+      "show": {
+        "desktop": {
+          "value": "off"
+        }
+      }
+    }
+  },
+  "cartIcon": {
+    "advanced": {
+      "show": {
+        "desktop": {
+          "value": "off"
+        }
+      }
+    },
+    "decoration": {
+      "font": {
+        "font": {
+          "desktop": {
+            "value": {
+              "color": "var(--gcid-primary-color)",
+              "size": "17px"
+            }
+          }
+        }
+      }
+    }
+  },
+  "searchIcon": {
+    "advanced": {
+      "show": {
+        "desktop": {
+          "value": "off"
+        }
+      }
+    },
+    "decoration": {
+      "font": {
+        "font": {
+          "desktop": {
+            "value": {
+              "color": "var(--gcid-primary-color)",
+              "size": "17px"
+            }
+          }
+        }
+      }
+    }
+  },
+  "hamburgerMenuIcon": {
+    "decoration": {
+      "font": {
+        "font": {
+          "desktop": {
+            "value": {
+              "color": "var(--gcid-primary-color)",
+              "size": "32px"
+            }
+          }
+        }
+      }
+    }
+  }
+}

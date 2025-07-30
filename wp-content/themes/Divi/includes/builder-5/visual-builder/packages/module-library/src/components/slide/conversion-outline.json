@@ -1,0 +1,77 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "advanced": {
+    "background": "module.decoration.background",
+    "borders": {
+      "image": "image.decoration.border"
+    },
+    "box_shadow": {
+      "button": "button.decoration.boxShadow",
+      "image": "image.decoration.boxShadow"
+    },
+    "button": {
+      "button": "button"
+    },
+    "display_conditions": "module.decoration.conditions",
+    "filters": {
+      "default": "module.decoration.filters",
+      "child": "image.decoration.filters"
+    },
+    "fonts": {
+      "body": "content.decoration.bodyFont.body",
+      "body_link": "content.decoration.bodyFont.link",
+      "body_ol": "content.decoration.bodyFont.ol",
+      "body_quote": "content.decoration.bodyFont.quote",
+      "body_ul": "content.decoration.bodyFont.ul",
+      "header": "title.decoration.font"
+    },
+    "link_options": "module.advanced.link",
+    "margin_padding": "content.decoration.spacing",
+    "max_width": "content.decoration.sizing",
+    "overflow": "module.decoration.overflow",
+    "text": "module.advanced.text",
+    "text_shadow": {
+      "default": "module.advanced.text.textShadow"
+    },
+    "transform": "module.decoration.transform",
+    "transition": "module.decoration.transition",
+    "z_index": "module.decoration.zIndex"
+  },
+  "css": {
+    "after": "css.*.after",
+    "free_form": "css.*.freeForm",
+    "before": "css.*.before",
+    "main_element": "css.*.mainElement",
+    "slide_button": "css.*.slideButton",
+    "slide_container": "css.*.slideContainer",
+    "slide_description": "css.*.slideDescription",
+    "slide_image": "css.*.slideImage",
+    "slide_title": "css.*.slideTitle"
+  },
+  "module": {
+    "admin_title": "module.meta.adminLabel.*",
+    "allow_player_pause": "module.decoration.background.*.video.allowPlayerPause",
+    "arrows_custom_color": "arrows.advanced.color.*",
+    "button_text": "button.innerContent.*.text",
+    "url_new_window": "button.innerContent.*.linkTarget",
+    "button_link": "button.innerContent.*.linkUrl",
+    "content": "content.innerContent.*",
+    "dot_nav_custom_color": "dotNav.decoration.background.*.color",
+    "heading": "title.innerContent.*",
+    "image_alt": "image.innerContent.*.alt",
+    "video_url": "video.innerContent.*",
+    "image": "image.innerContent.*.src",
+    "alt": "image.innerContent.*.alt",
+    "alignment": "image.advanced.alignment.*",
+    "use_bg_overlay": "slideOverlay.advanced.use.*",
+    "bg_overlay_color": "slideOverlay.decoration.background.*.color",
+    "use_text_overlay": "contentOverlay.advanced.use.*",
+    "text_overlay_color": "contentOverlay.decoration.background.*.color",
+    "text_border_radius": "contentOverlay.decoration.border.*.radius",
+    "header_level": "title.decoration.font.font.*.headingLevel",
+    "inline_fonts": "content.decoration.inlineFont.*.families"
+  },
+  "valueExpansionFunctionMap": {
+    "inline_fonts": "convertInlineFont"
+  }
+}

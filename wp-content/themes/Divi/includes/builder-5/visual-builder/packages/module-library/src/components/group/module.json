@@ -1,0 +1,71 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "name": "divi/group",
+  "d4Shortcode": "",
+  "title": "Group",
+  "titles": "Groups",
+  "moduleIcon": "divi/module-group",
+  "category": "structure",
+  "videos": [
+    {
+      "id": "novideo",
+      "name": "An introduction to the group module"
+    }
+  ],
+  "attributes": {
+    "module": {
+      "type": "object",
+      "selector": "{{selector}}",
+      "styleProps": {
+        "spacing": {
+          "important": true
+        }
+      },
+      "settings": {
+        "decoration": {
+          "animation": {},
+          "background": {},
+          "border": {},
+          "boxShadow": {},
+          "conditions": {},
+          "disabledOn": {},
+          "filters": {},
+          "overflow": {},
+          "order": {},
+          "transition": {},
+          "position": {},
+          "scroll": {},
+          "spacing": {},
+          "sizing": {},
+          "sticky": {},
+          "transform": {},
+          "zIndex": {},
+          "layout": {}
+        },
+        "advanced": {
+          "htmlAttributes": {},
+          "loop": {},
+          "link": {
+            "item": {
+              "groupSlug": "contentLink",
+              "component": {
+                "props": {
+                  "fieldLabel": "Group"
+                }
+              }
+            }
+          }
+        },
+        "meta": {
+          "adminLabel": {}
+        }
+      }
+    }
+  },
+  "customCssFields": {},
+  "settings": {
+    "content": "auto",
+    "design": "auto",
+    "advanced": "auto"
+  }
+}

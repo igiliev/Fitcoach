@@ -1,0 +1,53 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "module": {
+    "meta": {
+      "adminLabel": {
+        "desktop": {
+          "value": "Video Slider"
+        }
+      }
+    }
+  },
+  "overlay": {
+    "advanced": {
+      "desktop": {
+        "value": {
+          "showImageOverlay": "off"
+        }
+      }
+    },
+    "decoration": {
+      "background": {
+        "desktop": {
+          "value": {
+            "color": "rgba(0,0,0,.6)"
+          }
+        }
+      }
+    }
+  },
+  "playIcon": {
+    "decoration": {
+      "icon": {
+        "desktop": {
+          "value": {
+            "size": "96px",
+            "useSize": "off"
+          }
+        }
+      }
+    }
+  },
+  "sliderControls": {
+    "advanced": {
+      "desktop": {
+        "value": {
+          "color": "light",
+          "useArrows": "on",
+          "useThumbnails": "on"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/wp-content/plugins" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/wp-content/plugins/backuply/lib" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/wp-content/plugins/cookieadmin-pro/includes" isTestSource="false" packagePrefix="CookieAdminPro" />
+      <sourceFolder url="file://$MODULE_DIR$/wp-content/plugins/cookieadmin/includes" isTestSource="false" packagePrefix="CookieAdmin" />
+      <sourceFolder url="file://$MODULE_DIR$/wp-content/plugins/gosmtp-pro/main" isTestSource="false" packagePrefix="GOSMTP" />
+      <sourceFolder url="file://$MODULE_DIR$/wp-content/plugins/gosmtp/main" isTestSource="false" packagePrefix="GOSMTP" />
+      <sourceFolder url="file://$MODULE_DIR$/wp-content/plugins/loginizer-security/lib" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/wp-content/plugins/loginizer/lib" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/wp-content/plugins/siteseo-pro/main" isTestSource="false" packagePrefix="SiteSEOPro" />
+      <sourceFolder url="file://$MODULE_DIR$/wp-content/plugins/siteseo/main" isTestSource="false" packagePrefix="SiteSEO" />
+      <sourceFolder url="file://$MODULE_DIR$/wp-content/plugins/softaculous-pro/main" isTestSource="false" packagePrefix="SoftWP" />
+      <sourceFolder url="file://$MODULE_DIR$/wp-content/plugins/speedycache-pro/main" isTestSource="false" packagePrefix="SpeedyCache" />
+      <sourceFolder url="file://$MODULE_DIR$/wp-content/plugins/speedycache/main" isTestSource="false" packagePrefix="SpeedyCache" />
+      <sourceFolder url="file://$MODULE_DIR$/wp-includes" isTestSource="false" packagePrefix="PHPMailer" />
+      <sourceFolder url="file://$MODULE_DIR$/wp-includes/SimplePie/src" isTestSource="false" packagePrefix="SimplePie" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

@@ -1,0 +1,8 @@
+{
+	"name": "ramp",
+	"label": "Ramp",
+	"svgContent": {
+		"top": "<path d=\"M0 0s573.08 140 1280 140V0z\" />",
+		"bottom": "<path d=\"M0 140h1280C573.08 140 0 0 0 0z\" />"
+	}
+}

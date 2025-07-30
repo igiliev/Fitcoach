@@ -1,0 +1,54 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "advanced": {
+    "admin_label": "module.meta.adminLabel",
+    "animation": "module.decoration.animation",
+    "background": "module.decoration.background",
+    "disabled_on": "module.decoration.disabledOn",
+    "height": "module.decoration.sizing",
+    "link_options": "module.advanced.link",
+    "margin_padding": "module.decoration.spacing",
+    "max_width": "module.decoration.sizing",
+    "module": "module.advanced.htmlAttributes",
+    "overflow": "module.decoration.overflow",
+    "position_fields": "module.decoration.position",
+    "scroll": "module.decoration.scroll",
+    "sticky": "module.decoration.sticky",
+    "text": "module.advanced.text",
+    "transform": "module.decoration.transform",
+    "transition": "module.decoration.transition",
+    "z_index": "module.decoration.zIndex",
+    "borders": {
+      "default": "module.decoration.border"
+    },
+    "box_shadow": {
+      "default": "module.decoration.boxShadow"
+    },
+    "filters": {
+      "child": "map.decoration.filters",
+      "default": "module.decoration.filters"
+    },
+    "text_shadow": {
+      "default": "module.advanced.text.textShadow"
+    },
+    "display_conditions": "module.decoration.conditions"
+  },
+  "css": {
+    "after": "css.*.after",
+    "free_form": "css.*.freeForm",
+    "before": "css.*.before",
+    "main_element": "css.*.mainElement"
+  },
+  "module": {
+    "address": "map.innerContent.*.address",
+    "address_lat": "map.innerContent.*.lat",
+    "address_lng": "map.innerContent.*.lng",
+    "google_api_key": "map.advanced.googleAPIKey.*",
+    "grayscale_filter_amount": "map.advanced.grayscaleFilter.*.amount",
+    "mobile_dragging": "map.advanced.mobileDragging.*",
+    "mouse_wheel": "map.advanced.mouseWheel.*",
+    "zoom_level": "map.innerContent.*.zoom",
+    "google_maps_script_notice": "googleMapsScriptNotice.*",
+    "map_center_map": "mapCenterMap.*"
+  }
+}

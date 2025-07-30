@@ -1,0 +1,80 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "module": {
+    "meta": {
+      "adminLabel": {
+        "desktop": {
+          "value": "Woo Product Upsell"
+        }
+      }
+    }
+  },
+  "content": {
+    "advanced": {
+      "columnsNumber": {
+        "desktop": {
+          "value": "filter,et_builder_get_woo_default_columns"
+        }
+      },
+      "offsetNumber": {
+        "desktop": {
+          "value": "0"
+        }
+      },
+      "orderby": {
+        "desktop": {
+          "value": "default"
+        }
+      },
+      "postsNumber": {
+        "desktop": {
+          "value": "filter,et_builder_get_woo_default_columns"
+        }
+      },
+      "product": {
+        "desktop": {
+          "value": "filter,et_builder_get_woo_default_product"
+        }
+      }
+    }
+  },
+  "elements": {
+    "advanced": {
+      "showImage": {
+        "desktop": {
+          "value": {
+            "enabled": "on"
+          }
+        }
+      },
+      "showName": {
+        "desktop": {
+          "value": {
+            "enabled": "on"
+          }
+        }
+      },
+      "showPrice": {
+        "desktop": {
+          "value": {
+            "enabled": "on"
+          }
+        }
+      },
+      "showRating": {
+        "desktop": {
+          "value": {
+            "enabled": "on"
+          }
+        }
+      },
+      "showSaleBadge": {
+        "desktop": {
+          "value": {
+            "enabled": "on"
+          }
+        }
+      }
+    }
+  }
+}

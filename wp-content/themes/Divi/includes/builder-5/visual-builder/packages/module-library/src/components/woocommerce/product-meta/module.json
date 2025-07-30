@@ -1,0 +1,295 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "name": "divi/woocommerce-product-meta",
+  "d4Shortcode": "et_pb_wc_meta",
+  "moduleClassName": "et_pb_wc_meta",
+  "moduleOrderClassName": "et_pb_wc_meta",
+  "title": "Woo Product Meta",
+  "titles": "Woo Product Meta",
+  "moduleIcon": "divi/module-wc-meta",
+  "folder": "woo-modules",
+  "category": "module",
+  "videos": [
+    {
+      "id": "7X03vBPYJ1o",
+      "name": "Divi WooCommerce Modules"
+    },
+    {
+      "id": "1iqjhnHVA9Y",
+      "name": "Design Settings and Advanced Module Settings"
+    },
+    {
+      "id": "boNZZ0MYU0E",
+      "name": "Saving and loading from the library"
+    }
+  ],
+  "attributes": {
+    "module": {
+      "type": "object",
+      "selector": "{{selector}}",
+      "settings": {
+        "advanced": {
+          "htmlAttributes": {},
+          "link": {}
+        },
+        "decoration": {
+          "animation": {},
+          "background": {},
+          "border": {},
+          "boxShadow": {},
+          "conditions": {},
+          "disabledOn": {},
+          "filters": {},
+          "overflow": {},
+          "position": {},
+          "scroll": {},
+          "sizing": {},
+          "spacing": {},
+          "sticky": {},
+          "transform": {},
+          "transition": {},
+          "zIndex": {}
+        },
+        "meta": {
+          "adminLabel": {}
+        }
+      },
+      "styleProps": {
+        "border": {
+          "propertySelectors": {
+            "desktop": {
+              "value": {
+                "border-radius": "{{selector}} .product_meta",
+                "border-style": "{{selector}} .product_meta"
+              }
+            }
+          }
+        },
+        "boxShadow": {
+          "selector": "{{selector}} .product_meta"
+        }
+      }
+    },
+    "content": {
+      "type": "object",
+      "settings": {
+        "advanced": {
+          "product": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "contentMainContent",
+              "attrName": "content.advanced.product",
+              "label": "Product",
+              "description": "Here you can select the Product.",
+              "priority": 10,
+              "render": true,
+              "component": {
+                "type": "field"
+              }
+            }
+          },
+          "separator": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "contentMainContent",
+              "attrName": "content.advanced.separator",
+              "label": "Separator",
+              "description": "Here you can set the separator.",
+              "priority": 20,
+              "render": true,
+              "component": {
+                "type": "field",
+                "name": "divi/text"
+              }
+            }
+          }
+        },
+        "decoration": {
+          "bodyFont": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "designText",
+              "priority": 20,
+              "render": true,
+              "component": {
+                "type": "group",
+                "name": "divi/font-body",
+                "props": {
+                  "grouped": false,
+                  "groups": {
+                    "body": {
+                      "fieldLabel": "Meta"
+                    },
+                    "ul": {
+                      "render": false
+                    },
+                    "ol": {
+                      "render": false
+                    },
+                    "quote": {
+                      "render": false
+                    }
+                  },
+                  "fields": {
+                    "link": {
+                      "textAlign": {
+                        "render": false
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "styleProps": {
+        "bodyFont": {
+          "selector": "{{selector}} div.product_meta a"
+        }
+      }
+    },
+    "elements": {
+      "type": "object",
+      "settings": {
+        "advanced": {
+          "showSku": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "contentElements",
+              "attrName": "elements.advanced.showSku",
+              "label": "Show SKU",
+              "description": "Here you can choose whether the SKU should be added.",
+              "priority": 10,
+              "render": true,
+              "component": {
+                "type": "field",
+                "name": "divi/toggle"
+              }
+            }
+          },
+          "showCategories": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "contentElements",
+              "attrName": "elements.advanced.showCategories",
+              "label": "Show Categories",
+              "description": "Here you can choose whether the Categories should be added.",
+              "priority": 10,
+              "render": true,
+              "component": {
+                "type": "field",
+                "name": "divi/toggle"
+              }
+            }
+          },
+          "showTags": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "contentElements",
+              "attrName": "elements.advanced.showTags",
+              "label": "Show Tags",
+              "description": "Here you can choose whether the Tags should be added.",
+              "priority": 10,
+              "render": true,
+              "component": {
+                "type": "field",
+                "name": "divi/toggle"
+              }
+            }
+          }
+        }
+      }
+    },
+    "layout": {
+      "type": "object",
+      "settings": {
+        "advanced": {
+          "metaLayout": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "designLayout",
+              "attrName": "layout.advanced.metaLayout",
+              "label": "Meta Layout",
+              "description": "Here you can choose how to position the product meta.",
+              "priority": 10,
+              "render": true,
+              "component": {
+                "type": "field",
+                "name": "divi/select",
+                "props": {
+                  "options": {
+                    "stacked": {
+                      "label": "Stacked"
+                    },
+                    "inline": {
+                      "label": "Inline"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "customCssFields": {
+    "metaText": {
+      "label": "Meta Text",
+      "subName": "metaText",
+      "selectorSuffix": " .product_meta, .product_meta a"
+    }
+  },
+  "settings": {
+    "content": "auto",
+    "design": "auto",
+    "advanced": "auto",
+    "groups": {
+      "contentMainContent": {
+        "panel": "content",
+        "priority": 10,
+        "groupName": "contentMainContent",
+        "component": {
+          "name": "divi/composite",
+          "props": {
+            "groupLabel": "Content"
+          }
+        }
+      },
+      "contentElements": {
+        "panel": "content",
+        "priority": 20,
+        "groupName": "elements",
+        "component": {
+          "name": "divi/composite",
+          "props": {
+            "groupLabel": "Elements"
+          }
+        }
+      },
+      "designLayout": {
+        "panel": "design",
+        "priority": 10,
+        "groupName": "designLayout",
+        "component": {
+          "name": "divi/composite",
+          "props": {
+            "groupLabel": "Layout"
+          }
+        }
+      },
+      "designText": {
+        "panel": "design",
+        "priority": 20,
+        "groupName": "designText",
+        "component": {
+          "name": "divi/composite",
+          "props": {
+            "groupLabel": "Text"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,678 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "name": "divi/comments",
+  "d4Shortcode": "et_pb_comments",
+  "moduleClassName": "et_pb_comments_module",
+  "moduleOrderClassName": "et_pb_comments",
+  "title": "Comments",
+  "titles": "Comments",
+  "moduleIcon": "divi/module-comments",
+  "category": "module",
+  "videos": [
+    {
+      "id": "sCq1_JgWJTQ",
+      "name": "An introduction to the Comments module"
+    },
+    {
+      "id": "1iqjhnHVA9Y",
+      "name": "Design Settings and Advanced Module Settings"
+    },
+    {
+      "id": "boNZZ0MYU0E",
+      "name": "Saving and loading from the library"
+    }
+  ],
+  "attributes": {
+    "module": {
+      "type": "object",
+      "selector": "{{selector}}",
+      "styleProps": {
+        "spacing": {
+          "important": true
+        },
+        "border": {
+          "important": true
+        }
+      },
+      "settings": {
+        "meta": {
+          "adminLabel": {}
+        },
+        "advanced": {
+          "link": {},
+          "loop": {},
+          "htmlAttributes": {},
+          "text": {},
+          "showReply": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "contentElements",
+              "priority": 10,
+              "render": true,
+              "attrName": "module.advanced.showReply",
+              "label": "Show Reply Button",
+              "description": "Disabling the reply button will prevent visitors from creating threaded comments.",
+              "features": {
+                "sticky": false,
+                "preset": [
+                  "html"
+                ]
+              },
+              "component": {
+                "type": "field",
+                "name": "divi/toggle",
+                "props": {
+                  "options": {
+                    "off": "No",
+                    "on": "Yes"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "decoration": {
+          "animation": {},
+          "background": {},
+          "border": {},
+          "boxShadow": {},
+          "conditions": {},
+          "disabledOn": {},
+          "filters": {},
+          "overflow": {},
+          "order": {},
+          "position": {},
+          "scroll": {},
+          "sizing": {},
+          "spacing": {},
+          "sticky": {},
+          "transform": {},
+          "transition": {},
+          "zIndex": {}
+        }
+      }
+    },
+    "image": {
+      "type": "object",
+      "selector": "{{selector}} .commentlist img.avatar",
+      "elementType": "image",
+      "settings": {
+        "advanced": {
+          "showAvatar": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "contentElements",
+              "priority": 5,
+              "render": true,
+              "attrName": "image.advanced.showAvatar",
+              "label": "Show Author Avatar",
+              "description": "Disabling the author avatar will remove the profile picture from the module.",
+              "features": {
+                "sticky": false,
+                "preset": [
+                  "html"
+                ]
+              },
+              "component": {
+                "type": "field",
+                "name": "divi/toggle",
+                "props": {
+                  "options": {
+                    "off": "No",
+                    "on": "Yes"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "decoration": {
+          "border": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "designImage",
+              "priority": 60,
+              "render": true,
+              "component": {
+                "type": "group",
+                "name": "divi/border",
+                "props": {
+                  "grouped": false,
+                  "fieldLabel": "Image"
+                }
+              }
+            }
+          },
+          "boxShadow": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "designImage",
+              "priority": 60,
+              "render": true,
+              "component": {
+                "type": "group",
+                "name": "divi/box-shadow",
+                "props": {
+                  "grouped": false,
+                  "fieldLabel": "Image"
+                }
+              }
+            }
+          },
+          "filters": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "designImage",
+              "attrName": "image.decoration.filters",
+              "priority": 60,
+              "render": true,
+              "component": {
+                "type": "group",
+                "name": "divi/filters",
+                "props": {
+                  "grouped": false,
+                  "fieldLabel": "Image"
+                }
+              }
+            }
+          }
+        }
+      },
+      "styleProps": {
+        "boxShadow": {
+          "selector": "{{selector}} .commentlist img.avatar"
+        },
+        "border": {
+          "propertySelectors": {
+            "desktop": {
+              "value": {
+                "border-radius": "{{selector}}.et_pb_comments_module .commentlist li img.avatar",
+                "border-style": "{{selector}}.et_pb_comments_module .commentlist li img.avatar"
+              }
+            }
+          }
+        }
+      }
+    },
+    "field": {
+      "type": "object",
+      "selector": "{{selector}} #commentform textarea, {{selector}} #commentform input[type='text'], {{selector}} #commentform input[type='email'], {{selector}} #commentform input[type='url']",
+      "elementType": "field",
+      "settings": {
+        "decoration": {
+          "background": {},
+          "border": {},
+          "boxShadow": {},
+          "spacing": {},
+          "font": {}
+        },
+        "advanced": {
+          "focusUseBorder": {
+            "groupType": "group-item",
+            "item": {
+              "priority": 100,
+              "render": true,
+              "groupSlug": "designFieldField",
+              "attrName": "field.advanced.focusUseBorder",
+              "label": "Use Focus Borders",
+              "description": "Enabling this option will add borders to input fields when focused.",
+              "features": {
+                "preset": [
+                  "html"
+                ]
+              },
+              "component": {
+                "type": "field",
+                "name": "divi/toggle"
+              }
+            }
+          },
+          "focus": {
+            "groupType": "group-items",
+            "items": {
+              "focusBorderGroup": {
+                "render": true,
+                "groupSlug": "designFieldField"
+              },
+              "focusFont": {
+                "priority": 40,
+                "render": true,
+                "groupSlug": "designFieldField",
+                "component": {
+                  "props": {
+                    "fields": {
+                      "headingLevel": {
+                        "render": false
+                      },
+                      "family": {
+                        "render": false
+                      },
+                      "weight": {
+                        "render": false
+                      },
+                      "style": {
+                        "render": false
+                      },
+                      "letterSpacing": {
+                        "render": false
+                      },
+                      "lineHeight": {
+                        "render": false
+                      },
+                      "lineColor": {
+                        "render": false
+                      },
+                      "lineStyle": {
+                        "render": false
+                      },
+                      "textShadowGroup": {
+                        "render": false
+                      },
+                      "textAlign": {
+                        "render": false
+                      },
+                      "size": {
+                        "render": false
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "styleProps": {
+        "font": {
+          "important": true
+        },
+        "border": {
+          "important": true
+        },
+        "spacing": {
+          "propertySelectors": {
+            "desktop": {
+              "value": {
+                "margin": "{{selector}} #commentform .comment-form-comment, {{selector}} #commentform .comment-form-author, {{selector}} #commentform .comment-form-email, {{selector}} #commentform .comment-form-url"
+              }
+            }
+          }
+        },
+        "focus": {
+          "selector": "{{selector}} #commentform textarea:focus, {{selector}} #commentform input[type='text']:focus, {{selector}} #commentform input[type='email']:focus, {{selector}} #commentform input[type='url']:focus"
+        },
+        "placeholder": {
+          "selector": "{{selector}} #commentform textarea::-webkit-input-placeholder, {{selector}} #commentform textarea::-moz-placeholder, {{selector}} #commentform textarea:-ms-input-placeholder, {{selector}} #commentform input::-webkit-input-placeholder, {{selector}} #commentform input::-moz-placeholder, {{selector}} #commentform input:-ms-input-placeholder"
+        }
+      }
+    },
+    "button": {
+      "type": "object",
+      "selector": "",
+      "elementType": "button",
+      "settings": {
+        "decoration": {
+          "background": {},
+          "border": {},
+          "boxShadow": {},
+          "button": {
+            "component": {
+              "props": {
+                "fields": {
+                  "buttonIconGroup": {
+                    "component": {
+                      "props": {
+                        "fields": {
+                          "settings": {
+                            "features": {
+                              "responsive": true
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "fontGroup": {
+                    "component": {
+                      "props": {
+                        "fields": {
+                          "lineHeight": {
+                            "render": false
+                          },
+                          "textAlign": {
+                            "render": false
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "alignment": {
+                    "visible": true
+                  }
+                }
+              }
+            }
+          },
+          "font": {},
+          "spacing": {}
+        }
+      },
+      "styleProps": {
+        "selector": "{{selector}}.et_pb_comments_module .et_pb_button",
+        "boxShadow": {
+          "selector": "{{selector}} .et_pb_button",
+          "propertySelectors": {
+            "desktop": {
+              "value": {
+                "box-shadow": "{{selector}} .et_pb_button"
+              }
+            }
+          }
+        },
+        "button": {
+          "propertySelectors": {
+            "desktop": {
+              "value": {
+                "text-align": "{{selector}} .form-submit"
+              }
+            }
+          }
+        },
+        "spacing": {
+          "important": true
+        }
+      }
+    },
+    "commentCount": {
+      "type": "object",
+      "selector": "",
+      "elementType": "heading",
+      "styleProps": {
+        "selector": "{{selector}} h1.page_title, {{selector}} h2.page_title, {{selector}} h3.page_title, {{selector}} h4.page_title, {{selector}} h5.page_title, {{selector}} h6.page_title",
+        "font": {
+          "important": {
+            "font": {
+              "desktop": {
+                "value": {
+                  "color": true
+                }
+              }
+            }
+          }
+        }
+      },
+      "settings": {
+        "advanced": {
+          "showCount": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "contentElements",
+              "priority": 15,
+              "render": true,
+              "attrName": "commentCount.advanced.showCount",
+              "label": "Show Comment Count",
+              "description": "Disabling the comment count will remove the number of comments from the top of the module.",
+              "features": {
+                "sticky": false,
+                "preset": [
+                  "html"
+                ]
+              },
+              "component": {
+                "type": "field",
+                "name": "divi/toggle",
+                "props": {
+                  "options": {
+                    "off": "No",
+                    "on": "Yes"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "decoration": {
+          "font": {
+            "priority": 10,
+            "component": {
+              "props": {
+                "groupLabel": "Comment Count Text",
+                "fieldLabel": "Comment Count"
+              }
+            }
+          }
+        }
+      }
+    },
+    "formTitle": {
+      "type": "object",
+      "selector": "",
+      "elementType": "heading",
+      "settings": {
+        "decoration": {
+          "font": {
+            "priority": 10,
+            "component": {
+              "props": {
+                "groupLabel": "Form Title Text",
+                "fieldLabel": "Form Title"
+              }
+            }
+          }
+        }
+      },
+      "styleProps": {
+        "selector": "{{selector}} .comment-reply-title"
+      }
+    },
+    "meta": {
+      "type": "object",
+      "selector": "",
+      "elementType": "element",
+      "styleProps": {
+        "selector": "{{selector}} .comment_postinfo span",
+        "font": {
+          "propertySelectors": {
+            "font": {
+              "desktop": {
+                "value": {
+                  "text-align": "{{selector}} .comment_postinfo"
+                }
+              }
+            }
+          },
+          "important": {
+            "desktop": {
+              "value": true
+            }
+          }
+        }
+      },
+      "settings": {
+        "advanced": {
+          "showMeta": {
+            "groupType": "group-item",
+            "item": {
+              "groupSlug": "contentElements",
+              "priority": 20,
+              "render": true,
+              "attrName": "meta.advanced.showMeta",
+              "label": "Show Meta",
+              "description": "Turn meta on or off.",
+              "features": {
+                "sticky": false,
+                "preset": [
+                  "html"
+                ]
+              },
+              "component": {
+                "type": "field",
+                "name": "divi/toggle",
+                "props": {
+                  "options": {
+                    "off": "No",
+                    "on": "Yes"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "decoration": {
+          "font": {
+            "priority": 10,
+            "component": {
+              "props": {
+                "groupLabel": "Meta Text",
+                "fieldLabel": "Meta"
+              }
+            }
+          }
+        }
+      }
+    },
+    "commentText": {
+      "type": "object",
+      "selector": "",
+      "elementType": "content",
+      "settings": {
+        "decoration": {
+          "font": {
+            "priority": 10,
+            "component": {
+              "props": {
+                "groupLabel": "Comment Text",
+                "fieldLabel": "Comment"
+              }
+            }
+          }
+        }
+      },
+      "styleProps": {
+        "selector": "{{selector}} .comment-content p",
+        "font": {
+          "important": {
+            "font": {
+              "desktop": {
+                "value": {
+                  "color": true
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "settings": {
+    "content": "auto",
+    "advanced": "auto",
+    "groups": {
+      "contentElements": {
+        "panel": "content",
+        "priority": 10,
+        "groupName": "elements",
+        "multiElements": true,
+        "component": {
+          "name": "divi/composite",
+          "props": {
+            "groupLabel": "Elements"
+          }
+        }
+      },
+      "designFieldField": {
+        "panel": "design",
+        "priority": 10,
+        "groupName": "field",
+        "multiElements": true,
+        "component": {
+          "name": "divi/composite",
+          "props": {
+            "groupLabel": "Fields",
+            "clipboardCategory": "style"
+          }
+        }
+      },
+      "designImage": {
+        "panel": "design",
+        "priority": 10,
+        "groupName": "image",
+        "multiElements": true,
+        "component": {
+          "name": "divi/composite",
+          "props": {
+            "groupLabel": "Image",
+            "clipboardCategory": "style"
+          }
+        }
+      }
+    }
+  },
+  "customCssFields": {
+    "mainHeader": {
+      "label": "Comments Count",
+      "subName": "mainHeader",
+      "selectorSuffix": " h1#comments"
+    },
+    "commentBody": {
+      "label": "Comment Body",
+      "subName": "commentBody",
+      "selectorSuffix": " .comment-body"
+    },
+    "commentMeta": {
+      "label": "Comment Meta",
+      "subName": "commentMeta",
+      "selectorSuffix": " .comment_postinfo"
+    },
+    "commentContent": {
+      "label": "Comment Content",
+      "subName": "commentContent",
+      "selectorSuffix": " .comment_area .comment-content"
+    },
+    "commentAvatar": {
+      "label": "Comment Avatar",
+      "subName": "commentAvatar",
+      "selectorSuffix": " .comment_avatar"
+    },
+    "replyButton": {
+      "label": "Reply Button",
+      "subName": "replyButton",
+      "selectorSuffix": " .comment-reply-link.et_pb_button"
+    },
+    "newTitle": {
+      "label": "New Comment Title",
+      "subName": "newTitle",
+      "selectorSuffix": " h3#reply-title"
+    },
+    "messageField": {
+      "label": "Message Field",
+      "subName": "messageField",
+      "selectorSuffix": " .comment-form-comment textarea#comment"
+    },
+    "nameField": {
+      "label": "Name Field",
+      "subName": "nameField",
+      "selectorSuffix": " .comment-form-author input"
+    },
+    "emailField": {
+      "label": "Email Field",
+      "subName": "emailField",
+      "selectorSuffix": " .comment-form-email input"
+    },
+    "websiteField": {
+      "label": "Website Field",
+      "subName": "websiteField",
+      "selectorSuffix": " .comment-form-url input"
+    },
+    "submitButton": {
+      "label": "Submit Button",
+      "subName": "submitButton",
+      "selectorSuffix": " .form-submit .et_pb_button#et_pb_submit"
+    }
+  },
+  "mousetrap": {
+    "zIndex": {
+      "edited": "aboveModuleElements"
+    }
+  }
+}

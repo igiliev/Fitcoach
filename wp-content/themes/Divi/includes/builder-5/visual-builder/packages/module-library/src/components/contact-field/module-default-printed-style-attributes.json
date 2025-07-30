@@ -1,0 +1,22 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "fieldItem": {
+    "advanced": {
+      "minLength": {
+        "desktop": {
+          "value": "0"
+        }
+      },
+      "maxLength": {
+        "desktop": {
+          "value": "0"
+        }
+      },
+      "allowedSymbols": {
+        "desktop": {
+          "value": "all"
+        }
+      }
+    }
+  }
+}

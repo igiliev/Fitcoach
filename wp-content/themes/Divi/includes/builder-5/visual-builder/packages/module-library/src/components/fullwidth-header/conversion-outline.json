@@ -1,0 +1,102 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "advanced": {
+    "admin_label": "module.meta.adminLabel",
+    "animation": "module.decoration.animation",
+    "background": "module.decoration.background",
+    "disabled_on": "module.decoration.disabledOn",
+    "height": "module.decoration.sizing",
+    "link_options": "module.advanced.link",
+    "margin_padding": "module.decoration.spacing",
+    "max_width": "module.decoration.sizing",
+    "module": "module.advanced.htmlAttributes",
+    "overflow": "module.decoration.overflow",
+    "position_fields": "module.decoration.position",
+    "scroll": "module.decoration.scroll",
+    "sticky": "module.decoration.sticky",
+    "text": "module.advanced.text",
+    "transform": "module.decoration.transform",
+    "transition": "module.decoration.transition",
+    "z_index": "module.decoration.zIndex",
+    "borders": {
+      "default": "module.decoration.border",
+      "image": "image.decoration.border"
+    },
+    "box_shadow": {
+      "button_one": "buttonOne.decoration.boxShadow",
+      "button_two": "buttonTwo.decoration.boxShadow",
+      "default": "module.decoration.boxShadow",
+      "image": "image.decoration.boxShadow"
+    },
+    "button": {
+      "button_one": "buttonOne",
+      "button_two": "buttonTwo"
+    },
+    "filters": {
+      "child": "image.decoration.filters",
+      "default": "module.decoration.filters"
+    },
+    "fonts": {
+      "content": "content.decoration.bodyFont.body",
+      "content_link": "content.decoration.bodyFont.link",
+      "content_ol": "content.decoration.bodyFont.ol",
+      "content_quote": "content.decoration.bodyFont.quote",
+      "content_ul": "content.decoration.bodyFont.ul",
+      "subhead": "subhead.decoration.font",
+      "title": "title.decoration.font"
+    },
+    "text_shadow": {
+      "default": "module.advanced.text.textShadow"
+    },
+    "display_conditions": "module.decoration.conditions"
+  },
+  "css": {
+    "after": "css.*.after",
+    "free_form": "css.*.freeForm",
+    "before": "css.*.before",
+    "main_element": "css.*.mainElement",
+    "button_1": "css.*.button1",
+    "button_2": "css.*.button2",
+    "content": "css.*.content",
+    "header_container": "css.*.headerContainer",
+    "header_image": "css.*.headerImage",
+    "logo": "css.*.logo",
+    "scroll_button": "css.*.scrollButton",
+    "subtitle": "css.*.subtitle",
+    "title": "css.*.title"
+  },
+  "module": {
+    "background_overlay_color": "overlay.decoration.background.*.color",
+    "button_one_text": "buttonOne.innerContent.*.text",
+    "button_one_url": "buttonOne.innerContent.*.linkUrl",
+    "button_two_text": "buttonTwo.innerContent.*.text",
+    "button_two_url": "buttonTwo.innerContent.*.linkUrl",
+    "content": "content.innerContent.*",
+    "content_font_color": "content.decoration.bodyFont.body.font.*.color",
+    "content_max_width": "content.advanced.maxWidth.*",
+    "content_orientation": "content.advanced.orientation.*",
+    "header_fullscreen": "module.advanced.headerFullscreen.*",
+    "header_image_url": "image.innerContent.*.src",
+    "header_scroll_down": "scrollDown.decoration.icon.*.show",
+    "image_alt_text": "image.innerContent.*.alt",
+    "image_orientation": "image.advanced.orientation.*",
+    "image_title": "image.innerContent.*.title",
+    "inline_fonts": "content.decoration.inlineFont.*.families",
+    "logo_alt_text": "logo.innerContent.*.alt",
+    "logo_image_url": "logo.innerContent.*.src",
+    "logo_title": "logo.innerContent.*.title",
+    "scroll_down_icon": "scrollDown.decoration.icon.*",
+    "scroll_down_icon_color": "scrollDown.decoration.icon.*.color",
+    "scroll_down_icon_size": "scrollDown.decoration.icon.*.size",
+    "subhead": "subhead.innerContent.*",
+    "subhead_font_color": "subhead.decoration.font.font.*.color",
+    "text_orientation": "module.advanced.text.text.*.orientation",
+    "title": "title.innerContent.*",
+    "title_font_color": "title.decoration.font.font.*.color",
+    "title_level": "title.decoration.font.font.*.headingLevel"
+  },
+  "valueExpansionFunctionMap": {
+    "scroll_down_icon": "convertIcon",
+    "inline_fonts": "convertInlineFont"
+  }
+}

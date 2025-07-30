@@ -1,0 +1,44 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "module": {
+    "meta": {
+      "adminLabel": {
+        "desktop": {
+          "value": "Woo Product Add To Cart"
+        }
+      }
+    }
+  },
+  "content": {
+    "advanced": {
+      "product": {
+        "desktop": {
+          "value": "filter,et_builder_get_woo_default_product"
+        }
+      }
+    }
+  },
+  "elements": {
+    "advanced": {
+      "showQuantity": {
+        "desktop": {
+          "value": "on"
+        }
+      },
+      "showStock": {
+        "desktop": {
+          "value": "on"
+        }
+      }
+    }
+  },
+  "fieldLabels": {
+    "advanced": {
+      "fieldLabelPosition": {
+        "desktop": {
+          "value": "default"
+        }
+      }
+    }
+  }
+}

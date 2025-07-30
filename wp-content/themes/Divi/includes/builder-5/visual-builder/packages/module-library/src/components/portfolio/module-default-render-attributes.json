@@ -1,0 +1,78 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "module": {
+    "meta": {
+      "adminLabel": {
+        "desktop": {
+          "value": "Portfolio"
+        }
+      }
+    },
+    "advanced": {
+      "text": {
+        "text": {
+          "desktop": {
+            "value": {
+              "color": "light"
+            }
+          }
+        }
+      }
+    }
+  },
+  "portfolio": {
+    "innerContent": {
+      "desktop": {
+        "value": {
+          "postsNumber": "10"
+        }
+      }
+    },
+    "advanced": {
+      "showCategories": {
+        "desktop": {
+          "value": "on"
+        }
+      },
+      "showTitle": {
+        "desktop": {
+          "value": "on"
+        }
+      },
+      "showPagination": {
+        "desktop": {
+          "value": "on"
+        }
+      },
+      "layout": {
+        "desktop": {
+          "value": "fullwidth"
+        }
+      }
+    }
+  },
+  "title": {
+    "decoration": {
+      "font": {
+        "font": {
+          "desktop": {
+            "value": {
+              "headingLevel": "h2"
+            }
+          }
+        }
+      }
+    }
+  },
+  "overlay": {
+    "advanced": {
+      "hoverIcon": {
+        "desktop": {
+          "value": {
+            "unicode": ""
+          }
+        }
+      }
+    }
+  }
+}

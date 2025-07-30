@@ -1,0 +1,8 @@
+{
+	"name": "arrow2",
+	"label": "Arrow 2",
+	"svgContent": {
+		"top": "<path d=\"M640 140L1280 0H0z\" fill-opacity=\".5\"/><path d=\"M640 98l640-98H0z\"/>",
+		"bottom": "<path d=\"M640 139L0 0v140h1280V0L640 139z\" fill-opacity=\".5\"/><path d=\"M640 139L0 42v98h1280V42l-640 97z\"/>"
+	}
+}

@@ -1,0 +1,137 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "name": "divi/map-pin",
+  "d4Shortcode": "et_pb_map_pin",
+  "title": "Map Pin",
+  "titles": "Map Pins",
+  "moduleIcon": "divi/module-map-pin",
+  "category": "child-module",
+  "attributes": {
+    "pin": {
+      "type": "object",
+      "selector": "{{selector}}",
+      "settings": {
+        "innerContent": {
+          "groupType": "group-item",
+          "item": {
+            "groupSlug": "contentMap",
+            "attrName": "pin.innerContent",
+            "label": "Map Pin Address",
+            "description": "Enter an address for this map pin, and the address will be geocoded and displayed on the map below.",
+            "priority": 10,
+            "render": true,
+            "features": {
+              "responsive": false,
+              "hover": false,
+              "sticky": false,
+              "preset": "content"
+            },
+            "component": {
+              "type": "field",
+              "name": "divi/map",
+              "props": {
+                "hideUpdateButton": false,
+                "readonly": false,
+                "hasMarker": false
+              }
+            }
+          }
+        }
+      }
+    },
+    "title": {
+      "type": "object",
+      "selector": "{{selector}} h3",
+      "tagName": "h3",
+      "inlineEditor": "plainText",
+      "childrenSanitizer": "et_core_esc_previously",
+      "settings": {
+        "innerContent": {
+          "groupType": "group-item",
+          "item": {
+            "groupSlug": "contentText",
+            "attrName": "title.innerContent",
+            "label": "Title",
+            "description": "The title will be used within the tab button for this tab.",
+            "priority": 10,
+            "render": true,
+            "features": {
+              "dynamicContent": {
+                "type": "text"
+              },
+              "sticky": false,
+              "preset": "content"
+            },
+            "component": {
+              "type": "field",
+              "name": "divi/text"
+            }
+          }
+        }
+      }
+    },
+    "content": {
+      "type": "object",
+      "selector": "{{selector}} .infowindow",
+      "elementType": "content",
+      "attributes": {
+        "class": "infowindow"
+      },
+      "settings": {
+        "innerContent": {
+          "groupType": "group-item",
+          "item": {
+            "groupSlug": "contentText",
+            "attrName": "content.innerContent",
+            "label": "Body",
+            "description": "Here you can define the content that will be placed within the infobox for the pin.",
+            "priority": 10,
+            "render": true,
+            "features": {
+              "sticky": false,
+              "dynamicContent": {
+                "type": "text"
+              },
+              "preset": [
+                "style"
+              ]
+            },
+            "component": {
+              "type": "field",
+              "name": "divi/richtext"
+            }
+          }
+        }
+      }
+    }
+  },
+  "settings": {
+    "content": "auto",
+    "groups": {
+      "contentText": {
+        "panel": "content",
+        "priority": 10,
+        "groupName": "contentText",
+        "component": {
+          "name": "divi/composite",
+          "props": {
+            "groupLabel": "Text",
+            "preset": "content"
+          }
+        }
+      },
+      "contentMap": {
+        "panel": "content",
+        "priority": 10,
+        "groupName": "contentMap",
+        "component": {
+          "name": "divi/composite",
+          "props": {
+            "groupLabel": "Map",
+            "preset": "content"
+          }
+        }
+      }
+    }
+  }
+}

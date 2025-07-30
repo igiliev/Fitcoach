@@ -1,0 +1,1440 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SoftWP\n"
+"POT-Creation-Date: 2023-11-03 12:26+0530\n"
+"PO-Revision-Date: 2025-02-10 18:40+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: sk_SK\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.5\n"
+
+#: assets/js/ai/build/index.js:1 assets/js/ai/src/index.js:19
+msgid "Ask AI"
+msgstr "Opýtajte sa AI"
+
+#: main/admin.php:12
+msgid "Sorry, but you do not have permissions to save settings."
+msgstr "Ľutujeme, ale nemáte povolenia na uloženie nastavení."
+
+#: main/admin.php:49 main/admin.php:341 main/admin.php:347 main/intros.php:22
+msgid "Tours"
+msgstr "Prehliadky"
+
+#: main/onboarding.php:1058
+msgid "Assistant"
+msgstr "asistent"
+
+#: main/admin.php:58
+msgid "WordPress Sidebar"
+msgstr "Bočný panel WordPress"
+
+#: main/admin.php:61
+msgid "WordPress admin Dashboard"
+msgstr "Informačný panel správcu WordPress"
+
+#: main/admin.php:64
+msgid "Plugins Management"
+msgstr "Správa pluginov"
+
+#: main/admin.php:67
+msgid "Themes Management"
+msgstr "Správa tém"
+
+#: main/admin.php:70
+msgid "Pages Management"
+msgstr "Správa stránok"
+
+#: main/admin.php:73
+msgid "Posts Management"
+msgstr "Správa príspevkov"
+
+#: main/admin.php:76
+msgid "Users Management"
+msgstr "Správa používateľov"
+
+#: main/admin.php:83 main/intros.php:30
+msgid "Recommended Features"
+msgstr "Odporúčané funkcie"
+
+#: main/admin.php:85
+msgid "Show More"
+msgstr "Zobraziť viac"
+
+#: main/admin.php:118
+msgid "Install"
+msgstr "Inštalovať"
+
+#: main/admin.php:120 main/manage-plugins.php:116
+msgid "Activate"
+msgstr "Aktivovať"
+
+#: main/manage-plugins.php:118
+msgid "Active"
+msgstr "Aktívne"
+
+#: main/admin.php:135 main/admin.php:343 main/admin.php:349 main/intros.php:36
+msgid "Quick Links"
+msgstr "Rýchle odkazy"
+
+#: main/admin.php:143
+msgid "Manage Pro License"
+msgstr "Spravovať Pro licenciu"
+
+#: main/admin.php:143
+msgid "Manage SoftWP License"
+msgstr "Spravovať licenciu SoftWP"
+
+#: main/admin.php:147
+msgid "View Site"
+msgstr "Zobraziť stránku"
+
+#: main/admin.php:150
+msgid "Check Updates"
+msgstr "Skontrolujte aktualizácie"
+
+#: main/admin.php:153
+msgid "Permalinks"
+msgstr "Trvalé odkazy"
+
+#: main/admin.php:157
+msgid "Manage Pages"
+msgstr "Spravovať stránky"
+
+#: main/admin.php:183 main/admin.php:189
+msgid "Add New"
+msgstr "Pridať nový"
+
+#: main/admin.php:163
+msgid "Manage Posts"
+msgstr "Spravovať príspevky"
+
+#: main/admin.php:169
+msgid "Manage Media"
+msgstr "Správa médií"
+
+#: main/admin.php:175 main/manage-plugins.php:51
+msgid "Manage Plugins"
+msgstr "Spravovať doplnky"
+
+#: main/admin.php:181
+msgid "Manage Themes"
+msgstr "Spravovať motívy"
+
+#: main/admin.php:187
+msgid "Manage Users"
+msgstr "Spravovať používateľov"
+
+#: main/admin.php:193
+msgid "Launch Onboarding"
+msgstr "Spustite Prihlásenie"
+
+#: main/admin.php:201 main/intros.php:42 main/intros.php:152
+msgid "Settings"
+msgstr "Nastavenia"
+
+#: main/admin.php:210
+msgid "Completely Disable Comments across the site"
+msgstr "Úplne zakázať komentáre na stránke"
+
+#: main/functions.php:845 main/intros.php:48
+msgid "AI"
+msgstr "AI"
+
+#: main/admin.php:218
+msgid "Buy AI Tokens"
+msgstr "Kúpte si tokeny AI"
+
+#: main/admin.php:227
+msgid "Disable Softaculous AI"
+msgstr "Zakázať Softaculous AI"
+
+#: main/admin.php:232 main/admin.php:233 main/admin.php:234
+msgid "Days"
+msgstr "dní"
+
+#: main/admin.php:235
+msgid "Never"
+msgstr "Nikdy"
+
+#: main/admin.php:238
+msgid "AI history retention"
+msgstr "uchovávanie histórie AI"
+
+#: main/admin.php:332
+msgid "WordPress Assistant"
+msgstr "Asistent WordPress"
+
+#: main/admin.php:336 main/intros.php:82 main/intros.php:278
+msgid "Dashboard"
+msgstr "Dashboard"
+
+#: main/admin.php:342 main/admin.php:348
+msgid "Extend"
+msgstr "Predĺžiť"
+
+#: main/admin.php:558
+msgid "Are you sure you want to skip the Tour?"
+msgstr "Naozaj chcete vynechať prehliadku?"
+
+#: main/ai.php:65 main/ai.php:175
+msgid "You do not have required privilege"
+msgstr "Nemáte požadované oprávnenie"
+
+#: main/ai.php:76
+msgid "Please link a license to keep using the AI feature"
+msgstr "Ak chcete naďalej používať funkciu AI, prepojte licenciu"
+
+#: main/ai.php:81
+msgid "Please write a Prompt, for the AI to generate content"
+msgstr "Napíšte výzvu, aby AI generovala obsah"
+
+#: main/ai.php:88
+msgid "AI shortcut can not be applied without any content."
+msgstr "Skratka AI sa nedá použiť bez obsahu."
+
+#: main/ai.php:103
+msgid "Unable to complete this request"
+msgstr "Túto žiadosť nie je možné dokončiť"
+
+#: main/ai.php:115
+msgid "The AI API responsed with empty response, Response Code:"
+msgstr "AI API odpovedalo prázdnou odpoveďou, kód odpovede:"
+
+#: main/ai.php:121
+msgid "Unexpected response code returned from AI API: "
+msgstr "Neočakávaný kód odpovede vrátený z AI API: "
+
+#: main/functions.php:255
+msgid "Sorry, but you do not have permissions to change settings."
+msgstr "Ľutujeme, ale nemáte povolenia na zmenu nastavení."
+
+#: main/functions.php:378
+#, php-format
+msgid "Your SoftWP plugin is %1$sUnlicensed%2$s. Please enter the license key %3$s here%4$s."
+msgstr "Váš doplnok SoftWP je %1$sNelicencovaný%2$s. Zadajte licenčný kľúč %3$s tu%4$s."
+
+#: main/functions.php:387
+#, php-format
+msgid "Your SoftWP plugin license is %1$snot authorized%2$s to be used on  %3$s. You can generate a new license for your domain from the %4$s panel."
+msgstr "Vaša licencia doplnku SoftWP je %1$sneoprávnená%2$s na použitie na %3$s. Novú licenciu pre svoju doménu môžete vygenerovať na paneli %4$s."
+
+#: main/functions.php:394
+#, php-format
+msgid "Your SoftWP plugin license has %1$sExpired%2$s. Please renew your license for uninterrupted updates and support."
+msgstr "Vaša licencia doplnku SoftWP má %1$splatnosť %2$s. Obnovte si licenciu pre nepretržité aktualizácie a podporu."
+
+#: main/functions.php:416
+#, php-format
+msgid "Your Onboarding process is not completed yet! %1$sClick here%2$s to complete the simple setup process and build your site in a few steps."
+msgstr "Váš proces registrácie ešte nie je dokončený! %1$sKliknutím sem%2$s dokončíte proces jednoduchého nastavenia a vytvoríte svoju stránku v niekoľkých krokoch."
+
+#: main/functions.php:447
+msgid "Enhance Content Writing with AI Assistant"
+msgstr "Vylepšite písanie obsahu pomocou asistenta AI"
+
+#: main/functions.php:449
+msgid "Use cutting-edge AI to write blog posts or content for your pages. Create a table, write a paragraph, change tone, translate, fix spelling & grammar and so much more."
+msgstr "Na písanie blogových príspevkov alebo obsahu pre svoje stránky používajte špičkovú AI. Vytvorte tabuľku, napíšte odsek, zmeňte tón, preložte, opravte pravopis & gramatika a mnoho iného."
+
+#: main/functions.php:450
+msgid "Start Exploring"
+msgstr "Začnite skúmať"
+
+#: main/functions.php:451
+msgid "New Page"
+msgstr "Nová stránka"
+
+#: main/functions.php:452
+msgid "New Post"
+msgstr "Nový príspevok"
+
+#: main/functions.php:453
+msgid "Existing Page"
+msgstr "Existujúca stránka"
+
+#: main/functions.php:454
+msgid "Existing Post"
+msgstr "Existujúci príspevok"
+
+#: main/functions.php:807
+msgid "Enter Pro License Key"
+msgstr "Zadajte licenčný kľúč Pro"
+
+#: main/functions.php:843
+msgid "Explore Pro Plugins"
+msgstr "Preskúmajte doplnky Pro"
+
+#: main/functions.php:844
+msgid "Tour"
+msgstr "Prehliadka"
+
+#: main/functions.php:877 main/functions.php:878
+msgid "AI History"
+msgstr "História AI"
+
+#: main/intros.php:15
+msgid "Assistant adds AI to your site building process and lets you create content with just a few clicks (look for the AI option while editing your posts/pages)."
+msgstr "Asistent pridáva AI do procesu vytvárania vášho webu a umožňuje vám vytvárať obsah len niekoľkými kliknutiami (pri úprave príspevkov/stránok hľadajte možnosť AI)."
+
+#: main/intros.php:17
+msgid "Assistant also helps you with several aspects of building and maintaning your WordPress website."
+msgstr "Asistent vám tiež pomáha s niekoľkými aspektmi vytvárania a údržby vášho webu WordPress."
+
+#: main/intros.php:23
+msgid "Tours highlights and explains important options in WordPress that you will need while managing your site."
+msgstr "Prehliadky zvýrazňujú a vysvetľujú dôležité možnosti vo WordPress, ktoré budete potrebovať pri správe svojej stránky."
+
+#: main/intros.php:25
+msgid "You can replay the tours when needed."
+msgstr "V prípade potreby si môžete prehliadku prehrať znova."
+
+#: main/intros.php:31
+msgid "A recommended list of plugins to improve performace and extend functionalties for your site."
+msgstr "Odporúčaný zoznam doplnkov na zlepšenie výkonu a rozšírenie funkcií pre váš web."
+
+#: main/intros.php:37
+msgid "Here you will find important links compiled in a single section which can sometimes be difficult to find in WordPress."
+msgstr "Tu nájdete dôležité odkazy zostavené v jednej sekcii, ktoré môže byť niekedy ťažké nájsť vo WordPress."
+
+#: main/intros.php:43
+msgid "We have simplified complex WordPress settings that you can now manage with just a click via the Assistant."
+msgstr "Zjednodušili sme komplexné nastavenia WordPress, ktoré teraz môžete spravovať jediným kliknutím cez Asistenta."
+
+#: main/intros.php:49
+msgid "Experience hassle-free site building with inbuilt AI in Assistant."
+msgstr "Zažite bezproblémové vytváranie stránok so vstavanou AI v aplikácii Assistant."
+
+#: main/intros.php:54 main/intros.php:66
+msgid "Your Assistant"
+msgstr "Váš Asistent"
+
+#: main/intros.php:55 main/intros.php:67
+msgid "Assistant resides here, when you are unable to find something or having a hard time understanding a feature in WordPress we should be able to help you."
+msgstr "Asistent býva tu, keď nemôžete niečo nájsť alebo máte problém pochopiť funkciu vo WordPress, mali by sme vám vedieť pomôcť."
+
+#: main/intros.php:57 main/intros.php:69
+msgid "Visit this page anytime."
+msgstr "Navštívte túto stránku kedykoľvek."
+
+#: main/intros.php:74
+msgid "Preview Site"
+msgstr "Stránka ukážky"
+
+#: main/intros.php:75
+msgid "You can use this link to preview your site as a visitor."
+msgstr "Tento odkaz môžete použiť na zobrazenie ukážky vašej stránky ako návštevníka."
+
+#: main/intros.php:83 main/intros.php:279
+msgid "The Dashboard is your website's command center, providing a concise summary of its activity, such as site health, recent updates, comments, and statistics."
+msgstr "Dashboard je príkazové centrum vašej webovej lokality, ktoré poskytuje stručný prehľad o jej činnosti, ako je stav lokality, najnovšie aktualizácie, komentáre a štatistiky."
+
+#: main/intros.php:85 main/intros.php:281
+msgid "Several plugins also display quick summary like orders, products, etc within the dashboard."
+msgstr "Niekoľko doplnkov tiež zobrazuje rýchly súhrn, ako sú objednávky, produkty atď."
+
+#: main/intros.php:87
+msgid "You can also check for Updates from the sub-menu."
+msgstr "Aktualizácie môžete skontrolovať aj z podponuky."
+
+#: main/intros.php:92 main/intros.php:394
+msgid "Posts"
+msgstr "Príspevky"
+
+#: main/intros.php:93
+msgid "Manage your blog posts here."
+msgstr "Spravujte svoje blogové príspevky tu."
+
+#: main/intros.php:95
+msgid "Posts are typically utilized for blog posts, news updates, or articles, organized in a chronological order."
+msgstr "Príspevky sa zvyčajne používajú pre blogové príspevky, aktualizácie správ alebo články usporiadané v chronologickom poradí."
+
+#: main/intros.php:100
+msgid "Media Library"
+msgstr "Knižnica médií"
+
+#: main/intros.php:101
+msgid "Manage media files like images, audio, videos, etc. here."
+msgstr "Tu môžete spravovať mediálne súbory, ako sú obrázky, zvuk, videá atď."
+
+#: main/intros.php:103
+msgid "Media uploaded from anywhere on your site can be managed here."
+msgstr "Tu môžete spravovať médiá nahrané odkiaľkoľvek na vaše stránky."
+
+#: main/intros.php:108 main/intros.php:455
+msgid "Pages"
+msgstr "Stránky"
+
+#: main/intros.php:109
+msgid "Pages are static content sections such as Home, About Us, Contact, Services, etc."
+msgstr "Stránky sú sekcie so statickým obsahom, ako napríklad Domov, O nás, Kontakt, Služby atď."
+
+#: main/intros.php:111
+msgid "Use this menu to add, edit, delete your pages."
+msgstr "Pomocou tejto ponuky môžete pridať, upraviť alebo odstrániť svoje stránky."
+
+#: main/intros.php:116
+msgid "Comments"
+msgstr "Komentáre"
+
+#: main/intros.php:117
+msgid "Here you can moderate comments posted by visitors on your posts."
+msgstr "Tu môžete moderovať komentáre návštevníkov k vašim príspevkom."
+
+#: main/intros.php:119
+msgid "You can one click disable comments for your entire site from the Assistant dashboard."
+msgstr "Na hlavnom paneli Asistenta môžete jedným kliknutím zakázať komentáre pre celý web."
+
+#: main/intros.php:124
+msgid "Appearance"
+msgstr "Vzhľad"
+
+#: main/intros.php:125
+msgid "Personalize your site's appearance effortlessly."
+msgstr "Prispôsobte si vzhľad svojej stránky bez námahy."
+
+#: main/intros.php:127
+msgid "Explore themes, customize headers, background, colors, manage widgets and menus to customize your site's look and feel."
+msgstr "Preskúmajte témy, prispôsobte hlavičky, pozadie, farby, spravujte miniaplikácie a ponuky, aby ste si prispôsobili vzhľad a dojem zo svojej lokality."
+
+#: main/intros.php:132 main/intros.php:188
+msgid "Plugins"
+msgstr "Pluginy"
+
+#: main/intros.php:133
+msgid "Unlock endless possibilities for your website with plugins."
+msgstr "Odomknite nekonečné možnosti pre svoj web pomocou doplnkov."
+
+#: main/intros.php:135
+msgid "Easily search, add or delete plugins to enhance your site's functionality."
+msgstr "Jednoducho vyhľadávajte, pridávajte alebo odstraňovajte doplnky, aby ste zlepšili funkčnosť svojich stránok."
+
+#: main/intros.php:140 main/intros.php:339
+msgid "Users"
+msgstr "Používatelia"
+
+#: main/intros.php:141
+msgid "Add or manage users to ensure smooth operation and collaboration."
+msgstr "Pridajte alebo spravujte používateľov, aby ste zaistili hladké fungovanie a spoluprácu."
+
+#: main/intros.php:146
+msgid "Tools"
+msgstr "Nástroje"
+
+#: main/intros.php:147
+msgid "Import/Export site data, check site health or edit plugin/theme files from the Tools menu."
+msgstr "Importujte/exportujte údaje o lokalite, skontrolujte stav lokality alebo upravujte súbory doplnkov/témy z ponuky Nástroje."
+
+#: main/intros.php:153
+msgid "Advanced settings for your site can be managed here."
+msgstr "Pokročilé nastavenia pre váš web môžete spravovať tu."
+
+#: main/intros.php:155
+msgid "These settings include site title, tagline, site url, writing, reading, discussion, media, permalinks and more."
+msgstr "Tieto nastavenia zahŕňajú názov stránky, slogan, adresu URL stránky, písanie, čítanie, diskusiu, médiá, trvalé odkazy a ďalšie."
+
+#: main/intros.php:157
+msgid "Some plugins also add their settings page in this menu."
+msgstr "Niektoré doplnky tiež pridávajú svoju stránku nastavení do tejto ponuky."
+
+#: main/intros.php:162
+msgid "Toggle Menu"
+msgstr "Prepnúť ponuku"
+
+#: main/intros.php:163
+msgid "Expand or Collapse the sidebar menu using this option."
+msgstr "Pomocou tejto možnosti rozbaľte alebo zbaľte ponuku bočného panela."
+
+#: main/intros.php:168
+msgid "Edit Profile"
+msgstr "Upraviť profil"
+
+#: main/intros.php:169
+msgid "Here you can edit your profile information like name, email, password, bio, profile picture and more."
+msgstr "Tu môžete upraviť informácie o svojom profile, ako je meno, e-mail, heslo, životopis, profilový obrázok a ďalšie."
+
+#: main/intros.php:176
+msgid "Log Out"
+msgstr "Odhlásiť sa"
+
+#: main/intros.php:177
+msgid "Use this link to securely log out from your site."
+msgstr "Použite tento odkaz na bezpečné odhlásenie zo svojej stránky."
+
+#: main/intros.php:189
+msgid "Click here to add or manage plugins on your site."
+msgstr "Kliknutím sem pridáte alebo spravujete doplnky na svoje stránky."
+
+#: main/intros.php:194
+msgid "Add New Plugin"
+msgstr "Pridať nový doplnok"
+
+#: main/intros.php:195
+msgid "Here you can search wordpress.org plugins library or upload a custom plugin file to install a new plugin on your site."
+msgstr "Tu môžete vyhľadávať v knižnici doplnkov wordpress.org alebo nahrať vlastný súbor doplnku a nainštalovať nový doplnok na svoje stránky."
+
+#: main/intros.php:200
+msgid "Installed Plugins List"
+msgstr "Zoznam nainštalovaných doplnkov"
+
+#: main/intros.php:201
+msgid "All your installed plugins active as well as inactive will be listed here."
+msgstr "Tu budú uvedené všetky vaše nainštalované pluginy aktívne aj neaktívne."
+
+#: main/intros.php:206
+msgid "Plugin Actions"
+msgstr "Akcie pluginu"
+
+#: main/intros.php:207
+msgid "You can perform actions for your plugins like Activate, Deactivate, Update, Delete, Plugin Settings and more.."
+msgstr "Môžete vykonávať akcie pre svoje doplnky, ako je aktivácia, deaktivácia, aktualizácia, vymazanie, nastavenia doplnkov a ďalšie."
+
+#: main/intros.php:209
+msgid "It is recommended to delete plugins that you do not plan to use and keep all your plugins up to date."
+msgstr "Odporúča sa vymazať pluginy, ktoré neplánujete používať, a udržiavať všetky svoje pluginy aktuálne."
+
+#: main/intros.php:482
+msgid "Bulk Actions"
+msgstr "Hromadné akcie"
+
+#: main/intros.php:215
+msgid "Choose bulk action for selected plugins: Activate, Deactivate, Update, Delete, toggle auto updates and more"
+msgstr "Vyberte hromadnú akciu pre vybrané doplnky: Aktivovať, Deaktivovať, Aktualizovať, Odstrániť, prepínať automatické aktualizácie a ďalšie"
+
+#: main/intros.php:220
+msgid "Filter Installed Plugins"
+msgstr "Filter nainštalovaných pluginov"
+
+#: main/intros.php:221
+msgid "Filter your installed plugins list with Active, Inactive, Auto Updates Enabled or Disabled options"
+msgstr "Filtrujte zoznam nainštalovaných doplnkov pomocou možností Aktívne, Neaktívne, Automatické aktualizácie zapnuté alebo Zakázané"
+
+#: main/intros.php:226
+msgid "Search Installed Plugins"
+msgstr "Vyhľadajte nainštalované doplnky"
+
+#: main/intros.php:227
+msgid "Search a plugin from the installed plugins list."
+msgstr "Vyhľadajte doplnok v zozname nainštalovaných doplnkov."
+
+#: main/intros.php:236
+msgid "Themes"
+msgstr "Témy"
+
+#: main/intros.php:237
+msgid "Click here to add or manage themes on your site."
+msgstr "Kliknite sem, ak chcete pridať alebo spravovať témy na svojej lokalite."
+
+#: main/intros.php:242
+msgid "Add New Theme"
+msgstr "Pridať novú tému"
+
+#: main/intros.php:243
+msgid "Here you can search wordpress.org themes library or upload a custom theme file to install a new theme on your site."
+msgstr "Tu môžete vyhľadávať v knižnici tém wordpress.org alebo nahrať vlastný súbor tém a nainštalovať novú tému na svoje stránky."
+
+#: main/intros.php:248
+msgid "Installed Themes List"
+msgstr "Zoznam nainštalovaných tém"
+
+#: main/intros.php:249
+msgid "All your installed themes active as well as inactive will be listed here."
+msgstr "Tu budú uvedené všetky vaše nainštalované témy aktívne aj neaktívne."
+
+#: main/intros.php:254
+msgid "Active Theme"
+msgstr "Aktívna téma"
+
+#: main/intros.php:255
+msgid "Your active theme will be listed here."
+msgstr "Tu bude uvedená vaša aktívna téma."
+
+#: main/intros.php:260
+msgid "Theme Actions"
+msgstr "Akcie témy"
+
+#: main/intros.php:261
+msgid "You can perform actions for your theme like Activate, Live Preview, Customize and more"
+msgstr "Pre svoj motív môžete vykonávať akcie, ako napríklad Aktivovať, Živý náhľad, Prispôsobiť a ďalšie"
+
+#: main/intros.php:263
+msgid "It is recommended to delete themes that you do not plan to use and keep all your themes up to date."
+msgstr "Odporúča sa vymazať témy, ktoré neplánujete používať, a udržiavať všetky svoje témy aktuálne."
+
+#: main/intros.php:268
+msgid "Search Installed Themes"
+msgstr "Vyhľadajte nainštalované témy"
+
+#: main/intros.php:269
+msgid "Search a theme from the installed themes list."
+msgstr "Vyhľadajte tému v zozname nainštalovaných tém."
+
+#: main/intros.php:286
+msgid "Site Health"
+msgstr "Zdravie stránky"
+
+#: main/intros.php:287
+msgid "Here you can get insights on the overall performance and security of your website."
+msgstr "Tu môžete získať prehľad o celkovom výkone a zabezpečení vášho webu."
+
+#: main/intros.php:289
+msgid "It offers recommendations and troubleshooting tools to help you maintain an efficient and secure site."
+msgstr "Ponúka odporúčania a nástroje na riešenie problémov, ktoré vám pomôžu udržiavať efektívnu a bezpečnú stránku."
+
+#: main/intros.php:294
+msgid "Info at a Glance"
+msgstr "Informácie na prvý pohľad"
+
+#: main/intros.php:295
+msgid "Here you will get the number of posts, pages, comments, current version of WordPress and theme that you are running."
+msgstr "Tu získate počet príspevkov, stránok, komentárov, aktuálnu verziu WordPress a tému, ktorú používate."
+
+#: main/intros.php:300
+msgid "Activity"
+msgstr "Aktivita"
+
+#: main/intros.php:301
+msgid "Here you will get a quick summary of recent activity like published posts and comments received on your site."
+msgstr "Tu získate rýchly súhrn nedávnej aktivity, ako sú publikované príspevky a komentáre prijaté na vašom webe."
+
+#: main/intros.php:307
+msgid "Quick Draft"
+msgstr "Rýchly návrh"
+
+#: main/intros.php:308
+msgid "Use this section for capturing ideas as they come to you, quickly jot down the ideas for new posts."
+msgstr "Túto sekciu použite na zachytenie nápadov, keď k vám prídu, rýchlo si zapíšte nápady na nové príspevky."
+
+#: main/intros.php:310
+msgid "You can later access these drafts from the Posts section and continue editing them in the full post editor."
+msgstr "K týmto konceptom môžete neskôr pristupovať zo sekcie Príspevky a pokračovať v ich úprave v úplnom editore príspevkov."
+
+#: main/intros.php:316
+msgid "Events and News"
+msgstr "Udalosti a novinky"
+
+#: main/intros.php:317
+msgid "This widget is a valuable resource for staying informed about the latest happenings in the WordPress community and connecting with other WordPress enthusiasts."
+msgstr "Tento widget je cenným zdrojom informácií o najnovšom dianí v komunite WordPress a spájaní sa s ostatnými nadšencami WordPress."
+
+#: main/intros.php:319
+msgid "Here you will find updates on new releases, upcoming features, security updates, and general news about the WordPress community."
+msgstr "Tu nájdete aktualizácie o nových vydaniach, pripravovaných funkciách, aktualizáciách zabezpečenia a všeobecné novinky o komunite WordPress."
+
+#: main/intros.php:321
+msgid "This section also shows upcoming WordPress events such as WordCamps, local meetups, and other community gatherings."
+msgstr "Táto sekcia tiež zobrazuje nadchádzajúce udalosti WordPress, ako sú WordCamps, miestne stretnutia a ďalšie stretnutia komunity."
+
+#: main/intros.php:327
+msgid "Screen Options"
+msgstr "Možnosti obrazovky"
+
+#: main/intros.php:328
+msgid "This useful feature allows you to select the screen elements that you would like to show or hide by using the checkboxes."
+msgstr "Táto užitočná funkcia vám umožňuje vybrať prvky obrazovky, ktoré chcete zobraziť alebo skryť pomocou začiarkavacích políčok."
+
+#: main/intros.php:330
+msgid "You will find this option on several pages across your site."
+msgstr "Túto možnosť nájdete na niekoľkých stránkach vašej lokality."
+
+#: main/intros.php:340
+msgid "Click here to add or manage users on your site."
+msgstr "Kliknutím sem pridáte alebo spravujete používateľov na svojej lokalite."
+
+#: main/intros.php:345
+msgid "Add New User"
+msgstr "Pridať nového používateľa"
+
+#: main/intros.php:346
+msgid "Add a new user for your site. You can enter user details, password, role, etc."
+msgstr "Pridajte nového používateľa pre svoje stránky. Môžete zadať údaje o používateľovi, heslo, rolu atď."
+
+#: main/intros.php:351
+msgid "Users List"
+msgstr "Zoznam používateľov"
+
+#: main/intros.php:352
+msgid "All your users with admin role as well as other roles will be listed here."
+msgstr "Tu budú uvedení všetci vaši používatelia s rolou správcu, ako aj s inými rolami."
+
+#: main/intros.php:357
+msgid "Edit User"
+msgstr "Upraviť používateľa"
+
+#: main/intros.php:358
+msgid "You can edit the user information, change password, change role and much more with the Edit link here."
+msgstr "Pomocou odkazu Upraviť tu môžete upraviť informácie o používateľovi, zmeniť heslo, zmeniť rolu a oveľa viac."
+
+#: main/intros.php:367
+msgid "Choose bulk action for selected users: Delete or send password reset link"
+msgstr "Vyberte hromadnú akciu pre vybraných používateľov: Odstrániť alebo odoslať odkaz na obnovenie hesla"
+
+#: main/intros.php:372
+msgid "Change Role"
+msgstr "Zmeniť rolu"
+
+#: main/intros.php:373
+msgid "Here you can bulk change role for the selected users"
+msgstr "Tu môžete hromadne zmeniť rolu pre vybraných používateľov"
+
+#: main/intros.php:378
+msgid "Filter Users"
+msgstr "Filtrovať používateľov"
+
+#: main/intros.php:379
+msgid "Filter your users list with their roles"
+msgstr "Filtrujte zoznam používateľov s ich rolami"
+
+#: main/intros.php:384
+msgid "Search Users"
+msgstr "Hľadať používateľov"
+
+#: main/intros.php:385
+msgid "Search a user from the users list."
+msgstr "Vyhľadajte používateľa zo zoznamu používateľov."
+
+#: main/intros.php:395
+msgid "Click here to add or manage blog posts on your site."
+msgstr "Kliknite sem, ak chcete pridať alebo spravovať blogové príspevky na svojej lokalite."
+
+#: main/intros.php:400
+msgid "Add New Post"
+msgstr "Pridať nový príspevok"
+
+#: main/intros.php:401
+msgid "Start writing a new blog post for your site."
+msgstr "Začnite písať nový blogový príspevok pre svoju stránku."
+
+#: main/intros.php:406
+msgid "Posts List"
+msgstr "Zoznam príspevkov"
+
+#: main/intros.php:407
+msgid "All the posts owned by all the users on your site will be listed here."
+msgstr "Tu budú uvedené všetky príspevky, ktoré vlastnia všetci používatelia vašej lokality."
+
+#: main/intros.php:412
+msgid "Manage Post"
+msgstr "Spravovať príspevok"
+
+#: main/intros.php:413
+msgid "You can view, edit or delete the posts with the links here."
+msgstr "Tu si môžete prezerať, upravovať alebo mazať príspevky s odkazmi."
+
+#: main/intros.php:422
+msgid "Choose bulk action for selected posts: Quick Edit or Move to Trash."
+msgstr "Vyberte hromadnú akciu pre vybrané príspevky: Rýchla úprava alebo Presunúť do koša."
+
+#: main/intros.php:427
+msgid "Filter Posts by Date"
+msgstr "Filtrujte príspevky podľa dátumu"
+
+#: main/intros.php:428
+msgid "Here you can filter the posts by date."
+msgstr "Tu môžete filtrovať príspevky podľa dátumu."
+
+#: main/intros.php:433
+msgid "Filter Posts by Category"
+msgstr "Filtrujte príspevky podľa kategórie"
+
+#: main/intros.php:434
+msgid "Here you can filter the posts by category."
+msgstr "Tu môžete filtrovať príspevky podľa kategórie."
+
+#: main/intros.php:439
+msgid "Filter Posts"
+msgstr "Filtrovať príspevky"
+
+#: main/intros.php:440
+msgid "Filter your posts list by their status like published, drafts, trash, etc."
+msgstr "Filtrujte svoj zoznam príspevkov podľa ich stavu, ako sú zverejnené, koncepty, kôš atď."
+
+#: main/intros.php:445
+msgid "Search Posts"
+msgstr "Hľadať v príspevkoch"
+
+#: main/intros.php:446
+msgid "Search a post from the posts list."
+msgstr "Vyhľadajte príspevok zo zoznamu príspevkov."
+
+#: main/intros.php:456
+msgid "Click here to add or manage pages on your site."
+msgstr "Kliknite sem, ak chcete pridať alebo spravovať stránky na svojej lokalite."
+
+#: main/intros.php:461
+msgid "Add New Page"
+msgstr "Pridať novú stránku"
+
+#: main/intros.php:462
+msgid "Start creating a new page for your site."
+msgstr "Začnite vytvárať novú stránku pre svoj web."
+
+#: main/intros.php:467
+msgid "Pages List"
+msgstr "Zoznam stránok"
+
+#: main/intros.php:468
+msgid "All the pages on your site will be listed here."
+msgstr "Tu budú uvedené všetky stránky na vašej lokalite."
+
+#: main/intros.php:473
+msgid "Manage Page"
+msgstr "Spravovať stránku"
+
+#: main/intros.php:474
+msgid "You can view, edit or delete the pages with the links here."
+msgstr "Tu si môžete prezerať, upravovať alebo mazať stránky s odkazmi."
+
+#: main/intros.php:483
+msgid "Choose bulk action for selected pages: Quick Edit or Move to Trash."
+msgstr "Vyberte hromadnú akciu pre vybraté stránky: Rýchla úprava alebo Presunúť do koša."
+
+#: main/intros.php:488
+msgid "Filter Pages by Date"
+msgstr "Filtrujte strany podľa dátumu"
+
+#: main/intros.php:489
+msgid "Here you can filter the pages by date."
+msgstr "Tu môžete filtrovať stránky podľa dátumu."
+
+#: main/intros.php:494
+msgid "Filter Pages"
+msgstr "Filtrovať stránky"
+
+#: main/intros.php:495
+msgid "Filter your pages list by their status like published, drafts, trash, etc."
+msgstr "Filtrujte zoznam stránok podľa ich stavu, ako sú zverejnené, koncepty, kôš atď."
+
+#: main/intros.php:500
+msgid "Search Pages"
+msgstr "Vyhľadávacie stránky"
+
+#: main/intros.php:501
+msgid "Search a page from the pages list."
+msgstr "Vyhľadajte stránku zo zoznamu stránok."
+
+#: main/license.php:43
+msgid "The license key was not submitted"
+msgstr "Licenčný kľúč nebol odoslaný"
+
+#: main/license.php:53
+msgid "The response was malformed"
+msgstr "Odpoveď bola nesprávna"
+
+#: main/license.php:60 main/onboarding.php:517
+msgid "The license key is invalid"
+msgstr "Licenčný kľúč je neplatný"
+
+#: main/license.php:88
+msgid "The license has been saved successfully"
+msgstr "Licencia bola úspešne uložená"
+
+#: main/license.php:103
+msgid "System Information"
+msgstr "Systémové informácie"
+
+#: main/license.php:115
+msgid "SoftWP version"
+msgstr "Verzia SoftWP"
+
+#: main/license.php:121
+msgid "SoftWP License"
+msgstr "Licencia SoftWP"
+
+#: main/license.php:125
+msgid "Update License"
+msgstr "Aktualizovať licenciu"
+
+#: main/license.php:132
+msgid "License Status : "
+msgstr "Stav licencie: "
+
+#: main/license.php:133
+msgid "License Expires : "
+msgstr "Platnosť licencie vyprší: "
+
+#: main/license.php:143
+msgid "URL"
+msgstr "URL"
+
+#: main/license.php:147
+msgid "Path"
+msgstr "Cesta"
+
+#: main/license.php:151
+msgid "Server's IP Address"
+msgstr "IP adresa servera"
+
+#: main/manage-plugins.php:65 main/setup.php:172
+#, php-format
+msgid "Requires PHP version %1$s or higher"
+msgstr "Vyžaduje verziu PHP %1$s alebo vyššiu"
+
+#: main/manage-plugins.php:84 main/manage-plugins.php:100
+msgid "Not Installed"
+msgstr "Nie je nainštalované"
+
+#: main/manage-plugins.php:87 main/manage-plugins.php:103
+msgid "Installed"
+msgstr "Nainštalované"
+
+#: main/manage-plugins.php:93
+msgid "Free"
+msgstr "Zadarmo"
+
+#: main/manage-plugins.php:109
+msgid "Pro"
+msgstr "Pro"
+
+#: main/manage-plugins.php:114
+msgid "Install for Free"
+msgstr "Inštalovať zadarmo"
+
+#: main/manage-plugins.php:125
+msgid "Pro included with your subscription"
+msgstr "Pro je súčasťou vášho predplatného"
+
+#: main/media.php:95
+msgid "Action Buttons"
+msgstr "Akčné tlačidlá"
+
+#: main/media.php:111
+msgid "Edit with Photopea"
+msgstr "Upravte pomocou Photopea"
+
+#: main/media.php:120
+msgid "Compress Image"
+msgstr "Komprimovať obrázok"
+
+#: main/media.php:125
+msgid "Replace Media"
+msgstr "Vymeňte médiá"
+
+#: main/media.php:240
+msgid "Quality"
+msgstr "Kvalita"
+
+#: main/media.php:243
+msgid "Save"
+msgstr "Uložiť"
+
+#: main/media.php:244
+msgid "Save & Close"
+msgstr "Uložiť & Zavrieť"
+
+#: main/media.php:245
+msgid "Save As"
+msgstr "Uložiť ako"
+
+#: main/media.php:246
+msgid "Cancel"
+msgstr "Zrušiť"
+
+#: main/media.php:260 main/media.php:421 main/media.php:481
+msgid "Security Check Failed!"
+msgstr "Bezpečnostná kontrola zlyhala!"
+
+#: main/media.php:274
+msgid "Original image attachment not found"
+msgstr "Pôvodná obrázková príloha sa nenašla"
+
+#: main/media.php:280
+msgid "Original image path not found"
+msgstr "Pôvodná cesta k obrázku sa nenašla"
+
+#: main/media.php:297
+msgid "File already exists. Please choose another file name"
+msgstr "Súbor už existuje. Vyberte iný názov súboru"
+
+#: main/media.php:306
+msgid "Failed to decode base64 image data"
+msgstr "Nepodarilo sa dekódovať obrazové údaje base64"
+
+#: main/media.php:317
+msgid "Failed to create image from data"
+msgstr "Nepodarilo sa vytvoriť obrázok z údajov"
+
+#: main/media.php:355
+msgid "Unsupported image format"
+msgstr "Nepodporovaný formát obrázka"
+
+#: main/media.php:363
+msgid "Failed to save the image"
+msgstr "Obrázok sa nepodarilo uložiť"
+
+#: main/media.php:381
+msgid "Failed to insert the new image as attachment"
+msgstr "Nepodarilo sa vložiť nový obrázok ako prílohu"
+
+#: main/media.php:387
+msgid "Failed to regenerate image sub-sizes"
+msgstr "Nepodarilo sa obnoviť podveľkosti obrázkov"
+
+#: main/media.php:395
+msgid "Image saved successfully"
+msgstr "Obrázok bol úspešne uložený"
+
+#: main/media.php:434 main/media.php:502
+msgid "Invalid image path."
+msgstr "Neplatná cesta k obrázku."
+
+#: main/media.php:437 main/media.php:505
+msgid "No image ID provided."
+msgstr "Nebolo poskytnuté žiadne ID obrázka."
+
+#: main/media.php:472
+msgid "Unsupported image type."
+msgstr "Nepodporovaný typ obrázka."
+
+#: main/media.php:497
+msgid "Image has been successfully compressed and replaced."
+msgstr "Obrázok bol úspešne komprimovaný a nahradený."
+
+#: main/media.php:499
+msgid "Compression and replacement failed."
+msgstr "Kompresia a výmena zlyhali."
+
+#: main/media.php:570
+msgid "No file was uploaded ! Please try again."
+msgstr "Nebol odovzdaný žiadny súbor! Skúste to znova."
+
+#: main/media.php:576
+msgid "There was some error uploading the file ! Please try again."
+msgstr "Pri nahrávaní súboru sa vyskytla chyba! Skúste to znova."
+
+#: main/media.php:584
+msgid "The File type could not be determined. Please upload a permitted file type."
+msgstr "Typ súboru sa nepodarilo určiť. Nahrajte povolený typ súboru."
+
+#: main/media.php:619
+msgid "Please fix the below errors"
+msgstr "Opravte nižšie uvedené chyby"
+
+#: main/media.php:683
+msgid "Failed to determine the media file path !"
+msgstr "Nepodarilo sa určiť cestu k mediálnemu súboru!"
+
+#: main/media.php:688
+msgid "No folder for the target found !"
+msgstr "Pre cieľ sa nenašiel žiadny priečinok!"
+
+#: main/onboarding.php:81
+msgid "Please confirm that you accept data loss since you have already run the onboarding process previously"
+msgstr "Potvrďte, že súhlasíte so stratou údajov, pretože ste už predtým spustili proces registrácie"
+
+#: main/onboarding.php:82
+msgid "Please select atleast one page to import"
+msgstr "Vyberte aspoň jednu stránku na import"
+
+#: main/onboarding.php:83
+msgid "Downloading and installing required plugins"
+msgstr "Stiahnutie a inštalácia požadovaných doplnkov"
+
+#: main/onboarding.php:84
+msgid "WordPress requires FTP details, without them you won't be able to install a plugin/theme"
+msgstr "WordPress vyžaduje podrobnosti o FTP, bez nich si nebudete môcť nainštalovať doplnok/tému"
+
+#: main/onboarding.php:85
+msgid "Downloading the template"
+msgstr "Sťahovanie šablóny"
+
+#: main/onboarding.php:86
+msgid "Building your website..."
+msgstr "Vytváranie webových stránok..."
+
+#: main/onboarding.php:87
+msgid "Checking the requirements ..."
+msgstr "Kontrola požiadaviek..."
+
+#: main/onboarding.php:88
+msgid "Importing the template"
+msgstr "Importovanie šablóny"
+
+#: main/onboarding.php:89
+msgid "Your website setup is completed"
+msgstr "Nastavenie vašej webovej stránky je dokončené"
+
+#: main/onboarding.php:90
+msgid "Congratulations"
+msgstr "gratulujem"
+
+#: main/onboarding.php:109
+msgid "Increase Website Traffic (SEO)"
+msgstr "Zvýšte návštevnosť webových stránok (SEO)"
+
+#: main/onboarding.php:110
+msgid "Improve your site's ranking on search engines"
+msgstr "Zlepšite hodnotenie svojej stránky vo vyhľadávačoch"
+
+#: main/onboarding.php:114
+msgid "SiteSEO ? One Click SEO for WordPress"
+msgstr "SiteSEO – SEO jedným kliknutím pre WordPress"
+
+#: main/onboarding.php:120
+msgid "Boost your website's search rankings today with the most powerful WordPress SEO plugin. Its lightweight, optimized, and delivers exceptional performance."
+msgstr "Zvýšte hodnotenie svojich webových stránok vo vyhľadávaní ešte dnes pomocou najvýkonnejšieho doplnku WordPress SEO. Je ľahký, optimalizovaný a poskytuje výnimočný výkon."
+
+#: main/onboarding.php:129
+msgid "Improve Page Speed"
+msgstr "Zlepšite rýchlosť stránky"
+
+#: main/onboarding.php:130
+msgid "Improve speed by cache, minify, compress"
+msgstr "Zvýšte rýchlosť pomocou vyrovnávacej pamäte, minifikujte, komprimujte"
+
+#: main/onboarding.php:134
+msgid "SpeedyCache ? Cache, Optimization, Performance"
+msgstr "SpeedyCache – vyrovnávacia pamäť, optimalizácia, výkon"
+
+#: main/onboarding.php:139
+msgid "SpeedyCache is an easy to use and powerful WordPress Cache Plugin, it helps you reduce page load time improving User Experience and boosting your Google PageSpeed."
+msgstr "SpeedyCache je ľahko použiteľný a výkonný doplnok vyrovnávacej pamäte WordPress, ktorý vám pomáha skrátiť čas načítania stránky, zlepšuje používateľskú skúsenosť a zvyšuje rýchlosť Google PageSpeed."
+
+#: main/onboarding.php:148
+msgid "Schedule Backups"
+msgstr "Plánovanie záloh"
+
+#: main/onboarding.php:149
+msgid "Backup your site on local or remote servers"
+msgstr "Zálohujte svoje stránky na lokálnych alebo vzdialených serveroch"
+
+#: main/onboarding.php:153
+msgid "Backuply ? Backup, Restore, Migrate and Clone"
+msgstr "Zálohovanie – zálohovanie, obnovenie, migrácia a klonovanie"
+
+#: main/onboarding.php:158
+msgid "Backuply is a WordPress backup plugin that helps you backup your WordPress website, saving you from loss of data because of server crashes, hacks, dodgy updates, or bad plugins."
+msgstr "Backuply je záložný doplnok WordPress, ktorý vám pomáha zálohovať vaše webové stránky WordPress, čím vás šetrí pred stratou údajov v dôsledku zlyhaní servera, hackerov, pochybných aktualizácií alebo zlých doplnkov."
+
+#: main/onboarding.php:167
+msgid "Sell Products"
+msgstr "Predaj produktov"
+
+#: main/onboarding.php:168
+msgid "Sell physical or digital products"
+msgstr "Predávajte fyzické alebo digitálne produkty"
+
+#: main/onboarding.php:172
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: main/onboarding.php:180
+msgid "Limit Login Attempts"
+msgstr "Obmedzte pokusy o prihlásenie"
+
+#: main/onboarding.php:181
+msgid "Brute force protection, 2FA, login captcha"
+msgstr "Ochrana hrubou silou, 2FA, prihlasovacie captcha"
+
+#: main/onboarding.php:185
+msgid "Loginizer"
+msgstr "Prihlasovač"
+
+#: main/onboarding.php:190
+msgid "Loginizer is a simple and effortless solution that takes care of all your security problems. It comes with default optimal configuration to protect your site from Brute Force attacks."
+msgstr "Loginizer je jednoduché a nenáročné riešenie, ktoré sa postará o všetky vaše bezpečnostné problémy. Dodáva sa s predvolenou optimálnou konfiguráciou na ochranu vášho webu pred útokmi Brute Force."
+
+#: main/onboarding.php:199
+msgid "Page Builder"
+msgstr "Tvorca stránok"
+
+#: main/onboarding.php:200
+msgid "Page Builder, Drag and Drop website builder"
+msgstr "Tvorca stránok, tvorca webových stránok Drag and Drop"
+
+#: main/onboarding.php:204
+msgid "Pagelayer"
+msgstr "Pagelayer"
+
+#: main/onboarding.php:209
+msgid "Pagelayer is an awesome page builder that allows you to create and design your website instantly in the simplest way possible. Take control over your page content with the most advanced page builder plugin available."
+msgstr "Pagelayer je úžasný tvorca stránok, ktorý vám umožňuje okamžite vytvoriť a navrhnúť vaše webové stránky tým najjednoduchším možným spôsobom. Prevezmite kontrolu nad obsahom svojej stránky pomocou najpokročilejšieho dostupného doplnku na tvorbu stránok."
+
+#: main/onboarding.php:218
+msgid "Send Email with SMTP"
+msgstr "Odoslať e-mail pomocou SMTP"
+
+#: main/onboarding.php:219
+msgid "Providers: Gmail, Outlook, AWS SES & more"
+msgstr "Poskytovatelia: Gmail, Outlook, AWS SES & viac"
+
+#: main/onboarding.php:223
+msgid "GoSMTP ? SMTP for WordPress"
+msgstr "GoSMTP – SMTP pre WordPress"
+
+#: main/onboarding.php:228
+msgid "GoSMTP allows you to send emails from your WordPress over SMTP or many popular outgoing email service providers. Using these improves your email deliverability."
+msgstr "GoSMTP vám umožňuje odosielať e-maily z vášho WordPress cez SMTP alebo mnohých obľúbených poskytovateľov odchádzajúcich e-mailových služieb. Ich používanie zlepšuje doručovanie e-mailov."
+
+#: main/onboarding.php:237
+msgid "File Manager"
+msgstr "Správca súborov"
+
+#: main/onboarding.php:238
+msgid "Manage files with drag & drop editor"
+msgstr "Spravujte súbory pomocou drag & drop editor"
+
+#: main/onboarding.php:242
+msgid "FileOrganizer ? Manage WordPress and Website Files"
+msgstr "FileOrganizer – Správa súborov WordPress a webových stránok"
+
+#: main/onboarding.php:247
+msgid "FileOrganizer is a lightweight and easy-to-use file management plugin for WordPress. Organize and manage your WordPress files with FileOrganizer without any control panel or FTP access. "
+msgstr "FileOrganizer je ľahký a ľahko použiteľný doplnok na správu súborov pre WordPress. Usporiadajte a spravujte svoje súbory WordPress pomocou FileOrganizer bez akéhokoľvek ovládacieho panela alebo prístupu cez FTP. "
+
+#: main/onboarding.php:292
+msgid "Could not import the template !"
+msgstr "Nepodarilo sa importovať šablónu!"
+
+#: main/onboarding.php:340
+msgid "Theme template can only be uploaded using FTP !"
+msgstr "Šablónu témy je možné nahrať iba pomocou FTP!"
+
+#: main/onboarding.php:363
+msgid "Could not download the theme !"
+msgstr "Téma sa nepodarilo stiahnuť!"
+
+#: main/onboarding.php:381
+msgid "Could not extract the template !"
+msgstr "Nepodarilo sa extrahovať šablónu!"
+
+#: main/onboarding.php:509
+msgid "The response from the server was malformed. Please try again in sometime !"
+msgstr "Odpoveď zo servera bola chybná. Skúste to znova niekedy!"
+
+#: main/onboarding.php:541
+msgid "Pagelayer is required to use the templates !"
+msgstr "Na používanie šablón je potrebný Pagelayer!"
+
+#: main/onboarding.php:551
+msgid "PopularFX plugin is required to use the templates !"
+msgstr "Na používanie šablón je potrebný doplnok PopularFX!"
+
+#: main/onboarding.php:561
+msgid "PopularFX theme is required to use the templates !"
+msgstr "Na používanie šablón je potrebná téma PopularFX!"
+
+#: main/onboarding.php:568
+msgid "The template you submitted is invalid !"
+msgstr "Vami odoslaná šablóna je neplatná!"
+
+#: main/onboarding.php:576
+#, php-format
+msgid "Your Pagelayer version is %1$s while the template requires Pagelayer version higher than or equal to %2$s "
+msgstr "Vaša verzia Pagelayer je %1$s, zatiaľ čo šablóna vyžaduje verziu Pagelayer vyššiu alebo rovnú %2$s "
+
+#: main/onboarding.php:582
+#, php-format
+msgid "Your Pagelayer version is %1$s while the onboarding requires Pagelayer version higher than or equal to 1.8.9"
+msgstr "Vaša verzia Pagelayer je %1$s, zatiaľ čo registrácia vyžaduje verziu Pagelayer vyššiu alebo rovnú 1.8.9"
+
+#: main/onboarding.php:588
+#, php-format
+msgid "Your PopularFX Plugin version is %1$s while the template requires PopularFX version higher than or equal to %2$s"
+msgstr "Verzia vášho doplnku PopularFX je %1$s, zatiaľ čo šablóna vyžaduje verziu PopularFX vyššiu alebo rovnú %2$s"
+
+#: main/onboarding.php:594
+#, php-format
+msgid "The selected template is a Pro template and you have a free or expired license. Please enter your license key %1$shere%2$s."
+msgstr "Vybraná šablóna je Pro šablóna a máte bezplatnú licenciu alebo licenciu, ktorej platnosť vypršala. Zadajte svoj licenčný kľúč %1$sem%2$s."
+
+#: main/onboarding.php:615
+#, php-format
+msgid "There was an error in installing Pagelayer which is required by this template. Please install Pagelayer manually by clicking %1$shere%2$s and then install the template !"
+msgstr "Pri inštalácii Pagelayer, ktorý vyžaduje táto šablóna, sa vyskytla chyba. Nainštalujte Pagelayer manuálne kliknutím na %1$sem%2$s a potom nainštalujte šablónu!"
+
+#: main/onboarding.php:760
+msgid "Plugin activated successfully."
+msgstr "Plugin bol úspešne aktivovaný."
+
+#: main/onboarding.php:765
+#, php-format
+msgid "Plugin installation failed. %1$s requires PHP version %2$s or higher. Your PHP version is %3$s."
+msgstr "Inštalácia doplnku zlyhala. %1$s vyžaduje verziu PHP %2$s alebo vyššiu. Vaša verzia PHP je %3$s."
+
+#: main/onboarding.php:801
+msgid "Plugin installed and activated successfully."
+msgstr "Plugin nainštalovaný a aktivovaný úspešne."
+
+#: main/onboarding.php:804
+msgid "Plugin already installed."
+msgstr "Plugin je už nainštalovaný."
+
+#: main/onboarding.php:831
+msgid "You do not have enough permissions to install theme"
+msgstr "Nemáte dostatočné povolenia na inštaláciu motívu"
+
+#: main/onboarding.php:857
+msgid "Theme activated successfully."
+msgstr "Téma bola úspešne aktivovaná."
+
+#: main/onboarding.php:873
+msgid "The filesystem could not write files to the server!"
+msgstr "Súborový systém nemohol zapisovať súbory na server!"
+
+#: main/onboarding.php:887
+#, php-format
+msgid "Error downloading theme: %1$s"
+msgstr "Chyba pri sťahovaní motívu: %1$s"
+
+#: main/onboarding.php:895
+msgid "Error unzipping theme: "
+msgstr "Chyba pri rozbaľovaní motívu: "
+
+#: main/onboarding.php:904
+msgid "Theme installation failed "
+msgstr "Inštalácia motívu zlyhala "
+
+#: main/onboarding.php:908
+msgid "Theme installed and activated successfully."
+msgstr "Téma bola úspešne nainštalovaná a aktivovaná."
+
+#: main/onboarding.php:969
+msgid "Choose a design"
+msgstr "Vyberte si dizajn"
+
+#: main/onboarding.php:973
+msgid "Search for theme"
+msgstr "Vyhľadajte tému"
+
+#: main/onboarding.php:977
+msgid "All"
+msgstr "Všetky"
+
+#: main/onboarding.php:988
+msgid "Demo"
+msgstr "Demo"
+
+#: main/onboarding.php:1001
+msgid "Select pages to import"
+msgstr "Vyberte stránky, ktoré chcete importovať"
+
+#: main/onboarding.php:1007
+msgid "Import stock images ?"
+msgstr "Importovať obrázky z akcií?"
+
+#: main/onboarding.php:1009
+msgid "We try our best to use images that are free to use from legal perspectives. However, we are not liable for any copyright infringement for your site."
+msgstr "Snažíme sa používať obrázky, ktoré sú z právneho hľadiska bezplatné. Nenesieme však zodpovednosť za žiadne porušenie autorských práv k vašej stránke."
+
+#: main/onboarding.php:1018
+msgid "Go Back"
+msgstr "Choď späť"
+
+#: main/onboarding.php:1019
+msgid "Import Theme Content"
+msgstr "Importovať obsah témy"
+
+#: main/onboarding.php:1033
+msgid "Import Theme Contents"
+msgstr "Importovať obsah témy"
+
+#: main/onboarding.php:1045
+msgid "Congratulations, the template was imported successfully !"
+msgstr "Gratulujeme, šablóna bola úspešne importovaná!"
+
+#: main/onboarding.php:1046
+msgid "You can now customize the website as per your requirements with the help of Pagelayer or the Customizer."
+msgstr "Teraz si môžete prispôsobiť webovú stránku podľa svojich požiadaviek pomocou Pagelayer alebo Customizer."
+
+#: main/onboarding.php:1049
+msgid "We strongly recommend you change all images and media. We try our best to use images which are copyright free or are allowed under their licensing. However, we take no responsibilities for the same and recommend you change all media and images !"
+msgstr "Dôrazne vám odporúčame zmeniť všetky obrázky a médiá. Snažíme sa používať obrázky, na ktoré sa nevzťahujú autorské práva alebo sú povolené na základe ich licencie. Nenesieme však za to žiadnu zodpovednosť a odporúčame vám zmeniť všetky médiá a obrázky!"
+
+#: main/onboarding.php:1056
+msgid "Visit Website"
+msgstr "Navštívte webovú stránku"
+
+#: main/onboarding.php:1057
+msgid "WordPress Dashboard"
+msgstr "Informačný panel WordPress"
+
+#: main/setup.php:8
+msgid "Welcome"
+msgstr "Vitajte"
+
+#: main/setup.php:9
+msgid "Business Type"
+msgstr "Typ podnikania"
+
+#: main/setup.php:10
+msgid "Site Title"
+msgstr "Názov stránky"
+
+#: main/setup.php:11
+msgid "Goals"
+msgstr "Ciele"
+
+#: main/setup.php:12
+msgid "Choose Template"
+msgstr "Vyberte položku Šablóna"
+
+#: main/setup.php:75
+msgid "Exit"
+msgstr "VÝCHOD"
+
+#: main/setup.php:82
+msgid "Welcome to the Onboarding process!"
+msgstr "Vitajte v procese registrácie!"
+
+#: main/setup.php:83
+msgid "This process will help you choose a professional template for your website and install plugins that you might need to achieve your goal for creating this website"
+msgstr "Tento proces vám pomôže vybrať profesionálnu šablónu pre vašu webovú stránku a nainštalovať doplnky, ktoré možno budete potrebovať na dosiahnutie svojho cieľa pre vytvorenie tejto webovej stránky"
+
+#: main/setup.php:88
+msgid "It looks like you have already completed the onboarding process. You might lose data if you run the onboarding process again. Select this checkbox to confirm that you agree."
+msgstr "Zdá sa, že ste už dokončili proces registrácie. Ak znova spustíte proces registrácie, môžete stratiť údaje. Začiarknutím tohto políčka potvrdíte, že súhlasíte."
+
+#: main/setup.php:93
+msgid "Get Started"
+msgstr "Začíname"
+
+#: main/setup.php:97
+msgid "No, I don't want to try an easy setup process"
+msgstr "Nie, nechcem skúšať jednoduchý proces nastavenia"
+
+#: main/setup.php:105
+msgid "How would you categorize your website ?"
+msgstr "Ako by ste kategorizovali svoj web?"
+
+#: main/setup.php:106
+msgid "This helps us recommend design and functionalities for your website"
+msgstr "To nám pomáha odporučiť dizajn a funkcie pre váš web"
+
+#: main/setup.php:109
+msgid "Search for a category"
+msgstr "Vyhľadajte kategóriu"
+
+#: main/setup.php:119
+msgid "No results match your search criteria"
+msgstr "Vašim kritériám vyhľadávania nezodpovedajú žiadne výsledky"
+
+#: main/setup.php:126 main/setup.php:143 main/setup.php:184
+msgid "Previous Step"
+msgstr "Predchádzajúci krok"
+
+#: main/setup.php:128 main/setup.php:145 main/setup.php:186
+msgid "Continue"
+msgstr "Pokračovať"
+
+#: main/setup.php:135
+msgid "Enter the title of your new site"
+msgstr "Zadajte názov svojej novej stránky"
+
+#: main/setup.php:136
+msgid "Can be changed later"
+msgstr "Dá sa neskôr zmeniť"
+
+#: main/setup.php:139
+msgid "Enter a title for your website"
+msgstr "Zadajte názov pre svoj web"
+
+#: main/setup.php:152
+msgid "What are you looking to achieve with your new site ?"
+msgstr "Čo chcete dosiahnuť pomocou svojej novej stránky?"
+
+#: main/setup.php:153
+msgid "We will install the appropriate plugins that will add the required functionality to your website"
+msgstr "Nainštalujeme príslušné pluginy, ktoré dodajú na váš web požadovanú funkcionalitu"

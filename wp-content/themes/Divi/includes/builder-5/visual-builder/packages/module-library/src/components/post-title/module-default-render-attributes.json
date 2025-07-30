@@ -1,0 +1,128 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "module": {
+    "meta": {
+      "adminLabel": {
+        "desktop": {
+          "value": "Post Title"
+        }
+      }
+    },
+    "advanced": {
+      "text": {
+        "text": {
+          "desktop": {
+            "value": {
+              "orientation": "left",
+              "color": "light"
+            }
+          }
+        }
+      }
+    }
+  },
+  "title": {
+    "decoration": {
+      "font": {
+        "font": {
+          "desktop": {
+            "value": {
+              "headingLevel": "h1"
+            }
+          }
+        }
+      }
+    },
+    "advanced": {
+      "showTitle": {
+        "desktop": {
+          "value": "on"
+        }
+      }
+    }
+  },
+  "meta": {
+    "advanced": {
+      "showMeta": {
+        "desktop": {
+          "value": "on"
+        }
+      },
+      "showAuthor": {
+        "desktop": {
+          "value": "on"
+        }
+      },
+      "showDate": {
+        "desktop": {
+          "value": "on"
+        }
+      },
+      "dateFormat": {
+        "desktop": {
+          "value": "M j, Y"
+        }
+      },
+      "showCommentsCount": {
+        "desktop": {
+          "value": "on"
+        }
+      },
+      "showCategories": {
+        "desktop": {
+          "value": "on"
+        }
+      }
+    }
+  },
+  "textWrapper": {
+    "decoration": {
+      "background": {
+        "desktop": {
+          "value": {
+            "color": "rgba(255,255,255,0.9)"
+          }
+        }
+      }
+    },
+    "advanced": {
+      "useBackground": {
+        "desktop": {
+          "value": "off"
+        }
+      }
+    }
+  },
+  "featuredImage": {
+    "decoration": {
+      "sizing": {
+        "desktop": {
+          "value": {
+            "alignment": "center",
+            "width": "100%",
+            "maxWidth": "none",
+            "height": "auto",
+            "maxHeight": "none"
+          }
+        }
+      }
+    },
+    "advanced": {
+      "enabled": {
+        "desktop": {
+          "value": "on"
+        }
+      },
+      "placement": {
+        "desktop": {
+          "value": "below"
+        }
+      },
+      "forceFullwidth": {
+        "desktop": {
+          "value": "on"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "title": {
+    "decoration": {
+      "font": {
+        "font": {
+          "desktop": {
+            "value": {
+              "lineHeight": "1",
+              "size": "26px"
+            }
+          }
+        }
+      }
+    }
+  },
+  "price": {
+    "decoration": {
+      "font": {
+        "font": {
+          "desktop": {
+            "value": {
+              "lineHeight": "1.7em",
+              "size": "14px"
+            }
+          }
+        }
+      }
+    }
+  },
+  "productTitle": {
+    "decoration": {
+      "font": {
+        "font": {
+          "desktop": {
+            "value": {
+              "lineHeight": "1",
+              "size": "26px"
+            }
+          }
+        }
+      }
+    }
+  },
+  "saleBadge": {
+    "decoration": {
+      "border": {
+        "desktop": {
+          "value": {
+            "radius": {
+              "bottomLeft": "3px",
+              "bottomRight": "3px",
+              "sync": "on",
+              "topLeft": "3px",
+              "topRight": "3px"
+            }
+          }
+        }
+      },
+      "font": {
+        "font": {
+          "desktop": {
+            "value": {
+              "letterSpacing": "0px",
+              "lineHeight": "1.7em",
+              "size": "20px"
+            }
+          }
+        }
+      },
+      "spacing": {
+        "desktop": {
+          "value": {
+            "margin": {
+              "bottom": "0px",
+              "left": "0px",
+              "right": "0px",
+              "syncHorizontal": "off",
+              "syncVertical": "off",
+              "top": "0px"
+            },
+            "padding": {
+              "bottom": "6px",
+              "left": "18px",
+              "right": "18px",
+              "syncHorizontal": "off",
+              "syncVertical": "off",
+              "top": "6px"
+            }
+          }
+        }
+      }
+    }
+  },
+  "salePrice": {
+    "decoration": {
+      "font": {
+        "font": {
+          "desktop": {
+            "value": {
+              "weight": "700",
+              "lineHeight": "1.7em",
+              "size": "14px"
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "advanced": {
+    "borders": {
+      "default": "module.decoration.border",
+      "table": "table.decoration.border",
+      "table_cell": "tableCell.decoration.border",
+      "table_cell_focus": "tableCell.decoration.border",
+      "table_focus": "table.decoration.border",
+      "table_row": "tableRow.decoration.border",
+      "table_row_focus": "tableRow.decoration.border"
+    },
+    "box_shadow": {
+      "default": "module.decoration.boxShadow",
+      "table": "table.decoration.boxShadow",
+      "table_cell": "tableCell.decoration.boxShadow",
+      "table_row": "tableRow.decoration.boxShadow"
+    },
+    "filters": {
+      "default": "module.decoration.filters"
+    },
+    "fonts": {
+      "attribute": "attribute.decoration.font",
+      "body": "content.decoration.bodyFont.body",
+      "header": "title.decoration.font",
+      "link": "content.decoration.bodyFont.link"
+    },
+    "form_field": {
+      "table": "table",
+      "table_cell": "tableCell",
+      "table_row": "tableRow"
+    },
+    "admin_label": "module.meta.adminLabel",
+    "animation": "module.decoration.animation",
+    "background": "module.decoration.background",
+    "disabled_on": "module.decoration.disabledOn",
+    "display_conditions": "module.decoration.conditions",
+    "height": "module.decoration.sizing",
+    "link_options": "module.advanced.link",
+    "margin_padding": "module.decoration.spacing",
+    "max_width": "module.decoration.sizing",
+    "module": "module.advanced.htmlAttributes",
+    "overflow": "module.decoration.overflow",
+    "position_fields": "module.decoration.position",
+    "scroll": "module.decoration.scroll",
+    "sticky": "module.decoration.sticky",
+    "text": "module.advanced.text",
+    "transform": "module.decoration.transform",
+    "transition": "module.decoration.transition",
+    "z_index": "module.decoration.zIndex"
+  },
+  "css": {
+    "free_form": "css.*.freeForm",
+    "before": "css.*.before",
+    "main_element": "css.*.mainElement",
+    "after": "css.*.after",
+    "attribute_row": "css.*.attributeRow",
+    "attribute_text": "css.*.attributeText",
+    "attribute_title": "css.*.attributeTitle",
+    "content_area": "css.*.contentArea",
+    "title_text": "css.*.titleText"
+  },
+  "module": {
+    "form_field_custom_margin": "tableCell.decoration.spacing.*.margin",
+    "form_field_custom_padding": "tableCell.decoration.spacing.*.padding",
+    "product": "content.advanced.product.*",
+    "show_title": "elements.advanced.showTitle.*"
+  },
+  "valueExpansionFunctionMap": {}
+}

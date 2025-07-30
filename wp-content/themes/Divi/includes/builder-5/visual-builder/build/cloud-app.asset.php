@@ -1,0 +1,1 @@
+<?php return array('dependencies' => array('divi-conversion', 'divi-data', 'divi-error-boundary', 'divi-field-library', 'divi-middleware', 'divi-modal', 'divi-module-utils', 'divi-rest', 'divi-serialized-post', 'divi-ui-library', 'divi-vendor-react', 'divi-vendor-wp-i18n', 'divi-window', 'jquery', 'lodash'), 'version' => '67d6e755713b5bfdd561');

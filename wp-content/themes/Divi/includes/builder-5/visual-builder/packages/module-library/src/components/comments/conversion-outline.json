@@ -1,0 +1,84 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "advanced": {
+    "box_shadow": {
+      "default": "module.decoration.boxShadow",
+      "image": "image.decoration.boxShadow",
+      "fields": "field.decoration.boxShadow",
+      "button": "button.decoration.boxShadow"
+    },
+    "borders": {
+      "default": "module.decoration.border",
+      "image": "image.decoration.border",
+      "fields": "field.decoration.border",
+      "fields_focus": "field.advanced.focus.border"
+    },
+    "fonts": {
+      "header": "commentCount.decoration.font",
+      "title": "formTitle.decoration.font",
+      "meta": "meta.decoration.font",
+      "body": "commentText.decoration.font",
+      "form_field": "field.decoration.font"
+    },
+    "button": {
+      "button": "button"
+    },
+    "form_field": {
+      "form_field": "field"
+    },
+    "filters": {
+      "default": "module.decoration.filters",
+      "child": "image.decoration.filters"
+    },
+    "display_conditions": "module.decoration.conditions",
+    "text_shadow": {
+      "default": "module.advanced.text.textShadow"
+    },
+    "module": "module.advanced.htmlAttributes",
+    "link_options": "module.advanced.link",
+    "text": "module.advanced.text",
+    "animation": "module.decoration.animation",
+    "background": "module.decoration.background",
+    "disabled_on": "module.decoration.disabledOn",
+    "overflow": "module.decoration.overflow",
+    "position_fields": "module.decoration.position",
+    "scroll": "module.decoration.scroll",
+    "height": "module.decoration.sizing",
+    "max_width": "module.decoration.sizing",
+    "margin_padding": "module.decoration.spacing",
+    "sticky": "module.decoration.sticky",
+    "transform": "module.decoration.transform",
+    "transition": "module.decoration.transition",
+    "z_index": "module.decoration.zIndex",
+    "admin_label": "module.meta.adminLabel"
+  },
+  "css": {
+    "before": "css.*.before",
+    "main_element": "css.*.mainElement",
+    "after": "css.*.after",
+    "free_form": "css.*.freeForm",
+    "main_header": "css.*.mainHeader",
+    "comment_body": "css.*.commentBody",
+    "comment_meta": "css.*.commentMeta",
+    "comment_content": "css.*.commentContent",
+    "comment_avatar": "css.*.commentAvatar",
+    "reply_button": "css.*.replyButton",
+    "new_title": "css.*.newTitle",
+    "message_field": "css.*.messageField",
+    "name_field": "css.*.nameField",
+    "email_field": "css.*.emailField",
+    "website_field": "css.*.websiteField",
+    "submit_button": "css.*.submitButton"
+  },
+  "module": {
+    "use_focus_border_color": "field.advanced.useFocusBorderColor.*",
+    "header_level": "commentCount.decoration.font.font.*.headingLevel",
+    "title_level": "formTitle.decoration.font.font.*.headingLevel",
+    "show_avatar": "image.advanced.showAvatar.*",
+    "show_count": "commentCount.advanced.showCount.*",
+    "show_meta": "meta.advanced.showMeta.*",
+    "show_reply": "module.advanced.showReply.*",
+    "form_background_color": "module.decoration.background.*.color",
+    "form_field_background_color": "field.decoration.background.*.color"
+  }
+}

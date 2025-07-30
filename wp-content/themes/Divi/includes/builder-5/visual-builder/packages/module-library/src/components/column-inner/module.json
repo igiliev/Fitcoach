@@ -1,0 +1,74 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "name": "divi/column-inner",
+  "d4Shortcode": "et_pb_column_inner",
+  "title": "Inner Column",
+  "titles": "Inner Columns",
+  "moduleIcon": "divi/module-column",
+  "category": "structure",
+  "videos": [
+    {
+      "id": "R9ds7bEaHE8",
+      "name": "An introduction to the Column module"
+    }
+  ],
+  "attributes": {
+    "module": {
+      "type": "object",
+      "selector": "{{selector}}",
+      "settings": {
+        "decoration": {
+          "animation": {},
+          "background": {},
+          "border": {},
+          "boxShadow": {},
+          "conditions": {},
+          "disabledOn": {},
+          "filters": {},
+          "overflow": {},
+          "order": {},
+          "transition": {},
+          "position": {},
+          "scroll": {},
+          "spacing": {
+            "component": {
+              "props": {
+                "fields": {
+                  "margin": {
+                    "render": false
+                  }
+                }
+              }
+            }
+          },
+          "sticky": {},
+          "transform": {},
+          "zIndex": {}
+        },
+        "advanced": {
+          "htmlAttributes": {},
+          "loop": {},
+          "link": {
+            "item": {
+              "groupSlug": "contentLink",
+              "component": {
+                "props": {
+                  "fieldLabel": "Column"
+                }
+              }
+            }
+          }
+        },
+        "meta": {
+          "adminLabel": {}
+        }
+      }
+    }
+  },
+  "customCssFields": {},
+  "settings": {
+    "content": "auto",
+    "design": "auto",
+    "advanced": "auto"
+  }
+}

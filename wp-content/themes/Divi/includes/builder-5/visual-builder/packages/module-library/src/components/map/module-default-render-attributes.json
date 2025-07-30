@@ -1,0 +1,53 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "map": {
+    "innerContent": {
+      "desktop": {
+        "value": {
+          "address": "",
+          "zoom": 18,
+          "lat": 0,
+          "lng": 0
+        }
+      }
+    },
+    "advanced": {
+      "grayscaleFilter": {
+        "desktop": {
+          "value": {
+            "enabled": "off",
+            "amount": "0"
+          }
+        }
+      },
+      "mouseWheel": {
+        "desktop": {
+          "value": "on"
+        }
+      },
+      "mobileDragging": {
+        "desktop": {
+          "value": "on"
+        }
+      }
+    }
+  },
+  "module": {
+    "meta": {
+      "adminLabel": {
+        "desktop": {
+          "value": "Map"
+        }
+      }
+    },
+    "decoration": {
+      "sizing": {
+        "desktop": {
+          "value": {
+            "height": "440px"
+          }
+        }
+      }
+    }
+  }
+}

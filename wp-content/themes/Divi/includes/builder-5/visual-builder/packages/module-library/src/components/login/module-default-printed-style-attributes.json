@@ -1,0 +1,27 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "button": {
+    "decoration": {
+      "border": {
+        "desktop": {
+          "value": {
+            "styles": {
+              "top": {
+                "width": "2px"
+              },
+              "bottom": {
+                "width": "2px"
+              },
+              "left": {
+                "width": "2px"
+              },
+              "right": {
+                "width": "2px"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

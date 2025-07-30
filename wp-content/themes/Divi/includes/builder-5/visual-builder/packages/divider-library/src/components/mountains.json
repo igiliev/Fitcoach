@@ -1,0 +1,8 @@
+{
+	"name": "mountains",
+	"label": "Mountains",
+	"svgContent": {
+		"top": "<path d=\"M1280 69.65l-320 49.24L320 20.4 0 69.65V0h1280v69.65z\" />",
+		"bottom": "<path d=\"M0 70.35l320-49.24 640 98.49 320-49.25V140H0V70.35z\" />"
+	}
+}

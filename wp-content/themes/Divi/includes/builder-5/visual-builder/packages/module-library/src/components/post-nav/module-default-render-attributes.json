@@ -1,0 +1,33 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "module": {
+    "meta": {
+      "adminLabel": {
+        "desktop": {
+          "value": "Post Navigation"
+        }
+      }
+    },
+    "advanced": {
+      "inSameTerm": {
+        "desktop": {
+          "value": "off"
+        }
+      }
+    }
+  },
+  "links": {
+    "advanced": {
+      "showPrev": {
+        "desktop": {
+          "value": "on"
+        }
+      },
+      "showNext": {
+        "desktop": {
+          "value": "on"
+        }
+      }
+    }
+  }
+}

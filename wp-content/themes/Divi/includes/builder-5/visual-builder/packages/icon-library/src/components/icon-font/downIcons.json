@@ -1,0 +1,123 @@
+[
+  {
+    "searchTerms": "arrow down direction expand next",
+    "unicode": "&#x22;",
+    "name": "Arrow Down",
+    "styles": [
+      "divi",
+      "line"
+    ],
+    "fontWeight": 400,
+    "decodedUnicode": "\""
+  },
+  {
+    "searchTerms": "caret down arrow caret down direction expand next",
+    "unicode": "&#x33;",
+    "name": "Caret down",
+    "styles": [
+      "divi",
+      "line"
+    ],
+    "fontWeight": 400,
+    "decodedUnicode": "3"
+  },
+  {
+    "searchTerms": "double caret down arrow caret down direction expand next",
+    "unicode": "&#x37;",
+    "name": "Double Caret down",
+    "styles": [
+      "divi",
+      "line"
+    ],
+    "fontWeight": 400,
+    "decodedUnicode": "7"
+  },
+  {
+    "searchTerms": "caret down arrow caret down direction expand next",
+    "unicode": "&#x3b;",
+    "name": "Caret down",
+    "styles": [
+      "divi",
+      "line"
+    ],
+    "fontWeight": 400,
+    "decodedUnicode": ";"
+  },
+  {
+    "searchTerms": "double caret down arrow caret down direction expand next",
+    "unicode": "&#x3f;",
+    "name": "Double Caret down",
+    "styles": [
+      "divi",
+      "line"
+    ],
+    "fontWeight": 400,
+    "decodedUnicode": "?"
+  },
+  {
+    "searchTerms": "caret down arrow caret triangle down direction expand next",
+    "unicode": "&#x43;",
+    "name": "Caret down",
+    "styles": [
+      "divi",
+      "solid"
+    ],
+    "fontWeight": 400,
+    "decodedUnicode": "C"
+  },
+  {
+    "searchTerms": "caret down arrow caret triangle down direction expand next",
+    "unicode": "&#x47;",
+    "name": "Caret down",
+    "styles": [
+      "divi",
+      "solid"
+    ],
+    "fontWeight": 400,
+    "decodedUnicode": "G"
+  },
+  {
+    "searchTerms": "arrow down direction expand next",
+    "unicode": "&#xe03a;",
+    "name": "Arrow Down",
+    "styles": [
+      "divi",
+      "solid"
+    ],
+    "fontWeight": 400,
+    "decodedUnicode": ""
+  },
+  {
+    "searchTerms": "caret down arrow caret down direction expand next",
+    "unicode": "&#xe044;",
+    "name": "Caret down",
+    "styles": [
+      "divi",
+      "solid"
+    ],
+    "fontWeight": 400,
+    "decodedUnicode": ""
+  },
+  {
+    "searchTerms": "double caret down arrow caret down direction expand next",
+    "unicode": "&#xe048;",
+    "name": "Double Caret down",
+    "styles": [
+      "divi",
+      "solid"
+    ],
+    "fontWeight": 400,
+    "decodedUnicode": ""
+  },
+  {
+    "searchTerms": "solid caret down arrow caret triangle down direction expand next",
+    "unicode": "&#xe04c;",
+    "name": "Solid Caret down",
+    "styles": [
+      "divi",
+      "solid"
+    ],
+    "fontWeight": 400,
+    "decodedUnicode": ""
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "module": {
+    "meta": {
+      "adminLabel": {
+        "desktop": {
+          "value": "Woo Product Tabs"
+        }
+      }
+    }
+  },
+  "content": {
+    "advanced": {
+      "includeTabs": {
+        "desktop": {
+          "value": "filter,et_builder_get_woo_default_tabs"
+        }
+      },
+      "product": {
+        "desktop": {
+          "value": "filter,et_builder_get_woo_default_product"
+        }
+      }
+    }
+  }
+}

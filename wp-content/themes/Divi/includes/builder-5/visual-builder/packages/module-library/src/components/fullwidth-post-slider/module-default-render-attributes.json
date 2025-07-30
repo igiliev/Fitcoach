@@ -1,0 +1,177 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "module": {
+    "meta": {
+      "adminLabel": {
+        "desktop": {
+          "value": "Fullwidth Post Slider"
+        }
+      }
+    },
+    "advanced": {
+      "text": {
+        "text": {
+          "desktop": {
+            "value": {
+              "color": "dark",
+              "orientation": "center"
+            }
+          }
+        }
+      },
+      "autoSpeed": {
+        "desktop": {
+          "value": "7000"
+        }
+      }
+    },
+    "decoration": {
+      "background": {
+        "desktop": {
+          "value": {
+            "color": "var(--gcid-primary-color)"
+          }
+        }
+      }
+    }
+  },
+  "title": {
+    "decoration": {
+      "font": {
+        "font": {
+          "desktop": {
+            "value": {
+              "headingLevel": "h2"
+            }
+          }
+        }
+      }
+    }
+  },
+  "content": {
+    "advanced": {
+      "showOnMobile": {
+        "desktop": {
+          "value": "on"
+        }
+      }
+    }
+  },
+  "meta": {
+    "advanced": {
+      "enable": {
+        "desktop": {
+          "value": "on"
+        }
+      }
+    }
+  },
+  "image": {
+    "advanced": {
+      "enable": {
+        "desktop": {
+          "value": "on"
+        }
+      },
+      "placement": {
+        "desktop": {
+          "value": "background"
+        }
+      }
+    }
+  },
+  "button": {
+    "innerContent": {
+      "desktop": {
+        "value": {
+          "text": "Read More"
+        }
+      }
+    },
+    "advanced": {
+      "showOnMobile": {
+        "desktop": {
+          "value": "on"
+        }
+      },
+      "enable": {
+        "desktop": {
+          "value": "on"
+        }
+      }
+    },
+    "decoration": {
+      "button": {
+        "desktop": {
+          "value": {
+            "enable": "off",
+            "icon": {
+              "enable": "on"
+            }
+          }
+        }
+      }
+    }
+  },
+  "post": {
+    "advanced": {
+      "number": {
+        "desktop": {
+          "value": "10"
+        }
+      },
+      "orderby": {
+        "desktop": {
+          "value": "date_desc"
+        }
+      },
+      "contentSource": {
+        "desktop": {
+          "value": "off"
+        }
+      },
+      "excerptManual": {
+        "desktop": {
+          "value": "on"
+        }
+      },
+      "excerptLength": {
+        "desktop": {
+          "value": "270"
+        }
+      },
+      "offset": {
+        "desktop": {
+          "value": "0"
+        }
+      }
+    }
+  },
+  "arrows": {
+    "advanced": {
+      "enable": {
+        "desktop": {
+          "value": "on"
+        }
+      }
+    }
+  },
+  "pagination": {
+    "advanced": {
+      "enable": {
+        "desktop": {
+          "value": "on"
+        }
+      }
+    }
+  },
+  "slideOverlay": {
+    "advanced": {
+      "use": {
+        "desktop": {
+          "value": "on"
+        }
+      }
+    }
+  }
+}

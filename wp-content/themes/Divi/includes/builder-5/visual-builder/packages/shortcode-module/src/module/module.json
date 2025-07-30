@@ -1,0 +1,10 @@
+{
+    "name": "divi/shortcode-module",
+    "d4Shortcode": "et_pb_unsupported",
+    "title": "Shortcode Module",
+    "titles": "Shortcode Modules",
+    "moduleIcon": "divi/module-unsupported",
+    "category": "unsupported",
+    "attributes": {},
+    "script": ["shortcode-module-script-module"]
+}

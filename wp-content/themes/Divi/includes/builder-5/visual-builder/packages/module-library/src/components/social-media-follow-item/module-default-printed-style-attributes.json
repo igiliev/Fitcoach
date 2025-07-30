@@ -1,0 +1,64 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "module": {
+    "decoration": {
+      "border": {
+        "desktop": {
+          "value": {
+            "radius": {
+              "sync": "on",
+              "topLeft": "3px",
+              "topRight": "3px",
+              "bottomRight": "3px",
+              "bottomLeft": "3px"
+            },
+            "styles": {
+              "all": {
+                "width": "0px"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "button": {
+    "decoration": {
+      "background": {
+        "desktop": {
+          "value": {
+            "color": ""
+          }
+        }
+      },
+      "font": {
+        "font": {
+          "desktop": {
+            "value": {
+              "size": "14px",
+              "color": ""
+            }
+          }
+        }
+      },
+      "border": {
+        "desktop": {
+          "value": {
+            "radius": {
+              "bottomLeft": "3px",
+              "bottomRight": "3px",
+              "sync": "on",
+              "topLeft": "3px",
+              "topRight": "3px"
+            },
+            "styles": {
+              "all": {
+                "width": "0px"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

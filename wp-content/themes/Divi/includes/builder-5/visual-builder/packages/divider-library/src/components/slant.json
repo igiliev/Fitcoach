@@ -1,0 +1,8 @@
+{
+	"name": "slant",
+	"label": "Slant",
+	"svgContent": {
+		"top": "<path d=\"M1280 140V0H0l1280 140z\" />",
+		"bottom": "<path d=\"M0 0v140h1280L0 0z\" />"
+	}
+}

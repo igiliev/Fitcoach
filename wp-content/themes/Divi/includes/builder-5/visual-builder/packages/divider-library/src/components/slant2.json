@@ -1,0 +1,8 @@
+{
+	"name": "slant2",
+	"label": "Slant 2",
+	"svgContent": {
+		"top": "<path d=\"M1280 140V0H0l1280 140z\" fill-opacity=\".5\" /><path d=\"M1280 98V0H0l1280 98z\" />",
+		"bottom": "<path d=\"M0 0v140h1280L0 0z\" fill-opacity=\".5\" /><path d=\"M0 42v98h1280L0 42z\" />"
+	}
+}

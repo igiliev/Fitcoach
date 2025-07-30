@@ -1,0 +1,41 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "module": {
+    "meta": {
+      "adminLabel": {
+        "desktop": {
+          "value": "Icon"
+        }
+      }
+    }
+  },
+  "icon": {
+    "innerContent": {
+      "desktop": {
+        "value": {
+          "unicode": "&#x21;",
+          "type": "divi",
+          "weight": "400",
+          "target": "off"
+        }
+      }
+    },
+    "advanced": {
+      "color": {
+        "desktop": {
+          "value": "var(--gcid-primary-color)"
+        }
+      },
+      "size": {
+        "desktop": {
+          "value": "96px"
+        }
+      },
+      "align": {
+        "desktop": {
+          "value": "center"
+        }
+      }
+    }
+  }
+}

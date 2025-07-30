@@ -1,0 +1,132 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "comment": {
+    "decoration": {
+      "font": {
+        "font": {
+          "desktop": {
+            "value": {
+              "letterSpacing": "0px",
+              "lineHeight": "1em",
+              "size": "14px"
+            }
+          }
+        }
+      }
+    }
+  },
+  "field": {
+    "advanced": {
+      "focus": {
+        "border": {
+          "desktop": {
+            "value": {
+              "radius": {
+                "bottomLeft": "3px",
+                "bottomRight": "3px",
+                "sync": "on",
+                "topLeft": "3px",
+                "topRight": "3px"
+              },
+              "styles": {
+                "all": {
+                  "style": "solid",
+                  "width": "0px"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "decoration": {
+      "border": {
+        "desktop": {
+          "value": {
+            "radius": {
+              "bottomLeft": "3px",
+              "bottomRight": "3px",
+              "sync": "on",
+              "topLeft": "3px",
+              "topRight": "3px"
+            },
+            "styles": {
+              "all": {
+                "style": "solid",
+                "width": "0px"
+              }
+            }
+          }
+        }
+      },
+      "font": {
+        "font": {
+          "desktop": {
+            "value": {
+              "letterSpacing": "0px",
+              "lineHeight": "1em",
+              "size": "18px"
+            }
+          }
+        }
+      }
+    }
+  },
+  "formTitle": {
+    "decoration": {
+      "font": {
+        "font": {
+          "desktop": {
+            "value": {
+              "letterSpacing": "0px",
+              "lineHeight": "1.7em",
+              "size": "14px"
+            }
+          }
+        }
+      }
+    }
+  },
+  "meta": {
+    "decoration": {
+      "font": {
+        "font": {
+          "desktop": {
+            "value": {
+              "letterSpacing": "0px",
+              "lineHeight": "1em",
+              "size": "14px"
+            }
+          }
+        }
+      }
+    }
+  },
+  "reviewCount": {
+    "decoration": {
+      "font": {
+        "font": {
+          "desktop": {
+            "value": {
+              "lineHeight": "1em",
+              "size": "26px"
+            }
+          }
+        }
+      }
+    }
+  },
+  "starRating": {
+    "decoration": {
+      "font": {
+        "font": {
+          "desktop": {
+            "value": {
+              "size": "14"
+            }
+          }
+        }
+      }
+    }
+  }
+}

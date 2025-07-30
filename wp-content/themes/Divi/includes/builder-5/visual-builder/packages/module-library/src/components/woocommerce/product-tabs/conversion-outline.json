@@ -1,0 +1,59 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "advanced": {
+    "borders": {
+      "default": "module.decoration.border"
+    },
+    "box_shadow": {
+      "default": "module.decoration.boxShadow"
+    },
+    "filters": {
+      "default": "module.decoration.filters"
+    },
+    "fonts": {
+      "body": "content.decoration.bodyFont.body",
+      "body_link": "content.decoration.bodyFont.link",
+      "body_ol": "content.decoration.bodyFont.ol",
+      "body_quote": "content.decoration.bodyFont.quote",
+      "body_ul": "content.decoration.bodyFont.ul",
+      "tab": "tab.decoration.font"
+    },
+    "admin_label": "module.meta.adminLabel",
+    "animation": "module.decoration.animation",
+    "background": "module.decoration.background",
+    "disabled_on": "module.decoration.disabledOn",
+    "display_conditions": "module.decoration.conditions",
+    "height": "module.decoration.sizing",
+    "link_options": "module.advanced.link",
+    "margin_padding": "module.decoration.spacing",
+    "max_width": "module.decoration.sizing",
+    "module": "module.advanced.htmlAttributes",
+    "overflow": "module.decoration.overflow",
+    "position_fields": "module.decoration.position",
+    "scroll": "module.decoration.scroll",
+    "sticky": "module.decoration.sticky",
+    "transform": "module.decoration.transform",
+    "transition": "module.decoration.transition",
+    "z_index": "module.decoration.zIndex"
+  },
+  "css": {
+    "free_form": "css.*.freeForm",
+    "before": "css.*.before",
+    "main_element": "css.*.mainElement",
+    "after": "css.*.after",
+    "active_tab": "css.*.activeTab",
+    "tab": "css.*.tab",
+    "tabs_content": "css.*.tabsContent",
+    "tabs_controls": "css.*.tabsControls"
+  },
+  "module": {
+    "active_tab_background_color": "activeTab.decoration.background.*.color",
+    "active_tab_text_color": "activeTab.decoration.font.font.*.color",
+    "inactive_tab_background_color": "inactiveTab.decoration.background.*.color",
+    "include_tabs": "content.advanced.includeTabs.*",
+    "product": "content.advanced.product.*"
+  },
+  "valueExpansionFunctionMap": {
+    "include_tabs": "convertIncludeTabsValue"
+  }
+}

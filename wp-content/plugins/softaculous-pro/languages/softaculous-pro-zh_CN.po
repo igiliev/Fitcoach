@@ -1,0 +1,1440 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SoftWP\n"
+"POT-Creation-Date: 2023-11-03 12:26+0530\n"
+"PO-Revision-Date: 2025-02-10 18:49+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.5\n"
+
+#: assets/js/ai/build/index.js:1 assets/js/ai/src/index.js:19
+msgid "Ask AI"
+msgstr "询问人工智能"
+
+#: main/admin.php:12
+msgid "Sorry, but you do not have permissions to save settings."
+msgstr "抱歉，您没有保存设置的权限。"
+
+#: main/admin.php:49 main/admin.php:341 main/admin.php:347 main/intros.php:22
+msgid "Tours"
+msgstr "旅游"
+
+#: main/onboarding.php:1058
+msgid "Assistant"
+msgstr "助手"
+
+#: main/admin.php:58
+msgid "WordPress Sidebar"
+msgstr "WordPress 侧边栏"
+
+#: main/admin.php:61
+msgid "WordPress admin Dashboard"
+msgstr "WordPress 管理仪表板"
+
+#: main/admin.php:64
+msgid "Plugins Management"
+msgstr "插件管理"
+
+#: main/admin.php:67
+msgid "Themes Management"
+msgstr "主题管理"
+
+#: main/admin.php:70
+msgid "Pages Management"
+msgstr "页面管理"
+
+#: main/admin.php:73
+msgid "Posts Management"
+msgstr "职位管理"
+
+#: main/admin.php:76
+msgid "Users Management"
+msgstr "用户管理"
+
+#: main/admin.php:83 main/intros.php:30
+msgid "Recommended Features"
+msgstr "推荐功能"
+
+#: main/admin.php:85
+msgid "Show More"
+msgstr "显示更多"
+
+#: main/admin.php:118
+msgid "Install"
+msgstr "安装"
+
+#: main/admin.php:120 main/manage-plugins.php:116
+msgid "Activate"
+msgstr "激活"
+
+#: main/manage-plugins.php:118
+msgid "Active"
+msgstr "积极的"
+
+#: main/admin.php:135 main/admin.php:343 main/admin.php:349 main/intros.php:36
+msgid "Quick Links"
+msgstr "快速链接"
+
+#: main/admin.php:143
+msgid "Manage Pro License"
+msgstr "管理专业许可证"
+
+#: main/admin.php:143
+msgid "Manage SoftWP License"
+msgstr "管理 SoftWP 许可证"
+
+#: main/admin.php:147
+msgid "View Site"
+msgstr "查看网站"
+
+#: main/admin.php:150
+msgid "Check Updates"
+msgstr "检查更新"
+
+#: main/admin.php:153
+msgid "Permalinks"
+msgstr "固定链接"
+
+#: main/admin.php:157
+msgid "Manage Pages"
+msgstr "管理页面"
+
+#: main/admin.php:183 main/admin.php:189
+msgid "Add New"
+msgstr "添加新内容"
+
+#: main/admin.php:163
+msgid "Manage Posts"
+msgstr "管理帖子"
+
+#: main/admin.php:169
+msgid "Manage Media"
+msgstr "管理媒体"
+
+#: main/admin.php:175 main/manage-plugins.php:51
+msgid "Manage Plugins"
+msgstr "管理插件"
+
+#: main/admin.php:181
+msgid "Manage Themes"
+msgstr "管理主题"
+
+#: main/admin.php:187
+msgid "Manage Users"
+msgstr "管理用户"
+
+#: main/admin.php:193
+msgid "Launch Onboarding"
+msgstr "启动入职培训"
+
+#: main/admin.php:201 main/intros.php:42 main/intros.php:152
+msgid "Settings"
+msgstr "设置"
+
+#: main/admin.php:210
+msgid "Completely Disable Comments across the site"
+msgstr "完全禁用整个网站的评论"
+
+#: main/functions.php:845 main/intros.php:48
+msgid "AI"
+msgstr "人工智能"
+
+#: main/admin.php:218
+msgid "Buy AI Tokens"
+msgstr "购买人工智能代币"
+
+#: main/admin.php:227
+msgid "Disable Softaculous AI"
+msgstr "禁用 Softaculous AI"
+
+#: main/admin.php:232 main/admin.php:233 main/admin.php:234
+msgid "Days"
+msgstr "天"
+
+#: main/admin.php:235
+msgid "Never"
+msgstr "绝不"
+
+#: main/admin.php:238
+msgid "AI history retention"
+msgstr "AI历史保留"
+
+#: main/admin.php:332
+msgid "WordPress Assistant"
+msgstr "WordPress 助手"
+
+#: main/admin.php:336 main/intros.php:82 main/intros.php:278
+msgid "Dashboard"
+msgstr "仪表板"
+
+#: main/admin.php:342 main/admin.php:348
+msgid "Extend"
+msgstr "延长"
+
+#: main/admin.php:558
+msgid "Are you sure you want to skip the Tour?"
+msgstr "您确定要跳过游览吗？"
+
+#: main/ai.php:65 main/ai.php:175
+msgid "You do not have required privilege"
+msgstr "您没有所需的权限"
+
+#: main/ai.php:76
+msgid "Please link a license to keep using the AI feature"
+msgstr "请链接许可证以继续使用 AI 功能"
+
+#: main/ai.php:81
+msgid "Please write a Prompt, for the AI to generate content"
+msgstr "请写一个Prompt，以便AI生成内容"
+
+#: main/ai.php:88
+msgid "AI shortcut can not be applied without any content."
+msgstr "AI快捷键没有任何内容是无法应用的。"
+
+#: main/ai.php:103
+msgid "Unable to complete this request"
+msgstr "无法完成此请求"
+
+#: main/ai.php:115
+msgid "The AI API responsed with empty response, Response Code:"
+msgstr "AI API 响应为空，响应代码："
+
+#: main/ai.php:121
+msgid "Unexpected response code returned from AI API: "
+msgstr "AI API 返回意外的响应代码： "
+
+#: main/functions.php:255
+msgid "Sorry, but you do not have permissions to change settings."
+msgstr "抱歉，您无权更改设置。"
+
+#: main/functions.php:378
+#, php-format
+msgid "Your SoftWP plugin is %1$sUnlicensed%2$s. Please enter the license key %3$s here%4$s."
+msgstr "您的 SoftWP 插件是 %1$sUnlicensed%2$s。请在此处输入许可证密钥%3$s%4$s。"
+
+#: main/functions.php:387
+#, php-format
+msgid "Your SoftWP plugin license is %1$snot authorized%2$s to be used on  %3$s. You can generate a new license for your domain from the %4$s panel."
+msgstr "您的 SoftWP 插件许可证 %1$s 未授权%2$s 在 %3$s 上使用。您可以从 %4$s 面板为您的域生成新许可证。"
+
+#: main/functions.php:394
+#, php-format
+msgid "Your SoftWP plugin license has %1$sExpired%2$s. Please renew your license for uninterrupted updates and support."
+msgstr "您的 SoftWP 插件许可证已%1$s已过期%2$s。请续订您的许可证以获得不间断的更新和支持。"
+
+#: main/functions.php:416
+#, php-format
+msgid "Your Onboarding process is not completed yet! %1$sClick here%2$s to complete the simple setup process and build your site in a few steps."
+msgstr "您的入职流程尚未完成！ %1$s单击此处%2$s即可完成简单的设置过程并通过几个步骤构建您的网站。"
+
+#: main/functions.php:447
+msgid "Enhance Content Writing with AI Assistant"
+msgstr "使用 AI 助手增强内容写作"
+
+#: main/functions.php:449
+msgid "Use cutting-edge AI to write blog posts or content for your pages. Create a table, write a paragraph, change tone, translate, fix spelling & grammar and so much more."
+msgstr "使用尖端的人工智能为您的页面撰写博客文章或内容。创建一个表格、写一个段落、改变语气、翻译、修复拼写和翻译。语法等等。"
+
+#: main/functions.php:450
+msgid "Start Exploring"
+msgstr "开始探索"
+
+#: main/functions.php:451
+msgid "New Page"
+msgstr "新页面"
+
+#: main/functions.php:452
+msgid "New Post"
+msgstr "新帖子"
+
+#: main/functions.php:453
+msgid "Existing Page"
+msgstr "现有页面"
+
+#: main/functions.php:454
+msgid "Existing Post"
+msgstr "现有职位"
+
+#: main/functions.php:807
+msgid "Enter Pro License Key"
+msgstr "输入专业版许可证密钥"
+
+#: main/functions.php:843
+msgid "Explore Pro Plugins"
+msgstr "探索专业插件"
+
+#: main/functions.php:844
+msgid "Tour"
+msgstr "旅游"
+
+#: main/functions.php:877 main/functions.php:878
+msgid "AI History"
+msgstr "人工智能历史"
+
+#: main/intros.php:15
+msgid "Assistant adds AI to your site building process and lets you create content with just a few clicks (look for the AI option while editing your posts/pages)."
+msgstr "Assistant 将 AI 添加到您的网站构建过程中，只需单击几下即可创建内容（在编辑帖子/页面时查找 AI 选项）。"
+
+#: main/intros.php:17
+msgid "Assistant also helps you with several aspects of building and maintaning your WordPress website."
+msgstr "Assistant 还可以在构建和维护 WordPress 网站的多个方面为您提供帮助。"
+
+#: main/intros.php:23
+msgid "Tours highlights and explains important options in WordPress that you will need while managing your site."
+msgstr "导览重点介绍并解释了您在管理网站时需要的 WordPress 中的重要选项。"
+
+#: main/intros.php:25
+msgid "You can replay the tours when needed."
+msgstr "您可以在需要时重播游览。"
+
+#: main/intros.php:31
+msgid "A recommended list of plugins to improve performace and extend functionalties for your site."
+msgstr "用于提高网站性能和扩展功能的推荐插件列表。"
+
+#: main/intros.php:37
+msgid "Here you will find important links compiled in a single section which can sometimes be difficult to find in WordPress."
+msgstr "在这里，您会发现在单个部分中编译的重要链接，有时在 WordPress 中很难找到这些链接。"
+
+#: main/intros.php:43
+msgid "We have simplified complex WordPress settings that you can now manage with just a click via the Assistant."
+msgstr "我们简化了复杂的 WordPress 设置，您现在只需通过助手单击即可进行管理。"
+
+#: main/intros.php:49
+msgid "Experience hassle-free site building with inbuilt AI in Assistant."
+msgstr "使用 Assistant 中的内置 AI 体验轻松的网站建设。"
+
+#: main/intros.php:54 main/intros.php:66
+msgid "Your Assistant"
+msgstr "你的助手"
+
+#: main/intros.php:55 main/intros.php:67
+msgid "Assistant resides here, when you are unable to find something or having a hard time understanding a feature in WordPress we should be able to help you."
+msgstr "助手就驻留在此处，当您无法找到某些内容或难以理解 WordPress 中的某个功能时，我们应该能够为您提供帮助。"
+
+#: main/intros.php:57 main/intros.php:69
+msgid "Visit this page anytime."
+msgstr "随时访问此页面。"
+
+#: main/intros.php:74
+msgid "Preview Site"
+msgstr "预览站点"
+
+#: main/intros.php:75
+msgid "You can use this link to preview your site as a visitor."
+msgstr "您可以使用此链接以访问者身份预览您的网站。"
+
+#: main/intros.php:83 main/intros.php:279
+msgid "The Dashboard is your website's command center, providing a concise summary of its activity, such as site health, recent updates, comments, and statistics."
+msgstr "仪表板是您网站的指挥中心，提供网站活动的简明摘要，例如网站运行状况、最近更新、评论和统计数据。"
+
+#: main/intros.php:85 main/intros.php:281
+msgid "Several plugins also display quick summary like orders, products, etc within the dashboard."
+msgstr "一些插件还在仪表板中显示快速摘要，例如订单、产品等。"
+
+#: main/intros.php:87
+msgid "You can also check for Updates from the sub-menu."
+msgstr "您还可以从子菜单中检查更新。"
+
+#: main/intros.php:92 main/intros.php:394
+msgid "Posts"
+msgstr "帖子"
+
+#: main/intros.php:93
+msgid "Manage your blog posts here."
+msgstr "在这里管理您的博客文章。"
+
+#: main/intros.php:95
+msgid "Posts are typically utilized for blog posts, news updates, or articles, organized in a chronological order."
+msgstr "帖子通常用于博客文章、新闻更新或文章，按时间顺序组织。"
+
+#: main/intros.php:100
+msgid "Media Library"
+msgstr "媒体库"
+
+#: main/intros.php:101
+msgid "Manage media files like images, audio, videos, etc. here."
+msgstr "在这里管理图像、音频、视频等媒体文件。"
+
+#: main/intros.php:103
+msgid "Media uploaded from anywhere on your site can be managed here."
+msgstr "可以在此处管理从网站上任何位置上传的媒体。"
+
+#: main/intros.php:108 main/intros.php:455
+msgid "Pages"
+msgstr "页数"
+
+#: main/intros.php:109
+msgid "Pages are static content sections such as Home, About Us, Contact, Services, etc."
+msgstr "页面是静态内容部分，例如主页、关于我们、联系方式、服务等。"
+
+#: main/intros.php:111
+msgid "Use this menu to add, edit, delete your pages."
+msgstr "使用此菜单添加、编辑、删除您的页面。"
+
+#: main/intros.php:116
+msgid "Comments"
+msgstr "评论"
+
+#: main/intros.php:117
+msgid "Here you can moderate comments posted by visitors on your posts."
+msgstr "您可以在此处审核访问者对您的帖子发表的评论。"
+
+#: main/intros.php:119
+msgid "You can one click disable comments for your entire site from the Assistant dashboard."
+msgstr "您可以从助理仪表板中一键禁用整个网站的评论。"
+
+#: main/intros.php:124
+msgid "Appearance"
+msgstr "外貌"
+
+#: main/intros.php:125
+msgid "Personalize your site's appearance effortlessly."
+msgstr "轻松个性化您网站的外观。"
+
+#: main/intros.php:127
+msgid "Explore themes, customize headers, background, colors, manage widgets and menus to customize your site's look and feel."
+msgstr "探索主题，自定义标题、背景、颜色，管理小部件和菜单以自定义网站的外观和感觉。"
+
+#: main/intros.php:132 main/intros.php:188
+msgid "Plugins"
+msgstr "插件"
+
+#: main/intros.php:133
+msgid "Unlock endless possibilities for your website with plugins."
+msgstr "使用插件为您的网站释放无限的可能性。"
+
+#: main/intros.php:135
+msgid "Easily search, add or delete plugins to enhance your site's functionality."
+msgstr "轻松搜索、添加或删除插件以增强网站的功能。"
+
+#: main/intros.php:140 main/intros.php:339
+msgid "Users"
+msgstr "用户"
+
+#: main/intros.php:141
+msgid "Add or manage users to ensure smooth operation and collaboration."
+msgstr "添加或管理用户以确保顺利操作和协作。"
+
+#: main/intros.php:146
+msgid "Tools"
+msgstr "工具"
+
+#: main/intros.php:147
+msgid "Import/Export site data, check site health or edit plugin/theme files from the Tools menu."
+msgstr "从“工具”菜单导入/导出站点数据、检查站点运行状况或编辑插件/主题文件。"
+
+#: main/intros.php:153
+msgid "Advanced settings for your site can be managed here."
+msgstr "您可以在此处管理站点的高级设置。"
+
+#: main/intros.php:155
+msgid "These settings include site title, tagline, site url, writing, reading, discussion, media, permalinks and more."
+msgstr "这些设置包括网站标题、标语、网站 URL、写作、阅读、讨论、媒体、永久链接等。"
+
+#: main/intros.php:157
+msgid "Some plugins also add their settings page in this menu."
+msgstr "有些插件还会在此菜单中添加其设置页面。"
+
+#: main/intros.php:162
+msgid "Toggle Menu"
+msgstr "切换菜单"
+
+#: main/intros.php:163
+msgid "Expand or Collapse the sidebar menu using this option."
+msgstr "使用此选项展开或折叠侧边栏菜单。"
+
+#: main/intros.php:168
+msgid "Edit Profile"
+msgstr "编辑个人资料"
+
+#: main/intros.php:169
+msgid "Here you can edit your profile information like name, email, password, bio, profile picture and more."
+msgstr "在这里您可以编辑您的个人资料信息，例如姓名、电子邮件、密码、个人简介、个人资料图片等。"
+
+#: main/intros.php:176
+msgid "Log Out"
+msgstr "退出"
+
+#: main/intros.php:177
+msgid "Use this link to securely log out from your site."
+msgstr "使用此链接可以安全地从您的网站注销。"
+
+#: main/intros.php:189
+msgid "Click here to add or manage plugins on your site."
+msgstr "单击此处添加或管理您网站上的插件。"
+
+#: main/intros.php:194
+msgid "Add New Plugin"
+msgstr "添加新插件"
+
+#: main/intros.php:195
+msgid "Here you can search wordpress.org plugins library or upload a custom plugin file to install a new plugin on your site."
+msgstr "您可以在此处搜索 wordpress.org 插件库或上传自定义插件文件以在您的网站上安装新插件。"
+
+#: main/intros.php:200
+msgid "Installed Plugins List"
+msgstr "已安装插件列表"
+
+#: main/intros.php:201
+msgid "All your installed plugins active as well as inactive will be listed here."
+msgstr "所有已安装的活动和非活动插件都会在此处列出。"
+
+#: main/intros.php:206
+msgid "Plugin Actions"
+msgstr "插件操作"
+
+#: main/intros.php:207
+msgid "You can perform actions for your plugins like Activate, Deactivate, Update, Delete, Plugin Settings and more.."
+msgstr "您可以对插件执行激活、停用、更新、删除、插件设置等操作。"
+
+#: main/intros.php:209
+msgid "It is recommended to delete plugins that you do not plan to use and keep all your plugins up to date."
+msgstr "建议删除您不打算使用的插件并使所有插件保持最新。"
+
+#: main/intros.php:482
+msgid "Bulk Actions"
+msgstr "批量操作"
+
+#: main/intros.php:215
+msgid "Choose bulk action for selected plugins: Activate, Deactivate, Update, Delete, toggle auto updates and more"
+msgstr "为选定的插件选择批量操作：激活、停用、更新、删除、切换自动更新等"
+
+#: main/intros.php:220
+msgid "Filter Installed Plugins"
+msgstr "过滤已安装的插件"
+
+#: main/intros.php:221
+msgid "Filter your installed plugins list with Active, Inactive, Auto Updates Enabled or Disabled options"
+msgstr "使用“活动”、“非活动”、“自动更新启用”或“禁用”选项过滤已安装的插件列表"
+
+#: main/intros.php:226
+msgid "Search Installed Plugins"
+msgstr "搜索已安装的插件"
+
+#: main/intros.php:227
+msgid "Search a plugin from the installed plugins list."
+msgstr "从已安装的插件列表中搜索插件。"
+
+#: main/intros.php:236
+msgid "Themes"
+msgstr "主题"
+
+#: main/intros.php:237
+msgid "Click here to add or manage themes on your site."
+msgstr "单击此处在您的网站上添加或管理主题。"
+
+#: main/intros.php:242
+msgid "Add New Theme"
+msgstr "添加新主题"
+
+#: main/intros.php:243
+msgid "Here you can search wordpress.org themes library or upload a custom theme file to install a new theme on your site."
+msgstr "您可以在此处搜索 wordpress.org 主题库或上传自定义主题文件以在您的网站上安装新主题。"
+
+#: main/intros.php:248
+msgid "Installed Themes List"
+msgstr "已安装主题列表"
+
+#: main/intros.php:249
+msgid "All your installed themes active as well as inactive will be listed here."
+msgstr "所有已安装的活动和非活动主题都将在此处列出。"
+
+#: main/intros.php:254
+msgid "Active Theme"
+msgstr "活跃主题"
+
+#: main/intros.php:255
+msgid "Your active theme will be listed here."
+msgstr "您的活动主题将在此处列出。"
+
+#: main/intros.php:260
+msgid "Theme Actions"
+msgstr "主题行动"
+
+#: main/intros.php:261
+msgid "You can perform actions for your theme like Activate, Live Preview, Customize and more"
+msgstr "您可以对主题执行激活、实时预览、自定义等操作"
+
+#: main/intros.php:263
+msgid "It is recommended to delete themes that you do not plan to use and keep all your themes up to date."
+msgstr "建议删除您不打算使用的主题并使所有主题保持最新。"
+
+#: main/intros.php:268
+msgid "Search Installed Themes"
+msgstr "搜索已安装的主题"
+
+#: main/intros.php:269
+msgid "Search a theme from the installed themes list."
+msgstr "从已安装的主题列表中搜索主题。"
+
+#: main/intros.php:286
+msgid "Site Health"
+msgstr "站点健康状况"
+
+#: main/intros.php:287
+msgid "Here you can get insights on the overall performance and security of your website."
+msgstr "在这里您可以深入了解网站的整体性能和安全性。"
+
+#: main/intros.php:289
+msgid "It offers recommendations and troubleshooting tools to help you maintain an efficient and secure site."
+msgstr "它提供建议和故障排除工具来帮助您维护高效且安全的站点。"
+
+#: main/intros.php:294
+msgid "Info at a Glance"
+msgstr "信息一览"
+
+#: main/intros.php:295
+msgid "Here you will get the number of posts, pages, comments, current version of WordPress and theme that you are running."
+msgstr "在这里您将获得帖子数、页面数、评论数、当前版本的 WordPress 以及您正在运行的主题。"
+
+#: main/intros.php:300
+msgid "Activity"
+msgstr "活动"
+
+#: main/intros.php:301
+msgid "Here you will get a quick summary of recent activity like published posts and comments received on your site."
+msgstr "在这里，您将获得最近活动的快速摘要，例如您网站上发布的帖子和收到的评论。"
+
+#: main/intros.php:307
+msgid "Quick Draft"
+msgstr "快速草稿"
+
+#: main/intros.php:308
+msgid "Use this section for capturing ideas as they come to you, quickly jot down the ideas for new posts."
+msgstr "使用此部分来捕捉您想到的想法，快速记下新帖子的想法。"
+
+#: main/intros.php:310
+msgid "You can later access these drafts from the Posts section and continue editing them in the full post editor."
+msgstr "您稍后可以从帖子部分访问这些草稿，并继续在完整的帖子编辑器中编辑它们。"
+
+#: main/intros.php:316
+msgid "Events and News"
+msgstr "活动与新闻"
+
+#: main/intros.php:317
+msgid "This widget is a valuable resource for staying informed about the latest happenings in the WordPress community and connecting with other WordPress enthusiasts."
+msgstr "这个小部件是一个宝贵的资源，可以帮助您了解 WordPress 社区的最新动态并与其他 WordPress 爱好者建立联系。"
+
+#: main/intros.php:319
+msgid "Here you will find updates on new releases, upcoming features, security updates, and general news about the WordPress community."
+msgstr "在这里您可以找到有关新版本的更新、即将推出的功能、安全更新以及有关 WordPress 社区的一般新闻。"
+
+#: main/intros.php:321
+msgid "This section also shows upcoming WordPress events such as WordCamps, local meetups, and other community gatherings."
+msgstr "此部分还显示即将举行的 WordPress 活动，例如 WordCamp、本地聚会和其他社区聚会。"
+
+#: main/intros.php:327
+msgid "Screen Options"
+msgstr "屏幕选项"
+
+#: main/intros.php:328
+msgid "This useful feature allows you to select the screen elements that you would like to show or hide by using the checkboxes."
+msgstr "这个有用的功能允许您使用复选框选择要显示或隐藏的屏幕元素。"
+
+#: main/intros.php:330
+msgid "You will find this option on several pages across your site."
+msgstr "您可以在网站的多个页面上找到此选项。"
+
+#: main/intros.php:340
+msgid "Click here to add or manage users on your site."
+msgstr "单击此处添加或管理您网站上的用户。"
+
+#: main/intros.php:345
+msgid "Add New User"
+msgstr "添加新用户"
+
+#: main/intros.php:346
+msgid "Add a new user for your site. You can enter user details, password, role, etc."
+msgstr "为您的网站添加新用户。您可以输入用户详细信息、密码、角色等。"
+
+#: main/intros.php:351
+msgid "Users List"
+msgstr "用户列表"
+
+#: main/intros.php:352
+msgid "All your users with admin role as well as other roles will be listed here."
+msgstr "所有具有管理员角色以及其他角色的用户都将在此处列出。"
+
+#: main/intros.php:357
+msgid "Edit User"
+msgstr "编辑用户"
+
+#: main/intros.php:358
+msgid "You can edit the user information, change password, change role and much more with the Edit link here."
+msgstr "您可以使用此处的编辑链接编辑用户信息、更改密码、更改角色等。"
+
+#: main/intros.php:367
+msgid "Choose bulk action for selected users: Delete or send password reset link"
+msgstr "为选定用户选择批量操作：删除或发送密码重置链接"
+
+#: main/intros.php:372
+msgid "Change Role"
+msgstr "改变角色"
+
+#: main/intros.php:373
+msgid "Here you can bulk change role for the selected users"
+msgstr "您可以在此处批量更改所选用户的角色"
+
+#: main/intros.php:378
+msgid "Filter Users"
+msgstr "过滤用户"
+
+#: main/intros.php:379
+msgid "Filter your users list with their roles"
+msgstr "使用角色过滤您的用户列表"
+
+#: main/intros.php:384
+msgid "Search Users"
+msgstr "搜索用户"
+
+#: main/intros.php:385
+msgid "Search a user from the users list."
+msgstr "从用户列表中搜索用户。"
+
+#: main/intros.php:395
+msgid "Click here to add or manage blog posts on your site."
+msgstr "单击此处添加或管理您网站上的博客文章。"
+
+#: main/intros.php:400
+msgid "Add New Post"
+msgstr "添加新帖子"
+
+#: main/intros.php:401
+msgid "Start writing a new blog post for your site."
+msgstr "开始为您的网站撰写新的博客文章。"
+
+#: main/intros.php:406
+msgid "Posts List"
+msgstr "帖子列表"
+
+#: main/intros.php:407
+msgid "All the posts owned by all the users on your site will be listed here."
+msgstr "您网站上所有用户拥有的所有帖子都将在此处列出。"
+
+#: main/intros.php:412
+msgid "Manage Post"
+msgstr "管理帖子"
+
+#: main/intros.php:413
+msgid "You can view, edit or delete the posts with the links here."
+msgstr "您可以通过此处的链接查看、编辑或删除帖子。"
+
+#: main/intros.php:422
+msgid "Choose bulk action for selected posts: Quick Edit or Move to Trash."
+msgstr "为选定的帖子选择批量操作：快速编辑或移至废纸篓。"
+
+#: main/intros.php:427
+msgid "Filter Posts by Date"
+msgstr "按日期过滤帖子"
+
+#: main/intros.php:428
+msgid "Here you can filter the posts by date."
+msgstr "在这里您可以按日期过滤帖子。"
+
+#: main/intros.php:433
+msgid "Filter Posts by Category"
+msgstr "按类别过滤帖子"
+
+#: main/intros.php:434
+msgid "Here you can filter the posts by category."
+msgstr "在这里您可以按类别过滤帖子。"
+
+#: main/intros.php:439
+msgid "Filter Posts"
+msgstr "过滤帖子"
+
+#: main/intros.php:440
+msgid "Filter your posts list by their status like published, drafts, trash, etc."
+msgstr "按状态（如已发布、草稿、垃圾箱等）过滤您的帖子列表。"
+
+#: main/intros.php:445
+msgid "Search Posts"
+msgstr "搜索帖子"
+
+#: main/intros.php:446
+msgid "Search a post from the posts list."
+msgstr "从帖子列表中搜索帖子。"
+
+#: main/intros.php:456
+msgid "Click here to add or manage pages on your site."
+msgstr "单击此处添加或管理您网站上的页面。"
+
+#: main/intros.php:461
+msgid "Add New Page"
+msgstr "添加新页面"
+
+#: main/intros.php:462
+msgid "Start creating a new page for your site."
+msgstr "开始为您的网站创建一个新页面。"
+
+#: main/intros.php:467
+msgid "Pages List"
+msgstr "页面列表"
+
+#: main/intros.php:468
+msgid "All the pages on your site will be listed here."
+msgstr "您网站上的所有页面都将在此处列出。"
+
+#: main/intros.php:473
+msgid "Manage Page"
+msgstr "管理页面"
+
+#: main/intros.php:474
+msgid "You can view, edit or delete the pages with the links here."
+msgstr "您可以通过此处的链接查看、编辑或删除页面。"
+
+#: main/intros.php:483
+msgid "Choose bulk action for selected pages: Quick Edit or Move to Trash."
+msgstr "为选定页面选择批量操作：快速编辑或移至废纸篓。"
+
+#: main/intros.php:488
+msgid "Filter Pages by Date"
+msgstr "按日期过滤页面"
+
+#: main/intros.php:489
+msgid "Here you can filter the pages by date."
+msgstr "在这里您可以按日期过滤页面。"
+
+#: main/intros.php:494
+msgid "Filter Pages"
+msgstr "过滤页面"
+
+#: main/intros.php:495
+msgid "Filter your pages list by their status like published, drafts, trash, etc."
+msgstr "按页面状态（如已发布、草稿、垃圾等）过滤页面列表。"
+
+#: main/intros.php:500
+msgid "Search Pages"
+msgstr "搜索页面"
+
+#: main/intros.php:501
+msgid "Search a page from the pages list."
+msgstr "从页面列表中搜索页面。"
+
+#: main/license.php:43
+msgid "The license key was not submitted"
+msgstr "未提交许可证密钥"
+
+#: main/license.php:53
+msgid "The response was malformed"
+msgstr "响应格式错误"
+
+#: main/license.php:60 main/onboarding.php:517
+msgid "The license key is invalid"
+msgstr "许可证密钥无效"
+
+#: main/license.php:88
+msgid "The license has been saved successfully"
+msgstr "许可证已成功保存"
+
+#: main/license.php:103
+msgid "System Information"
+msgstr "系统信息"
+
+#: main/license.php:115
+msgid "SoftWP version"
+msgstr "软WP版本"
+
+#: main/license.php:121
+msgid "SoftWP License"
+msgstr "软件许可"
+
+#: main/license.php:125
+msgid "Update License"
+msgstr "更新许可证"
+
+#: main/license.php:132
+msgid "License Status : "
+msgstr "许可证状态： "
+
+#: main/license.php:133
+msgid "License Expires : "
+msgstr "许可证到期： "
+
+#: main/license.php:143
+msgid "URL"
+msgstr "网址"
+
+#: main/license.php:147
+msgid "Path"
+msgstr "小路"
+
+#: main/license.php:151
+msgid "Server's IP Address"
+msgstr "服务器的IP地址"
+
+#: main/manage-plugins.php:65 main/setup.php:172
+#, php-format
+msgid "Requires PHP version %1$s or higher"
+msgstr "需要 PHP 版本 %1$s 或更高版本"
+
+#: main/manage-plugins.php:84 main/manage-plugins.php:100
+msgid "Not Installed"
+msgstr "未安装"
+
+#: main/manage-plugins.php:87 main/manage-plugins.php:103
+msgid "Installed"
+msgstr "已安装"
+
+#: main/manage-plugins.php:93
+msgid "Free"
+msgstr "自由的"
+
+#: main/manage-plugins.php:109
+msgid "Pro"
+msgstr "专业版"
+
+#: main/manage-plugins.php:114
+msgid "Install for Free"
+msgstr "免费安装"
+
+#: main/manage-plugins.php:125
+msgid "Pro included with your subscription"
+msgstr "专业版包含在您的订阅中"
+
+#: main/media.php:95
+msgid "Action Buttons"
+msgstr "操作按钮"
+
+#: main/media.php:111
+msgid "Edit with Photopea"
+msgstr "使用 Photopea 进行编辑"
+
+#: main/media.php:120
+msgid "Compress Image"
+msgstr "压缩图像"
+
+#: main/media.php:125
+msgid "Replace Media"
+msgstr "更换介质"
+
+#: main/media.php:240
+msgid "Quality"
+msgstr "质量"
+
+#: main/media.php:243
+msgid "Save"
+msgstr "节省"
+
+#: main/media.php:244
+msgid "Save & Close"
+msgstr "保存并保存关闭"
+
+#: main/media.php:245
+msgid "Save As"
+msgstr "另存为"
+
+#: main/media.php:246
+msgid "Cancel"
+msgstr "取消"
+
+#: main/media.php:260 main/media.php:421 main/media.php:481
+msgid "Security Check Failed!"
+msgstr "安全检查失败！"
+
+#: main/media.php:274
+msgid "Original image attachment not found"
+msgstr "未找到原始图片附件"
+
+#: main/media.php:280
+msgid "Original image path not found"
+msgstr "找不到原始图片路径"
+
+#: main/media.php:297
+msgid "File already exists. Please choose another file name"
+msgstr "文件已存在。请选择其他文件名"
+
+#: main/media.php:306
+msgid "Failed to decode base64 image data"
+msgstr "解码 Base64 图像数据失败"
+
+#: main/media.php:317
+msgid "Failed to create image from data"
+msgstr "无法从数据创建图像"
+
+#: main/media.php:355
+msgid "Unsupported image format"
+msgstr "不支持的图像格式"
+
+#: main/media.php:363
+msgid "Failed to save the image"
+msgstr "保存图像失败"
+
+#: main/media.php:381
+msgid "Failed to insert the new image as attachment"
+msgstr "无法插入新图像作为附件"
+
+#: main/media.php:387
+msgid "Failed to regenerate image sub-sizes"
+msgstr "无法重新生成图像子尺寸"
+
+#: main/media.php:395
+msgid "Image saved successfully"
+msgstr "图片保存成功"
+
+#: main/media.php:434 main/media.php:502
+msgid "Invalid image path."
+msgstr "图片路径无效。"
+
+#: main/media.php:437 main/media.php:505
+msgid "No image ID provided."
+msgstr "未提供图像 ID。"
+
+#: main/media.php:472
+msgid "Unsupported image type."
+msgstr "不受支持的图像类型。"
+
+#: main/media.php:497
+msgid "Image has been successfully compressed and replaced."
+msgstr "图像已成功压缩和替换。"
+
+#: main/media.php:499
+msgid "Compression and replacement failed."
+msgstr "压缩和替换失败。"
+
+#: main/media.php:570
+msgid "No file was uploaded ! Please try again."
+msgstr "没有上传文件！请再试一次。"
+
+#: main/media.php:576
+msgid "There was some error uploading the file ! Please try again."
+msgstr "上传文件时出现一些错误！请再试一次。"
+
+#: main/media.php:584
+msgid "The File type could not be determined. Please upload a permitted file type."
+msgstr "无法确定文件类型。请上传允许的文件类型。"
+
+#: main/media.php:619
+msgid "Please fix the below errors"
+msgstr "请修正以下错误"
+
+#: main/media.php:683
+msgid "Failed to determine the media file path !"
+msgstr "无法确定媒体文件路径！"
+
+#: main/media.php:688
+msgid "No folder for the target found !"
+msgstr "未找到目标文件夹！"
+
+#: main/onboarding.php:81
+msgid "Please confirm that you accept data loss since you have already run the onboarding process previously"
+msgstr "请确认您接受数据丢失，因为您之前已经运行过入职流程"
+
+#: main/onboarding.php:82
+msgid "Please select atleast one page to import"
+msgstr "请至少选择一页进行导入"
+
+#: main/onboarding.php:83
+msgid "Downloading and installing required plugins"
+msgstr "下载并安装所需的插件"
+
+#: main/onboarding.php:84
+msgid "WordPress requires FTP details, without them you won't be able to install a plugin/theme"
+msgstr "WordPress 需要 FTP 详细信息，没有它们您将无法安装插件/主题"
+
+#: main/onboarding.php:85
+msgid "Downloading the template"
+msgstr "下载模板"
+
+#: main/onboarding.php:86
+msgid "Building your website..."
+msgstr "建立您的网站..."
+
+#: main/onboarding.php:87
+msgid "Checking the requirements ..."
+msgstr "检查要求..."
+
+#: main/onboarding.php:88
+msgid "Importing the template"
+msgstr "导入模板"
+
+#: main/onboarding.php:89
+msgid "Your website setup is completed"
+msgstr "您的网站设置已完成"
+
+#: main/onboarding.php:90
+msgid "Congratulations"
+msgstr "恭喜你"
+
+#: main/onboarding.php:109
+msgid "Increase Website Traffic (SEO)"
+msgstr "增加网站流量 (SEO)"
+
+#: main/onboarding.php:110
+msgid "Improve your site's ranking on search engines"
+msgstr "提高网站在搜索引擎上的排名"
+
+#: main/onboarding.php:114
+msgid "SiteSEO ? One Click SEO for WordPress"
+msgstr "SiteSEO – WordPress 的一键 SEO"
+
+#: main/onboarding.php:120
+msgid "Boost your website's search rankings today with the most powerful WordPress SEO plugin. Its lightweight, optimized, and delivers exceptional performance."
+msgstr "立即使用最强大的 WordPress SEO 插件提高您网站的搜索排名。其重量轻、经过优化并提供卓越的性能。"
+
+#: main/onboarding.php:129
+msgid "Improve Page Speed"
+msgstr "提高页面速度"
+
+#: main/onboarding.php:130
+msgid "Improve speed by cache, minify, compress"
+msgstr "通过缓存、缩小、压缩提高速度"
+
+#: main/onboarding.php:134
+msgid "SpeedyCache ? Cache, Optimization, Performance"
+msgstr "SpeedyCache – 缓存、优化、性能"
+
+#: main/onboarding.php:139
+msgid "SpeedyCache is an easy to use and powerful WordPress Cache Plugin, it helps you reduce page load time improving User Experience and boosting your Google PageSpeed."
+msgstr "SpeedyCache 是一个易于使用且功能强大的 WordPress 缓存插件，它可以帮助您减少页面加载时间，改善用户体验并提高您的 Google PageSpeed。"
+
+#: main/onboarding.php:148
+msgid "Schedule Backups"
+msgstr "安排备份"
+
+#: main/onboarding.php:149
+msgid "Backup your site on local or remote servers"
+msgstr "在本地或远程服务器上备份您的站点"
+
+#: main/onboarding.php:153
+msgid "Backuply ? Backup, Restore, Migrate and Clone"
+msgstr "备份 – 备份、恢复、迁移和克隆"
+
+#: main/onboarding.php:158
+msgid "Backuply is a WordPress backup plugin that helps you backup your WordPress website, saving you from loss of data because of server crashes, hacks, dodgy updates, or bad plugins."
+msgstr "Backuply 是一个 WordPress 备份插件，可帮助您备份 WordPress 网站，避免因服务器崩溃、黑客攻击、狡猾的更新或不良插件而丢失数据。"
+
+#: main/onboarding.php:167
+msgid "Sell Products"
+msgstr "销售产品"
+
+#: main/onboarding.php:168
+msgid "Sell physical or digital products"
+msgstr "销售实体或数字产品"
+
+#: main/onboarding.php:172
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: main/onboarding.php:180
+msgid "Limit Login Attempts"
+msgstr "限制登录尝试"
+
+#: main/onboarding.php:181
+msgid "Brute force protection, 2FA, login captcha"
+msgstr "暴力破解、2FA、登录验证码"
+
+#: main/onboarding.php:185
+msgid "Loginizer"
+msgstr "登录器"
+
+#: main/onboarding.php:190
+msgid "Loginizer is a simple and effortless solution that takes care of all your security problems. It comes with default optimal configuration to protect your site from Brute Force attacks."
+msgstr "Loginizer 是一个简单且轻松的解决方案，可以解决您的所有安全问题。它具有默认的最佳配置，可以保护您的站点免受暴力攻击。"
+
+#: main/onboarding.php:199
+msgid "Page Builder"
+msgstr "页面生成器"
+
+#: main/onboarding.php:200
+msgid "Page Builder, Drag and Drop website builder"
+msgstr "页面生成器、拖放网站生成器"
+
+#: main/onboarding.php:204
+msgid "Pagelayer"
+msgstr "页面层"
+
+#: main/onboarding.php:209
+msgid "Pagelayer is an awesome page builder that allows you to create and design your website instantly in the simplest way possible. Take control over your page content with the most advanced page builder plugin available."
+msgstr "Pagelayer 是一个很棒的页面构建器，它允许您以最简单的方式立即创建和设计您的网站。使用最先进的页面构建器插件来控制您的页面内容。"
+
+#: main/onboarding.php:218
+msgid "Send Email with SMTP"
+msgstr "使用 SMTP 发送电子邮件"
+
+#: main/onboarding.php:219
+msgid "Providers: Gmail, Outlook, AWS SES & more"
+msgstr "提供商：Gmail、Outlook、AWS SES 和更多的"
+
+#: main/onboarding.php:223
+msgid "GoSMTP ? SMTP for WordPress"
+msgstr "GoSMTP – 用于 WordPress 的 SMTP"
+
+#: main/onboarding.php:228
+msgid "GoSMTP allows you to send emails from your WordPress over SMTP or many popular outgoing email service providers. Using these improves your email deliverability."
+msgstr "GoSMTP 允许您通过 SMTP 或许多流行的外发电子邮件服务提供商从 WordPress 发送电子邮件。使用这些可以提高您的电子邮件送达率。"
+
+#: main/onboarding.php:237
+msgid "File Manager"
+msgstr "文件管理器"
+
+#: main/onboarding.php:238
+msgid "Manage files with drag & drop editor"
+msgstr "通过拖放管理文件删除编辑器"
+
+#: main/onboarding.php:242
+msgid "FileOrganizer ? Manage WordPress and Website Files"
+msgstr "FileOrganizer – 管理 WordPress 和网站文件"
+
+#: main/onboarding.php:247
+msgid "FileOrganizer is a lightweight and easy-to-use file management plugin for WordPress. Organize and manage your WordPress files with FileOrganizer without any control panel or FTP access. "
+msgstr "FileOrganizer 是一款轻量级且易于使用的 WordPress 文件管理插件。使用 FileOrganizer 组织和管理您的 WordPress 文件，无需任何控制面板或 FTP 访问。 "
+
+#: main/onboarding.php:292
+msgid "Could not import the template !"
+msgstr "无法导入模板！"
+
+#: main/onboarding.php:340
+msgid "Theme template can only be uploaded using FTP !"
+msgstr "主题模板只能使用FTP上传！"
+
+#: main/onboarding.php:363
+msgid "Could not download the theme !"
+msgstr "无法下载主题！"
+
+#: main/onboarding.php:381
+msgid "Could not extract the template !"
+msgstr "无法提取模板！"
+
+#: main/onboarding.php:509
+msgid "The response from the server was malformed. Please try again in sometime !"
+msgstr "服务器的响应格式错误。请稍后再试！"
+
+#: main/onboarding.php:541
+msgid "Pagelayer is required to use the templates !"
+msgstr "需要 Pagelayer 才能使用模板！"
+
+#: main/onboarding.php:551
+msgid "PopularFX plugin is required to use the templates !"
+msgstr "使用模板需要PopularFX插件！"
+
+#: main/onboarding.php:561
+msgid "PopularFX theme is required to use the templates !"
+msgstr "需要PopularFX主题才能使用模板！"
+
+#: main/onboarding.php:568
+msgid "The template you submitted is invalid !"
+msgstr "您提交的模板无效！"
+
+#: main/onboarding.php:576
+#, php-format
+msgid "Your Pagelayer version is %1$s while the template requires Pagelayer version higher than or equal to %2$s "
+msgstr "您的 Pagelayer 版本是 %1$s，而模板要求 Pagelayer 版本高于或等于 %2$s "
+
+#: main/onboarding.php:582
+#, php-format
+msgid "Your Pagelayer version is %1$s while the onboarding requires Pagelayer version higher than or equal to 1.8.9"
+msgstr "您的 Pagelayer 版本是 %1$s，而加入需要 Pagelayer 版本高于或等于 1.8.9"
+
+#: main/onboarding.php:588
+#, php-format
+msgid "Your PopularFX Plugin version is %1$s while the template requires PopularFX version higher than or equal to %2$s"
+msgstr "您的PopularFX插件版本是%1$s，而模板要求PopularFX版本高于或等于%2$s"
+
+#: main/onboarding.php:594
+#, php-format
+msgid "The selected template is a Pro template and you have a free or expired license. Please enter your license key %1$shere%2$s."
+msgstr "所选模板是 Pro 模板，并且您拥有免费或过期的许可证。请输入您的许可证密钥%1$shere%2$s。"
+
+#: main/onboarding.php:615
+#, php-format
+msgid "There was an error in installing Pagelayer which is required by this template. Please install Pagelayer manually by clicking %1$shere%2$s and then install the template !"
+msgstr "安装此模板所需的 Pagelayer 时出现错误。请单击 %1$shere%2$s 手动安装 Pagelayer，然后安装模板！"
+
+#: main/onboarding.php:760
+msgid "Plugin activated successfully."
+msgstr "插件激活成功。"
+
+#: main/onboarding.php:765
+#, php-format
+msgid "Plugin installation failed. %1$s requires PHP version %2$s or higher. Your PHP version is %3$s."
+msgstr "插件安装失败。 %1$s 需要 PHP 版本 %2$s 或更高版本。您的 PHP 版本是 %3$s。"
+
+#: main/onboarding.php:801
+msgid "Plugin installed and activated successfully."
+msgstr "插件安装并成功激活。"
+
+#: main/onboarding.php:804
+msgid "Plugin already installed."
+msgstr "插件已经安装。"
+
+#: main/onboarding.php:831
+msgid "You do not have enough permissions to install theme"
+msgstr "您没有足够的权限来安装主题"
+
+#: main/onboarding.php:857
+msgid "Theme activated successfully."
+msgstr "主题激活成功。"
+
+#: main/onboarding.php:873
+msgid "The filesystem could not write files to the server!"
+msgstr "文件系统无法将文件写入服务器！"
+
+#: main/onboarding.php:887
+#, php-format
+msgid "Error downloading theme: %1$s"
+msgstr "下载主题时出错：%1$s"
+
+#: main/onboarding.php:895
+msgid "Error unzipping theme: "
+msgstr "解压主题时出错： "
+
+#: main/onboarding.php:904
+msgid "Theme installation failed "
+msgstr "主题安装失败 "
+
+#: main/onboarding.php:908
+msgid "Theme installed and activated successfully."
+msgstr "主题安装并成功激活。"
+
+#: main/onboarding.php:969
+msgid "Choose a design"
+msgstr "选择设计"
+
+#: main/onboarding.php:973
+msgid "Search for theme"
+msgstr "搜索主题"
+
+#: main/onboarding.php:977
+msgid "All"
+msgstr "全部"
+
+#: main/onboarding.php:988
+msgid "Demo"
+msgstr "演示"
+
+#: main/onboarding.php:1001
+msgid "Select pages to import"
+msgstr "选择要导入的页面"
+
+#: main/onboarding.php:1007
+msgid "Import stock images ?"
+msgstr "导入库存图像？"
+
+#: main/onboarding.php:1009
+msgid "We try our best to use images that are free to use from legal perspectives. However, we are not liable for any copyright infringement for your site."
+msgstr "我们尽力使用从法律角度可以免费使用的图像。但是，我们不对您网站的任何版权侵权承担责任。"
+
+#: main/onboarding.php:1018
+msgid "Go Back"
+msgstr "回去"
+
+#: main/onboarding.php:1019
+msgid "Import Theme Content"
+msgstr "导入主题内容"
+
+#: main/onboarding.php:1033
+msgid "Import Theme Contents"
+msgstr "导入主题内容"
+
+#: main/onboarding.php:1045
+msgid "Congratulations, the template was imported successfully !"
+msgstr "恭喜，模板导入成功！"
+
+#: main/onboarding.php:1046
+msgid "You can now customize the website as per your requirements with the help of Pagelayer or the Customizer."
+msgstr "现在，您可以借助 Pagelayer 或定制器根据您的要求定制网站。"
+
+#: main/onboarding.php:1049
+msgid "We strongly recommend you change all images and media. We try our best to use images which are copyright free or are allowed under their licensing. However, we take no responsibilities for the same and recommend you change all media and images !"
+msgstr "我们强烈建议您更改所有图像和媒体。我们尽力使用无版权或经其许可允许的图像。但是，我们对此不承担任何责任，并建议您更改所有媒体和图像！"
+
+#: main/onboarding.php:1056
+msgid "Visit Website"
+msgstr "访问网站"
+
+#: main/onboarding.php:1057
+msgid "WordPress Dashboard"
+msgstr "WordPress 仪表板"
+
+#: main/setup.php:8
+msgid "Welcome"
+msgstr "欢迎"
+
+#: main/setup.php:9
+msgid "Business Type"
+msgstr "业务类型"
+
+#: main/setup.php:10
+msgid "Site Title"
+msgstr "网站标题"
+
+#: main/setup.php:11
+msgid "Goals"
+msgstr "目标"
+
+#: main/setup.php:12
+msgid "Choose Template"
+msgstr "选择模板"
+
+#: main/setup.php:75
+msgid "Exit"
+msgstr "出口"
+
+#: main/setup.php:82
+msgid "Welcome to the Onboarding process!"
+msgstr "欢迎来到入职流程！"
+
+#: main/setup.php:83
+msgid "This process will help you choose a professional template for your website and install plugins that you might need to achieve your goal for creating this website"
+msgstr "此过程将帮助您为您的网站选择专业模板并安装实现创建此网站的目标可能需要的插件"
+
+#: main/setup.php:88
+msgid "It looks like you have already completed the onboarding process. You might lose data if you run the onboarding process again. Select this checkbox to confirm that you agree."
+msgstr "您似乎已经完成了入职流程。如果再次运行入职流程，您可能会丢失数据。选中此复选框以确认您同意。"
+
+#: main/setup.php:93
+msgid "Get Started"
+msgstr "开始使用"
+
+#: main/setup.php:97
+msgid "No, I don't want to try an easy setup process"
+msgstr "不，我不想尝试简单的设置过程"
+
+#: main/setup.php:105
+msgid "How would you categorize your website ?"
+msgstr "您会如何对您的网站进行分类？"
+
+#: main/setup.php:106
+msgid "This helps us recommend design and functionalities for your website"
+msgstr "这有助于我们为您的网站推荐设计和功能"
+
+#: main/setup.php:109
+msgid "Search for a category"
+msgstr "搜索类别"
+
+#: main/setup.php:119
+msgid "No results match your search criteria"
+msgstr "没有结果符合您的搜索条件"
+
+#: main/setup.php:126 main/setup.php:143 main/setup.php:184
+msgid "Previous Step"
+msgstr "上一步"
+
+#: main/setup.php:128 main/setup.php:145 main/setup.php:186
+msgid "Continue"
+msgstr "继续"
+
+#: main/setup.php:135
+msgid "Enter the title of your new site"
+msgstr "输入新网站的标题"
+
+#: main/setup.php:136
+msgid "Can be changed later"
+msgstr "以后可以更改"
+
+#: main/setup.php:139
+msgid "Enter a title for your website"
+msgstr "输入您网站的标题"
+
+#: main/setup.php:152
+msgid "What are you looking to achieve with your new site ?"
+msgstr "您希望通过新网站实现什么目标？"
+
+#: main/setup.php:153
+msgid "We will install the appropriate plugins that will add the required functionality to your website"
+msgstr "我们将安装适当的插件，为您的网站添加所需的功能"

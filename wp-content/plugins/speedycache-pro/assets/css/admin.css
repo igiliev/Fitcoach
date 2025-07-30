@@ -1,0 +1,88 @@
+/*Donut Chart*/
+
+.speedycache-test-notice {
+border-left: none;
+background-color:white;
+color: #0F172A;
+border-radius: 8px;
+padding: 0px 15px;
+box-shadow: 0 0 #0000, 0 0 #0000, 0 1px 3px 0 #0000001a, 0 1px 2px -1px #0000001a;
+}
+
+.speedycache-test-notice p{
+margin:0px;
+padding:0px;    
+}
+
+.speedycache-test-chart-wrap {
+display: flex;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap;
+}
+
+.speedycache-notice-title {
+text-align: center;
+font-weight: 600;
+font-size: 20px;
+}
+
+.speedycache-test-donut-text {
+font-family: Arial, Helvetica, sans-serif;
+fill: #FF6200;
+}
+
+.speedycache-donut-wrap {
+width: 100%;
+max-width: 170px;
+font-size: 16px;
+animation: donutfade 1s;
+text-align: center;
+}
+
+.speedycache-donut-segment {
+transform-origin: center;
+}
+
+.speedycache-donut-percent {
+font-size: 0.85em;
+line-height: 0.8;
+transform: translateY(0.5em);
+font-weight: bold;
+}
+
+.speedycache-donut-label {
+font-size: 1em;
+font-weight: 700;
+line-height: 1;
+transform: translateY(0.25em);
+}
+
+.speedycache-test-action{
+margin:10px auto;
+text-align:center;
+font-weight:400;
+line-height:2;
+font-size:14px;
+}
+
+.speedycache-enable-btn{
+background-color: #3d5afe;
+border: none;
+color: #FFF;
+outline: none;
+border-radius: 4px;
+box-shadow: 1px 0 5px 0 #ccc;
+padding: 8px 14px;
+font-weight: bold;
+font-size: 0.9rem;
+cursor: pointer;
+transition: background-color 0.4s, transform 0.3s;
+}
+
+.speedycache-enable-btn:hover{
+background-color:#0529f7;
+transform: translateY(-1px);
+transition: background-color 0.6s, transform 0.4s;
+color:#FFF;
+}

@@ -1,0 +1,99 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "advanced": {
+    "fonts": {
+      "header": "title.decoration.font",
+      "body": "content.decoration.bodyFont.body",
+      "meta": "meta.decoration.font",
+      "body_link": "content.decoration.bodyFont.link",
+      "body_ul": "content.decoration.bodyFont.ul",
+      "body_ol": "content.decoration.bodyFont.ol",
+      "body_quote": "content.decoration.bodyFont.quote"
+    },
+    "box_shadow": {
+      "default": "module.decoration.boxShadow",
+      "image": "image.decoration.boxShadow",
+      "button": "button.decoration.boxShadow"
+    },
+    "button": {
+      "button": "button"
+    },
+    "borders": {
+      "default": "module.decoration.border",
+      "image": "image.decoration.border"
+    },
+    "display_conditions": "module.decoration.conditions",
+    "filters": {
+      "default": "module.decoration.filters",
+      "child": "image.decoration.filters"
+    },
+    "text_shadow": {
+      "default": "module.advanced.text.textShadow"
+    },
+    "module": "module.advanced.htmlAttributes",
+    "link_options": "module.advanced.link",
+    "text": "module.advanced.text",
+    "animation": "module.decoration.animation",
+    "background": "module.decoration.background",
+    "disabled_on": "module.decoration.disabledOn",
+    "overflow": "module.decoration.overflow",
+    "position_fields": "module.decoration.position",
+    "scroll": "module.decoration.scroll",
+    "height": "module.decoration.sizing",
+    "max_width": "module.decoration.sizing",
+    "margin_padding": "module.decoration.spacing",
+    "sticky": "module.decoration.sticky",
+    "transform": "module.decoration.transform",
+    "transition": "module.decoration.transition",
+    "z_index": "module.decoration.zIndex",
+    "admin_label": "module.meta.adminLabel"
+  },
+  "css": {
+    "before": "css.*.before",
+    "main_element": "css.*.mainElement",
+    "after": "css.*.after",
+    "free_form": "css.*.freeForm",
+    "slide_description": "css.*.slideDescription",
+    "slide_title": "css.*.slideTitle",
+    "slide_meta": "css.*.slideMeta",
+    "slide_button": "css.*.slideButton",
+    "slide_controllers": "css.*.slideControllers",
+    "slide_active_controller": "css.*.slideActiveController",
+    "slide_image": "css.*.slideImage",
+    "slide_arrows": "css.*.slideArrows"
+  },
+  "module": {
+    "more_text": "button.innerContent.*.text",
+    "header_level": "title.decoration.font.font.*.headingLevel",
+    "arrows_custom_color": "arrows.advanced.color.*",
+    "content_source": "post.advanced.contentSource.*",
+    "dot_nav_custom_color": "pagination.decoration.background.*.color",
+    "image_placement": "image.advanced.placement.*",
+    "orderby": "post.advanced.orderby.*",
+    "show_arrows": "arrows.advanced.enable.*",
+    "show_content_on_mobile": "content.advanced.showOnMobile.*",
+    "show_cta_on_mobile": "button.advanced.showOnMobile.*",
+    "show_image": "image.advanced.enable.*",
+    "show_image_video_mobile": "image.advanced.showOnMobile.*",
+    "show_meta": "meta.advanced.enable.*",
+    "show_more_button": "button.advanced.enable.*",
+    "use_current_loop": "post.advanced.currentLoop.*",
+    "posts_number": "post.advanced.number.*",
+    "include_categories": "post.advanced.categories.*",
+    "use_manual_excerpt": "post.advanced.excerptManual.*",
+    "excerpt_length": "post.advanced.excerptLength.*",
+    "show_pagination": "pagination.advanced.enable.*",
+    "offset_number": "post.advanced.offset.*",
+    "use_text_overlay": "contentOverlay.advanced.use.*",
+    "text_overlay_color": "contentOverlay.decoration.background.*.color",
+    "text_border_radius": "contentOverlay.decoration.border.*.radius",
+    "use_bg_overlay": "slideOverlay.advanced.use.*",
+    "bg_overlay_color": "slideOverlay.decoration.background.*.color",
+    "content_width": "content.decoration.sizing.*.width",
+    "content_max_width": "content.decoration.sizing.*.maxWidth",
+    "auto": "module.advanced.auto.*",
+    "auto_speed": "module.advanced.autoSpeed.*",
+    "auto_ignore_hover": "module.advanced.autoIgnoreHover.*"
+  },
+  "valueExpansionFunctionMap": {}
+}

@@ -1,0 +1,74 @@
+{
+  "_comment": "!!! THIS IS AN AUTOMATICALLY GENERATED FILE - DO NOT EDIT !!!",
+  "module": {
+    "decoration": {
+      "sizing": {
+        "desktop": {
+          "value": {
+            "maxWidth": "225px"
+          }
+        }
+      },
+      "position": {
+        "desktop": {
+          "value": {
+            "mode": "relative",
+            "origin": {
+              "relative": "top left"
+            }
+          }
+        }
+      },
+      "spacing": {
+        "desktop": {
+          "value": {
+            "margin": {
+              "top": "0px",
+              "right": "auto",
+              "bottom": "30px",
+              "left": "auto"
+            }
+          }
+        }
+      }
+    }
+  },
+  "circle": {
+    "advanced": {
+      "background": {
+        "desktop": {
+          "value": {
+            "opacity": "0.1"
+          }
+        }
+      }
+    }
+  },
+  "title": {
+    "decoration": {
+      "font": {
+        "font": {
+          "desktop": {
+            "value": {
+              "size": "16px",
+              "lineHeight": "1em"
+            }
+          }
+        }
+      }
+    }
+  },
+  "number": {
+    "decoration": {
+      "font": {
+        "font": {
+          "desktop": {
+            "value": {
+              "size": "46px"
+            }
+          }
+        }
+      }
+    }
+  }
+}
