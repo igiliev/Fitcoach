@@ -9490,7 +9490,7 @@ add_action('wp_enqueue_scripts', 'enqueue_hero_section_styles');
 function enqueue_about_coach_styles() {
     wp_enqueue_style(
         'about-coach-styles',
-        get_template_directory_uri() . '/assets/css/about-coach.css',
+        get_template_directory_uri() . '/assets/about-coach.css',
         array(),
         '1.0.0'
     );
