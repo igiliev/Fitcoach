@@ -9476,26 +9476,16 @@ function fitcoach_custom_button_shortcode($atts) {
 }
 add_shortcode('custom_button', 'fitcoach_custom_button_shortcode');
 
+//---HERO SECTION---
 function enqueue_hero_section_styles() {
     wp_enqueue_style(
         'hero-section-styles',
-        get_template_directory_uri() . '/assets/hero-section.css',
+        get_template_directory_uri() . '/assets/hero.css',
         array(),
         '1.0.0'
     );
 }
 add_action('wp_enqueue_scripts', 'enqueue_hero_section_styles');
-
-// Enqueue the CSS file for about coach section
-function enqueue_about_coach_styles() {
-    wp_enqueue_style(
-        'about-coach-styles',
-        get_template_directory_uri() . '/assets/about-coach.css',
-        array(),
-        '1.0.0'
-    );
-}
-add_action('wp_enqueue_scripts', 'enqueue_about_coach_styles');
 
 // Hero Section Shortcode
 function render_hero_section($atts, $content = null) {
@@ -9533,6 +9523,18 @@ function render_hero_section($atts, $content = null) {
 }
 add_shortcode('hero_section', 'render_hero_section');
 
+// ---ABOUT SECTION---
+// Enqueue the CSS file for about section
+function enqueue_about_coach_styles() {
+    wp_enqueue_style(
+        'about-coach-styles',
+        get_template_directory_uri() . '/assets/about-coach.css',
+        array(),
+        '1.0.0'
+    );
+}
+add_action('wp_enqueue_scripts', 'enqueue_about_coach_styles');
+
 // About Coach Section Shortcode
 function render_about_coach($atts, $content = null) {
     $atts = shortcode_atts(array(
@@ -9542,22 +9544,18 @@ function render_about_coach($atts, $content = null) {
         'coach_image' => '',
 
         // Feature 1
-        'feature1_icon' => '🏆',
         'feature1_title' => 'Certified Expert',
         'feature1_desc' => 'NASM-CPT, Nutrition Specialist',
 
         // Feature 2
-        'feature2_icon' => '📚',
         'feature2_title' => '8+ Years Experience',
         'feature2_desc' => 'Proven track record of success',
 
         // Feature 3
-        'feature3_icon' => '🎯',
         'feature3_title' => 'Personalized Approach',
         'feature3_desc' => 'Tailored plans for your goals',
 
         // Feature 4
-        'feature4_icon' => '💜',
         'feature4_title' => 'Holistic Wellness',
         'feature4_desc' => 'Mind, body, and lifestyle balance',
 
@@ -9587,3 +9585,137 @@ function render_about_coach($atts, $content = null) {
     return ob_get_clean();
 }
 add_shortcode('about_coach', 'render_about_coach');
+
+// ---PROGRAMS SECTION---
+function enqueue_programs_styles() {
+    wp_enqueue_style(
+        'programs-styles',
+        get_template_directory_uri() . '/assets/programs.css',
+        array(),
+        '1.0.0'
+    );
+}
+add_action('wp_enqueue_scripts', 'enqueue_programs_styles');
+
+// Programs Section Shortcode
+function render_programs_section($atts, $content = null) {
+    $atts = shortcode_atts(array(
+        'main_title' => 'Choose Your',
+        'highlight_title' => 'Transformation Program',
+        'subtitle' => 'Each program is carefully crafted to deliver maximum results based on your fitness level and goals',
+
+        // Program 1 - Weight Loss
+        'program1_duration' => '12 weeks',
+        'program1_title' => 'Weight Loss Transformation',
+        'program1_description' => 'Complete program designed to help you lose weight safely and sustainably',
+        'program1_intensity' => 'Intensity: Beginner to Intermediate',
+        'program1_feature1' => 'Custom meal plans',
+        'program1_feature2' => 'Progressive workouts',
+        'program1_feature3' => 'Weekly check-ins',
+        'program1_feature4' => '24/7 support chat',
+        'program1_button_text' => 'Learn More',
+        'program1_button_url' => '#',
+        'program1_color' => 'red',
+
+        // Program 2 - Strength
+        'program2_duration' => '16 weeks',
+        'program2_title' => 'Strength & Muscle Building',
+        'program2_description' => 'Build lean muscle mass and increase your overall strength',
+        'program2_intensity' => 'Intensity: Intermediate to Advanced',
+        'program2_feature1' => 'Progressive overload training',
+        'program2_feature2' => 'Nutrition optimization',
+        'program2_feature3' => 'Form coaching videos',
+        'program2_feature4' => 'Performance tracking',
+        'program2_button_text' => 'Learn More',
+        'program2_button_url' => '#',
+        'program2_color' => 'blue',
+
+        // Program 3 - Performance
+        'program3_duration' => '20 weeks',
+        'program3_title' => 'Athletic Performance',
+        'program3_description' => 'Enhance your athletic performance and competitive edge',
+        'program3_intensity' => 'Intensity: Advanced',
+        'program3_feature1' => 'Sport-specific training',
+        'program3_feature2' => 'Recovery protocols',
+        'program3_feature3' => 'Mental performance coaching',
+        'program3_feature4' => 'Competition preparation',
+        'program3_button_text' => 'Learn More',
+        'program3_button_url' => '#',
+        'program3_color' => 'green'
+    ), $atts, 'programs_section');
+
+    // Handle subtitle content
+    if (!empty($content)) {
+        $subtitle = do_shortcode($content);
+    } else {
+        $subtitle = $atts['subtitle'];
+    }
+
+    // Extract variables for template
+    extract($atts);
+
+    ob_start();
+    include get_template_directory() . '/template-parts/programs-section.php';
+    return ob_get_clean();
+}
+add_shortcode('programs_section', 'render_programs_section');
+
+// ---TESTIMONIALS SECTION ---
+// Enqueue the CSS file for testimonials section
+function enqueue_testimonials_styles() {
+    wp_enqueue_style(
+        'testimonials-styles',
+        get_template_directory_uri() . '/assets/testimonials.css',
+        array(),
+        '1.0.0'
+    );
+}
+add_action('wp_enqueue_scripts', 'enqueue_testimonials_styles');
+
+// Testimonials Section Shortcode
+function render_testimonials_section($atts, $content = null) {
+    $atts = shortcode_atts(array(
+        'main_title' => 'Real People,',
+        'highlight_title' => 'Real Results',
+        'subtitle' => 'Don\'t just take our word for it. See what our clients have achieved with our personalized coaching',
+
+        // CTA Section
+        'cta_title' => 'Join 5,000+ Success Stories',
+        'cta_subtitle' => 'Ready to write your own transformation story?',
+        'cta_button_text' => 'Start Your Journey Today',
+        'cta_button_url' => '#',
+
+        // Testimonial 1
+        'testimonial1_quote' => 'Sarah\'s program completely transformed my life. Not only did I lose weight, but I gained confidence and energy I never thought possible. The personalized approach made all the difference.',
+        'testimonial1_name' => 'Mike McConnel',
+        'testimonial1_result' => 'Lost 45 lbs in 4 months',
+        'testimonial1_image' => '',
+
+        // Testimonial 2
+        'testimonial2_quote' => 'After trying countless programs, Sarah\'s coaching finally helped me build the strong, lean physique I wanted. Her expertise in both training and nutrition is unmatched.',
+        'testimonial2_name' => 'Jessica Torres',
+        'testimonial2_result' => 'Built lean muscle & strength',
+        'testimonial2_image' => '',
+
+        // Testimonial 3
+        'testimonial3_quote' => 'As a competitive athlete, I needed something special. Sarah\'s performance program took my training to the next level and helped me achieve new personal records.',
+        'testimonial3_name' => 'David Wilson',
+        'testimonial3_result' => 'Improved athletic performance',
+        'testimonial3_image' => ''
+    ), $atts, 'testimonials_section');
+
+    // Handle subtitle content
+    if (!empty($content)) {
+        $subtitle = do_shortcode($content);
+    } else {
+        $subtitle = $atts['subtitle'];
+    }
+
+    // Extract variables for template
+    extract($atts);
+
+    ob_start();
+    include get_template_directory() . '/template-parts/testimonials-section.php';
+    return ob_get_clean();
+}
+add_shortcode('testimonials_section', 'render_testimonials_section');
