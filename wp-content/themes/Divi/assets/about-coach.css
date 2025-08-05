@@ -4,9 +4,8 @@
 }
 
 .about-container {
-    max-width: 1200px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 130px;
     display: flex;
     gap: 60px;
     align-items: center;
@@ -34,7 +33,7 @@
     font-size: 1.1rem;
     line-height: 1.6;
     color: #666;
-    margin-bottom: 40px;
+    margin-bottom: 40px !important;
     max-width: 500px;
 }
 
@@ -142,13 +141,13 @@
 
 .guarantee-box {
     position: absolute;
-    bottom: 20px;
-    left: 20px;
+    bottom: -10px;
+    left: -30px;
     background: white;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 20px rgba(0,0,0,0.15);
-    max-width: 220px;
+    max-width: 300px;
 }
 
 .guarantee-box h4 {
@@ -165,10 +164,11 @@
     line-height: 1.4;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
     .about-container {
-        grid-template-columns: 1fr;
         gap: 40px;
+        padding: 0;
+        flex-direction: column;
     }
 
     .features-grid {
