@@ -4,7 +4,7 @@
 
 .testimonials-container {
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 130px;
 }
 
 .testimonials-header {
@@ -185,6 +185,10 @@
 }
 
 @media (max-width: 768px) {
+    .testimonials-container {
+        padding: 0 10px;
+    }
+
     .header-wrapper {
         flex-direction: column;
     }
