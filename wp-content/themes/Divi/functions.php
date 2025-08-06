@@ -9480,7 +9480,7 @@ add_shortcode('custom_button', 'fitcoach_custom_button_shortcode');
 function enqueue_hero_section_styles() {
     wp_enqueue_style(
         'hero-section-styles',
-        get_template_directory_uri() . '/assets/hero.css',
+        get_template_directory_uri() . '/assets/css/hero.css',
         array(),
         '1.0.0'
     );
@@ -9528,7 +9528,7 @@ add_shortcode('hero_section', 'render_hero_section');
 function enqueue_about_coach_styles() {
     wp_enqueue_style(
         'about-coach-styles',
-        get_template_directory_uri() . '/assets/about-coach.css',
+        get_template_directory_uri() . '/assets/css/about-coach.css',
         array(),
         '1.0.0'
     );
@@ -9590,7 +9590,7 @@ add_shortcode('about_coach', 'render_about_coach');
 function enqueue_programs_styles() {
     wp_enqueue_style(
         'programs-styles',
-        get_template_directory_uri() . '/assets/programs.css',
+        get_template_directory_uri() . '/assets/css/programs.css',
         array(),
         '1.0.0'
     );
@@ -9665,7 +9665,7 @@ add_shortcode('programs_section', 'render_programs_section');
 function enqueue_testimonials_styles() {
     wp_enqueue_style(
         'testimonials-styles',
-        get_template_directory_uri() . '/assets/testimonials.css',
+        get_template_directory_uri() . '/assets/css/testimonials.css',
         array(),
         '1.0.0'
     );
@@ -9719,3 +9719,138 @@ function render_testimonials_section($atts, $content = null) {
     return ob_get_clean();
 }
 add_shortcode('testimonials_section', 'render_testimonials_section');
+
+// ---PRICING SECTION---
+// Enqueue the CSS file for pricing section
+function enqueue_pricing_styles() {
+    wp_enqueue_style(
+        'pricing-styles',
+        get_template_directory_uri() . '/assets/css/pricing.css',
+        array(),
+        '1.0.0'
+    );
+}
+add_action('wp_enqueue_scripts', 'enqueue_pricing_styles');
+
+// Pricing Section Shortcode
+function render_pricing_section($atts, $content = null) {
+    $atts = shortcode_atts(array(
+        'main_title' => 'Invest In Your',
+        'highlight_title' => 'Transformation',
+        'subtitle' => 'Choose the perfect plan to achieve your fitness goals with professional guidance and support',
+
+        // Essential Plan
+        'essential_icon' => 'lightning',
+        'essential_title' => 'Essential',
+        'essential_description' => 'Perfect for getting started with professional guidance',
+        'essential_price' => '$97',
+        'essential_period' => '/month',
+        'essential_feature1' => 'Custom workout plan',
+        'essential_feature2' => 'Weekly check-ins',
+        'essential_feature3' => 'Nutrition guidelines',
+        'essential_feature4' => 'Exercise video library',
+        'essential_feature5' => 'Email support',
+        'essential_button_text' => 'Choose Essential',
+        'essential_button_url' => '#',
+
+        // Premium Plan
+        'premium_popular' => 'true',
+        'premium_icon' => 'star',
+        'premium_title' => 'Premium',
+        'premium_description' => 'Most popular choice for serious transformation',
+        'premium_price' => '$197',
+        'premium_period' => '/month',
+        'premium_feature1' => 'Everything in Essential',
+        'premium_feature2' => 'Bi-weekly video calls',
+        'premium_feature3' => 'Custom meal plans',
+        'premium_feature4' => 'Progress tracking app',
+        'premium_feature5' => '24/7 chat support',
+        'premium_feature6' => 'Supplement recommendations',
+        'premium_button_text' => 'Choose Premium',
+        'premium_button_url' => '#',
+
+        // Elite Plan
+        'elite_icon' => 'crown',
+        'elite_title' => 'Elite',
+        'elite_description' => 'Ultimate transformation with VIP treatment',
+        'elite_price' => '$397',
+        'elite_period' => '/month',
+        'elite_feature1' => 'Everything in Premium',
+        'elite_feature2' => 'Weekly 1-on-1 calls',
+        'elite_feature3' => 'Lifestyle coaching',
+        'elite_feature4' => 'Priority support',
+        'elite_feature5' => 'Advanced body analytics',
+        'elite_feature6' => 'Exclusive community access',
+        'elite_feature7' => 'Quarterly in-person session',
+        'elite_button_text' => 'Choose Elite',
+        'elite_button_url' => '#',
+
+        // Guarantee Section
+        'guarantee_title' => '30-Day Money-Back Guarantee',
+        'guarantee_text' => 'We\'re so confident in our programs that we offer a full refund if you\'re not completely satisfied within the first 30 days.'
+    ), $atts, 'pricing_section');
+
+    // Handle subtitle content
+    if (!empty($content)) {
+        $subtitle = do_shortcode($content);
+    } else {
+        $subtitle = $atts['subtitle'];
+    }
+
+    // Extract variables for template
+    extract($atts);
+
+    ob_start();
+    include get_template_directory() . '/template-parts/pricing-section.php';
+    return ob_get_clean();
+}
+add_shortcode('pricing_section', 'render_pricing_section');
+
+// ---CONTACTS SECTION---
+// Enqueue the CSS file for contact section
+function enqueue_contact_styles() {
+    wp_enqueue_style(
+        'contact-styles',
+        get_template_directory_uri() . '/assets/css/contact.css',
+        array(),
+        '1.0.0'
+    );
+}
+add_action('wp_enqueue_scripts', 'enqueue_contact_styles');
+
+// Contact Section Shortcode
+function render_contact_section($atts, $content = null) {
+    $atts = shortcode_atts(array(
+        // Contact Info
+        'phone' => '+1 (555) 123-4567',
+        'email' => 'sarah@fitcoach.com',
+        'whatsapp' => '+1 (555) 987-6543',
+        'response_time' => 'Within 2 hours',
+
+        // Free Consultation
+        'consultation_title' => 'Free Consultation Call',
+        'consultation_description' => 'Book a 30-minute strategy session to discuss your goals and see if we\'re a good fit.',
+        'consultation_button_text' => 'Schedule Free Call',
+        'consultation_button_url' => '#',
+
+        // Form
+        'form_action' => '#',
+        'form_method' => 'POST',
+        'send_button_text' => 'Send Message'
+    ), $atts, 'contact_section');
+
+    // Handle subtitle content
+    if (!empty($content)) {
+        $subtitle = do_shortcode($content);
+    } else {
+        $subtitle = $atts['subtitle'];
+    }
+
+    // Extract variables for template
+    extract($atts);
+
+    ob_start();
+    include get_template_directory() . '/template-parts/contact-section.php';
+    return ob_get_clean();
+}
+add_shortcode('contact_section', 'render_contact_section');
